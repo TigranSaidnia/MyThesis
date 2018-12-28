@@ -1,0 +1,168 @@
+\documentclass[12pt,a4paper,oneside]{report}
+\usepackage{graphicx}
+\usepackage{german,a4}
+%\usepackage{picins}
+%\usepackage{epsfig}
+\usepackage{lmodern}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+%\usepackage{setspace}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage[sf]{titlesec}
+\usepackage{textcomp}
+\usepackage{makeidx}
+\usepackage{amsmath}
+%\usepackage[ngerman]{babel}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{colortbl}
+\definecolor{lightgray}{rgb}{0.8,0.8,0.8}
+\definecolor{darkgreen}{rgb}{0,0.6,0}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{listings}
+\usepackage{array} 
+%\usepackage{helvet}
+%\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage[font={small,it}]{caption}
+\usepackage[font=small,labelfont=bf]{caption}
+%\usepackage[latin1]{inputenc}% das ist die Codierung von golatex
+\usepackage[utf8]{inputenc}
+% =====================================================
+% Seite einrichten
+% =====================================================
+\setlength{\textwidth}{160mm} \setlength{\textheight}{235mm}
+\setlength{\evensidemargin}{5mm} \setlength{\oddsidemargin}{5mm}
+\setlength{\topmargin}{0mm} \setlength{\voffset}{-15mm}
+\setlength{\headsep}{12mm} \setlength{\footskip}{15mm}
+\setlength{\headheight}{15.1pt}
+
+% =====================================================
+% sonstige Einstellungen
+% =====================================================
+%\flushbottom % Textfluss schoen unten ausrichten
+\footnotesep12pt % Abstand Text / Fussnote
+%\setlength{\parindent}{0pt} \setlength{\abovecaptionskip}{-6pt}
+%\setlength{\belowcaptionskip}{0pt} \setlength{\intextsep}{18pt}
+%\renewcommand{\baselinestretch}{1.2} % Zeilenabstand
+\setcounter{secnumdepth}{4}
+\newcommand{\p}[1]{\texttt{#1}}
+\nonfrenchspacing
+
+% =====================================================
+% Kopf- und Fusszeile formatieren
+% =====================================================
+\pagestyle{fancy}
+\lhead[LE,RO]{\sf{\leftmark}}
+\rhead[RE,LO]{\sf{\thepage}}
+\lfoot{\setlength{\unitlength}{1mm}
+\begin{picture}(0,0)
+\put(0,-2){\includegraphics[height=0.6cm,width=0.8cm]{images/ppp.jpg}}
+\end{picture}\put(10,2){\scriptsize\sf{Institut for theoretical physics}}\put(10,-2){\scriptsize\sf{Karlsruher institut for Technology (KIT)}}}
+\cfoot{}
+\rfoot{\footnotesize\sf{Thesis by Tigran Saidnia}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{1.0pt}
+\newcommand{\offline}{$ \overline{\textrm{\textbf{Off}}}\underline{\textrm{\textbf{line}}}\ $}
+
+
+% ====================================================
+% Kopf- und Fusszeile fuer "plain"-Format ueberschreiben
+% ====================================================
+\fancypagestyle{plain}{%
+\fancyhf{}
+\fancyfoot[L,C,R]{\setlength{\unitlength}{1mm}
+\begin{picture}(0,0)
+\put(0,-2){\includegraphics[height=0.6cm,width=0.8cm]{images/ppp.jpg}}
+\end{picture}\put(10,2){\scriptsize\sf{Institut for theoretical physics}}\put(10,-2){\scriptsize\sf{Karlsruhe Institut of Technology (KIT)}}}
+\cfoot{}
+\rfoot{\footnotesize\sf{Thesis by Tigran Saidnia}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1.0pt}}
+
+\begin{document}
+
+%\doublespacing
+    \parindent=0pt
+    %\sloppypar
+    \linespread{1.2}
+    \thispagestyle{plain}
+    %\frontmatter
+    %\maketitle
+
+
+\input{title/title.tex}
+
+\pagebreak
+
+\thispagestyle{empty}
+\quad
+\newpage
+%\input{zusammenfassung}
+\input{erklaerung/erklaerung.tex}
+\pagebreak
+
+\thispagestyle{empty}
+\quad
+\newpage
+\pagenumbering{Roman}
+
+
+\input{abstract/abtract.tex}
+\pagebreak
+
+\thispagestyle{empty}
+\quad
+\newpage
+
+  
+    \tableofcontents
+    \thispagestyle{empty}
+    
+        \pagebreak
+        \clearpage
+        \pagenumbering{arabic} 
+
+\thispagestyle{empty}
+\quad
+\newpage
+   
+\setcounter{page}{1}
+
+   
+
+    \newpage 
+\thispagestyle{empty}
+\quad 
+\newpage
+   
+
+    \addcontentsline{toc}{chapter}{Literaturverzeichnis}
+    \bibliographystyle{plain}
+    \bibliography{bibliography2}
+
+    %\listoftables
+    %\listoffigures
+    %\printindex
+
+    \appendix
+        \newpage 
+\thispagestyle{empty}
+\quad 
+\newpage
+   \input{Danksagung/Danksagung}
+ 
+
+
+   % \input{anhang}
+   %\newpage 
+\thispagestyle{empty}
+\quad 
+
+
+
+\end{document}
