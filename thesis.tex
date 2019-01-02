@@ -26,6 +26,7 @@
 \usepackage{subcaption}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage[utf8]{inputenc}
+\usepackage[compat=1.0.0]{tikz-feynman}
 % =====================================================
 % Seite einrichten
 % =====================================================
@@ -88,14 +89,7 @@
     %\frontmatter
     %\maketitle
 
-
 \input{title/title.tex}
-
-\pagebreak
-
-\thispagestyle{empty}
-\quad
-\newpage
 \input{erklaerung/erklaerung.tex}
 \pagebreak
 
@@ -106,12 +100,12 @@
 
 
 \input{abstract/abtract.tex}
-\pagebreak
-
-\thispagestyle{empty}
-\quad
 \newpage
-  
+\input{qq_barg/qq_barg.tex}
+\newpage
+\input{ggq/ggq.tex}
+
+
 \tableofcontents
 \thispagestyle{empty}
     
@@ -137,9 +131,9 @@
 \bibliographystyle{plain}
 \bibliography{bibliography2}
 
-    %\listoftables
-    %\listoffigures
-    %\printindex
+%\listoftables
+%\listoffigures
+%\printindex
 
 \appendix
 \newpage 
