@@ -27,6 +27,7 @@
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage[utf8]{inputenc}
 \usepackage[compat=1.0.0]{tikz-feynman}
+\usepackage{mathtools}
 % =====================================================
 % Seite einrichten
 % =====================================================
@@ -96,11 +97,12 @@
 \thispagestyle{empty}
 \quad
 \newpage
-\pagenumbering{Roman}
+\pagenumbering{arabic} 
 
 
 \input{abstract/abtract.tex}
 \newpage
+\input{parametrisation/parametrisation.tex}
 \input{qq_barg/qq_barg.tex}
 \newpage
 \input{ggq/ggq.tex}
