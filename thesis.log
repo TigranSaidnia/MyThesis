@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  4 JAN 2019 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  6 JAN 2019 00:02
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1562,32 +1562,37 @@ Package pdftex.def Info: images/M1M2Degaqqg.png  used on input line 333.
 (pdftex.def)             Requested size: 386.96024pt x 131.43694pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 336.
+(hyperref)                removing `math shift' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 336.
+(hyperref)                removing `superscript' on input line 372.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 336.
+(hyperref)                removing `math shift' on input line 372.
 
 <images/qqgMSquer.png, id=167, 810.77907pt x 392.96812pt>
 File: images/qqgMSquer.png Graphic file (type png)
 <use images/qqgMSquer.png>
-Package pdftex.def Info: images/qqgMSquer.png  used on input line 340.
+Package pdftex.def Info: images/qqgMSquer.png  used on input line 376.
 (pdftex.def)             Requested size: 386.96024pt x 187.55522pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 <images/REqqgMSquer.png, id=168, 730.22812pt x 342.5297pt>
 File: images/REqqgMSquer.png Graphic file (type png)
 <use images/REqqgMSquer.png>
-Package pdftex.def Info: images/REqqgMSquer.png  used on input line 345.
+Package pdftex.def Info: images/REqqgMSquer.png  used on input line 381.
 (pdftex.def)             Requested size: 386.96024pt x 181.51373pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: images/ppp.jpg Graphic file (type jpg)
 <use images/ppp.jpg>
-Package pdftex.def Info: images/ppp.jpg  used on input line 348.
+Package pdftex.def Info: images/ppp.jpg  used on input line 384.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
-[9 <./images/M1M2Degaqqg.png> <./images/qqgMSquer.png> <./images/REqqgMSquer.pn
-g>]) (ggq/ggq.tex
+[9 <./images/M1M2Degaqqg.png>]) (ggq/ggq.tex
 <images/ggq-diagrams.png, id=180, 675.27281pt x 335.75438pt>
 File: images/ggq-diagrams.png Graphic file (type png)
 <use images/ggq-diagrams.png>
@@ -1608,13 +1613,13 @@ File: images/ppp.jpg Graphic file (type jpg)
 <use images/ppp.jpg>
 Package pdftex.def Info: images/ppp.jpg  used on input line 111.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
- [10 <./images/ggq-diagrams.png> <./images/ggq-MSquer.png>]
+ [10 <./images/qqgMSquer.png> <./images/REqqgMSquer.png> <./images/ggq-diagrams
+.png>]
 File: images/ppp.jpg Graphic file (type jpg)
 <use images/ppp.jpg>
 Package pdftex.def Info: images/ppp.jpg  used on input line 111.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
-
-[11 <./images/ggq-MSquerRE.png>] (thesis.toc)
+ [11 <./images/ggq-MSquer.png> <./images/ggq-MSquerRE.png>] (thesis.toc)
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
@@ -1660,9 +1665,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
- 23841 strings out of 493308
- 459936 string characters out of 3138722
- 555103 words of memory out of 3000000
+ 23845 strings out of 493308
+ 459996 string characters out of 3138722
+ 555100 words of memory out of 3000000
  26807 multiletter control sequences out of 15000+200000
  78578 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1685,9 +1690,9 @@ lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:
 KTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy
 6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on thesis.pdf (19 pages, 649438 bytes).
+Output written on thesis.pdf (19 pages, 651734 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
+ 311 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
  162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
