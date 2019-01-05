@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  4 JAN 2019 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  5 JAN 2019 23:17
 entering extended mode
 **./qq_barg.tex
 (qq_barg.tex
@@ -241,7 +241,7 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.13 \includegraphics
-                     [width=0.85\textwidth]{images/qgqbarM.png}
+                     [scale=0.7]{images/qgqbarM.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -249,37 +249,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.13 \includegraphics[width=0.85\textwidth]
-                                           {images/qgqbarM.png}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.13 \includegraphics[width=0.85\textwidth]
-                                           {images/qgqbarM.png}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+Missing character: There is no 7 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -355,25 +333,13 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \begin{figure}[
-                    h!]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Missing character: There is no [ in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.22 \includegraphics
-                     [width=0.85\textwidth]{images/qgqbarMDega.png}
+                     [scale=0.7]{images/qgqbarMDega.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -381,37 +347,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.22 \includegraphics[width=0.85\textwidth]
-                                           {images/qgqbarMDega.png}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.22 \includegraphics[width=0.85\textwidth]
-                                           {images/qgqbarMDega.png}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+Missing character: There is no 7 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -449,10 +393,25 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 20--24
-[]
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{C:/Users/Tigran.Saidnia.APNET/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.
+map}]
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -2580,8 +2539,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1{C:/Users/Tigran.Saidnia.APNET/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.
-map}]
+[2]
 ! Undefined control sequence.
 l.195 \subsection
                  {$\bar{q}$g-q}
@@ -2642,7 +2600,7 @@ Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
 l.199 \includegraphics
-                      [width=0.85\textwidth]{images/qbargqM.png}
+                      [scale=0.7]{images/qbargqM.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2650,37 +2608,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.199 \includegraphics[width=0.85\textwidth]
-                                            {images/qbargqM.png}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.199 \includegraphics[width=0.85\textwidth]
-                                            {images/qbargqM.png}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+Missing character: There is no 7 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -2736,7 +2672,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 202--202
  []
 
 
-Overfull \hbox (240.4103pt too wide) detected at line 204
+Overfull \hbox (241.52138pt too wide) detected at line 204
 \OML/cmm/m/it/10 M[] \OT1/cmr/m/n/10 = [[](\OMS/cmsy/m/n/10  \OML/cmm/m/it/10 i
 g[][] \OMS/cmsy/m/n/10  [][]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 v[]\OT1/cmr/m/
 n/10 (\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 ) [][](\OML/cmm/m/it/10 q\OT1/cmr/m/n
@@ -2751,31 +2687,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.206 \begin{figure}
+l.205 \begin{figure}
                     [h!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.206 \begin{figure}[
-                     h!]
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no [ in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.208 \includegraphics
-                      [width=0.85\textwidth]{images/qbargqMDega.png}
+l.207 \includegraphics
+                      [scale=0.7]{images/qbargqMDega.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2783,37 +2707,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Missing character: There is no [ in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.208 \includegraphics[width=0.85\textwidth]
-                                            {images/qbargqMDega.png}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.208 \includegraphics[width=0.85\textwidth]
-                                            {images/qbargqMDega.png}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
+Missing character: There is no 7 in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -2844,36 +2746,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 \end{figure}
+l.208 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 206--210
-[]
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.211 \begin{equation}
-                      
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 211--211
-[] 
- []
-
-
-Overfull \hbox (253.14183pt too wide) detected at line 213
+Overfull \hbox (254.25291pt too wide) detected at line 211
 \OML/cmm/m/it/10 M[] \OT1/cmr/m/n/10 = [[](\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 
 ) (\OML/cmm/m/it/10 ig[][] \OMS/cmsy/m/n/10  [][]\OT1/cmr/m/n/10 ) [] [][](\O
 ML/cmm/m/it/10 q\OT1/cmr/m/n/10 )] [[](\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )]
@@ -2886,7 +2766,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.215 \begin{figure}
+l.213 \begin{figure}
                     [h!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2899,7 +2779,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.215 \begin{figure}[
+l.213 \begin{figure}[
                      h!]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2909,7 +2789,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.217 \includegraphics
+l.215 \includegraphics
                       [width=0.85\textwidth]{images/qbargqMSquer.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2931,7 +2811,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.217 \includegraphics[width=0.85\textwidth]
+l.215 \includegraphics[width=0.85\textwidth]
                                             {images/qbargqMSquer.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2940,7 +2820,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.217 \includegraphics[width=0.85\textwidth]
+l.215 \includegraphics[width=0.85\textwidth]
                                             {images/qbargqMSquer.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2980,14 +2860,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.218 \end{figure}
+l.216 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 215--219
+Overfull \hbox (20.0pt too wide) in paragraph at lines 213--217
 []
  []
 
@@ -2998,13 +2878,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.220 \begin{equation}
+l.218 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 220--220
+Overfull \hbox (20.0pt too wide) in paragraph at lines 218--218
 [] 
  []
 
@@ -3015,14 +2895,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.221 \begin{split}
+l.219 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.222 |M_2|^2=M_2\:{\color
+l.220 |M_2|^2=M_2\:{\color
                           [RGB]{255,0,0} {M_2}^{\dagger}} = [\frac{i(\not{q_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3031,7 +2911,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.223 ...\quad\quad\quad\quad\quad\quad\:\:{\color
+l.221 ...\quad\quad\quad\quad\quad\quad\:\:{\color
                                                   [RGB]{255,0,0}[\bar{v}_{{\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3040,20 +2920,20 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-! LaTeX Error: \begin{equation} on input line 220 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 218 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.224 \end{split}
+l.222 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (660.63808pt too wide) detected at line 225
+Overfull \hbox (662.86024pt too wide) detected at line 223
 \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 M[]\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/10 = \O
 ML/cmm/m/it/10 M[] [] \OT1/cmr/m/n/10 = [[](\OMS/cmsy/m/n/10  \OML/cmm/m/it/10 
 ig[][] \OMS/cmsy/m/n/10  [][]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 v[]\OT1/cmr/m
@@ -3069,13 +2949,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.228 \begin{equation}
+l.226 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 228--228
+Overfull \hbox (20.0pt too wide) in paragraph at lines 226--226
 [] 
  []
 
@@ -3086,7 +2966,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.229 \begin{split}
+l.227 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3095,7 +2975,7 @@ or  <return>  to continue without it.
 ! Missing number, treated as zero.
 <to be read again> 
                    {
-l.231 [{u}_{\sigma}(q_j) ]
+l.229 [{u}_{\sigma}(q_j) ]
                           
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3104,7 +2984,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    {
-l.231 [{u}_{\sigma}(q_j) ]
+l.229 [{u}_{\sigma}(q_j) ]
                           
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3120,7 +3000,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.231 [{u}_{\sigma}(q_j) ]
+l.229 [{u}_{\sigma}(q_j) ]
                           
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3129,7 +3009,7 @@ Missing character: There is no u in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.231 [{u}_{\sigma}(q_j) ]
+l.229 [{u}_{\sigma}(q_j) ]
                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3137,7 +3017,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \@gnewline ...\unskip \reserved@e {\reserved@f #1}
                                                   \nobreak \hfil \break \fi 
-l.231 [{u}_{\sigma}(q_j) ]
+l.229 [{u}_{\sigma}(q_j) ]
                           
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3146,13 +3026,13 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-! LaTeX Error: \begin{equation} on input line 228 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 226 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.233 \end{split}
+l.231 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3161,7 +3041,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.233 \end{split}
+l.231 \end{split}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3172,7 +3052,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.233 \end{split}
+l.231 \end{split}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3181,17 +3061,17 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (41.84059pt too wide) in paragraph at lines 231--233
+Overfull \hbox (41.84059pt too wide) in paragraph at lines 229--231
 []$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 ) 
  []
 
 
-Overfull \hbox (35.82562pt too wide) in paragraph at lines 231--233
+Overfull \hbox (35.82562pt too wide) in paragraph at lines 229--231
 \OT1/cmr/m/n/10 [[](\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )]$ 
  []
 
 
-Overfull \hbox (336.1461pt too wide) detected at line 234
+Overfull \hbox (336.1461pt too wide) detected at line 232
 \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 M[]\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/10 = []
 [(\OMS/cmsy/m/n/10 6 []\OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 6 \OML/cmm/m/it/10 q\
 OT1/cmr/m/n/10 )\OML/cmm/m/it/10 [] v[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]\O
@@ -3208,7 +3088,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.236 a
+l.234 a
        nd after sum over the lorenz index $({\sigma},{\sigma}^{\prime})$ and...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -3280,17 +3160,17 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 236--237
+Overfull \hbox (20.0pt too wide) in paragraph at lines 234--235
 []
  []
 
 
-Overfull \hbox (26.61803pt too wide) in paragraph at lines 236--237
+Overfull \hbox (26.61803pt too wide) in paragraph at lines 234--235
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (25.47917pt too wide) in paragraph at lines 236--237
+Overfull \hbox (25.47917pt too wide) in paragraph at lines 234--235
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 )$
  []
 
@@ -3301,13 +3181,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.238 \begin{equation}
+l.236 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 238--238
+Overfull \hbox (20.0pt too wide) in paragraph at lines 236--236
 [] 
  []
 
@@ -3318,27 +3198,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.239 \begin{split}
+l.237 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 238 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 236 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.242 \end{split}
+l.240 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (192.84157pt too wide) detected at line 243
+Overfull \hbox (192.84157pt too wide) detected at line 241
 [] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 u[
 ]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 ) =\OMS/cmsy/m/n/10 6 []\
 OML/cmm/m/it/10 ; []  [] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10
@@ -3375,7 +3255,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (32.86119pt too wide) in paragraph at lines 243--245
+Overfull \hbox (32.86119pt too wide) in paragraph at lines 241--243
      $\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ; []\OT1/cmr/m/n/10 )$
  []
 
@@ -3386,27 +3266,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.246 \begin{split}
+l.244 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 245 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 243 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.248 \end{split}
+l.246 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (119.62404pt too wide) detected at line 249
+Overfull \hbox (119.62404pt too wide) detected at line 247
 [] [] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 g[]
  []
 
@@ -3417,13 +3297,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.251 \begin{equation}
+l.249 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 251--251
+Overfull \hbox (20.0pt too wide) in paragraph at lines 249--249
 [] 
  []
 
@@ -3434,27 +3314,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.252 \begin{split}
+l.250 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 251 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 249 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 \end{split}
+l.253 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (279.97604pt too wide) detected at line 256
+Overfull \hbox (279.97604pt too wide) detected at line 254
 \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 M[]\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/10 = []
 [(\OMS/cmsy/m/n/10 6 []\OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 6 \OML/cmm/m/it/10 q\
 OT1/cmr/m/n/10 )\OML/cmm/m/it/10 []  \OMS/cmsy/m/n/10 6 [] \OT1/cmr/m/n/10 (\O
@@ -3470,7 +3350,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.258 A
+l.256 A
        fter the same calculation from the last part, we'll get:
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3524,7 +3404,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 258--259
+Overfull \hbox (20.0pt too wide) in paragraph at lines 256--257
 []
  []
 
@@ -3535,13 +3415,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.260 \begin{equation}
+l.258 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 260--260
+Overfull \hbox (20.0pt too wide) in paragraph at lines 258--258
 [] 
  []
 
@@ -3552,27 +3432,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.261 \begin{split}
+l.259 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 260 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 258 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.264 \end{split}
+l.262 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (170.37457pt too wide) detected at line 265
+Overfull \hbox (170.37457pt too wide) detected at line 263
 \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 M[]\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/10 = (\
 OML/cmm/m/it/10 d \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 2)[][\OMS/cmsy/m/n/10 6 \O
 ML/cmm/m/it/10 q\OT1/cmr/m/n/10 ] [\OMS/cmsy/m/n/10 6 []\OT1/cmr/m/n/10 ]
@@ -3585,7 +3465,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.267 I
+l.265 I
        n this case we have to be careful because the quark is the emitter an...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -3701,12 +3581,12 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 267--268
+Overfull \hbox (20.0pt too wide) in paragraph at lines 265--266
 []
  []
 
 
-Overfull \hbox (173.22896pt too wide) detected at line 270
+Overfull \hbox (173.22896pt too wide) detected at line 268
 [][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 z[][] \OT1/cmr/m/n/10 + \OML/cmm/m/it/1
 0 y\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )[][
 ] + []\OML/cmm/m/it/10 m[]
@@ -3899,12 +3779,12 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (12.58003pt too wide) in paragraph at lines 270--272
+Overfull \hbox (12.58003pt too wide) in paragraph at lines 268--270
                  $\OML/cmm/m/it/10 i; j$
  []
 
 
-Overfull \hbox (24.22923pt too wide) in paragraph at lines 270--272
+Overfull \hbox (24.22923pt too wide) in paragraph at lines 268--270
 \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 M[]\OMS/cmsy/m/n/10 j[]$
  []
 
@@ -3915,7 +3795,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.273 \begin{split}
+l.271 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3924,7 +3804,7 @@ or  <return>  to continue without it.
 ! Missing number, treated as zero.
 <to be read again> 
                    z
-l.276 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
+l.274 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3933,7 +3813,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    z
-l.276 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
+l.274 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3949,7 +3829,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.276 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
+l.274 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3958,7 +3838,7 @@ Missing character: There is no z in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.276 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
+l.274 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3966,7 +3846,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \@gnewline ...\unskip \reserved@e {\reserved@f #1}
                                                   \nobreak \hfil \break \fi 
-l.276 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
+l.274 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3975,13 +3855,13 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-! LaTeX Error: \begin{equation} on input line 272 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 270 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.277 \end{split}
+l.275 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3990,7 +3870,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.277 \end{split}
+l.275 \end{split}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -4001,7 +3881,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.277 \end{split}
+l.275 \end{split}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -4010,42 +3890,42 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 276--277
+Overfull \hbox (20.0pt too wide) in paragraph at lines 274--275
 []$\OMS/cmsy/m/n/10 6
  []
 
 
-Overfull \hbox (16.13834pt too wide) in paragraph at lines 276--277
+Overfull \hbox (16.13834pt too wide) in paragraph at lines 274--275
 [] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (21.92831pt too wide) in paragraph at lines 276--277
+Overfull \hbox (21.92831pt too wide) in paragraph at lines 274--275
 \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10  
  []
 
 
-Overfull \hbox (11.75691pt too wide) in paragraph at lines 276--277
+Overfull \hbox (11.75691pt too wide) in paragraph at lines 274--275
 \OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 6
  []
 
 
-Overfull \hbox (17.02261pt too wide) in paragraph at lines 276--277
+Overfull \hbox (17.02261pt too wide) in paragraph at lines 274--275
 [] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (53.21988pt too wide) in paragraph at lines 276--277
+Overfull \hbox (53.21988pt too wide) in paragraph at lines 274--275
 [] \OMS/cmsy/m/n/10 6
  []
 
 
-Overfull \hbox (15.53015pt too wide) in paragraph at lines 276--277
+Overfull \hbox (15.53015pt too wide) in paragraph at lines 274--275
 \OML/cmm/m/it/10 m[] 
  []
 
 
-Overfull \hbox (297.56033pt too wide) detected at line 278
+Overfull \hbox (297.56033pt too wide) detected at line 276
 \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 M[]\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/10 = (\
 OML/cmm/m/it/10 d \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 2)[][\OML/cmm/m/it/10 z \O
 MS/cmsy/m/n/10 6 [] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 (1 \OMS
@@ -4088,13 +3968,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.281 \begin{equation}
+l.279 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 281--281
+Overfull \hbox (20.0pt too wide) in paragraph at lines 279--279
 [] 
  []
 
@@ -4105,7 +3985,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.282 \begin{split}
+l.280 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4114,7 +3994,7 @@ or  <return>  to continue without it.
 ! Missing number, treated as zero.
 <to be read again> 
                    z
-l.285 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
+l.283 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4123,7 +4003,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    z
-l.285 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
+l.283 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4139,7 +4019,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.285 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
+l.283 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4148,7 +4028,7 @@ Missing character: There is no z in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.285 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
+l.283 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4156,7 +4036,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \@gnewline ...\unskip \reserved@e {\reserved@f #1}
                                                   \nobreak \hfil \break \fi 
-l.285 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
+l.283 ...\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -4165,13 +4045,13 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-! LaTeX Error: \begin{equation} on input line 281 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 279 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.286 \end{split}
+l.284 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4180,7 +4060,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.286 \end{split}
+l.284 \end{split}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -4191,7 +4071,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.286 \end{split}
+l.284 \end{split}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -4200,42 +4080,42 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 285--286
+Overfull \hbox (20.0pt too wide) in paragraph at lines 283--284
 []$\OMS/cmsy/m/n/10 6
  []
 
 
-Overfull \hbox (16.13834pt too wide) in paragraph at lines 285--286
+Overfull \hbox (16.13834pt too wide) in paragraph at lines 283--284
 [] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (21.92831pt too wide) in paragraph at lines 285--286
+Overfull \hbox (21.92831pt too wide) in paragraph at lines 283--284
 \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10  
  []
 
 
-Overfull \hbox (11.75691pt too wide) in paragraph at lines 285--286
+Overfull \hbox (11.75691pt too wide) in paragraph at lines 283--284
 \OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 6
  []
 
 
-Overfull \hbox (17.02261pt too wide) in paragraph at lines 285--286
+Overfull \hbox (17.02261pt too wide) in paragraph at lines 283--284
 [] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (53.21988pt too wide) in paragraph at lines 285--286
+Overfull \hbox (53.21988pt too wide) in paragraph at lines 283--284
 [] \OMS/cmsy/m/n/10 6
  []
 
 
-Overfull \hbox (15.53015pt too wide) in paragraph at lines 285--286
+Overfull \hbox (15.53015pt too wide) in paragraph at lines 283--284
 \OML/cmm/m/it/10 m[] 
  []
 
 
-Overfull \hbox (297.56033pt too wide) detected at line 287
+Overfull \hbox (297.56033pt too wide) detected at line 285
 \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 M[]\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/10 = (\
 OML/cmm/m/it/10 d \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 2)[][(1 \OMS/cmsy/m/n/10  
  \OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 6 [] \OT1/cmr/m/n/10 + \O
@@ -4249,13 +4129,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.290 \begin{equation}
+l.288 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 290--290
+Overfull \hbox (20.0pt too wide) in paragraph at lines 288--288
 [] 
  []
 
@@ -4266,41 +4146,275 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.291 \begin{split}
+l.289 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 290 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 288 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296 \end{split}
+l.294 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (964.84792pt too wide) detected at line 297
+Overfull \hbox (957.07011pt too wide) detected at line 295
 [][]\OMS/cmsy/m/n/10 ) j\OML/cmm/m/it/10 M[]\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/1
 0 = (\OML/cmm/m/it/10 d \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 2)[][(1 \OMS/cmsy/m/
 n/10   \OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 z \OMS/cmsy/m/n/10 6
  [] 6 [] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/1
-0   \OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10 6 [] 6 [] \OT1/cmr/m
-/n/10 + (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )[] \OMS/cmsy/m
-/n/10 6 [] 6 \OML/cmm/m/it/10 m[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 z[]y \OMS/
-cmsy/m/n/10 6 [] 6 [] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 zy[]\OT1/cmr/m/n/10 (1
- \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 6 [] 6
- [] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 zy[] \OMS/cmsy/m/n/10 6 [] 6 [][]    \OM
-L/cmm/m/it/10 z[] \OMS/cmsy/m/n/10 6 [] 6 []   \OML/cmm/m/it/10 y\OT1/cmr/m/n/1
-0 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10 
-6 [] 6 [][]    \OML/cmm/m/it/10 zy\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cm
-m/m/it/10 z\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 6 []  6 []\OT1/cmr/m/n/10 ]
+0   \OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10 6 [] 6 [][]  \OT1/cm
+r/m/n/10 + (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )[] \OMS/cms
+y/m/n/10 6 [] 6 \OML/cmm/m/it/10 m[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 z[]y \O
+MS/cmsy/m/n/10 6 [] 6 [] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 zy[]\OT1/cmr/m/n/10
+ (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 6 [
+] 6 [] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 zy[] \OMS/cmsy/m/n/10 6 [] 6 [][]    
+\OML/cmm/m/it/10 z[] \OMS/cmsy/m/n/10 6 [] 6 []   \OML/cmm/m/it/10 y\OT1/cmr/m/
+n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/
+10 6 [] 6 []   \OML/cmm/m/it/10 zy\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cm
+m/m/it/10 z\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 6 [] 6 []\OT1/cmr/m/n/10 ]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.297 \begin{equation}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 297--297
+[] 
+ []
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{equation} on input line 297 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.302 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (280.09373pt too wide) detected at line 303
+[][]\OMS/cmsy/m/n/10 ) j\OML/cmm/m/it/10 M[]\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/1
+0 = (\OML/cmm/m/it/10 d \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 2)[][\OML/cmm/m/it/1
+0 y\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )[] 
+\OMS/cmsy/m/n/10 6 [] 6 [] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 z[]y \OMS/cmsy/m/
+n/10 6 [] 6 []\OT1/cmr/m/n/10 ]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.305 w
+       e're changing the position of two matrices to be able to sum the coef...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no w in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no s in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 305--306
+[]
+ []
+
+
+Overfull \hbox (75.76569pt too wide) detected at line 308
+\OMS/cmsy/m/n/10 6 [] 6 [] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10   6 [] 6 []
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.310 \begin{equation}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 310--310
+[] 
+ []
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.311 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{equation} on input line 310 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.315 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (280.09373pt too wide) detected at line 316
+[][]\OMS/cmsy/m/n/10 ) j\OML/cmm/m/it/10 M[]\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/1
+0 = (\OML/cmm/m/it/10 d \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 2)[][\OML/cmm/m/it/1
+0 y\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )[] 
+\OMS/cmsy/m/n/10 6 [] 6 []   \OML/cmm/m/it/10 z[]y \OMS/cmsy/m/n/10 6 [] 6 []\O
+T1/cmr/m/n/10 ]
+ []
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no : in font nullfont!
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.319 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{equation} on input line 318 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (226.4979pt too wide) detected at line 324
+[][]\OMS/cmsy/m/n/10 ) j\OML/cmm/m/it/10 M[]\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/1
+0 = (\OML/cmm/m/it/10 d \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 2)\OML/cmm/m/it/10 y
+\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 z\OT1/c
+mr/m/n/10 )[][\OMS/cmsy/m/n/10 6 [] 6 []\OT1/cmr/m/n/10 ]
  []
 
 
@@ -4311,15 +4425,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.299 \newpage
+l.327 \newpage
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[2]
+[3]
 ! Undefined control sequence.
-l.301 \subsection
+l.329 \subsection
                  {$M_1 {M_2}^{\dagger}$}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4334,13 +4448,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.301 \subsection{$
+l.329 \subsection{$
                    M_1 {M_2}^{\dagger}$}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (52.54173pt too wide) in paragraph at lines 301--302
+Overfull \hbox (52.54173pt too wide) in paragraph at lines 329--330
 []$\OML/cmm/m/it/10 M[][][]$ 
  []
 
@@ -4351,7 +4465,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.303 \begin{figure}
+l.331 \begin{figure}
                     [h!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4364,7 +4478,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.303 \begin{figure}[
+l.331 \begin{figure}[
                      h!]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4374,7 +4488,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.305 \includegraphics
+l.333 \includegraphics
                       [width=0.85\textwidth]{images/M1M2Degaqqg.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4396,7 +4510,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.305 \includegraphics[width=0.85\textwidth]
+l.333 \includegraphics[width=0.85\textwidth]
                                             {images/M1M2Degaqqg.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4405,7 +4519,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.305 \includegraphics[width=0.85\textwidth]
+l.333 \includegraphics[width=0.85\textwidth]
                                             {images/M1M2Degaqqg.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4444,19 +4558,89 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.306 \end{figure}
+l.334 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 303--307
+Overfull \hbox (20.0pt too wide) in paragraph at lines 331--335
 []
  []
 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.336 \begin{equation}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 336--336
+[] 
+ []
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.337 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 ! Undefined control sequence.
-l.308 \subsection
+l.338 M_1\:{\color
+                  [RGB]{255,0,0} {M_2}^{\dagger}} = [{{u}}_{\sigma}(q_i)\: (...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.339 ...\quad\quad\quad\quad\quad\quad\:\:{\color
+                                                  [RGB]{255,0,0}[\bar{v}_{{\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{equation} on input line 336 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (621.57137pt too wide) detected at line 341
+\OML/cmm/m/it/10 M[] [] \OT1/cmr/m/n/10 = [\OML/cmm/m/it/10 u[]\OT1/cmr/m/n/10 
+(\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 ) (\OMS/cmsy/m/n/10  \OML/cmm/m/it/10 ig[]
+[] \OMS/cmsy/m/n/10  [][]\OT1/cmr/m/n/10 ) []  [][](\OML/cmm/m/it/10 q\OT1/cm
+r/m/n/10 )][\OML/cmm/m/it/10 v[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]\OT1/cmr/m
+/n/10 )][]           []
+ []
+
+! Undefined control sequence.
+l.344 \subsection
                  {$|M^{2}|$}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4471,13 +4655,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.308 \subsection{$
+l.344 \subsection{$
                    |M^{2}|$}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (40.83336pt too wide) in paragraph at lines 308--309
+Overfull \hbox (40.83336pt too wide) in paragraph at lines 344--345
 []$\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 M[]\OMS/cmsy/m/n/10 j$ 
  []
 
@@ -4488,7 +4672,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.310 \begin{figure}
+l.346 \begin{figure}
                     [h!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4501,7 +4685,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.310 \begin{figure}[
+l.346 \begin{figure}[
                      h!]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4511,7 +4695,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.312 \includegraphics
+l.348 \includegraphics
                       [width=0.85\textwidth]{images/qqgMSquer.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4533,7 +4717,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.312 \includegraphics[width=0.85\textwidth]
+l.348 \includegraphics[width=0.85\textwidth]
                                             {images/qqgMSquer.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4542,7 +4726,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.312 \includegraphics[width=0.85\textwidth]
+l.348 \includegraphics[width=0.85\textwidth]
                                             {images/qqgMSquer.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4579,14 +4763,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.313 \end{figure}
+l.349 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 310--314
+Overfull \hbox (20.0pt too wide) in paragraph at lines 346--350
 []
  []
 
@@ -4597,7 +4781,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.315 \begin{figure}
+l.351 \begin{figure}
                     [h!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4610,7 +4794,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.315 \begin{figure}[
+l.351 \begin{figure}[
                      h!]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4620,7 +4804,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.317 \includegraphics
+l.353 \includegraphics
                       [width=0.85\textwidth]{images/REqqgMSquer.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4642,7 +4826,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.317 \includegraphics[width=0.85\textwidth]
+l.353 \includegraphics[width=0.85\textwidth]
                                             {images/REqqgMSquer.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -4651,7 +4835,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.317 \includegraphics[width=0.85\textwidth]
+l.353 \includegraphics[width=0.85\textwidth]
                                             {images/REqqgMSquer.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -4690,14 +4874,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.318 \end{figure}
+l.354 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 315--319
+Overfull \hbox (20.0pt too wide) in paragraph at lines 351--355
 []
  []
 
@@ -4709,13 +4893,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.320 \newpage
+l.356 \newpage
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[3])
+[4])
 ! Emergency stop.
 <*> ./qq_barg.tex
                  
