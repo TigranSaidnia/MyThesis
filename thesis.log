@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  6 JAN 2019 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  6 JAN 2019 16:10
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1256,11 +1256,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen258
 \l_MT_above_shortintertext_sep=\dimen259
 \l_MT_below_shortintertext_sep=\dimen260
-) (thesis.aux
-
-LaTeX Warning: Label `AERA' multiply defined.
-
-)
+) (thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
@@ -1279,7 +1275,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
 LaTeX Font Info:    ... okay on input line 83.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 83.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 83.
@@ -1362,11 +1359,11 @@ File: images/kitlogo_de_rgb.pdf Graphic file (type pdf)
 <use images/kitlogo_de_rgb.pdf>
 Package pdftex.def Info: images/kitlogo_de_rgb.pdf  used on input line 7.
 (pdftex.def)             Requested size: 136.5746pt x 62.8763pt.
-<images/pp.PNG, id=39, 346.29375pt x 159.59625pt>
+<images/pp.PNG, id=39, 444.15938pt x 182.93344pt>
 File: images/pp.PNG Graphic file (type png)
 <use images/pp.PNG>
 Package pdftex.def Info: images/pp.PNG  used on input line 25.
-(pdftex.def)             Requested size: 318.66946pt x 146.86928pt.
+(pdftex.def)             Requested size: 318.66946pt x 131.2486pt.
  [1
 
 {C:/Users/Tigran.Saidnia.APNET/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.ma
@@ -1426,11 +1423,11 @@ been already used, duplicate ignored
                    \relax 
 l.17 \newpage
               [1]) (qq_barg/qq_barg.tex
-<images/qqg-diagrams.png, id=76, 570.63188pt x 297.36093pt>
+<images/qqg-diagrams.png, id=76, 556.32843pt x 265.74281pt>
 File: images/qqg-diagrams.png Graphic file (type png)
 <use images/qqg-diagrams.png>
 Package pdftex.def Info: images/qqg-diagrams.png  used on input line 6.
-(pdftex.def)             Requested size: 386.96024pt x 201.64919pt.
+(pdftex.def)             Requested size: 386.96024pt x 184.84277pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 9.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1560,70 +1557,102 @@ File: images/M1M2Degaqqg.png Graphic file (type png)
 <use images/M1M2Degaqqg.png>
 Package pdftex.def Info: images/M1M2Degaqqg.png  used on input line 333.
 (pdftex.def)             Requested size: 386.96024pt x 131.43694pt.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 372.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 372.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 372.
-
-<images/qqgMSquer.png, id=167, 810.77907pt x 392.96812pt>
-File: images/qqgMSquer.png Graphic file (type png)
-<use images/qqgMSquer.png>
-Package pdftex.def Info: images/qqgMSquer.png  used on input line 376.
-(pdftex.def)             Requested size: 386.96024pt x 187.55522pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/REqqgMSquer.png, id=168, 730.22812pt x 342.5297pt>
-File: images/REqqgMSquer.png Graphic file (type png)
-<use images/REqqgMSquer.png>
-Package pdftex.def Info: images/REqqgMSquer.png  used on input line 381.
-(pdftex.def)             Requested size: 386.96024pt x 181.51373pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+<images/expectationM1M2dagger.png, id=167, 609.77812pt x 224.33812pt>
+File: images/expectationM1M2dagger.png Graphic file (type png)
+<use images/expectationM1M2dagger.png>
+Package pdftex.def Info: images/expectationM1M2dagger.png  used on input line 3
+71.
+(pdftex.def)             Requested size: 386.96024pt x 142.36754pt.
 File: images/ppp.jpg Graphic file (type jpg)
 <use images/ppp.jpg>
-Package pdftex.def Info: images/ppp.jpg  used on input line 384.
+Package pdftex.def Info: images/ppp.jpg  used on input line 388.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
-[9 <./images/M1M2Degaqqg.png>]) (ggq/ggq.tex
-<images/ggq-diagrams.png, id=180, 675.27281pt x 335.75438pt>
+[9 <./images/M1M2Degaqqg.png> <./images/expectationM1M2dagger.png>]
+File: images/ppp.jpg Graphic file (type jpg)
+<use images/ppp.jpg>
+Package pdftex.def Info: images/ppp.jpg  used on input line 427.
+(pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
+ [10]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 428.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 428.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 428.
+
+<images/qqgMSquer.png, id=192, 810.02625pt x 368.87813pt>
+File: images/qqgMSquer.png Graphic file (type png)
+<use images/qqgMSquer.png>
+Package pdftex.def Info: images/qqgMSquer.png  used on input line 434.
+(pdftex.def)             Requested size: 386.96024pt x 176.22081pt.
+<images/REqqgMSquer.png, id=193, 730.22812pt x 342.5297pt>
+File: images/REqqgMSquer.png Graphic file (type png)
+<use images/REqqgMSquer.png>
+Package pdftex.def Info: images/REqqgMSquer.png  used on input line 441.
+(pdftex.def)             Requested size: 386.96024pt x 181.51373pt.
+File: images/ppp.jpg Graphic file (type jpg)
+<use images/ppp.jpg>
+Package pdftex.def Info: images/ppp.jpg  used on input line 444.
+(pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
+[11 <./images/qqgMSquer.png> <./images/REqqgMSquer.png>]) (ggq/ggq.tex
+<images/ggq-diagrams.png, id=204, 675.27281pt x 335.75438pt>
 File: images/ggq-diagrams.png Graphic file (type png)
 <use images/ggq-diagrams.png>
 Package pdftex.def Info: images/ggq-diagrams.png  used on input line 5.
 (pdftex.def)             Requested size: 386.96024pt x 192.40662pt.
-<images/ggq-MSquer.png, id=181, 869.49844pt x 414.04688pt>
-File: images/ggq-MSquer.png Graphic file (type png)
-<use images/ggq-MSquer.png>
-Package pdftex.def Info: images/ggq-MSquer.png  used on input line 10.
-(pdftex.def)             Requested size: 455.24408pt x 216.78398pt.
-<images/ggq-MSquerRE.png, id=182, 1081.79156pt x 260.47313pt>
+<images/ggqM1.png, id=205, 325.96782pt x 243.15843pt>
+File: images/ggqM1.png Graphic file (type png)
+<use images/ggqM1.png>
+Package pdftex.def Info: images/ggqM1.png  used on input line 10.
+(pdftex.def)             Requested size: 228.1759pt x 170.20973pt.
+<images/ggqM1dagger.png, id=206, 396.7322pt x 224.33812pt>
+File: images/ggqM1dagger.png Graphic file (type png)
+<use images/ggqM1dagger.png>
+Package pdftex.def Info: images/ggqM1dagger.png  used on input line 15.
+(pdftex.def)             Requested size: 277.71063pt x 157.03561pt.
+<images/ggqM1squer.png, id=207, 744.53156pt x 290.58563pt>
+File: images/ggqM1squer.png Graphic file (type png)
+<use images/ggqM1squer.png>
+Package pdftex.def Info: images/ggqM1squer.png  used on input line 20.
+(pdftex.def)             Requested size: 432.48048pt x 168.79695pt.
+<images/qggM2squer.png, id=208, 682.80093pt x 292.84406pt>
+File: images/qggM2squer.png Graphic file (type png)
+<use images/qggM2squer.png>
+Package pdftex.def Info: images/qggM2squer.png  used on input line 25.
+(pdftex.def)             Requested size: 432.48048pt x 185.48918pt.
+<images/ggqM1M2dagger.png, id=209, 733.99219pt x 295.85532pt>
+File: images/ggqM1M2dagger.png Graphic file (type png)
+<use images/ggqM1M2dagger.png>
+Package pdftex.def Info: images/ggqM1M2dagger.png  used on input line 30.
+(pdftex.def)             Requested size: 432.48048pt x 174.3274pt.
+<images/ggq-MSquerRE.png, id=210, 1081.79156pt x 260.47313pt>
 File: images/ggq-MSquerRE.png Graphic file (type png)
 <use images/ggq-MSquerRE.png>
-Package pdftex.def Info: images/ggq-MSquerRE.png  used on input line 17.
+Package pdftex.def Info: images/ggq-MSquerRE.png  used on input line 36.
 (pdftex.def)             Requested size: 455.24408pt x 109.61258pt.
 )
 File: images/ppp.jpg Graphic file (type jpg)
 <use images/ppp.jpg>
 Package pdftex.def Info: images/ppp.jpg  used on input line 111.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
- [10 <./images/qqgMSquer.png> <./images/REqqgMSquer.png> <./images/ggq-diagrams
-.png>]
+
+[12 <./images/ggq-diagrams.png> <./images/ggqM1.png> <./images/ggqM1dagger.png>
+]
 File: images/ppp.jpg Graphic file (type jpg)
 <use images/ppp.jpg>
 Package pdftex.def Info: images/ppp.jpg  used on input line 111.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
- [11 <./images/ggq-MSquer.png> <./images/ggq-MSquerRE.png>] (thesis.toc)
+ [13 <./images/ggqM1squer.png> <./images/qggM2squer.png> <./images/ggqM1M2dagge
+r.png> <./images/ggq-MSquerRE.png>] (thesis.toc)
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [12
+ [14
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
@@ -1656,43 +1685,49 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
  (thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7B31CCABC3BBC40E092522C2BC2CE844;488.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 57F61A31EBE402A11B68D781E4FF884E;488
+(rerunfilecheck)             After:  872ECD1566DEE8674B80D4FF70752D85;488.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
- 23845 strings out of 493308
- 459996 string characters out of 3138722
- 555100 words of memory out of 3000000
- 26807 multiletter control sequences out of 15000+200000
- 78578 words of font info for 53 fonts, out of 3000000 for 9000
+ 23880 strings out of 493308
+ 460789 string characters out of 3138722
+ 555103 words of memory out of 3000000
+ 26822 multiletter control sequences out of 15000+200000
+ 72593 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,18n,78p,455b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/d
-vips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex
-.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy
-6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on thesis.pdf (19 pages, 651734 bytes).
+pdfTeX warning (dest): name{chapter*.22} has been referenced but does not exi
+st, replaced by a fixed one
+
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiK
+TeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc
+/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
+it.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.p
+fb>
+Output written on thesis.pdf (21 pages, 648263 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
