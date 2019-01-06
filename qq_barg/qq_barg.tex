@@ -351,7 +351,7 @@ M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ] g_{{\mu}{{\nu}^{\prime}}} \\
+M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + -\not{q})\: ] g_{{\mu}{{\nu}^{\prime}}} \\
 \:[\not{q_j} \:\gamma^{{\nu}^{\prime}} \: (\not{q_j} + \not{q})]\:
 \end{split}
 \end{equation}
@@ -360,22 +360,82 @@ M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ]
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ]
 \:[\not{q_j} \:\gamma_{\mu} \: (\not{q_j} + \not{q})]\:
 \end{split}
 \end{equation}
 
 Expectation:
-a
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{images/expectationM1M2dagger.png}
+\end{figure}
 
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [(\not{q_i} + \not{q})\: \gamma^{\mu} \:  \not{q_i}\:]
+\:[(\not{q_j} + \not{q}) \:\gamma_{\mu} \:\not{q_j} ]\:
+\end{split}
+\end{equation}
+
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [-(\not{q_i} + \not{q})\:\not{q_i}\: \gamma^{\mu} \:+2(\not{q_i} + \not{q})\:{q_{i}}^{\mu}]\\
+\:[-(\not{q_j} + \not{q}) \not{q_j} \:\gamma_{\mu} \: + 2(\not{q_j} + \not{q}) {q_{j{\mu}}}]\:
+\end{split}
+\end{equation}
+
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} \\
+[(\not{q_i} + \not{q})\:\not{q_i}\: \gamma^{\mu} \:(\not{q_j} + \not{q}) \not{q_j} \gamma_{\mu} \\
+-2(\not{q_i} + \not{q})\:\not{q_i}\: \gamma^{\mu}\: (\not{q_j} + \not{q}) {q_{j{\mu}}}\\
+\:-2(\not{q_i} + \not{q})\:{q_{i}}^{\mu}(\not{q_j} + \not{q}) \not{q_j} \:\gamma_{\mu}+\\
+4(\not{q_i} + \not{q})\:{q_{i}}^{\mu}(\not{q_j} + \not{q}) {q_{j{\mu}}}]
+\end{split}
+\end{equation}
+
+
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)}\\ 
+[d(\not{q_i} + \not{q})\:\not{q_i}\: (\not{q_j} + \not{q}) \not{q_j} \\
++2(\not{q_i} + \not{q})\:\not{q_i}\: (\not{q_j} + \not{q}) \not{q_j}\\
+\:-2(\not{q_i} + \not{q})\:\not{q_{i}}(\not{q_j} + \not{q}) \not{q_j} \\
++4(\not{q_i} + \not{q})\:(\not{q_j} + \not{q}) {q_{i}}^{\mu}{q_{j{\mu}}}]
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)}\\ 
+[d(\not{q_i} + \not{q})\:\not{q_i}\: (\not{q_j} + \not{q}) \not{q_j}+4(\not{q_i} + \not{q})\:(\not{q_j} + \not{q}) (q_i \cdot q_j)]
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)}\\ 
+[-d(\not{q_i} + \not{q})\: (\not{q_j} + \not{q}) (q_i \cdot q_j)+4(\not{q_i} + \not{q})\:(\not{q_j} + \not{q}) (q_i \cdot q_j)]
+\end{split}
+\end{equation}
+\pagebreak
 
 \subsection{$|M^{2}|$}
-
+\begin{equation}
+\lvert\:M\lvert^2\: = \lvert\:M_1\lvert^2\:+\lvert\:M_2\lvert^2\:+ M_1\: {M_2}^{\dagger} +{M_1}^{\dagger} M_2
+\end{equation}
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/qqgMSquer.png}
 \end{figure}
-
+\begin{equation}
+\lvert\:M\lvert^2\: = \lvert\:M_1\lvert^2\:+\lvert\:M_2\lvert^2\:+ {\color[RGB]{255,0,0} 2RE(M_1\: {M_2}^{\dagger})}
+\end{equation}
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/REqqgMSquer.png}
