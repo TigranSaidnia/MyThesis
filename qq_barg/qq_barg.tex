@@ -128,9 +128,9 @@ N=: \gamma^{{\mu}^{\prime}} \not{q_i} \: \gamma_{{\mu}^{\prime}} = {q_{i\sigma}}
 For the momenta are on-shell which means:
 \begin{equation}
 \begin{split}
-\not{q_i}\not{q_i} = {q_i}= m^2\\
-\not{q}\not{q} = {q}= m^2\\
-\not{q_j}\not{q_j} = {q_j}= m^2
+\not{q_i}\not{q_i} = {q_i}^2= {m_i}^2\\
+\not{q}\not{q} = {q}^2= {m}^2\\
+\not{q_j}\not{q_j} = {q_j}^2= {m_j}^2
 \end{split}
 \end{equation}
 
@@ -153,7 +153,7 @@ L=\not{q} \not{q_i} \not{q} =\not{q}[{q_{i\sigma}} q_{\mu} \: (\lbrace{\gamma^{\
 =\not{q} (2q_i q)-q_{\mu}{q_{i\sigma}}q_{\mu}[g^{{\mu}{\mu}}]{\gamma^{\sigma}}\\
 =\not{q} (2q_i q)-q_{\mu}{q_{i\sigma}}q^{\mu}{\gamma^{\sigma}}\\
 =\not{q} (2q_i q)-q^2 \not{q_i}\\
-=\not{q}
+=\not{q} (2q_i q)
 \end{split}
 \end{equation}
 After inserting the last result of $ L $ and simplify the term $ (2q_i q) $ from the denominator and nominator because , we get:
@@ -168,8 +168,8 @@ Now we are going to use the parametrisation from equation (1) to reduce the 3-me
 \begin{equation}
 \begin{split}
 |M_1|^2=(d-2)\:\frac{g_s^2  {[T^b]_{o\:^{\prime}}}^k \: {[T^a]_o}^l }{(2q_i q)}
-[(1-z) \not{p_i}+zy \not{p_j} - \sqrt{zy(1-z)} \not{{m}_{\bot}}] \not{{m}_{\bot}}]
-[(1-y) \not{{p_j}^{\mu}}]
+[(1-z) \not{p_i}+zy \not{p_j} - \sqrt{zy(1-z)} \not{{m}_{\bot}}]
+[(1-y) \not{p_j}]
 \end{split}
 \end{equation}
 Multiplying the both sides 
@@ -261,67 +261,15 @@ After the same calculation from the last part, we'll get:
 [\not{q_j} ]
 \end{split}
 \end{equation}
-
-In this case we have to be careful because the quark is the emitter and we have to insert the right parametrisation for this, namely: 
-\begin{equation}
-	{q_j}^{\mu} = z{p_i}^{\mu} + y(1-z){p_j}^{\mu} + \sqrt{zy(1-z)}{m}_{\bot}
-\end{equation}
-To avoid such irritating problems we ought to compute this matrix element with the exact same initialized  $ i, j $ from $ |M_1|^2 $. But it's also possible to do that in reverse order as far as we know what we do. After parametrisation we'll get:
-\begin{equation}
-\begin{split}
-|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^d]_{f^{\prime}}}^n }{(2qq_i)} 
-[z \not{p_i}+y(1-z) \not{p_j} + \sqrt{zy(1-z)} \not{{m}_{\bot}}]\\
-[z\not{p_i} + y(1-z)\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
-\end{split}
-\end{equation}
-Multiplying the both side gives:
-
-\begin{equation}
-\begin{split}
-|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^d]_{f^{\prime}}}^n }{(2qq_i)} 
-[(1-z) \not{p_i}+zy \not{p_j} - \sqrt{zy(1-z)} \not{{m}_{\bot}}]\\
-[z\not{p_i} + y(1-z)\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot}]
-\end{split}
-\end{equation}
-
-
-\begin{equation}
-\begin{split}
-\Longrightarrow|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^d]_{f^{\prime}}}^n }{(2qq_i)}
-[(1-z)z \not{p_i}\not{p_i} + y(1-z)^2 \not{p_i}\not{p_j}\\
-+(1-z)  \sqrt{zy(1-z)} \not{p_i}\not{m}_{\bot}+z^2y \not{p_j}\not{p_i} + zy^2 (1-y)\not{p_j}\not{p_j}+zy \sqrt{zy(1-z)} \not{p_j} \not{{m}_{\bot}}\\
-- z\sqrt{zy(1-z)} \not{{m}_{\bot}}\not{p_i}-y(1-z) \sqrt{zy(1-z)} \not{{m}_{\bot}}\not{p_j}-zy(1-z) \not{{m}_{\bot}}\not{{m}_{\bot}}]
-\end{split}
-\end{equation}
-
-\begin{equation}
-\begin{split}
-\Longrightarrow|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^d]_{f^{\prime}}}^n }{(2qq_i)}
-[y(1-z)^2 \not{p_i}\not{p_j}
-+z^2y \not{p_j}\not{p_i}]
-\end{split}
-\end{equation}
-
-we're changing the position of two matrices to be able to sum the coefficients 
-\begin{equation}
-\not{p_j}\not{p_i} = -\not{p_i}\not{p_j}
-\end{equation} 
-
-\begin{equation}
-\begin{split}
-\Longrightarrow|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^d]_{f^{\prime}}}^n }{(2qq_i)}
-[y(1-z)^2 \not{p_i}\not{p_j}
--z^2y \not{p_i}\not{p_j}]
-\end{split}
-\end{equation}
 finally:
 \begin{equation}
 \begin{split}
-\Longrightarrow|M_2|^2 =(d-2)y(1-2z) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^d]_{f^{\prime}}}^n }{(2qq_i)}
-[\not{p_i}\not{p_j}
-]
+|M_1|^2=(d-2)(1-z)(1-y)\:\frac{g_s^2 \: {[T^c]_f}^m \: {[T^d]_{f^{\prime}}}^n }{(2qq_i)}
+[\not{p_i}][\not{p_j}]
 \end{split}
 \end{equation}
+\newpage
+
 
 
 \newpage
@@ -423,6 +371,43 @@ M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_
 [-d(\not{q_i} + \not{q})\: (\not{q_j} + \not{q}) (q_i \cdot q_j)+4(\not{q_i} + \not{q})\:(\not{q_j} + \not{q}) (q_i \cdot q_j)]
 \end{split}
 \end{equation}
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} = (4-d)\frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{y(1-z)(p_i \cdot p_j)(p_i \cdot p_j)}
+(q_i \cdot q_j)[\not{q_i} + \not{q}]\:[\not{q_j} + \not{q}]
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} = (4-d)\frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{y(1-z)(p_i \cdot p_j)(p_i \cdot p_j)}\\
+z(1-y)(p_i \cdot p_j)[\not{p_i} + y\not{p_j}]\:[(1-z)\not{p_i} + (1+yz-y) \not{p_j} - \sqrt{zy(1-z)}\not{m}]
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} = (4-d)\frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{y(1-z)(p_i \cdot p_j)}\\
+z(1-y)[(1+yz-y)\not{p_i}\not{p_j} + y(1-z)\not{p_j}\not{p_i}]
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} = (4-d)\frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{y(1-z)(p_i \cdot p_j)}\\
+z(1-y)[(1+yz-y)\not{p_i}\not{p_j} - y(1-z)\not{p_i}\not{p_j}]
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} = (4-d)\frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{y(1-z)(p_i \cdot p_j)}
+z(1-y)(1+yz-y)[\not{p_i}][\not{p_j}]
+\end{split}
+\end{equation}
+
+
 \pagebreak
 
 \subsection{$|M^{2}|$}
