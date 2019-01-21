@@ -49,20 +49,20 @@ and after sum over the lorenz index $({\sigma},{\sigma}^{\prime})$ and $({\tau},
  
 \begin{equation}
 \begin{split}
-\displaystyle\sum\limits_{{\sigma},{\sigma}^{\prime}} {\bar{u}}_{\sigma}(q_i)\:u_{{\sigma}^{\prime}}(q_i) = \not{q_i},\\
-\displaystyle\sum\limits_{{\tau},{\tau}^{\prime}} {\bar{v}}_{\tau}(q_j)\:v_{{\tau}^{\prime}}(q_j) = \not{q_j}
+\displaystyle\sum\limits_{{\sigma},{\sigma}^{\prime}} {\bar{u}}_{\sigma}(q_i)\:u_{{\sigma}^{\prime}}(q_i) = \not{q_i} \delta^{{o}{o}^{\prime}},\\
+\displaystyle\sum\limits_{{\tau},{\tau}^{\prime}} {\bar{v}}_{\tau}(q_j)\:v_{{\tau}^{\prime}}(q_j) = \not{q_j} \delta^{{f}{f}^{\prime}}
 \end{split}
 \end{equation}
 and sum over polarization index $({\lambda_{1}},{\lambda}_{2})$ :
 \begin{equation}
 \begin{split}
- \displaystyle\sum\limits_{{\mu},{\mu}^{\prime}} {{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}^* (q) {\varepsilon^{\lambda_1}}_{\mu} (q)} = -g_{{\mu}{\mu}^{\prime}}
+ \displaystyle\sum\limits_{{\mu},{\mu}^{\prime}} {{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}^* (q) {\varepsilon^{\lambda_1}}_{\mu} (q)} = -g_{{\mu}{\mu}^{\prime}} \delta^{{a}{b}}
 \end{split}
 \end{equation}
 
 \begin{equation}
 \begin{split}
-|M_1|^2=\frac{-g_s^2  {[T^b]_{o\:^{\prime}}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
+|M_1|^2=\frac{-g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
 [(\not{q_i} + \not{q}) \:
  \:  \gamma^{{\mu}^{\prime}} \: \not{q_i} \: g_{{{\mu}^{\prime}}{\mu}} 
 \gamma^{\mu} \: (\not{q_i} + q)]
@@ -73,7 +73,7 @@ and sum over polarization index $({\lambda_{1}},{\lambda}_{2})$ :
 from here and after contraction between all indices we can actually make statements about the last result.
 \begin{equation}
 \begin{split}
-|M_1|^2=\frac{-g_s^2  {[T^b]_{o\:^{\prime}}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
+|M_1|^2=\frac{-g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
 [(\not{q_i} + \not{q}) \:
  \:  \gamma^{{\mu}^{\prime}} \: \not{q_i} \: 
 \gamma_{{\mu}^{\prime}} \: (\not{q_i} + q)]
@@ -89,7 +89,7 @@ In other words we expect the tree level diagram from LO and a number:
 Which means:\\
 \begin{equation}
 \begin{split}
-|M_1|^2=\frac{-g_s^2  {[T^b]_{o\:^{\prime}}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
+|M_1|^2=\frac{-g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
 [\not{P_i}]
 [\not{P_j}]\:\otimes \: {\color[RGB]{255,0,0} (a\: complex\: number)}
 \end{split}
@@ -106,7 +106,7 @@ N=: \gamma^{{\mu}^{\prime}} \not{q_i} \: \gamma_{{\mu}^{\prime}} = {q_{i\sigma}}
 
 \begin{equation}
 \begin{split}
-|M_1|^2=-(2-d)\:\frac{g_s^2  {[T^b]_{o\:^{\prime}}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
+|M_1|^2=-(2-d)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
 [(\not{q_i} + \not{q}) \:
  \:\not{q_i} \: 
  \: (\not{q_i} + q)]
@@ -116,7 +116,7 @@ N=: \gamma^{{\mu}^{\prime}} \not{q_i} \: \gamma_{{\mu}^{\prime}} = {q_{i\sigma}}
 
 \begin{equation}
 \begin{split}
-|M_1|^2=-(2-d)\:\frac{g_s^2  {[T^b]_{o\:^{\prime}}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
+|M_1|^2=-(2-d)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
 [\not{q_i} \not{q_i} \not{q_i} \: + \: \not{q_i} \not{q_i} \not{q} \: + \: \not{q} \not{q_i} \not{q_i} \:+\: \not{q} \not{q_i} \not{q}]
 [\not{q_j}]
 \end{split}
@@ -135,7 +135,7 @@ we can first neglect the mass of patrons and ignore each term with $ \not{q_i}\n
 
 \begin{equation}
 \begin{split}
-|M_1|^2=-(2-d)\:\frac{g_s^2  {[T^b]_{o\:^{\prime}}}^k \: {[T^a]_o}^l }{(2q_i q)(2q_i q)}
+|M_1|^2=-(2-d)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{(2q_i q)(2q_i q)}
 [\not{q} \not{q_i} \not{q}]
 [\not{q_j}]
 \end{split}
@@ -156,7 +156,7 @@ L=\not{q} \not{q_i} \not{q} =\not{q}[{q_{i\sigma}} q_{\mu} \: (\lbrace{\gamma^{\
 After inserting the last result of $ L $ and simplify the term $ (2q_i q) $ from the denominator and nominator because , we get:
 \begin{equation}
 \begin{split}
-|M_1|^2=-(2-d)\:\frac{g_s^2  {[T^b]_{o\:^{\prime}}}^k \: {[T^a]_o}^l }{2y(1-2z+z^2)(p_i \cdot p_j)}
+|M_1|^2=-(2-d)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(1-2z+z^2)(p_i \cdot p_j)}
 [\not{q}]
 [\not{q_j}]
 \end{split}
@@ -164,7 +164,7 @@ After inserting the last result of $ L $ and simplify the term $ (2q_i q) $ from
 Now we are going to use the parametrisation from equation (1) to reduce the 3-member matrix element to 2-member and take out the singularity term from the amplitude.
 \begin{equation}
 \begin{split}
-|M_1|^2=(d-2)\:\frac{g_s^2  {[T^b]_{o\:^{\prime}}}^k \: {[T^a]_o}^l }{2y(1-2z+z^2)(p_i \cdot p_j)}
+|M_1|^2=(d-2)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(1-2z+z^2)(p_i \cdot p_j)}
 [(1-z) \not{p_i}+zy \not{p_j} - \sqrt{zy(1-z)} \not{{m}_{\bot}}]
 [(1-y) \not{p_j}]
 \end{split}
@@ -172,7 +172,7 @@ Now we are going to use the parametrisation from equation (1) to reduce the 3-me
 Multiplying the both sides 
 \begin{equation}
 \begin{split}
-|M_1|^2=(d-2)\:\frac{g_s^2  {[T^b]_{o\:^{\prime}}}^k \: {[T^a]_o}^l }{2y(1-2z+z^2)(p_i \cdot p_j)}
+|M_1|^2=(d-2)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(1-2z+z^2)(p_i \cdot p_j)}
 [(1-z)(1-y) \not{p_i}\not{p_j} \\
 +zy(1-y) \not{p_j}\not{p_j} + (1-y)\sqrt{zy(1-z)} \not{{m}_{\bot}}\not{p_j}]
 \end{split}
@@ -183,7 +183,7 @@ The $ {p_i} \cdot  {m}_{\bot} $ and $ {p_j} \cdot  {m}_{\bot} $ are always $ 0 $
 
 \begin{equation}
 \begin{split}
-|M_1|^2=(d-2)(1-z)(1-y)\:\frac{g_s^2  {[T^b]_{o\:^{\prime}}}^k \: {[T^a]_o}^l }{2y(1-2z+z^2)(p_i \cdot p_j)}
+|M_1|^2=(d-2)(1-z)(1-y)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(1-2z+z^2)(p_i \cdot p_j)}
 [\not{p_i}][\not{p_j}]
 \end{split}
 \end{equation}
@@ -232,20 +232,20 @@ and after sum over the lorenz index $({\sigma},{\sigma}^{\prime})$ and $({\tau},
  
 \begin{equation}
 \begin{split}
-\displaystyle\sum\limits_{{\sigma},{\sigma}^{\prime}} {\bar{u}}_{\sigma}(q_i)\:u_{{\sigma}^{\prime}}(q_i) = \not{q_i},\\
-\displaystyle\sum\limits_{{\tau},{\tau}^{\prime}} {\bar{v}}_{\tau}(q_j)\:v_{{\tau}^{\prime}}(q_j) = \not{q_j}
+\displaystyle\sum\limits_{{\sigma},{\sigma}^{\prime}} {\bar{u}}_{\sigma}(q_i)\:u_{{\sigma}^{\prime}}(q_i) = \not{q_i} \delta^{{o}{o}^{\prime}},\\
+\displaystyle\sum\limits_{{\tau},{\tau}^{\prime}} {\bar{v}}_{\tau}(q_j)\:v_{{\tau}^{\prime}}(q_j) = \not{q_j} \delta^{{f}{f}^{\prime}}
 \end{split}
 \end{equation}
 and sum over polarization index $({\lambda_{3}},{\lambda}_{4})$ :
 \begin{equation}
 \begin{split}
- \displaystyle\sum\limits_{{\nu},{\nu}^{\prime}} {{\varepsilon^{\lambda_4}}_{{\nu}^{\prime}}^* (q) {\varepsilon^{\lambda_3}}_{\nu} (q)} = -g_{{\nu}{\nu}^{\prime}}
+ \displaystyle\sum\limits_{{\nu},{\nu}^{\prime}} {{\varepsilon^{\lambda_4}}_{{\nu}^{\prime}}^* (q) {\varepsilon^{\lambda_3}}_{\nu} (q)} = -g_{{\nu}{\nu}^{\prime}} \delta^{{c}{d}}
 \end{split}
 \end{equation}
 
 \begin{equation}
 \begin{split}
-|M_2|^2 =\frac{g_s^2 \: {[T^c]_f}^m \: {[T^d]_{f^{\prime}}}^n }{(q_j + q)^2 (q_j + q)^2} [(\not{q_j} + \not{q}) \gamma^{\nu}  \:\not{q_j}\: (-g_{{\nu}{{\nu}^{\prime}}}) \gamma^{{\nu}^{\prime}}(\not{q_j} + \not{q})]\: 
+|M_2|^2 =\frac{g_s^2 \: {[T^c]_f}^m \: {[T^c]_{f}}^n }{(q_j + q)^2 (q_j + q)^2} [(\not{q_j} + \not{q}) \gamma^{\nu}  \:\not{q_j}\: (-g_{{\nu}{{\nu}^{\prime}}}) \gamma^{{\nu}^{\prime}}(\not{q_j} + \not{q})]\: 
 [\not{q_i} ]
 \end{split}
 \end{equation}
@@ -254,14 +254,14 @@ After the same calculation from the last part, we'll get:
 
 \begin{equation}
 \begin{split}
-|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^d]_{f^{\prime}}}^n }{(2qq_j)} [\not{q}]\: 
+|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^c]_{f}}^n }{(2qq_j)} [\not{q}]\: 
 [\not{q_i} ]
 \end{split}
 \end{equation}
 finally:
 \begin{equation}
 \begin{split}
-|M_2|^2=-(d-2)yz^2\:\frac{g_s^2 \: {[T^c]_f}^m \: {[T^d]_{f^{\prime}}}^n }{2(1-z)(1-y)(p_i \cdot p_j)}
+|M_2|^2=-(d-2)yz^2\:\frac{g_s^2 \: {[T^c]_f}^m \: {[T^c]_{f}}^n }{2(1-z)(1-y)(p_i \cdot p_j)}
 [\not{p_i}][\not{p_j}]
 \end{split}
 \end{equation}
@@ -296,7 +296,7 @@ M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ] -g_{{\mu}{{\nu}^{\prime}}} \\
+M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ] -g_{{\mu}{{\nu}^{\prime}}} \\
 \:[\not{q_j} \:\gamma^{{\nu}^{\prime}} \: (\not{q_j} + \not{q})]\:
 \end{split}
 \end{equation}
@@ -305,7 +305,7 @@ M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ]
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ]
 \:[\not{q_j} \:\gamma_{\mu} \: (\not{q_j} + \not{q})]\:
 \end{split}
 \end{equation}
@@ -319,7 +319,7 @@ Expectation:
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [(\not{q_i} + \not{q})\: \gamma^{\mu} \:  \not{q_i}\:]
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [(\not{q_i} + \not{q})\: \gamma^{\mu} \:  \not{q_i}\:]
 \:[(\not{q_j} + \not{q}) \:\gamma_{\mu} \:\not{q_j} ]\:
 \end{split}
 \end{equation}
@@ -327,7 +327,7 @@ M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [-(\not{q_i} + \not{q})\:\not{q_i}\: \gamma^{\mu} \:+2(\not{q_i} + \not{q})\:{q_{i}}^{\mu}]\\
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [-(\not{q_i} + \not{q})\:\not{q_i}\: \gamma^{\mu} \:+2(\not{q_i} + \not{q})\:{q_{i}}^{\mu}]\\
 \:[-(\not{q_j} + \not{q}) \not{q_j} \:\gamma_{\mu} \: + 2(\not{q_j} + \not{q}) {q_{j{\mu}}}]\:
 \end{split}
 \end{equation}
@@ -335,7 +335,7 @@ M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} \\
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} \\
 [(\not{q_i} + \not{q})\:\not{q_i}\: \gamma^{\mu}] \:[(\not{q_j} + \not{q}) \not{q_j} \gamma_{\mu}] \\
 -2[(\not{q_i} + \not{q})\:\not{q_i}\: \gamma^{\mu}]\:[ (\not{q_j} + \not{q}) {q_{j{\mu}}}]\\
 \:-2[(\not{q_i} + \not{q})\:{q_{i}}^{\mu}][(\not{q_j} + \not{q}) \not{q_j} \:\gamma_{\mu}]\\
@@ -345,7 +345,7 @@ M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} \\
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} \\
 [\not{q}\:\not{q_i}\: \gamma^{\mu}] \:[\not{q} \not{q_j} \gamma_{\mu}] \\
 -2[\not{q}\:\not{q_i}\: \gamma^{\mu}]\:[(\not{q}+\not{q_j}) \: \: {q_{j{\mu}}}]\\
 \:-2[(\not{q_i} + \not{q})\:{q_{i}}^{\mu}][\not{q} \not{q_j} \:\gamma_{\mu}]\\
@@ -355,7 +355,7 @@ M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{-g_s^2 \:\:{[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{4(1-z)(1-y)y(1-2z+z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 \:\:{[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)(1-y)y(1-2z+z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
 [y(1-2z+z^2)\not{p_i}\:\not{p_j}\: \gamma^{\mu}] \:[(1-z)(1-y)\not{p_i} \not{p_j} \gamma_{\mu}] \\
 +4({q_{i}}^{\mu} \cdot {q_{j{\mu}}})[(\not{q_i} + \not{q})][(\not{q_j} + \not{q})]
 \end{split}
@@ -363,7 +363,7 @@ M_1\: {M_2}^{\dagger} = \frac{-g_s^2 \:\:{[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{-g_s^2 \:\:{[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{4(1-z)(1-y)y(1-2z+z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 \:\:{[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)(1-y)y(1-2z+z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
 [y(1-2z+z^2)\not{p_i}\:\not{p_j}\: \gamma^{\mu}] \:[(1-z)(1-y)\not{p_i} \not{p_j} \gamma_{\mu}] \\
 +4(p_i \cdot p_j)[(\not{p_i} + y\not{p_j})][(1-z)\not{p_i} + (1+yz-y) \not{p_j} - \sqrt{zy(1-z)}\not{m}]
 \end{split}
@@ -371,7 +371,7 @@ M_1\: {M_2}^{\dagger} = \frac{-g_s^2 \:\:{[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{-g_s^2 \:\:{[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(1-z)(1-y)y(1-2z+z^2)(p_i \cdot p_j)} 
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 \:\:{[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(1-z)(1-y)y(1-2z+z^2)(p_i \cdot p_j)} 
 z(1-y)[\not{p_i}][\not{p_j}]
 \end{split}
 \end{equation}
@@ -384,7 +384,7 @@ z(1-y)[\not{p_i}][\not{p_j}]
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{-g_s^2 \:\:{[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(1-z)y(1-2z+z^2)(p_i \cdot p_j)} 
+M_1\: {M_2}^{\dagger} = \frac{-g_s^2 \:\:{[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(1-z)y(1-2z+z^2)(p_i \cdot p_j)} 
 z[\not{p_i}][\not{p_j}]
 \end{split}
 \end{equation}
@@ -408,11 +408,11 @@ z[\not{p_i}][\not{p_j}]
 \end{figure}
 \begin{equation}
 \begin{split}
-\lvert\:M\lvert^2\: = (d-2)(1-z)(1-y)\:\frac{g_s^2  {[T^b]_{o\:^{\prime}}}^k \: {[T^a]_o}^l }{2y(1-2z+z^2)(p_i \cdot p_j)}
+\lvert\:M\lvert^2\: = (d-2)(1-z)(1-y)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(1-2z+z^2)(p_i \cdot p_j)}
 [\not{p_i}][\not{p_j}]\\
--(d-2)yz^2\:\frac{g_s^2 \: {[T^c]_f}^m \: {[T^d]_{f^{\prime}}}^n }{2(1-z)(1-y)(p_i \cdot p_j)}
+-(d-2)yz^2\:\frac{g_s^2 \: {[T^c]_f}^m \: {[T^c]_{f}}^n }{2(1-z)(1-y)(p_i \cdot p_j)}
 [\not{p_i}][\not{p_j}]\\
-+2RE((\frac{-2z}{z-1}) \frac{g_s^2 \:\:{[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{2y(1-2z+z^2)(p_i \cdot p_j)} 
++2RE((\frac{-2z}{z-1}) \frac{g_s^2 \:\:{[T^a]_o}^l \:{[T^a]_{f}}^n }{2y(1-2z+z^2)(p_i \cdot p_j)} 
 [\not{p_i}][\not{p_j}])
 \end{split}
 \end{equation}
