@@ -9,7 +9,7 @@
 \contentsline {section}{\numberline {1.4}$|M^{2}|$}{14}{section.1.4}
 \contentsline {chapter}{\numberline {2}Gluon quark gluon emission kernel}{16}{chapter.2}
 \contentsline {section}{\numberline {2.1}gg-q}{17}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}One-loop corrections to the gluon self-energy diagram}{19}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}qg-g}{20}{section.2.2}
-\contentsline {section}{\numberline {2.3}$M_1 {M_2}^{\dagger }$}{21}{section.2.3}
-\contentsline {section}{\numberline {2.4}$|M^{2}|$}{24}{section.2.4}
+\contentsline {subsection}{\numberline {2.1.1}One-loop corrections to the gluon self-energy diagram}{20}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}qg-g}{21}{section.2.2}
+\contentsline {section}{\numberline {2.3}$M_1 {M_2}^{\dagger }$}{22}{section.2.3}
+\contentsline {section}{\numberline {2.4}$|M^{2}|$}{25}{section.2.4}
