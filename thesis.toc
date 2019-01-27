@@ -11,6 +11,15 @@
 \contentsline {chapter}{\numberline {2}Gluon quark gluon emission kernel}{16}{chapter.2}
 \contentsline {section}{\numberline {2.1}gg-q}{17}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}One-loop corrections to the gluon self-energy diagram}{19}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}qg-g}{20}{section.2.2}
-\contentsline {section}{\numberline {2.3}$M_1 {M_2}^{\dagger }$}{21}{section.2.3}
-\contentsline {section}{\numberline {2.4}$|M^{2}|$}{24}{section.2.4}
+\contentsline {subsubsection}{\numberline {2.1.1.1}Fermion loop}{19}{subsubsection.2.1.1.1}
+\contentsline {subsubsection}{\numberline {2.1.1.2}ghost loop}{20}{subsubsection.2.1.1.2}
+\contentsline {section}{\numberline {2.2}qg-g}{21}{section.2.2}
+\contentsline {section}{\numberline {2.3}$M_1 {M_2}^{\dagger }$}{22}{section.2.3}
+\contentsline {section}{\numberline {2.4}$|M^{2}|$}{25}{section.2.4}
+\contentsline {chapter}{\numberline {3}Quark gluon gluon emission kernel}{26}{chapter.3}
+\contentsline {section}{\numberline {3.1}qg-g}{27}{section.3.1}
+\contentsline {section}{\numberline {3.2}gg-q}{28}{section.3.2}
+\contentsline {section}{\numberline {3.3}$M_2 {M_1}^{\dagger }$}{28}{section.3.3}
+\contentsline {section}{\numberline {3.4}$|M^{2}|$}{28}{section.3.4}
+\contentsline {chapter}{\numberline {4}Gluon gluon gluon emission kernel}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}gg-g}{30}{section.4.1}
