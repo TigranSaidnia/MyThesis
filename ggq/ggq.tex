@@ -12,14 +12,14 @@
 \end{figure}
 \begin{equation}
 \begin{split}
-M_1=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(-q_i +q)^{\eta}+g^{{\zeta}{\eta}}(-q-(q_i +q))^{\mu}+g^{{\eta}{\mu}}(q_i +q+q_i)^{\zeta})\\
+M_1=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q_i -q)^{\eta}+g^{{\zeta}{\eta}}(-q_i-(q_i +q))^{\mu}+g^{{\eta}{\mu}}(q +q+q_i)^{\zeta})\\
 {\varepsilon^{\lambda_1}}_{\mu} (q) {\varepsilon^{\lambda_6}}_{\zeta} (q_i)][\bar{u}_{\tau}(q_j)]
 \end{split}
 \end{equation}
 
 \begin{equation}
 \begin{split}
-M_1=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{{\zeta}{\eta}}(2q_i +q)^{\mu}+g^{{\eta}{\mu}}(2q_i +q)^{\zeta})\\
+M_1=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q_i-q)^{\eta}-g^{{\zeta}{\eta}}(2q_i +q)^{\mu}+g^{{\eta}{\mu}}(2q +q_i)^{\zeta})\\
 {\varepsilon^{\lambda_1}}_{\mu} (q) {\varepsilon^{\lambda_6}}_{\zeta} (q_i)][\bar{u}_{\tau}(q_j)]
 \end{split}
 \end{equation}
@@ -29,7 +29,7 @@ M_1=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{
 \end{figure}
 \begin{equation}
 \begin{split}
-{M_1}^{\dagger}=[\frac{i}{(q_i +q)^2}(-g_s f^{\:a^{\prime}\:o^{\prime}\:k}(g^{{{\mu}^{\prime}}{{\zeta}^{\prime}}}(q-q_i)^{{\eta}^{\prime}}-g^{{{\zeta}^{\prime}}{{\eta}^{\prime}}}(2q_i +q)^{{\mu}^{\prime}}+g^{{{\eta}^{\prime}}{{\mu}^{\prime}}}(2q_i +q)^{{\zeta}^{\prime}})\\
+{M_1}^{\dagger}=[\frac{i}{(q_i +q)^2}(-g_s f^{\:a^{\prime}\:k\: o^{\prime}}(-g^{{{\mu}^{\prime}}{{\eta}^{\prime}}}(2q+q_i)^{{\zeta}^{\prime}}+g^{{{\eta}^{\prime}}{{\zeta}^{\prime}}}(2q_i +q)^{{\mu}^{\prime}}+g^{{{\zeta}^{\prime}}{{\mu}^{\prime}}}(q-q_i)^{{\eta}^{\prime}})\\
 {{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}}^* (q) {{\varepsilon^{\lambda_5}}_{{\zeta}^{\prime}}}^* (q_i)][{u}_{{\tau}^{\prime}}(q_j)]
 \end{split}
 \end{equation}
@@ -39,83 +39,55 @@ M_1=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{
 \end{figure}
 \begin{equation}
 \begin{split}
-|M_1|^2=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{{\zeta}{\eta}}(2q_i +q)^{\mu}+g^{{\eta}{\mu}}(2q_i +q)^{\zeta})\\
+|M_1|^2=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q_i-q)^{\eta}-g^{{\zeta}{\eta}}(2q_i +q)^{\mu}+g^{{\eta}{\mu}}(2q +q_i)^{\zeta})\\
 {\varepsilon^{\lambda_1}}_{\mu} (q)\:{{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}}^* (q) {\varepsilon^{\lambda_6}}_{\zeta} (q_i)\:{{\varepsilon^{\lambda_5}}_{{\zeta}^{\prime}}}^* (q_i)\\
-(-g_s f^{\:a^{\prime}\:o^{\prime}\:k}(g^{{{\mu}^{\prime}}{{\zeta}^{\prime}}}(q-q_i)^{{\eta}^{\prime}}-g^{{{\zeta}^{\prime}}{{\eta}^{\prime}}}(2q_i +q)^{{\mu}^{\prime}}+g^{{{\eta}^{\prime}}{{\mu}^{\prime}}}(2q_i +q)^{{\zeta}^{\prime}})\frac{i}{(q_i +q)^2}][\bar{u}_{\tau}(q_j){u}_{{\tau}^{\prime}}(q_j)]
+(-g_s f^{\:a^{\prime}\:k\:o^{\prime}}(-g^{{{\mu}^{\prime}}{{\eta}^{\prime}}}(2q+q_i)^{{\zeta}^{\prime}}+g^{{{\eta}^{\prime}}{{\zeta}^{\prime}}}(2q_i +q)^{{\mu}^{\prime}}+g^{{{\zeta}^{\prime}}{{\mu}^{\prime}}}(q-q_i)^{{\eta}^{\prime}})\frac{i}{(q_i +q)^2}][\bar{u}_{\tau}(q_j){u}_{{\tau}^{\prime}}(q_j)]
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+N\equiv g_{{\mu}{{\mu}^{\prime}}} g_{{\zeta}{{\zeta}^{\prime}}}[-g^{{\mu}{\zeta}}g^{{{\mu}^{\prime}}{{\eta}^{\prime}}}(q_i-q)^{{\eta}}(2q+q_i)^{{\zeta}^{\prime}}+g^{{\mu}{\zeta}}g^{{{\eta}^{\prime}}{{\zeta}^{\prime}}}(q_i-q)^{\eta}(2q_i +q)^{{\mu}^{\prime}}\\+g^{{\mu}{\zeta}}g^{{{\zeta}^{\prime}}{{\mu}^{\prime}}}(q_i-q)^{\eta}(q -q_i)^{{\eta}^{\prime}}+g^{{\zeta}{\eta}}g^{{{\mu}^{\prime}}{{\zeta}^{\prime}}}(2q_i +q)^{\mu}(2q+q_i)^{{\zeta}^{\prime}}\\
+-g^{{\zeta}{\eta}}g^{{{\eta}^{\prime}}{{\zeta}^{\prime}}}(2q_i +q)^{\mu}(2q_i +q)^{{\mu}^{\prime}}-g^{{\zeta}{\eta}}g^{{{\zeta}^{\prime}}{{\mu}^{\prime}}}(2q_i +q)^{\mu}(q -q_i)^{{\eta}^{\prime}}\\
+-g^{{\eta}{\mu}}g^{{{\mu}^{\prime}}{{\eta}^{\prime}}}(2q +q_i)^{\zeta}(2q+q_i)^{{\zeta}^{\prime}}+g^{{\eta}{\mu}}g^{{{\eta}^{\prime}}{{\zeta}^{\prime}}}(2q +q_i)^{\zeta}(2q_i +q)^{{\mu}^{\prime}}\\
++g^{{\eta}{\mu}}g^{{{\zeta}^{\prime}}{{\mu}^{\prime}}}(2q +q_i)^{\zeta}(q -q_i)^{{\eta}^{\prime}}][\not{q_j}]
 \end{split}
 \end{equation}
 
 
 \begin{equation}
 \begin{split}
-|M_1|^2=\frac{{g_s}^2 f^{\:a\:o\:l} f^{\:a^{\prime}\:o^{\prime}\:k}}{(q_i +q)^2 (q_i +q)^2}\\
-[(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{{\zeta}{\eta}}(2q_i +q)^{\mu}+g^{{\eta}{\mu}}(2q_i +q)^{\zeta})\\
-g_{{\mu}{{\mu}^{\prime}}} g_{{\zeta}{{\zeta}^{\prime}}}
-(g^{{{\mu}^{\prime}}{{\zeta}^{\prime}}}(q-q_i)^{{\eta}^{\prime}}-g^{{{\zeta}^{\prime}}{{\eta}^{\prime}}}(2q_i +q)^{{\mu}^{\prime}}+g^{{{\eta}^{\prime}}{{\mu}^{\prime}}}(2q_i +q)^{{\zeta}^{\prime}})][\not{q_j}]
+N\equiv [-(q_i-q)^{{\eta}}(2q+q_i)^{{\eta}^{\prime}}+(q_i-q)^{\eta}(2q_i +q)^{{\eta}^{\prime}}+d(q_i-q)^{\eta}(q -q_i)^{{\eta}^{\prime}}\\+(2q_i +q)^{{\eta}^{\prime}}(2q+q_i)^{{\eta}}
+-g^{{\eta}{{\eta}^{\prime}}}(2q_i +q)^{\mu}(2q_i +q)_{{\mu}}-(2q_i +q)^{\eta}(q -q_i)^{{\eta}^{\prime}}\\
+-g^{{\eta}{{\eta}^{\prime}}}(2q +q_i)^{\zeta}(2q+q_i)_{{\zeta}}+(2q +q_i)^{{\eta}^{\prime}}(2q_i +q)^{{\eta}}
++(2q +q_i)^{\eta}(q -q_i)^{{\eta}^{\prime}}][\not{q_j}]
 \end{split}
 \end{equation}
 
 \begin{equation}
 \begin{split}
-N^{\mu \nu}\equiv g_{{\mu}{{\mu}^{\prime}}} g_{{\zeta}{{\zeta}^{\prime}}}
-[(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{{\zeta}{\eta}}(2q_i +q)^{\mu}+g^{{\eta}{\mu}}(2q_i +q)^{\zeta})\\
-(g^{{{\mu}^{\prime}}{{\zeta}^{\prime}}}(q-q_i)^{{\eta}^{\prime}}-g^{{{\zeta}^{\prime}}{{\eta}^{\prime}}}(2q_i +q)^{{\mu}^{\prime}}+g^{{{\eta}^{\prime}}{{\mu}^{\prime}}}(2q_i +q)^{{\zeta}^{\prime}})][\not{q_j}]
+N\equiv [-({q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}+2{q_i}^{{\eta}}{q}^{{\eta}^{\prime}}-{q}^{{\eta}}{q_i}^{{\eta}^{\prime}}-2{q}^{{\eta}}{q}^{{\eta}^{\prime}})
++(2{q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}+{q_i}^{{\eta}}{q}^{{\eta}^{\prime}}-2{q}^{{\eta}}{q_i}^{{\eta}^{\prime}}-{q}^{{\eta}}{q}^{{\eta}^{\prime}})\\+(d{q_i}^{{\eta}}{q}^{{\eta}^{\prime}}-d{q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}-d{q}^{{\eta}}{q}^{{\eta}^{\prime}}+d{q}^{{\eta}}{q_i}^{{\eta}^{\prime}})+(4{q_i}^{{\eta}^{\prime}}{q}^{{\eta}}+2{q_i}^{{\eta}^{\prime}}{q_i}^{{\eta}}+2{q}^{{\eta}^{\prime}}{q}^{{\eta}}+{q}^{{\eta}^{\prime}}{q_i}^{{\eta}})\\
+-(-2{q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}+2{q_i}^{{\eta}}{q}^{{\eta}^{\prime}}-{q}^{{\eta}}{q_i}^{{\eta}^{\prime}}+{q}^{{\eta}}{q}^{{\eta}^{\prime}})+(2{q_i}^{{\eta}^{\prime}}{q_i}^{{\eta}}+{q_i}^{{\eta}^{\prime}}{q}^{{\eta}}+4{q}^{{\eta}^{\prime}}{q_i}^{{\eta}}+2{q}^{{\eta}^{\prime}}{q}^{{\eta}})\\+(-{q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}+{q_i}^{{\eta}}{q}^{{\eta}^{\prime}}-2{q}^{{\eta}}{q_i}^{{\eta}^{\prime}}+2{q}^{{\eta}}{q}^{{\eta}^{\prime}})
+-g^{{\eta}{{\eta}^{\prime}}}(5{q_i}^2+5{q}^2+8qq_i)][\not{q_j}]
 \end{split}
 \end{equation}
 
 \begin{equation}
 \begin{split}
-N^{\mu \nu}\equiv g_{{\mu}{{\mu}^{\prime}}} g_{{\zeta}{{\zeta}^{\prime}}}[g^{{\mu}{\zeta}}(q-q_i)^{\eta}g^{{{\mu}^{\prime}}{{\zeta}^{\prime}}}(q-q_i)^{{\eta}^{\prime}}-g^{{\mu}{\zeta}}(q-q_i)^{\eta}g^{{{\zeta}^{\prime}}{{\eta}^{\prime}}}(2q_i +q)^{{\mu}^{\prime}}\\
-+g^{{\mu}{\zeta}}(q-q_i)^{\eta}g^{{{\eta}^{\prime}}{{\mu}^{\prime}}}(2q_i +q)^{{\zeta}^{\prime}}-g^{{\zeta}{\eta}}(2q_i +q)^{\mu}g^{{{\mu}^{\prime}}{{\zeta}^{\prime}}}(q-q_i)^{{\eta}^{\prime}}\\
-+g^{{\zeta}{\eta}}(2q_i +q)^{\mu}g^{{{\zeta}^{\prime}}{{\eta}^{\prime}}}(2q_i +q)^{{\mu}^{\prime}}-g^{{\zeta}{\eta}}(2q_i +q)^{\mu}g^{{{\eta}^{\prime}}{{\mu}^{\prime}}}(2q_i +q)^{{\zeta}^{\prime}}\\
-+g^{{\eta}{\mu}}(2q_i +q)^{\zeta}g^{{{\mu}^{\prime}}{{\zeta}^{\prime}}}(q-q_i)^{{\eta}^{\prime}}-g^{{\eta}{\mu}}(2q_i +q)^{\zeta}g^{{{\zeta}^{\prime}}{{\eta}^{\prime}}}(2q_i +q)^{{\mu}^{\prime}}\\
-+g^{{\eta}{\mu}}(2q_i +q)^{\zeta}g^{{{\eta}^{\prime}}{{\mu}^{\prime}}}(2q_i +q)^{{\zeta}^{\prime}}][\not{q_j}]
+N\equiv [(2-d){q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}+(d-2)2{q_i}^{{\eta}}{q}^{{\eta}^{\prime}}+(d-2){q}^{{\eta}}{q_i}^{{\eta}^{\prime}}+(2-d){q}^{{\eta}}{q}^{{\eta}^{\prime}}\\
++5{q_i}^{{\eta}^{\prime}}{q}^{{\eta}}+4{q_i}^{{\eta}^{\prime}}{q_i}^{{\eta}}+4{q}^{{\eta}^{\prime}}{q}^{{\eta}}+5{q}^{{\eta}^{\prime}}{q_i}^{{\eta}}
+-g^{{\eta}{{\eta}^{\prime}}}(5{q_i}^2+5{q}^2+8qq_i)][\not{q_j}]
 \end{split}
 \end{equation}
 
 \begin{equation}
 \begin{split}
-N^{\mu \nu}\equiv 
-[g_{{\mu}{{\mu}^{\prime}}} g_{{\zeta}{{\zeta}^{\prime}}}g^{{\mu}{\zeta}}g^{{{\mu}^{\prime}}{{\zeta}^{\prime}}}(q-q_i)^{\eta}(q-q_i)^{{\eta}^{\prime}}
--g_{{\mu}{{\mu}^{\prime}}} g_{{\zeta}{{\zeta}^{\prime}}}g^{{\mu}{\zeta}}g^{{{\zeta}^{\prime}}{{\eta}^{\prime}}}(q-q_i)^{\eta}(2q_i +q)^{{\mu}^{\prime}}\\
-+g_{{\mu}{{\mu}^{\prime}}} g_{{\zeta}{{\zeta}^{\prime}}}g^{{\mu}{\zeta}}g^{{{\eta}^{\prime}}{{\mu}^{\prime}}}(q-q_i)^{\eta}(2q_i +q)^{{\zeta}^{\prime}}-g_{{\mu}{{\mu}^{\prime}}} g_{{\zeta}{{\zeta}^{\prime}}}g^{{\zeta}{\eta}}g^{{{\mu}^{\prime}}{{\zeta}^{\prime}}}(2q_i +q)^{\mu}(q-q_i)^{{\eta}^{\prime}}\\
-+g_{{\mu}{{\mu}^{\prime}}} g_{{\zeta}{{\zeta}^{\prime}}}g^{{\zeta}{\eta}}g^{{{\zeta}^{\prime}}{{\eta}^{\prime}}}(2q_i +q)^{\mu}(2q_i +q)^{{\mu}^{\prime}}-g_{{\mu}{{\mu}^{\prime}}} g_{{\zeta}{{\zeta}^{\prime}}}g^{{\zeta}{\eta}}g^{{{\eta}^{\prime}}{{\mu}^{\prime}}}(2q_i +q)^{\mu}(2q_i +q)^{{\zeta}^{\prime}}\\
-+g_{{\mu}{{\mu}^{\prime}}} g_{{\zeta}{{\zeta}^{\prime}}}g^{{\eta}{\mu}}g^{{{\mu}^{\prime}}{{\zeta}^{\prime}}}(2q_i +q)^{\zeta}(q-q_i)^{{\eta}^{\prime}}-g_{{\mu}{{\mu}^{\prime}}} g_{{\zeta}{{\zeta}^{\prime}}}g^{{\eta}{\mu}}g^{{{\zeta}^{\prime}}{{\eta}^{\prime}}}(2q_i +q)^{\zeta}(2q_i +q)^{{\mu}^{\prime}}\\
-+g_{{\mu}{{\mu}^{\prime}}} g_{{\zeta}{{\zeta}^{\prime}}}g^{{\eta}{\mu}}g^{{{\eta}^{\prime}}{{\mu}^{\prime}}}(2q_i +q)^{\zeta}(2q_i +q)^{{\zeta}^{\prime}}][\not{q_j}]
+N\equiv [(6-d){q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}+(d+3)2{q_i}^{{\eta}}{q}^{{\eta}^{\prime}}+(d+3){q}^{{\eta}}{q_i}^{{\eta}^{\prime}}+(6-d){q}^{{\eta}}{q}^{{\eta}^{\prime}}\\-g^{{\eta}{{\eta}^{\prime}}}(5{q_i}^2+5{q}^2+8qq_i)][\not{q_j}]
 \end{split}
 \end{equation}
 
-\begin{equation}
-\begin{split}
-N^{\mu \nu}\equiv 
-[ {g_{{{\zeta}^{\prime}}}}^{\mu}{g_{{\mu}}\:^{{\zeta}^{\prime}}}(q-q_i)^{\eta}(q-q_i)^{{\eta}^{\prime}}
--(q-q_i)^{\eta}(2q_i +q)^{{\eta}^{\prime}}\\
-+(q-q_i)^{\eta}(2q_i +q)^{{\eta}^{\prime}}-(2q_i +q)^{\eta}(q-q_i)^{{\eta}^{\prime}}\\
-+g^{{{\eta}^{\prime}}{\eta}} (2q_i +q)^{\mu}(2q_i +q)_{\mu}-(2q_i +q)^{\eta^{\prime}}(2q_i +q)^{{\eta}}\\
-+(2q_i +q)^{\eta}(q-q_i)^{{\eta}^{\prime}}-(2q_i +q)^{\eta^{\prime}}(2q_i +q)^{{\eta}}\\
-+g^{{{\eta}^{\prime}}{\eta}} (2q_i +q)^{\zeta}(2q_i +q)_{{\zeta}}][\not{q_j}]
-\end{split}
-\end{equation}
 
-\begin{equation}
-\begin{split}
-N^{\mu \nu}\equiv 
-[ d\:(q-q_i)^{\eta}(q-q_i)^{{\eta}^{\prime}}
--(q-q_i)^{\eta}(2q_i +q)^{{\eta}^{\prime}}\\
-+(q-q_i)^{\eta}(2q_i +q)^{{\eta}^{\prime}}-(2q_i +q)^{\eta}(q-q_i)^{{\eta}^{\prime}}\\
-+g^{{{\eta}^{\prime}}{\eta}} (2q_i +q)\cdot(2q_i +q)-(2q_i +q)^{\eta^{\prime}}(2q_i +q)^{{\eta}}\\
-+(2q_i +q)^{\eta}(q-q_i)^{{\eta}^{\prime}}-(2q_i +q)^{\eta^{\prime}}(2q_i +q)^{{\eta}}\\
-+g^{{{\eta}^{\prime}}{\eta}} (2q_i +q)\cdot(2q_i +q)][\not{q_j}]
-\end{split}
-\end{equation}
-
-\begin{equation}
-\begin{split}
-N^{\mu \nu}\equiv [ d\:(q-q_i)^{\eta}(q-q_i)^{{\eta}^{\prime}}\\
--2(2q_i +q)^{\eta^{\prime}}(2q_i +q)^{{\eta}}\\
-+2g^{{{\eta}^{\prime}}{\eta}} (2q_i +q)\cdot(2q_i +q)][\not{q_j}]
-\end{split}
-\end{equation}
 \pagebreak
 \subsection{One-loop corrections to the gluon self-energy diagram}
 \begin{figure}[h!]
