@@ -1,8 +1,9 @@
 \select@language {american}
 \contentsline {chapter}{Table of contents}{2}{chapter*.2}
-\contentsline {section}{\numberline {0.1}parametrisation}{1}{section.0.1}
-\contentsline {section}{\numberline {0.2}Altarelli-Parisi splitting functions}{2}{section.0.2}
-\contentsline {section}{\numberline {0.3}Colour factor calculation}{3}{section.0.3}
+\contentsline {section}{\numberline {0.1}Old parametrisation}{1}{section.0.1}
+\contentsline {section}{\numberline {0.2}new parametrisation}{1}{section.0.2}
+\contentsline {section}{\numberline {0.3}Altarelli-Parisi splitting functions}{2}{section.0.3}
+\contentsline {section}{\numberline {0.4}Colour factor calculation}{3}{section.0.4}
 \contentsline {chapter}{\numberline {1}Quark antiquark gluon emission kernel}{5}{chapter.1}
 \contentsline {section}{\numberline {1.1}qg-$\mathaccentV {bar}016{q}$}{6}{section.1.1}
 \contentsline {section}{\numberline {1.2}$\mathaccentV {bar}016{q}$g-q}{10}{section.1.2}
