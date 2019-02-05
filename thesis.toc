@@ -1,26 +1,29 @@
 \select@language {american}
 \contentsline {chapter}{Table of contents}{2}{chapter*.2}
 \contentsline {section}{\numberline {0.1}Old parametrisation}{1}{section.0.1}
-\contentsline {section}{\numberline {0.2}new parametrisation}{1}{section.0.2}
-\contentsline {section}{\numberline {0.3}Altarelli-Parisi splitting functions}{2}{section.0.3}
-\contentsline {section}{\numberline {0.4}Colour factor calculation}{3}{section.0.4}
-\contentsline {chapter}{\numberline {1}Quark antiquark gluon emission kernel}{5}{chapter.1}
-\contentsline {section}{\numberline {1.1}qg-$\mathaccentV {bar}016{q}$}{6}{section.1.1}
-\contentsline {section}{\numberline {1.2}$\mathaccentV {bar}016{q}$g-q}{10}{section.1.2}
-\contentsline {section}{\numberline {1.3}$M_1 {M_2}^{\dagger }$}{12}{section.1.3}
-\contentsline {section}{\numberline {1.4}$|M^{2}|$}{14}{section.1.4}
-\contentsline {chapter}{\numberline {2}Gluon gluon gluon emission kernel}{16}{chapter.2}
-\contentsline {section}{\numberline {2.1}Gluon-Emitter Bubble}{17}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}One-loop corrections to the gluon self-energy diagram(Gluon-Emitter Bubble)}{19}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Gluon-Spectator Bubble}{20}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}One-loop corrections to the gluon self-energy diagram (Gluon-Spectator Bubble)}{21}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Interference term $M_1 {M_2}^{\dagger }$}{21}{section.2.3}
-\contentsline {section}{\numberline {2.4}$|M^{2}|$}{23}{section.2.4}
-\contentsline {chapter}{\numberline {3}Quark gluon quark emission kernel}{24}{chapter.3}
-\contentsline {section}{\numberline {3.1}Gluon-Emitter Quark loop}{25}{section.3.1}
-\contentsline {section}{\numberline {3.2}Gluon-Spectator Quark loop}{26}{section.3.2}
-\contentsline {section}{\numberline {3.3}Gluon-Emitter Quark loop}{27}{section.3.3}
-\contentsline {chapter}{\numberline {4}Gluon quark quark emission kernel}{28}{chapter.4}
-\contentsline {section}{\numberline {4.1}$ M_1 $}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}$ M_2 $}{30}{section.4.2}
-\contentsline {section}{\numberline {4.3}$ M1{M_2}^{\dagger } $}{31}{section.4.3}
+\contentsline {section}{\numberline {0.2}new kinematic}{1}{section.0.2}
+\contentsline {subsection}{\numberline {0.2.1}useful relations}{1}{subsection.0.2.1}
+\contentsline {section}{\numberline {0.3}Single emission part}{3}{section.0.3}
+\contentsline {section}{\numberline {0.4}Common scalar products}{3}{section.0.4}
+\contentsline {section}{\numberline {0.5}Altarelli-Parisi splitting functions}{5}{section.0.5}
+\contentsline {section}{\numberline {0.6}Colour factor calculation}{6}{section.0.6}
+\contentsline {chapter}{\numberline {1}Quark antiquark gluon emission kernel}{8}{chapter.1}
+\contentsline {section}{\numberline {1.1}qg-$\mathaccentV {bar}016{q}$}{9}{section.1.1}
+\contentsline {section}{\numberline {1.2}$\mathaccentV {bar}016{q}$g-q}{13}{section.1.2}
+\contentsline {section}{\numberline {1.3}$M_1 {M_2}^{\dagger }$}{15}{section.1.3}
+\contentsline {section}{\numberline {1.4}$|M^{2}|$}{17}{section.1.4}
+\contentsline {chapter}{\numberline {2}Gluon gluon gluon emission kernel}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}Gluon-Emitter Bubble}{20}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}One-loop corrections to the gluon self-energy diagram(Gluon-Emitter Bubble)}{22}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Gluon-Spectator Bubble}{23}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}One-loop corrections to the gluon self-energy diagram (Gluon-Spectator Bubble)}{24}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Interference term $M_1 {M_2}^{\dagger }$}{24}{section.2.3}
+\contentsline {section}{\numberline {2.4}$|M^{2}|$}{26}{section.2.4}
+\contentsline {chapter}{\numberline {3}Quark gluon quark emission kernel}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Gluon-Emitter Quark loop}{28}{section.3.1}
+\contentsline {section}{\numberline {3.2}Gluon-Spectator Quark loop}{29}{section.3.2}
+\contentsline {section}{\numberline {3.3}Gluon-Emitter Quark loop}{30}{section.3.3}
+\contentsline {chapter}{\numberline {4}Gluon quark quark emission kernel}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}$ M_1 $}{32}{section.4.1}
+\contentsline {section}{\numberline {4.2}$ M_2 $}{33}{section.4.2}
+\contentsline {section}{\numberline {4.3}$ M1{M_2}^{\dagger } $}{34}{section.4.3}
