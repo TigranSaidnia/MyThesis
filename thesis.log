@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  19 FEB 2019 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  19 FEB 2019 16:50
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1851,20 +1851,20 @@ Package pdftex.def Info: images/ppp.jpg  used on input line 357.
 [30 <./images/GG/GhostM2.png> <./images/GG/M1M2Dagger.png>]
 File: images/ppp.jpg Graphic file (type jpg)
 <use images/ppp.jpg>
-Package pdftex.def Info: images/ppp.jpg  used on input line 404.
+Package pdftex.def Info: images/ppp.jpg  used on input line 409.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [31]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 405.
+(hyperref)                removing `math shift' on input line 410.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 405.
+(hyperref)                removing `superscript' on input line 410.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 405.
+(hyperref)                removing `math shift' on input line 410.
 
 )
 File: images/ppp.jpg Graphic file (type jpg)
@@ -2049,7 +2049,7 @@ TeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy1
 0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on thesis.pdf (43 pages, 919988 bytes).
+Output written on thesis.pdf (43 pages, 920652 bytes).
 PDF statistics:
  685 PDF objects out of 1000 (max. 8388607)
  227 named destinations out of 1000 (max. 500000)
