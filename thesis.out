@@ -4,25 +4,27 @@
 \BOOKMARK [2][-]{subsection.0.2.1}{useful relations}{section.0.2}% 4
 \BOOKMARK [1][-]{section.0.3}{Single emission part}{chapter*.2}% 5
 \BOOKMARK [1][-]{section.0.4}{Common scalar products}{chapter*.2}% 6
-\BOOKMARK [1][-]{section.0.5}{Altarelli-Parisi splitting functions}{chapter*.2}% 7
-\BOOKMARK [1][-]{section.0.6}{Colour factor calculation}{chapter*.2}% 8
-\BOOKMARK [0][-]{chapter.1}{Quark antiquark gluon emission kernel}{}% 9
-\BOOKMARK [1][-]{section.1.1}{qg-}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.2}{g-q}{chapter.1}% 11
-\BOOKMARK [1][-]{section.1.3}{M1 M2}{chapter.1}% 12
-\BOOKMARK [1][-]{section.1.4}{|M2|}{chapter.1}% 13
-\BOOKMARK [0][-]{chapter.2}{Gluon gluon gluon emission kernel}{}% 14
-\BOOKMARK [1][-]{section.2.1}{Gluon-Emitter Bubble}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.1.1}{One-loop corrections to the gluon self-energy diagram\(Gluon-Emitter Bubble\)}{section.2.1}% 16
-\BOOKMARK [1][-]{section.2.2}{Gluon-Spectator Bubble}{chapter.2}% 17
-\BOOKMARK [2][-]{subsection.2.2.1}{One-loop corrections to the gluon self-energy diagram \(Gluon-Spectator Bubble\)}{section.2.2}% 18
-\BOOKMARK [1][-]{section.2.3}{Interference term M1 M2}{chapter.2}% 19
-\BOOKMARK [1][-]{section.2.4}{|M2|}{chapter.2}% 20
-\BOOKMARK [0][-]{chapter.3}{Quark gluon quark emission kernel}{}% 21
-\BOOKMARK [1][-]{section.3.1}{Quark loop}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.2}{Spectator Quark loop}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.3}{Interference term}{chapter.3}% 24
-\BOOKMARK [0][-]{chapter.4}{Gluon quark quark emission kernel}{}% 25
-\BOOKMARK [1][-]{section.4.1}{ M1 }{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.2}{ M2 }{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.3}{ M1M2 }{chapter.4}% 28
+\BOOKMARK [1][-]{section.0.5}{Parametrization in terms of \040\(k1 qi \)\(k1 qk\) }{chapter*.2}% 7
+\BOOKMARK [1][-]{section.0.6}{Parametrization in terms of \040\(k1 qi \)\(k1 qi\) }{chapter*.2}% 8
+\BOOKMARK [1][-]{section.0.7}{Altarelli-Parisi splitting functions}{chapter*.2}% 9
+\BOOKMARK [1][-]{section.0.8}{Colour factor calculation}{chapter*.2}% 10
+\BOOKMARK [0][-]{chapter.1}{Quark antiquark gluon emission kernel}{}% 11
+\BOOKMARK [1][-]{section.1.1}{qg-}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.2}{g-q}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.3}{M1 M2}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.4}{|M2|}{chapter.1}% 15
+\BOOKMARK [0][-]{chapter.2}{Gluon gluon gluon emission kernel}{}% 16
+\BOOKMARK [1][-]{section.2.1}{Gluon-Emitter Bubble}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.1.1}{One-loop corrections to the gluon self-energy diagram\(Gluon-Emitter Bubble\)}{section.2.1}% 18
+\BOOKMARK [1][-]{section.2.2}{Gluon-Spectator Bubble}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.1}{One-loop corrections to the gluon self-energy diagram \(Gluon-Spectator Bubble\)}{section.2.2}% 20
+\BOOKMARK [1][-]{section.2.3}{Interference term M1 M2}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.4}{|M2|}{chapter.2}% 22
+\BOOKMARK [0][-]{chapter.3}{Quark gluon quark emission kernel}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Quark loop}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.2}{Spectator Quark loop}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.3}{Interference term}{chapter.3}% 26
+\BOOKMARK [0][-]{chapter.4}{Gluon quark quark emission kernel}{}% 27
+\BOOKMARK [1][-]{section.4.1}{ M1 }{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.2}{ M2 }{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.3}{ M1M2 }{chapter.4}% 30
