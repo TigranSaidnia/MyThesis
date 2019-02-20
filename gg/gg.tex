@@ -395,35 +395,103 @@ N\equiv&[(6-d)({\alpha_1}^2 -2\alpha_1 \beta_1 y(\frac{Q^2}{2 p_i \cdot Q}))+(d+
 \begin{equation}
 \begin{split}
 {k_1}^{{\eta}}{k_1}^{{\eta}^{\prime}}&=[(1-\beta_1)^2-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})^2] {p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q}){p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q}){Q}^{{\eta}}{p_i}^{{\eta}^{\prime}}\\
-{k_1}^{{\eta}}{q_i}^{{\eta}^{\prime}}&=[\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] {p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q}){Q}^{{\eta}}{p_i}^{{\eta}^{\prime}}\\
-{q_i}^{{\eta}}{k_1}^{{\eta}^{\prime}}&=[\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] {p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q}){p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
+{k_1}^{{\eta}}{q_i}^{{\eta}^{\prime}}&=[\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] {p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y {\beta_1}^2 {Q}^{{\eta}}{p_i}^{{\eta}^{\prime}}\\
+{q_i}^{{\eta}}{k_1}^{{\eta}^{\prime}}&=[\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] {p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y {\beta_1}^2 {p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
 {q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}&={\beta_1}^2 {p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}\\
-{k_1}^{{\eta}}{q_k}^{{\eta}^{\prime}}&= \sqrt{1-y}{p_i}^{{\eta}}{{p_k}^{{\eta}^{\prime}}}-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_1 \:{p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\: {p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
-&+y {\beta_1} A_1 \:{Q}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y {\beta_1} A_2 \:{Q}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
+{k_1}^{{\eta}}{q_k}^{{\eta}^{\prime}}&= [(1-\beta_1)-y\beta_1 (\frac{Q^2}{2p_i \cdot Q})] \sqrt{1-y}{p_i}^{{\eta}}{{p_k}^{{\eta}^{\prime}}}-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_1 \:{p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}
+-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\: {p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
+&+y {\beta_1} A_1 \:{Q}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y {\beta_1} A_2 \:{Q}^{{\eta}}{Q}^{{\eta}^{\prime}}+y {\beta_1}\sqrt{1-y}{Q}^{{\eta}}{{p_k}^{{\eta}^{\prime}}}\\
 {q_i}^{{\eta}}{q_k}^{{\eta}^{\prime}}&=A_1\beta_1 {p_i}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+A_2\beta_1 {p_i}^{{\eta}}{{Q}^{{\eta}^{\prime}}}+\beta_1 \sqrt{1-y}{p_i}^{{\eta}}{{p_k}^{{\eta}^{\prime}}}\\
-{q_k}^{\eta}{k_1}^{{{\eta}}^{\prime}}&=\sqrt{1-y}{p_i}^{{\eta}}{{p_k}^{{\eta}^{\prime}}}-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_1 \:{p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\: {p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
-&+y {\beta_1} A_1 \:{Q}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y {\beta_1} A_2 \:{Q}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
+{q_k}^{\eta}{k_1}^{{{\eta}}^{\prime}}&=[(1-\beta_1)-y\beta_1 (\frac{Q^2}{2p_i \cdot Q})] \sqrt{1-y}{p_k}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_1 \:{p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}
+-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\: {Q}^{{\eta}}{p_i}^{{\eta}^{\prime}}\\
+&+y {\beta_1} A_1 \:{p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}+y {\beta_1} A_2 \:{Q}^{{\eta}}{Q}^{{\eta}^{\prime}}+y {\beta_1}\sqrt{1-y}{p_k}^{{\eta}}{{Q}^{{\eta}^{\prime}}}\\
 {q_k}^{\eta}{q_i}^{{{\eta}}^{\prime}}&=A_1\beta_1 {p_i}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+A_2\beta_1 {Q}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+\beta_1 \sqrt{1-y}{p_k}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}\\
 \end{split}
 \end{equation}
 
+\subsection*{Calculation of the first Term}
 
 \begin{equation}
+\begin{split} 
+& g^{{{\eta}}{{\eta}^{\prime}}}[2\lbrace A_1\beta_1 {p_i}^{{\gamma}}{{p_i}^{{\delta}}}+A_2\beta_1 {p_i}^{{\gamma}}{{Q}^{{\delta}}}+\beta_1 \sqrt{1-y}{p_i}^{{\gamma}}{{p_k}^{{\delta}}} \rbrace \\&
++2\lbrace [\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] {p_i}^{{\gamma}}{p_i}^{{\delta}}+y {\beta_1}^2 {p_i}^{{\gamma}}{Q}^{{\delta}} \rbrace\\
+&+\lbrace [(1-\beta_1)-y\beta_1 (\frac{Q^2}{2p_i \cdot Q})] \sqrt{1-y}{p_i}^{{\gamma}}{{p_k}^{{\delta}}}-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_1 \:{p_i}^{{\gamma}}{p_i}^{{\delta}}
+-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\: {p_i}^{{\gamma}}{Q}^{{\delta}}\\
+&+y {\beta_1} A_1 \:{Q}^{{\gamma}}{p_i}^{{\delta}}+y {\beta_1} A_2 \:{Q}^{{\gamma}}{Q}^{{\delta}}+y {\beta_1}\sqrt{1-y}{Q}^{{\gamma}}{{p_k}^{{\delta}}} \rbrace \\
+&+3\lbrace [(1-\beta_1)^2-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})^2] {p_i}^{{\gamma}}{p_i}^{{\delta}}-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q}){p_i}^{{\gamma}}{Q}^{{\delta}}-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q}){Q}^{{\gamma}}{p_i}^{{\delta}} \rbrace\\
+&+4\lbrace [\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] {p_i}^{{\gamma}}{p_i}^{{\delta}}+y {\beta_1}^2 {Q}^{{\gamma}}{p_i}^{{\delta}} \rbrace\\
+&+2\lbrace A_1\beta_1 {p_i}^{{\gamma}}{{p_i}^{{\delta}}}+A_2\beta_1 {Q}^{{\gamma}}{{p_i}^{{\delta}}}+\beta_1 \sqrt{1-y}{p_k}^{{\gamma}}{{p_i}^{{\delta}}} \rbrace \\
+&+\lbrace [(1-\beta_1)-y\beta_1 (\frac{Q^2}{2p_i \cdot Q})] \sqrt{1-y}{p_k}^{{\gamma}}{{p_i}^{{\delta}}}-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_1 \:{p_i}^{{\gamma}}{p_i}^{{\delta}}
+-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\: {Q}^{{\gamma}}{p_i}^{{\delta}}\\
+&+y {\beta_1} A_1 \:{p_i}^{{\gamma}}{Q}^{{\delta}}+y {\beta_1} A_2 \:{Q}^{{\gamma}}{Q}^{{\delta}}+y {\beta_1}\sqrt{1-y}{p_k}^{{\gamma}}{{Q}^{{\delta}}} \rbrace]\\
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split} 
+& g^{{{\eta}}{{\eta}^{\prime}}}\lbrace 2y {\beta_1} A_2 \:{Q}^{{\gamma}}{Q}^{{\delta}}+y {\beta_1}\sqrt{1-y}{Q}^{{\gamma}}{{p_k}^{{\delta}}} +y {\beta_1}\sqrt{1-y}{p_k}^{{\gamma}}{{Q}^{{\delta}}} \\
+\\
+&[4 A_1\beta_1+6[\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})]-2y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_1\\
+&+3 [(1-\beta_1)^2-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})^2]]{p_i}^{{\gamma}}{{p_i}^{{\delta}}}\\+
+& [2 A_2\beta_1-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\:-3y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})+y {\beta_1} A_1+2y {\beta_1}^2 \:]{p_i}^{{\gamma}}{{Q}^{{\delta}}}\\
+& [2 \beta_1 + [(1-\beta_1)-y\beta_1 (\frac{Q^2}{2p_i \cdot Q})]] \sqrt{1-y}{p_i}^{{\gamma}}{{p_k}^{{\delta}}}\\
+& [-3y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})+4 y {\beta_1}^2+ 2A_2\beta_1-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\: ]{Q}^{{\gamma}}{p_i}^{{\delta}} \\
+&+[2 \beta_1 +[(1-\beta_1)-y\beta_1 (\frac{Q^2}{2p_i \cdot Q})]] \sqrt{1-y}{p_k}^{{\gamma}}{{p_i}^{{\delta}}}\rbrace
+\end{split}
+\end{equation}
+
+\subsection*{Calculation of the second term}
+\begin{equation}
 \begin{split}
-&M_1{M_2}^{\dagger}=\frac{g_s^2 f^{\:l\:a\:o} f^{\:f\: o\:n} }{4(q_i\cdot q) (q_j \cdot q)}\\
-&\lbrace g^{{{\eta}}{{\eta}^{\prime}}}({\alpha_1}^2+\alpha_1 \beta_1){p_i}^{{\gamma}}{p_i}^{\delta}-g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\gamma}}{{\delta}}}({\alpha_1}^2+\alpha_1 \beta_1)p_i \cdot p_i+g^{{{\gamma}}{{\eta}^{\prime}}}({\alpha_1}^2+\alpha_1 \beta_1){p_i}^{{\eta}}{p_i}^{\delta}\\
-&+g^{{{\eta}^{\prime}}{{\delta}}}({\alpha_1}^2+\alpha_1 \beta_1){p_i}^{{\eta}}{p_i}^{\gamma}-g^{{{\gamma}}{{\delta}}}({\alpha_1}^2+\alpha_1 \beta_1){p_i}^{\eta}{p_i}^{{\eta}^{\prime}}-g^{{{\gamma}}{{\eta}}}({\alpha_1}^2+\alpha_1 \beta_1){p_i}^{{\eta}^{\prime}}{p_i}^{{\delta}}\\
-&-g^{{{\eta}}{{\delta}}}({\alpha_1}^2+\alpha_1 \beta_1){p_i}^{{\eta}^{\prime}}{p_i}^{{\gamma}}+g^{{{\gamma}}{{\delta}}}({\alpha_1}^2+\alpha_1 \beta_1){p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}\rbrace
+&-g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\gamma}}{{\delta}}}\lbrace2([\alpha_1 +y\beta_1(\frac{Q^2}{2p_i \cdot Q})]\:p_i \cdot p_k+y\beta_1\:Q\cdot p_k)\\
+&-2y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q}){p_i}\cdot{Q}\\
+&+4(\beta_1 A_2 \:p_i \cdot Q+ \beta_1 \sqrt{1-y}\:p_i \cdot p_k)+2y\:p_i\cdot Q\rbrace\\
+\Rightarrow \\
+&-g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\gamma}}{{\delta}}}\lbrace2([(1-\beta_1)+y\beta_1(\frac{Q^2}{2p_i \cdot Q})+4 \beta_1] \sqrt{1-y}\:p_i \cdot p_k+2y\beta_1\:Q\cdot p_k\\
+&+[-2y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})+4\beta_1 A_2 +2y]\:p_i\cdot Q\rbrace
+\end{split}
+\end{equation}
+
+\subsection*{Calculation of the third term}
+\begin{equation}
+\begin{split} 
+&+g^{{{\gamma}}{{\eta}^{\prime}}}\lbrace [(1-\beta_1)-y\beta_1 (\frac{Q^2}{2p_i \cdot Q})] \sqrt{1-y}{p_i}^{{\eta}}{{p_k}^{{\delta}}}-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_1 \:{p_i}^{{\eta}}{p_i}^{{\delta}}
+-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\: {p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
+&+y {\beta_1} A_1 \:{Q}^{{\eta}}{p_i}^{{\delta}}+y {\beta_1} A_2 \:{Q}^{{\eta}}{Q}^{{\delta}}+y {\beta_1}\sqrt{1-y}{Q}^{{\eta}}{{p_k}^{{\delta}}}\\
+&-[[(1-\beta_1)^2-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})^2] {p_i}^{{\eta}}{p_i}^{{\delta}}-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q}){p_i}^{{\eta}}{Q}^{{\delta}}-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q}){Q}^{{\eta}}{p_i}^{{\delta}}]\\
+&-[A_1\beta_1 {p_i}^{{\eta}}{{p_i}^{{\delta}}}+A_2\beta_1 {p_i}^{{\eta}}{{Q}^{{\delta}}}+\beta_1 \sqrt{1-y}{p_i}^{{\eta}}{{p_k}^{{\delta}}}]\\
+&+[\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] {p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y {\beta_1}^2 {p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}\rbrace\\
+\end{split}
+\end{equation}
+
+\subsection*{Calculation of the fourth term}
+\begin{equation}
+\begin{split} 
+&+g^{{{\gamma}}{{\eta}^{\prime}}}\lbrace [(1-\beta_1)-y\beta_1 (\frac{Q^2}{2p_i \cdot Q})-\beta_1] \sqrt{1-y}{p_i}^{{\eta}}{{p_k}^{{\delta}}}\\
+&+[y {\beta_1} A_1 \:+y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})]{Q}^{{\eta}}{p_i}^{{\delta}}+y {\beta_1} A_2 \:{Q}^{{\eta}}{Q}^{{\delta}}+y {\beta_1}\sqrt{1-y}{Q}^{{\eta}}{{p_k}^{{\delta}}}\\
+&[-[(1-\beta_1)^2-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})^2]-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_1 -A_1\beta_1 +[\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})]] {p_i}^{{\eta}}{p_i}^{{\delta}}\\
+& +[y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\:-A_2\beta_1 +y {\beta_1}^2] {p_i}^{{\eta}}{Q}^{{\delta}}\rbrace\\
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split} 
+&+g^{{{\eta}^{\prime}}{{\delta}}}\lbrace [(1-\beta_1)-y\beta_1 (\frac{Q^2}{2p_i \cdot Q})-\beta_1] \sqrt{1-y}{p_i}^{{\eta}}{{p_k}^{{\gamma}}}\\
+&+[y {\beta_1} A_1 \:+2y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})]{Q}^{{\eta}}{p_i}^{{\gamma}}+y {\beta_1} A_2 \:{Q}^{{\eta}}{Q}^{{\gamma}}+y {\beta_1}\sqrt{1-y}{Q}^{{\eta}}{{p_k}^{{\gamma}}}\\
+&+[2[(1-\beta_1)^2-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})^2]-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_1 +A_1\beta_1 +[\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})]] {p_i}^{{\eta}}{p_i}^{{\gamma}}\\
+& +[-2y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})-y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\:+A_2\beta_1 +y {\beta_1}^2] {p_i}^{{\eta}}{Q}^{{\gamma}}\rbrace\\
 \end{split}
 \end{equation}
 
 
+
 \begin{equation}
-\begin{split}
-&M_1{M_2}^{\dagger}=\frac{g_s^2 f^{\:l\:a\:o} f^{\:f\: o\:n} }{4(q_i\cdot q) (q_j \cdot q)}\lbrace g^{{{\eta}}{{\eta}^{\prime}}}({\alpha_1}^2+\alpha_1 \beta_1){p_i}^{{\gamma}}{p_i}^{\delta}+g^{{{\gamma}}{{\eta}^{\prime}}}({\alpha_1}^2+\alpha_1 \beta_1){p_i}^{{\eta}}{p_i}^{\delta}\\&+g^{{{\eta}^{\prime}}{{\delta}}}({\alpha_1}^2+\alpha_1 \beta_1){p_i}^{{\eta}}{p_i}^{\gamma}-g^{{{\gamma}}{{\eta}}}({\alpha_1}^2+\alpha_1 \beta_1){p_i}^{{\eta}^{\prime}}{p_i}^{{\delta}}-g^{{{\eta}}{{\delta}}}({\alpha_1}^2+\alpha_1 \beta_1){p_i}^{{\eta}^{\prime}}{p_i}^{{\gamma}}\rbrace
+\begin{split} 
+&-g^{{{\gamma}}{{\delta}}}[2{q}^{\eta}{q_j}^{{\eta}^{\prime}}+{q}^{\eta}{q}^{{\eta}^{\prime}}-2{q_i}^{\eta}{q_j}^{{\eta}^{\prime}}-{q_i}^{\eta}{q}^{{\eta}^{\prime}}]\\
+&-g^{{{\gamma}}{{\eta}}}[2{q}^{{\eta}^{\prime}}{q_j}^{{\delta}}-{2q}^{{\eta}^{\prime}}{q}^{{\delta}}+{q_i}^{{\eta}^{\prime}}{q_j}^{{\delta}}-{q_i}^{{\eta}^{\prime}}{q}^{{\delta}}]-g^{{{\eta}}{{\delta}}}[4{q}^{{\eta}^{\prime}}{q}^{{\gamma}}+2{q}^{{\eta}^{\prime}}{q_j}^{{\gamma}}+2{q_i}^{{\eta}^{\prime}}{q}^{{\gamma}}+{q_i}^{{\eta}^{\prime}}{q_j}^{{\gamma}}]\\
+&+g^{{{\gamma}}{{\delta}}}[4{q_j}^{{\eta}}{q}^{{\eta}^{\prime}}+2{q_j}^{{\eta}}{q_i}^{{\eta}^{\prime}}+{q}^{{\eta}}{q}^{{\eta}^{\prime}}+{q}^{{\eta}}{q_i}^{{\eta}^{\prime}}]\rbrace
 \end{split}
 \end{equation}
-
 \pagebreak
 
 \section{$|M^{2}|$}
