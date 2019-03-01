@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  28 FEB 2019 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  1 MAR 2019 23:43
 entering extended mode
 **./gg.tex
 (gg.tex
@@ -5000,9 +5000,11 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (159.34201pt too wide) detected at line 248
-[][] \OT1/cmr/m/n/10 = [][\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 g
-[]\OT1/cmr/m/n/10 ][\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ]]
+Overfull \hbox (278.24937pt too wide) detected at line 248
+[][] \OT1/cmr/m/n/10 = [][2[\OML/cmm/m/it/10  \OMS/cmsy/m/n/10   \OT1/cmr/m/n/
+10 1][](1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )[][][][] \OMS
+/cmsy/m/n/10   \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ][\OML/cmm/
+m/it/10 g[]\OT1/cmr/m/n/10 ]]
  []
 
 
@@ -5561,9 +5563,11 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (156.56422pt too wide) detected at line 299
-[][] \OT1/cmr/m/n/10 = [][\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 g
-[]\OT1/cmr/m/n/10 ][\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ]
+Overfull \hbox (275.47159pt too wide) detected at line 299
+[][] \OT1/cmr/m/n/10 = [][2[\OML/cmm/m/it/10  \OMS/cmsy/m/n/10   \OT1/cmr/m/n/
+10 1][](1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )[][][][] \OMS
+/cmsy/m/n/10   \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ][\OML/cmm/
+m/it/10 g[]\OT1/cmr/m/n/10 ]
  []
 
 
@@ -6313,10 +6317,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (183.27982pt too wide) detected at line 369
-[][] \OT1/cmr/m/n/10 = [][\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 g
-[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[]\O
-T1/cmr/m/n/10 )][\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ]
+Overfull \hbox (302.18718pt too wide) detected at line 369
+[][] \OT1/cmr/m/n/10 = [][8[1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 \OT1/cmr/m/n
+/10 ][](1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )[][][][] \OMS
+/cmsy/m/n/10   \OT1/cmr/m/n/10 8\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (\OML/cmm/m
+/it/10 q \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )][\OML/cmm/m/i
+t/10 g[]\OT1/cmr/m/n/10 ]
  []
 
 
@@ -6363,9 +6369,11 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (159.22363pt too wide) detected at line 375
-[][] \OT1/cmr/m/n/10 = [][\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 g
-[]\OT1/cmr/m/n/10 ][\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ]
+Overfull \hbox (278.131pt too wide) detected at line 375
+[][] \OT1/cmr/m/n/10 = [][2[1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 \OT1/cmr/m/n
+/10 ][](1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )[][][][] \OMS
+/cmsy/m/n/10   \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ][\OML/cmm/
+m/it/10 g[]\OT1/cmr/m/n/10 ]
  []
 
 
@@ -6412,9 +6420,11 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (196.01344pt too wide) detected at line 381
-[][] \OT1/cmr/m/n/10 = [][\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 g
-[]\OT1/cmr/m/n/10 ][\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ]
+Overfull \hbox (314.9208pt too wide) detected at line 381
+[][] \OT1/cmr/m/n/10 = [][2[1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 \OT1/cmr/m/n
+/10 ][](1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )[][][][] \OMS
+/cmsy/m/n/10   \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ][\OML/cmm/
+m/it/10 g[]\OT1/cmr/m/n/10 ]
  []
 
 ! Undefined control sequence.
@@ -7691,30 +7701,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.487 &
-       +[-2y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2+4A_2\beta_1 +2y {\beta...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.488 &
-       +[2y {\beta_1} A_1-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] \:({Q}...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 
 ! LaTeX Error: \begin{equation} on input line 484 ended by \end{split}.
 
@@ -7722,27 +7708,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.489 \end{split}
+l.487 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (865.79993pt too wide) detected at line 490
-[]\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 [2[(1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 
-[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([]
-)] + 4\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ][] ([] \OMS/cmsy/m/n/10  []\OT1/cmr
-/m/n/10 )[]  + [\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 y[]\OT1/cmr
-/m/n/10 ([])\OML/cmm/m/it/10 A[] \OT1/cmr/m/n/10 + 4\OML/cmm/m/it/10 A[][] \OT
-1/cmr/m/n/10 + 2\OML/cmm/m/it/10 y[][] \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 y[][
-][]\OT1/cmr/m/n/10 ([])] ([] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 Q\OT1/cmr/m/n/
-10 )[]  + [2\OML/cmm/m/it/10 y[]A[] \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 y[][][]
-\OT1/cmr/m/n/10 ([])] (\OML/cmm/m/it/10 Q \OMS/cmsy/m/n/10  []\OT1/cmr/m/n/10 
-) + 2\OML/cmm/m/it/10 y[]A[] \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Q \OMS/cmsy/m/n/
-10  \OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 ) + 2\OML/cmm/m/it/10 y[][] \OT1/cmr/m/n
-/10 (\OML/cmm/m/it/10 Q \OMS/cmsy/m/n/10  []\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 
-g
+Overfull \hbox (215.96638pt too wide) detected at line 488
+[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 q \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[] 
+\OT1/cmr/m/n/10 + \OML/cmm/m/it/10 q \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q \OT1
+/cmr/m/n/10 + 4\OML/cmm/m/it/10 q[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[] \OT
+1/cmr/m/n/10 + 2\OML/cmm/m/it/10 q[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q\OT1/
+cmr/m/n/10 )
  []
 
 
@@ -7752,84 +7730,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.492 I
-       n terms of collinear case:
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no I in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no : in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 492--493
-[]
- []
-
-
-! LaTeX Error: Environment split undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.494 \begin{split}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{equation} on input line 493 ended by \end{split}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.496 \end{split}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (25.81705pt too wide) detected at line 497
-\OML/cmm/m/it/10 y \OMS/cmsy/m/n/10 ! \OT1/cmr/m/n/10 0
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.499 \begin{equation}
+l.490 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 499--499
+Overfull \hbox (20.0pt too wide) in paragraph at lines 490--490
 [] 
  []
 
@@ -7840,14 +7747,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.500 \begin{split}
+l.491 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.501 &
+l.492 &
        {\color[RGB]{255,0,0} -g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\gamma}}{{\d...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -7857,7 +7764,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.501 &{\color
+l.492 &{\color
               [RGB]{255,0,0} -g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\gamma}}{{\d...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7865,28 +7772,60 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.493 &
+       4([\beta_1 (1-y)+y\alpha_1(\frac{Q^2}{2p_i \cdot Q})]\:p_i \cdot p_k+...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-! LaTeX Error: \begin{equation} on input line 499 ended by \end{split}.
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.494 &
+       +2(y\:p_i\cdot Q)]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 490 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.502 \end{split}
+l.495 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (242.03528pt too wide) detected at line 503
-[]\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 [2(1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 [
-]\OT1/cmr/m/n/10 ) + 4\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ][] ([] \OMS/cmsy/m/n
-/10  []\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g
+Overfull \hbox (733.58159pt too wide) detected at line 496
+[]\OT1/cmr/m/n/10 [2([\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10  
+ \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([]
+)] \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10
+ + \OML/cmm/m/it/10 y[] Q \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 p[] \OT1/cmr/m/n
+/10 + []\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10  []\OT1/cmr/m/n/10 )[] 4([\OML/c
+mm/m/it/10 []\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 y\OT1/cmr/
+m/n/10 ) + \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([])] \OML/cmm/m/it/10 p[] \OMS
+/cmsy/m/n/10  \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y[] Q \
+OMS/cmsy/m/n/10  \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10   []\OML/cmm/m/it/10 p[
+] \OMS/cmsy/m/n/10  []\OT1/cmr/m/n/10 )[]  + 2(\OML/cmm/m/it/10 y p[] \OMS/cms
+y/m/n/10  \OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 )]
  []
 
 ! Undefined control sequence.
-l.506 \subsection
+l.501 \subsection
                  *{Calculation of the third term}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7901,7 +7840,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.506 \subsection*
+l.501 \subsection*
                   {Calculation of the third term}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7933,7 +7872,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 506--507
+Overfull \hbox (20.0pt too wide) in paragraph at lines 501--502
 []
  []
 
@@ -7944,14 +7883,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.508 \begin{split}
+l.503 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.509 &
+l.504 &
        +g^{{{\gamma}}{{\eta}^{\prime}}}\lbrace [(1-\beta_1)-y\beta_1 (\frac{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -7963,7 +7902,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.511 &
+l.506 &
        +y {\beta_1} A_1 \:{Q}^{{\eta}}{p_i}^{{\delta}}+y {\beta_1} A_2 \:{Q}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -7975,7 +7914,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.512 &
+l.507 &
        -[[(1-\beta_1)^2-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})^2] {p_i}^...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -7987,7 +7926,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.513 &
+l.508 &
        -[A_1\beta_1 {p_i}^{{\eta}}{{p_i}^{{\delta}}}+A_2\beta_1 {p_i}^{{\eta...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -7999,7 +7938,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.514 &
+l.509 &
        +[\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] {p_i}^...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8009,20 +7948,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 507 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 502 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.515 \end{split}
+l.510 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1348.30927pt too wide) detected at line 516
+Overfull \hbox (1348.30927pt too wide) detected at line 511
 \OT1/cmr/m/n/10 +\OML/cmm/m/it/10 g[]\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 [(1 \OMS
 /cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML/cm
 m/m/it/10 y[]\OT1/cmr/m/n/10 ([])][][][][] \OMS/cmsy/m/n/10   \OML/cmm/m/it/10
@@ -8043,7 +7982,7 @@ it/10 y[][][][]Q[]\OMS/cmsy/m/n/10 g[]
  []
 
 ! Undefined control sequence.
-l.518 \subsection
+l.513 \subsection
                  *{Calculation of the fourth term}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8058,7 +7997,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.518 \subsection*
+l.513 \subsection*
                   {Calculation of the fourth term}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8091,7 +8030,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 518--519
+Overfull \hbox (20.0pt too wide) in paragraph at lines 513--514
 []
  []
 
@@ -8102,13 +8041,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.520 \begin{equation}
+l.515 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 520--520
+Overfull \hbox (20.0pt too wide) in paragraph at lines 515--515
 [] 
  []
 
@@ -8119,14 +8058,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.521 \begin{split}
+l.516 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.522 &
+l.517 &
        +g^{{{\eta}^{\prime}}{{\delta}}}\lbrace [(1-\beta_1)-y\beta_1 (\frac{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8138,7 +8077,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.523 &
+l.518 &
        +[2[(1-\beta_1)^2-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})^2]-y {\b...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8150,7 +8089,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.524 &
+l.519 &
        [\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})]] {p_i}^...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8162,7 +8101,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.525 &
+l.520 &
         +[-2y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})-y {\beta_1} (\frac{Q^...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8174,7 +8113,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.526 &
+l.521 &
        +[y {\beta_1} A_1 \:+2y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})]{Q}^...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8184,20 +8123,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 520 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 515 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.528 \end{split}
+l.523 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1130.68994pt too wide) detected at line 529
+Overfull \hbox (1130.68994pt too wide) detected at line 524
 \OT1/cmr/m/n/10 +\OML/cmm/m/it/10 g[]\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 [(1 \OMS
 /cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML/cm
 m/m/it/10 y[]\OT1/cmr/m/n/10 ([]) \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/
@@ -8217,7 +8156,7 @@ T1/cmr/m/n/10 + \OML/cmm/m/it/10 y[][]Q[][]\OMS/cmsy/m/n/10 g[]
  []
 
 ! Undefined control sequence.
-l.531 \subsection
+l.526 \subsection
                  *{Calculation of the fifth term}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8232,7 +8171,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.531 \subsection*
+l.526 \subsection*
                   {Calculation of the fifth term}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8264,7 +8203,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 531--532
+Overfull \hbox (20.0pt too wide) in paragraph at lines 526--527
 []
  []
 
@@ -8275,13 +8214,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.533 \begin{equation}
+l.528 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 533--533
+Overfull \hbox (20.0pt too wide) in paragraph at lines 528--528
 [] 
  []
 
@@ -8292,14 +8231,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.534 \begin{split}
+l.529 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.535 &
+l.530 &
        -g^{{{\gamma}}{{\delta}}}\lbrace[2[(1-\beta_1)-y\beta_1 (\frac{Q^2}{2...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8311,7 +8250,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.536 &
+l.531 &
        [-2y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_1+[(1-\beta_1)^2-y^2 {\be...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8323,7 +8262,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.537 &
+l.532 &
        -[\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] ]\:{p_...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8335,7 +8274,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.538 &
+l.533 &
        [-2y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\: -y^2 {\beta_1}^2 (\fr...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8347,7 +8286,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.539 &
+l.534 &
        +[2y {\beta_1} A_1-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] \:{Q}^...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8357,20 +8296,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 533 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 528 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.540 \end{split}
+l.535 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1170.69353pt too wide) detected at line 541
+Overfull \hbox (1170.69353pt too wide) detected at line 536
 \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 g[]\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 [2[(1 \
 OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML
 /cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([])] \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 2\OML
@@ -8392,7 +8331,7 @@ m/m/it/10 y[]A[] Q[]Q[] \OT1/cmr/m/n/10 + 2\OML/cmm/m/it/10 y[][]Q[][]\OMS/cmsy
  []
 
 ! Undefined control sequence.
-l.543 \subsection
+l.538 \subsection
                  *{Calculation of the sixth term}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8407,7 +8346,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.543 \subsection*
+l.538 \subsection*
                   {Calculation of the sixth term}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8439,7 +8378,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 543--544
+Overfull \hbox (20.0pt too wide) in paragraph at lines 538--539
 []
  []
 
@@ -8450,14 +8389,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 \begin{split}
+l.540 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.546 &
+l.541 &
        -g^{{{\gamma}}{{\eta}}}\lbrace[2[(1-\beta_1)-y\beta_1 (\frac{Q^2}{2p_...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8469,7 +8408,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.547 &
+l.542 &
        [-2y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_1-2[(1-\beta_1)^2-y^2 {\b...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8481,7 +8420,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.548 &
+l.543 &
        -[\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] +A_1\b...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8493,7 +8432,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.549 &
+l.544 &
        [-2y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\:+2y^2 {\beta_1}^2 (\fr...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8505,7 +8444,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.550 &
+l.545 &
        +[2y {\beta_1} A_1+2y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] \:{Q}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8515,20 +8454,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 544 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 539 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.552 \end{split}
+l.547 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1168.27959pt too wide) detected at line 553
+Overfull \hbox (1168.27959pt too wide) detected at line 548
 \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 g[]\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 [2[(1 \
 OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML
 /cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([])] + \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ][
@@ -8549,7 +8488,7 @@ m/m/it/10 y[][][]\OT1/cmr/m/n/10 ([])] \OML/cmm/m/it/10 Q[][][] \OT1/cmr/m/n/10
  []
 
 ! Undefined control sequence.
-l.555 \subsection
+l.550 \subsection
                  *{Calculation of the seventh term}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8564,7 +8503,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.555 \subsection*
+l.550 \subsection*
                   {Calculation of the seventh term}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8598,7 +8537,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 555--556
+Overfull \hbox (20.0pt too wide) in paragraph at lines 550--551
 []
  []
 
@@ -8609,13 +8548,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.557 \begin{equation}
+l.552 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 557--557
+Overfull \hbox (20.0pt too wide) in paragraph at lines 552--552
 [] 
  []
 
@@ -8626,14 +8565,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.558 \begin{split}
+l.553 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.559 &
+l.554 &
        -g^{{{\eta}}{{\delta}}}\lbrace [2[(1-\beta_1)-y\beta_1 (\frac{Q^2}{2p...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8645,7 +8584,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.560 &
+l.555 &
        [4[(1-\beta_1)^2-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})^2]-2y {\b...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8657,7 +8596,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.561 &
+l.556 &
        +2[\beta_1(1-\beta_1)-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})]] {p_i...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8669,7 +8608,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.562 &
+l.557 &
        +[-4y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})-2y {\beta_1} (\frac{Q^...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8681,7 +8620,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.563 &
+l.558 &
        +[-4y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})+2y {\beta_1} A_1]{Q}^{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8691,20 +8630,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 557 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 552 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.564 \end{split}
+l.559 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1189.25056pt too wide) detected at line 565
+Overfull \hbox (1189.25056pt too wide) detected at line 560
 \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 g[]\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 [2[(1 \
 OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML
 /cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([])] + \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ][
@@ -8725,7 +8664,7 @@ m/m/it/10 y[][]Q[][]\OMS/cmsy/m/n/10 g[]
  []
 
 ! Undefined control sequence.
-l.567 \subsection
+l.562 \subsection
                  *{Calculation of the eighth term}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8740,7 +8679,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.567 \subsection*
+l.562 \subsection*
                   {Calculation of the eighth term}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8773,7 +8712,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no m in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 567--568
+Overfull \hbox (20.0pt too wide) in paragraph at lines 562--563
 []
  []
 
@@ -8784,13 +8723,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.569 \begin{equation}
+l.564 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 569--569
+Overfull \hbox (20.0pt too wide) in paragraph at lines 564--564
 [] 
  []
 
@@ -8801,14 +8740,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.570 \begin{split}
+l.565 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.571 &
+l.566 &
        +g^{{{\gamma}}{{\delta}}}\lbrace
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8820,7 +8759,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.573 &
+l.568 &
        +[-4y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_1+2A_1\beta_1 +[\beta_1(...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8832,7 +8771,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.574 &
+l.569 &
        +[(1-\beta_1)^2-y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})^2]] \:{p_i...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8844,7 +8783,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.575 &
+l.570 &
        +[4y {\beta_1} A_1 -y^2 {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})]\:{p_i...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8856,7 +8795,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.576 &
+l.571 &
        +[2A_2\beta_1-4y {\beta_1} (\frac{Q^2}{2p_i \cdot Q}) A_2\:-y^2 {\bet...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8866,20 +8805,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 569 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 564 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.577 \end{split}
+l.572 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1178.47133pt too wide) detected at line 578
+Overfull \hbox (1178.47133pt too wide) detected at line 573
 \OT1/cmr/m/n/10 +\OML/cmm/m/it/10 g[]\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 [4[(1 \O
 MS/cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML/
 cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([])] + 2\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ][
@@ -8899,7 +8838,7 @@ L/cmm/m/it/10 Q[][]\OMS/cmsy/m/n/10 g
  []
 
 ! Undefined control sequence.
-l.580 \subsection
+l.575 \subsection
                  *{Final result}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8914,7 +8853,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.580 \subsection*
+l.575 \subsection*
                   {Final result}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -8932,7 +8871,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 580--581
+Overfull \hbox (20.0pt too wide) in paragraph at lines 575--576
 []
  []
 
@@ -8943,14 +8882,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.582 \begin{split}
+l.577 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.583 &
+l.578 &
        M_1{M_2}^{\dagger}=\frac{g_s^2 C_A}{4y(1-\beta_1) (1-y)\:(p_i \cdot p...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -8962,8 +8901,32 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.585 &
-       \Rightarrow \:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:M_1{M_2...
+l.580 &
+       [2([\alpha_1 (1-y)+y\beta_1(\frac{Q^2}{2p_i \cdot Q})]\:p_i \cdot p_k...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.581 &
+       4([\beta_1 (1-y)+y\alpha_1(\frac{Q^2}{2p_i \cdot Q})]\:p_i \cdot p_k+...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.582 &
+       +2(y\:p_i\cdot Q)]\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -8972,26 +8935,103 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 581 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 576 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.587 \end{split}
+l.583 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (562.98682pt too wide) detected at line 588
-\OML/cmm/m/it/10 M[][][] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 g[]g[]\OT1/cmr/m/
-n/10 [\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2(1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10
- []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 4\OML/cmm/m/it/10 []\
-OT1/cmr/m/n/10 ][] ([] \OMS/cmsy/m/n/10  []\OT1/cmr/m/n/10 )[] []  \OMS/cmsy/m
-/n/10 )                          \OML/cmm/m/it/10 M[][][] \OT1/cmr/m/n/10 = [] 
- []\OML/cmm/m/it/10 g[]g[][] 
+Overfull \hbox (849.03603pt too wide) detected at line 584
+\OML/cmm/m/it/10 M[][][] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 g[]g[][] \OT1/cmr
+/m/n/10 [2([\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/
+m/it/10 y\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([])] \OML/cm
+m/m/it/10 p[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OML/cm
+m/m/it/10 y[] Q \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + []\O
+ML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10  []\OT1/cmr/m/n/10 )[] 4([\OML/cmm/m/it/10
+ []\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ) +
+ \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([])] \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/
+10  \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y[] Q \OMS/cmsy/m
+/n/10  \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10   []\OML/cmm/m/it/10 p[] \OMS/cms
+y/m/n/10  []\OT1/cmr/m/n/10 )[]  + 2(\OML/cmm/m/it/10 y p[] \OMS/cmsy/m/n/10 
+ \OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 )][] 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.586 \begin{equation}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 586--586
+[] 
+ []
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.587 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.588 &
+       M_1{M_2}^{\dagger}=g_s^2\: C_A\:g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\ga...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.589 &
+       +\frac{\beta_1\:Q\cdot p_k}{2y(1-\beta_1) (1-y)\:(p_i \cdot p_k)(p_i ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 586 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.590 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (617.57408pt too wide) detected at line 591
+\OML/cmm/m/it/10 M[][][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 g[] C[] g[]g[]\OT1/
+cmr/m/n/10 [[] + [][]  + [] + [] + []][] 
  []
 
 
@@ -9006,7 +9046,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.593 
+l.596 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9014,8 +9054,8 @@ or  <return>  to continue without it.
 
 [6]
 ! Undefined control sequence.
-l.594 \section
-              {Interference term of inverse $M_1 {M_2}^{\dagger}$}
+l.597 \section
+              {Interference term of inverse ${M_1{M_2}^{\dagger}}^{\prime}$}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9029,8 +9069,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.594 \section{I
-                nterference term of inverse $M_1 {M_2}^{\dagger}$}
+l.597 \section{I
+                nterference term of inverse ${M_1{M_2}^{\dagger}}^{\prime}$}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -9066,7 +9106,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.595 \begin{figure}
+l.598 \begin{figure}
                     [h!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -9077,7 +9117,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.597 \includegraphics
+l.600 \includegraphics
                       [width=0.95\textwidth]{images/GG/M1DaggerggInverse.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9099,7 +9139,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.597 \includegraphics[width=0.95\textwidth]
+l.600 \includegraphics[width=0.95\textwidth]
                                             {images/GG/M1DaggerggInverse.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -9108,7 +9148,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.597 \includegraphics[width=0.95\textwidth]
+l.600 \includegraphics[width=0.95\textwidth]
                                             {images/GG/M1DaggerggInverse.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -9156,24 +9196,729 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.598 \end{figure}
+l.601 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 594--599
+Overfull \hbox (20.0pt too wide) in paragraph at lines 597--602
 []
  []
 
 
-Overfull \hbox (32.54173pt too wide) in paragraph at lines 594--599
-\OML/cmm/m/it/10 M[][][]$
+Overfull \hbox (35.34729pt too wide) in paragraph at lines 597--602
+[][]$
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.604 \begin{equation}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 604--604
+[] 
+ []
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.605 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.606 &
+       M_1{M_2}^{\dagger}=\frac{g_s^2 f^{\:l\:o\:a} f^{\:f^{\prime}\: a^{\pr...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.608 &
+       g_{{{\mu}}{{\mu}^{\prime}}}(g^{{{\tau}^{\prime}}{{\mu}^{\prime}}}(q_j...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 604 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.609 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (595.83151pt too wide) detected at line 610
+\OML/cmm/m/it/10 M[][][] \OT1/cmr/m/n/10 = [][[][][][](\OML/cmm/m/it/10 g[]\OT1
+/cmr/m/n/10 (2\OML/cmm/m/it/10 q \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 q[]\OT1/cmr
+/m/n/10 )[] + \OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[] \OMS/cm
+sy/m/n/10   \OML/cmm/m/it/10 q\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10   \OML/cmm/m
+/it/10 g[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 + \OML/cmm/m/i
+t/10 q\OT1/cmr/m/n/10 )[])[] \OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (\OML/cmm/m/it
+/10 g[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[] \OMS/cmsy/m/n/10   \OML/cmm/m/it/1
+0 q[]\OT1/cmr/m/n/10 )[] + \OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/
+10 q[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/
+10   \OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10
+ + \OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )[]]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.613 \begin{equation}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 613--613
+[] 
+ []
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.614 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.615 &
+       M_1{M_2}^{\dagger}=\frac{g_s^2 f^{\:l\:o\:a} f^{\:f\: a\:n}}{4(q\cdot...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.616 &
+       [g^{{{\eta}}{{\eta}^{\prime}}}(2q+q_i)^{\gamma}(q_j-q_i)^{{\delta}}+g...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.617 &
+       +g^{{{\gamma}}{{\eta}^{\prime}}}(q_i -q)^{\eta}(q_j+q_i)^{{\delta}}+g...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.619 &
+       -g^{{{\gamma}}{{\eta}}}(2q_i +q)^{{\eta}^{\prime}}(q_j-q_i)^{{\delta}}
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 613 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.622 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (1028.69504pt too wide) detected at line 623
+\OML/cmm/m/it/10 M[][][] \OT1/cmr/m/n/10 = [][] [\OML/cmm/m/it/10 g[]\OT1/cmr/m
+/n/10 (2\OML/cmm/m/it/10 q \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 q[]\OT1/cmr/m/n/1
+0 )[](\OML/cmm/m/it/10 q[] \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 q[]\OT1/cmr/m/n/
+10 )[] + \OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 q[] \OT1/cmr/m/
+n/10 + \OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )[](2\OML/cmm/m/it/10 q \OT1/cmr/m/n
+/10 + \OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10   \OML/cmm/m/it/
+10 g[]g[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 q \OT1/cmr/m/n/10 + \OML/cmm/m/it/1
+0 q[]\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 q[
+] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )[]  + \OML/cmm/m/it/10
+ g[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[] \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 q
+\OT1/cmr/m/n/10 )[](\OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 q[]
+\OT1/cmr/m/n/10 )[] + \OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]
+ \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 q\OT1/cmr/m/n/10 )[](2\OML/cmm/m/it/10 q[]
+ \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )[] \OMS/cmsy/m/n/10   \
+OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[] \OMS/cmsy/m/n/10   \OM
+L/cmm/m/it/10 q\OT1/cmr/m/n/10 )[](2\OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 + \OML
+/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )[][]  \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 g[]\
+OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 q\OT1/
+cmr/m/n/10 )[](\OML/cmm/m/it/10 q[] \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 q[]\OT1
+/cmr/m/n/10 )[] \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (2\OML/c
+mm/m/it/10 q[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 q\OT1/cmr/m/n/10 )[](2\OML/cm
+m/m/it/10 q[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )[] + \OML/
+cmm/m/it/10 g[]\OT1/cmr/m/n/10 (2\OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 + \OML/cm
+m/m/it/10 q[]\OT1/cmr/m/n/10 )[](2\OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 + \OML/c
+mm/m/it/10 q\OT1/cmr/m/n/10 )[]][] 
  []
 
 ! Undefined control sequence.
-l.603 \section
+l.625 \section
+              {Parametrization in terms of $ (k_1 \cdot q_i )(q_i \cdot q_k) $}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.625 \section{P
+                arametrization in terms of $ (k_1 \cdot q_i )(q_i \cdot q_k) $}
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 625--626
+[]
+ []
+
+
+Overfull \hbox (16.35886pt too wide) in paragraph at lines 625--626
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (26.14241pt too wide) in paragraph at lines 625--626
+\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10 q[] \OMS/cmsy/m/n/10 
+ []
+
+
+Overfull \hbox (13.2732pt too wide) in paragraph at lines 625--626
+\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )$ 
+ []
+
+
+! LaTeX Error: Environment aligned undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.627 	\begin{aligned}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+<argument> ... \cdot q_i )(k_1 \cdot q_k) {\color 
+                                                  [RGB]{255,0,0} \: \approx ...
+l.628 ...ta_1 (1-y)\:(p_i \cdot Q)(p_i \cdot Q) $}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{equation} on input line 626 ended by \end{aligned}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.629     \end{aligned}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (261.84535pt too wide) detected at line 630
+[]
+ []
+
+! Undefined control sequence.
+l.632 \subsection
+                 *{Calculation of the third term}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.632 \subsection*
+                  {Calculation of the third term}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no * in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 632--633
+[]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.634 \begin{equation}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 634--634
+[] 
+ []
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.635 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.636 &
+       {\color[RGB]{255,0,0} -g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\gamma}}{{\d...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.636 &{\color
+              [RGB]{255,0,0} -g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\gamma}}{{\d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{equation} on input line 634 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.637 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (208.43234pt too wide) detected at line 638
+[]\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 4[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[]
+ \OT1/cmr/m/n/10 + 2\OML/cmm/m/it/10 k[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[
+] \OT1/cmr/m/n/10 + 2\OML/cmm/m/it/10 q[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q
+[]\OMS/cmsy/m/n/10 g
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.640 \begin{equation}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 640--640
+[] 
+ []
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.641 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.642 &
+       M_1{M_2}^{\dagger}=\frac{g_s^2 C_A}{4y\beta_1 (1-y)\:(p_i \cdot p_k)(...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.644 &
+       [4([\alpha_1 (1-y)+y\beta_1(\frac{Q^2}{2p_i \cdot Q})]\:p_i \cdot p_k...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.645 &
+       2([\beta_1 (1-y)+y\alpha_1(\frac{Q^2}{2p_i \cdot Q})]\:p_i \cdot p_k+...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.646 &
+       +2(y\:p_i\cdot Q)]\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 640 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.647 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (824.03607pt too wide) detected at line 648
+\OML/cmm/m/it/10 M[][][] \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 g[]g[][] \OT1/cmr
+/m/n/10 [4([\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/
+m/it/10 y\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([])] \OML/cm
+m/m/it/10 p[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OML/cm
+m/m/it/10 y[] Q \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + []\O
+ML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10  []\OT1/cmr/m/n/10 )[] 2([\OML/cmm/m/it/10
+ []\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ) +
+ \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([])] \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/
+10  \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y[] Q \OMS/cmsy/m
+/n/10  \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10   []\OML/cmm/m/it/10 p[] \OMS/cms
+y/m/n/10  []\OT1/cmr/m/n/10 )[]  + 2(\OML/cmm/m/it/10 y p[] \OMS/cmsy/m/n/10 
+ \OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 )][] 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.650 \begin{equation}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 650--650
+[] 
+ []
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.651 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.652 &
+       {\color[RGB]{255,0,0} -g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\gamma}}{{\d...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+l.652 &{\color
+              [RGB]{255,0,0} -g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\gamma}}{{\d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.653 &
+       2([\beta_1 (1-y)+y\alpha_1(\frac{Q^2}{2p_i \cdot Q})]\:p_i \cdot p_k+...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.654 &
+       +2(y\:p_i\cdot Q)]
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 650 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.655 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (733.58159pt too wide) detected at line 656
+[]\OT1/cmr/m/n/10 [4([\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10  
+ \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([]
+)] \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10
+ + \OML/cmm/m/it/10 y[] Q \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 p[] \OT1/cmr/m/n
+/10 + []\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10  []\OT1/cmr/m/n/10 )[] 2([\OML/c
+mm/m/it/10 []\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 y\OT1/cmr/
+m/n/10 ) + \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([])] \OML/cmm/m/it/10 p[] \OMS
+/cmsy/m/n/10  \OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y[] Q \
+OMS/cmsy/m/n/10  \OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10   []\OML/cmm/m/it/10 p[
+] \OMS/cmsy/m/n/10  []\OT1/cmr/m/n/10 )[]  + 2(\OML/cmm/m/it/10 y p[] \OMS/cms
+y/m/n/10  \OML/cmm/m/it/10 Q\OT1/cmr/m/n/10 )]
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.658 \begin{equation}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 658--658
+[] 
+ []
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.659 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.660 &
+       M_1{M_2}^{\dagger}=g_s^2\: C_A\:g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\ga...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.661 &
+       +\frac{(1-\beta_1)\:Q\cdot p_k}{2y\beta_1 (1-y)\:(p_i \cdot p_k)(p_i ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 658 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.662 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (542.57422pt too wide) detected at line 663
+\OML/cmm/m/it/10 M[][][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 g[] C[] g[]g[]\OT1/
+cmr/m/n/10 [[] + [] + [][]  + [] + []][] 
+ []
+
+! Undefined control sequence.
+l.701 \section
               {$|M^{2}|$}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9188,13 +9933,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.603 \section{$
+l.701 \section{$
                 |M^{2}|$}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (40.83336pt too wide) in paragraph at lines 603--604
+Overfull \hbox (40.83336pt too wide) in paragraph at lines 701--702
 []$\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 M[]\OMS/cmsy/m/n/10 j$ 
  []
 
@@ -9205,13 +9950,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.605 \begin{equation}
+l.703 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 605--605
+Overfull \hbox (20.0pt too wide) in paragraph at lines 703--703
 [] 
  []
 
@@ -9222,14 +9967,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.606 \begin{split}
+l.704 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.607 &
+l.705 &
        |M|^{2}=|{M^{\prime}}_2|^{2}+|{M^{\prime}}_1|^{2}+2RE(M_1{M_2}^{\dagg...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -9241,8 +9986,8 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.608 &
-       {|{M}|}^2 =\frac{g_s^2\: C_A}{y\:(p_i\cdot Q)}[-2g^{{\eta}{{\eta}^{\p...
+l.706 &
+       {|{M}|}^2 =\frac{g_s^2\: C_A}{y\:(p_i\cdot Q)}[2[\epsilon-1]{\beta_1}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -9253,8 +9998,44 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.609 &
-       +2Re(\frac{(-1-\beta_1)\sqrt{1-y}}{2(1-\beta_1)(1-y)}\:\:\frac{g_s^2\...
+l.707 &
+       +2Re(g_s^2\: C_A\:g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\gamma}}{{\delta}...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.708 &
+       +\frac{\beta_1\:Q\cdot p_k}{2y(1-\beta_1) (1-y)\:(p_i \cdot p_k)(p_i ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.709 &
+       +g_s^2\: C_A\:g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\gamma}}{{\delta}}}[\...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.710 &
+       +\frac{(1-\beta_1)\:Q\cdot p_k}{2y\beta_1 (1-y)\:(p_i \cdot p_k)(p_i ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -9263,28 +10044,32 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 605 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 703 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.611 \end{split}
+l.711 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (653.86061pt too wide) detected at line 612
+Overfull \hbox (1853.57654pt too wide) detected at line 712
 \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 M\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/10 = \OMS
 /cmsy/m/n/10 j[][]j[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 j[][]j[] \OT1/cmr/m/n/
-10 + 2\OML/cmm/m/it/10 RE\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 M[][][]\OT1/cmr/m/n/
-10 )[] [][] = [][\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 g[]\OT1/cm
-r/m/n/10 ][\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ] + [][\OMS/cmsy/m/n/10  \OT1/cm
-r/m/n/10 2\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ][\OML/cmm/m/it/10 g[]\OT1/cmr/m/
-n/10 ][]  + 2\OML/cmm/m/it/10 Re\OT1/cmr/m/n/10 ([]  [][\OML/cmm/m/it/10 g[]\OT
-1/cmr/m/n/10 ][\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ])[] 
+10 + 2\OML/cmm/m/it/10 RE\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 M[][][] \OT1/cmr/m/n
+/10 + [][])[] [][] = [][2[\OML/cmm/m/it/10  \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10
+ 1][](1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )[][][][] \OMS/c
+msy/m/n/10   \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ][\OML/cmm/m/
+it/10 g[]\OT1/cmr/m/n/10 ] + [][2[1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 \OT1/c
+mr/m/n/10 ][](1 \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 )[][][][
+] \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ][\OM
+L/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ][]  + 2\OML/cmm/m/it/10 Re\OT1/cmr/m/n/10 (\O
+ML/cmm/m/it/10 g[] C[] g[]g[]\OT1/cmr/m/n/10 [[] + [][]  + [] + [] + []][]  + \
+OML/cmm/m/it/10 g[] C[] g[]g[]\OT1/cmr/m/n/10 [[] + [] + [][]  + [] + []])[] 
  []
 
 
@@ -9294,13 +10079,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.614 \begin{equation}
+l.715 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 614--614
+Overfull \hbox (20.0pt too wide) in paragraph at lines 715--715
 [] 
  []
 
@@ -9311,14 +10096,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.615 \begin{split}
+l.716 \begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.616 &
+l.717 &
        |M|^{2}=|{M^{\prime}}_2|^{2}+|{M^{\prime}}_1|^{2}+2RE(M_1{M_2}^{\dagg...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -9330,8 +10115,32 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.617 &
-       {|{M}|}^2 =(-2+\frac{(-1-\beta_1)\sqrt{1-y}}{2(1-\beta_1)(1-y)})\frac...
+l.718 &
+       {|{M}|}^2 =g_s^2\: C_A\:g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\gamma}}{{\...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.719 &
+       +\frac{\beta_1\:Q\cdot p_k}{y(1-\beta_1) (1-y)\:(p_i \cdot p_k)(p_i \...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.720 &
+       +\frac{2(1-\beta_1)}{y\beta_1 (p_i \cdot Q)}+\frac{(1-\beta_1)(\frac{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -9340,26 +10149,157 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 614 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 715 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.618 \end{split}
+l.721 \end{split}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (542.49352pt too wide) detected at line 619
+Overfull \hbox (1035.81989pt too wide) detected at line 722
 \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 M\OMS/cmsy/m/n/10 j[] \OT1/cmr/m/n/10 = \OMS
 /cmsy/m/n/10 j[][]j[] \OT1/cmr/m/n/10 + \OMS/cmsy/m/n/10 j[][]j[] \OT1/cmr/m/n/
-10 + 2\OML/cmm/m/it/10 RE\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 M[][][]\OT1/cmr/m/n/
-10 )[] [][] = (\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2 + [])[][\OML/cmm/m/it/10 g[]
-\OT1/cmr/m/n/10 ][\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ] + [][\OML/cmm/m/it/10 g
-[]\OT1/cmr/m/n/10 ][\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 ][] 
+10 + 2\OML/cmm/m/it/10 RE\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 M[][][] \OT1/cmr/m/n
+/10 + [][])[] [][] = \OML/cmm/m/it/10 g[] C[] g[]g[]\OT1/cmr/m/n/10 [2[\OML/cmm
+/m/it/10  \OMS/cmsy/m/n/10   \OT1/cmr/m/n/10 1][](1 \OMS/cmsy/m/n/10   \OML/cm
+m/m/it/10 []\OT1/cmr/m/n/10 )[][][][] + [][]  + [] + [][]  + [] + [] + []][] 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.725 \begin{equation}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 725--725
+[] 
+ []
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.726 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.727 &
+       {|{M}|}^2 =g_s^2\: C_A\:g^{{{\eta}}{{\eta}^{\prime}}}g^{{{\gamma}}{{\...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.728 &
+       +\frac{\:Q\cdot p_k}{y\beta_1 (1-y)\:(p_i \cdot p_k)(p_i \cdot Q)}]  \\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 725 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.729 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (490.73276pt too wide) detected at line 730
+[][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 g[] C[] g[]g[]\OT1/cmr/m/n/10 [2[](1 \O
+MS/cmsy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) + [] + [] + [][]  + []][
+] 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.732 \begin{equation}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 732--732
+[] 
+ []
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.733 \begin{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced alignment tab character &.
+l.734 &
+       {|{M}|}^2 =2\frac{g_s^2\: C_A}{y(p_i \cdot Q)}\:g^{{{\eta}}{{\eta}^{\...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{equation} on input line 732 ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.735 \end{split}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (230.7989pt too wide) detected at line 736
+[][] \OT1/cmr/m/n/10 = 2[] \OML/cmm/m/it/10 g[]g[]\OT1/cmr/m/n/10 [[](1 \OMS/cm
+sy/m/n/10   \OML/cmm/m/it/10 []\OT1/cmr/m/n/10 ) + [] + []][] 
  []
 
 )
@@ -9370,10 +10310,10 @@ Overfull \hbox (542.49352pt too wide) detected at line 619
 
  
 Here is how much of TeX's memory you used:
- 17 strings out of 493308
- 253 string characters out of 3138722
- 98010 words of memory out of 3000000
- 3665 multiletter control sequences out of 15000+200000
+ 20 strings out of 493308
+ 275 string characters out of 3138722
+ 100169 words of memory out of 3000000
+ 3668 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  20i,15n,14p,472b,136s stack positions out of 5000i,500n,10000p,200000b,50000s
