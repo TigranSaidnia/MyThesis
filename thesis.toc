@@ -2,35 +2,36 @@
 \contentsline {chapter}{Table of contents}{3}{chapter*.2}
 \contentsline {section}{\numberline {0.1}Brief history of particle physics}{1}{section.0.1}
 \contentsline {section}{\numberline {0.2}Standard model}{2}{section.0.2}
-\contentsline {section}{\numberline {0.3}Old parametrisation}{2}{section.0.3}
-\contentsline {section}{\numberline {0.4}new kinematic}{3}{section.0.4}
-\contentsline {subsection}{\numberline {0.4.1}useful relations}{3}{subsection.0.4.1}
-\contentsline {section}{\numberline {0.5}Single emission part}{5}{section.0.5}
-\contentsline {section}{\numberline {0.6}Common scalar products}{6}{section.0.6}
-\contentsline {section}{\numberline {0.7}Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_k) $}{9}{section.0.7}
-\contentsline {section}{\numberline {0.8}Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_i) $}{9}{section.0.8}
-\contentsline {section}{\numberline {0.9}Altarelli-Parisi splitting functions}{10}{section.0.9}
-\contentsline {section}{\numberline {0.10}Colour factor calculation}{11}{section.0.10}
-\contentsline {chapter}{\numberline {1}Quark antiquark gluon emission kernel}{13}{chapter.1}
-\contentsline {section}{\numberline {1.1}qg-$\mathaccentV {bar}016{q}$}{14}{section.1.1}
-\contentsline {section}{\numberline {1.2}$\mathaccentV {bar}016{q}$g-q}{19}{section.1.2}
-\contentsline {section}{\numberline {1.3}$M_1 {M_2}^{\dagger }$}{22}{section.1.3}
-\contentsline {section}{\numberline {1.4}$|M^{2}|$}{25}{section.1.4}
-\contentsline {chapter}{\numberline {2}Gluon gluon gluon emission kernel}{27}{chapter.2}
-\contentsline {section}{\numberline {2.1}Gluon-Emitter Bubble}{28}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}One-loop corrections to the gluon self-energy diagram(Gluon-Emitter Bubble)}{30}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Gluon-Spectator Bubble}{38}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}One-loop corrections to the gluon self-energy diagram (Gluon-Spectator Bubble)}{39}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Interference term $M_1 {M_2}^{\dagger }$}{39}{section.2.3}
-\contentsline {section}{\numberline {2.4}Interference term of inverse ${M_1{M_2}^{\dagger }}^{\prime }$}{45}{section.2.4}
-\contentsline {section}{\numberline {2.5}Parametrization in terms of $ (k_1 \cdot q_i )(q_i \cdot q_k) $}{45}{section.2.5}
-\contentsline {section}{\numberline {2.6}$|M^{2}|$}{46}{section.2.6}
-\contentsline {chapter}{\numberline {3}Quark gluon quark emission kernel}{48}{chapter.3}
-\contentsline {section}{\numberline {3.1}Quark loop}{49}{section.3.1}
-\contentsline {section}{\numberline {3.2}Spectator Quark loop}{51}{section.3.2}
-\contentsline {section}{\numberline {3.3}Interference term}{52}{section.3.3}
-\contentsline {section}{\numberline {3.4}$|M^{2}|$}{52}{section.3.4}
-\contentsline {chapter}{\numberline {4}Gluon quark quark emission kernel}{53}{chapter.4}
-\contentsline {section}{\numberline {4.1}$ M_1 $}{54}{section.4.1}
-\contentsline {section}{\numberline {4.2}$ M_2 $}{55}{section.4.2}
-\contentsline {section}{\numberline {4.3}$ M1{M_2}^{\dagger } $}{56}{section.4.3}
+\contentsline {section}{\numberline {0.3}Quantum chromo dynamics}{2}{section.0.3}
+\contentsline {section}{\numberline {0.4}Old parametrisation}{4}{section.0.4}
+\contentsline {section}{\numberline {0.5}new kinematic}{4}{section.0.5}
+\contentsline {subsection}{\numberline {0.5.1}useful relations}{5}{subsection.0.5.1}
+\contentsline {section}{\numberline {0.6}Single emission part}{7}{section.0.6}
+\contentsline {section}{\numberline {0.7}Common scalar products}{8}{section.0.7}
+\contentsline {section}{\numberline {0.8}Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_k) $}{11}{section.0.8}
+\contentsline {section}{\numberline {0.9}Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_i) $}{11}{section.0.9}
+\contentsline {section}{\numberline {0.10}Altarelli-Parisi splitting functions}{12}{section.0.10}
+\contentsline {section}{\numberline {0.11}Colour factor calculation}{13}{section.0.11}
+\contentsline {chapter}{\numberline {1}Quark antiquark gluon emission kernel}{15}{chapter.1}
+\contentsline {section}{\numberline {1.1}qg-$\mathaccentV {bar}016{q}$}{16}{section.1.1}
+\contentsline {section}{\numberline {1.2}$\mathaccentV {bar}016{q}$g-q}{21}{section.1.2}
+\contentsline {section}{\numberline {1.3}$M_1 {M_2}^{\dagger }$}{24}{section.1.3}
+\contentsline {section}{\numberline {1.4}$|M^{2}|$}{27}{section.1.4}
+\contentsline {chapter}{\numberline {2}Gluon gluon gluon emission kernel}{29}{chapter.2}
+\contentsline {section}{\numberline {2.1}Gluon-Emitter Bubble}{30}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}One-loop corrections to the gluon self-energy diagram(Gluon-Emitter Bubble)}{32}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Gluon-Spectator Bubble}{40}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}One-loop corrections to the gluon self-energy diagram (Gluon-Spectator Bubble)}{41}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Interference term $M_1 {M_2}^{\dagger }$}{41}{section.2.3}
+\contentsline {section}{\numberline {2.4}Interference term of inverse ${M_1{M_2}^{\dagger }}^{\prime }$}{47}{section.2.4}
+\contentsline {section}{\numberline {2.5}Parametrization in terms of $ (k_1 \cdot q_i )(q_i \cdot q_k) $}{47}{section.2.5}
+\contentsline {section}{\numberline {2.6}$|M^{2}|$}{48}{section.2.6}
+\contentsline {chapter}{\numberline {3}Quark gluon quark emission kernel}{50}{chapter.3}
+\contentsline {section}{\numberline {3.1}Quark loop}{51}{section.3.1}
+\contentsline {section}{\numberline {3.2}Spectator Quark loop}{53}{section.3.2}
+\contentsline {section}{\numberline {3.3}Interference term}{54}{section.3.3}
+\contentsline {section}{\numberline {3.4}$|M^{2}|$}{54}{section.3.4}
+\contentsline {chapter}{\numberline {4}Gluon quark quark emission kernel}{55}{chapter.4}
+\contentsline {section}{\numberline {4.1}$ M_1 $}{56}{section.4.1}
+\contentsline {section}{\numberline {4.2}$ M_2 $}{57}{section.4.2}
+\contentsline {section}{\numberline {4.3}$ M1{M_2}^{\dagger } $}{58}{section.4.3}
