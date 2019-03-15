@@ -21,7 +21,9 @@ This changed when particle accelerators were able to generate particles in colli
 However, we can only analyse such exotic particles in detail by increasing the luminosity and procession of the particle accelerators at the nucleus. 
 The discovery of the neutron by Chadwick (1932) showed that atomic nuclei are made up of protons and neutrons. It was also clear that, in addition to gravitation and the electromagnetic force,there should exist two short-range forces in nature: a strong force which binds the nucleons together and a weak force which is responsible for radioactive.
 In the meantime it was agreed that a new theory was needed for the classification and grouping of this particle zoo. This is how the current standard model came into being.
-
+The SLAC experiments showed that the electrons were scattering quasi-free point-like constituents inside the proton which were
+soon identified with quarks. This was the first time that quarks
+were shown to be dynamical entities, instead of bookkeeping devices to classify the hadrons (Gell-Mann’s eightfold way).
 \section{Standard model}
 
 \section{Quantum chromo dynamics}
@@ -49,7 +51,7 @@ Otherwise, it's clear meanwhile that nucleons are made up of quark and gluons.
 Whereby, the gluons are the exchange bosons for this short interaction.
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.7]{images/Neutron.png}
+\includegraphics[scale=0.7]{images/Intro/Neutron.png}
 \caption{That's a schematic picture of neutron structure. at the left side of the diagram is the low-resolution to see. The 3 quarks picture allows us to interpretate the quantum numbers of the neutron in the valence band.
 We also obtain a high-resolution picture for a large $ Q^2 $. Here we have a lot of gluons (gluon sea) and quarks pair.\\ 
 The interesting thing is, it doesn't matter in which energy scale we observe the quantum number of a neutron, because it is always the same.}
@@ -60,7 +62,7 @@ This effect can be proved by the running coupling and anti screening in QCD.
 For the calculation the propagator loop correction in QCD we have to consider both quark loops (negative contribution $ \rightarrow $ screening) and gluon loops (positive contribution $ \rightarrow $ anti screening). 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.7]{images/quarkGluonPop.png}
+\includegraphics[scale=0.7]{images/Intro/quarkGluonPop.png}
 \caption{Running coupling compared for QED, with a positive and QCD with a negative beta function}
 \end{figure}
 
@@ -83,12 +85,12 @@ e.g. $ -(\beta_0 \alpha^2) <0 $ will be negative, which is actually the opposite
 with decreasing $ Q^2 $ (increasing distance), In QED vice versa.
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.7]{images/QCDRunningCoupling.png}
+\includegraphics[scale=0.7]{images/Intro/QCDRunningCoupling.png}
 \end{figure}
 
 
 
-Asymptotic freedom allows us to use perturbation theory.
+Asymptotic freedom allows us to use perturbation theory \footnote{Actually there is need of two more things, if we want to make the connection between theory and experiment: either infrared safety or factorisation. That will be discussed in the next chapter}.
 Quarks have not yet been observed as free particles. With increasing separation it will be easier to produce quark-antiquark pair than to isolate quark because the coupling between them too strong is. This mechanism is called confinement. Confinement It has been confirmed in Lattice QCD, but not yet mathematically. It belongs to  nonperturbative theory.
 Quarks prefer to bind into hadrons what can be classified to baryons with three quarks state and mesons with a quark-antiquark state.
 As we know, the wave function of fermions must be antisymmetric according to Pauli exclusion principle under the exchange of two quarks. Interestingly, there are resonance states with spin $ \frac{3}{2} $ like $ {\Delta}^{++} $.
@@ -105,7 +107,7 @@ The total wave function for each particle can be expressed in terms of:
 Now we can compute all possible States in regard to colour With Young Tableaux.
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.7]{images/Young.png}
+\includegraphics[scale=0.7]{images/Intro/Young.png}
 \end{figure}
 
 After using The same procedure for SU(2) and SU(6) for spins and flavours of the three quarks we will get:
@@ -150,6 +152,82 @@ Here i,j are color indices in the fundamental representation, a  color index in 
 \end{split}
 \end{equation}
 
+\section{Colour factor calculation}
+fundamental representation in $ SU(2) $ and $ SU(3) $
+\begin{equation}
+\begin{split}
+T^a = \tau^a \equiv \frac{\sigma ^2}{2}\:\:\:\:\:\:\: \mathit{with\: Pauli\: matrices\: \sigma ^a}\\
+T^a = \vartheta^a \equiv \frac{\lambda ^2}{2} \:\:\:\:\:\:\: \mathit{with\: Gell-Mann\: matrices\: \lambda ^a}
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+\lambda ^1 =\begin{pmatrix} 0& 1 &\\ 1& 0 &\\ & & 0 \end{pmatrix},\:\:\: \lambda ^2 =\begin{pmatrix} 0& -i &\\ i& 0 &\\ & & 0 \end{pmatrix}, 
+\:\:\: \lambda ^3 =\begin{pmatrix} 1&  &\\ & -1 &\\ & & 0 \end{pmatrix}, \:\:\: \lambda ^4 =\begin{pmatrix} &  &1\\ & 0&\\1 & &  \end{pmatrix}\\\
+\lambda ^5 =\begin{pmatrix} &  &-i\\ & 0 &\\ i& &  \end{pmatrix},\:\:\: \lambda ^6 =\begin{pmatrix} 0&  &\\ & 0 &1\\ & 1& 0 \end{pmatrix}, 
+\:\:\: \lambda ^7 =\begin{pmatrix} 0&  &\\ & 0 &-i\\ & i& 0 \end{pmatrix}, \:\:\: \lambda ^8 =\frac{1}{\sqrt3}\begin{pmatrix} 1&  &\\ & 1&\\ & &-2  \end{pmatrix}
+\end{split}
+\end{equation}
+As we can see, $ {\lambda}^3 $ and $  {\lambda}^8 $ are diagonal.
+These generators satisfy:
+\begin{equation}
+[T^a, T^b] = i \epsilon^{abc} T^c
+\end{equation}
+
+The most common convention for the normalization of the generators in physics is:
+\begin{equation}
+\displaystyle\sum\limits_{c,d} f^{acd} f^{bcd} = N \delta^{ab}
+\end{equation}
+The main relation we will use later for SU(N):
+\begin{equation}
+tr(T^a T^b)= {T_{ij}}^a {T_{ji}}^b = T_F \delta^{ab}
+\end{equation}
+\begin{equation}
+\displaystyle\sum\limits_{a} (T^a T^a) = C_F \delta^{ij}
+\end{equation}
+\begin{equation}
+f^{acd} f^{bcd} = C_A \delta^{ab}
+\end{equation}
+With $  T_F = \frac{1}{2} $ , $ C_A = N $ and $ C_F = \frac{N^2 -1}{2N} $.
+
+\begin{equation}
+f^{abc} = -2i tr(T^a[T^b, T^c])
+\end{equation}
+\begin{equation}
+d^{abc} = 2 tr(T^a{T^b, T^c})
+\end{equation}
+\begin{equation}
+T^a T^b = \frac{1}{2} (\frac{1}{N} \delta_{ab}+(d^{abc} + if^{abc})T^c)
+\end{equation}
+\begin{equation}
+tr(T^a T^b T^c)= \frac{1}{4} (d^{abc}+if^{abc})
+\end{equation}
+\begin{equation}
+tr(T^a T^b T^a T^c)= \frac{-1}{4N} \delta_{bc}
+\end{equation}
+\begin{equation}
+f^{acd} f^{bcd}= N \delta^{ab}
+\end{equation}
+\begin{equation}
+f^{acd} d^{bcd}= 0
+\end{equation}
+\begin{equation}
+f^{ade} f^{bef} f^{cfd}= \frac{N}{2} f^{abc}
+\end{equation}
+Fierz identity:
+\begin{equation}
+\displaystyle\sum\limits_{a} {T_{ij}}^a {T_{kl}}^a = \frac{1}{2}(\delta_{il}\delta_{kj}-\frac{1}{N}\delta_{ij}\delta_{kl})
+\end{equation}
+
+%Casimir operators:
+%\begin{equation}
+%\begin{split}
+%(T^a T^b)_{ij} = {T_{ik}}^a {T_{kj}}^a = \frac{1}{2}(\delta_{ij}\delta_{kk}-\frac{1}{N}\delta_{ik}\delta_{kj})\\
+%\frac{1}{2}(\delta_{ij}N-\frac{1}{N}\delta_{ij})=\delta_{ij}\frac{N^2-1}{2N}=C_F \:\delta_{ij}\\ 
+%\overset{in \:SU(3)}{=} \quad\begin{pmatrix} 4/3\:|r\bar{r}>& &\\ &4/3\:|g\bar{g}> & \\ & & 4/3\:|b\bar{b}>}\end{pmatrix}
+%\end{split}
+%\end{equation}
 
 
 \newpage
