@@ -151,12 +151,12 @@ Here i,j are color indices in the fundamental representation, a  color index in 
 {F^a}_{\mu \nu}= \partial_\mu {A^a}_{\nu}-\partial_\nu {A^a}_{\mu}-g_s f_{abc} {A^b}_{\mu} {A^c}_{\nu}
 \end{split}
 \end{equation}
-
+\newpage
 \section{Colour factor calculation}
-fundamental representation in $ SU(2) $ and $ SU(3) $
+In this section we will calculate the Casimir operators of the respective diagrams for later goals.
+Fundamental representation in $ SU(3) $ are given by:
 \begin{equation}
 \begin{split}
-T^a = \tau^a \equiv \frac{\sigma ^2}{2}\:\:\:\:\:\:\: \mathit{with\: Pauli\: matrices\: \sigma ^a}\\
 T^a = \vartheta^a \equiv \frac{\lambda ^2}{2} \:\:\:\:\:\:\: \mathit{with\: Gell-Mann\: matrices\: \lambda ^a}
 \end{split}
 \end{equation}
@@ -170,15 +170,80 @@ T^a = \vartheta^a \equiv \frac{\lambda ^2}{2} \:\:\:\:\:\:\: \mathit{with\: Gell
 \end{split}
 \end{equation}
 As we can see, $ {\lambda}^3 $ and $  {\lambda}^8 $ are diagonal.
-These generators satisfy:
-\begin{equation}
-[T^a, T^b] = i \epsilon^{abc} T^c
-\end{equation}
+These generators satisfy:\\ 
+\\
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{images/Intro/Casimir.png}
+\end{figure}
+Or in the adjoint representation:\\
+\\
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{images/Intro/CasimirAdj.png}
+\end{figure}
 
 The most common convention for the normalization of the generators in physics is:
 \begin{equation}
 \displaystyle\sum\limits_{c,d} f^{acd} f^{bcd} = N \delta^{ab}
 \end{equation}
+One of the most important equation for the colour factor calculation is the Jaccobi-Identity:
+\begin{equation}
+\begin{split}\:
+[T^a, [T^b , T^c]]+[T^c, [T^a , T^b]]+[T^b, [T^c , T^a]]=0
+\end{split}
+\end{equation}
+If we write this in terms of the structure constant, we'll get:
+\begin{equation}
+\begin{split}\:
+f^{axd} f^{bcx} +  f^{cxd} f^{abx} +f^{bxd} f^{cax} =0
+\end{split}
+\end{equation}
+So we are able to compute:
+\begin{equation}
+f^{abc} = -2i\: tr(T^a[T^b, T^c])
+\end{equation}
+generalize to:
+\begin{equation}
+f^{abc}f^{xcd} = 4i\: tr(T^a[T^b, [T^c, T^d]])
+\end{equation}
+
+With this relations we can calculate all Casimir operators:\\
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{images/Intro/Casimir1.png}
+\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{images/Intro/Casimir2.png}
+\end{figure}
+\pagebreak
+\\
+Which means the charge of gluon is twice a quark because:
+\begin{equation}
+ C_A = N_c =2C_F \sim 2(\frac{N_C}{2}) 
+\end{equation}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{images/Intro/Casimir3.png}
+\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{images/Intro/Casimir4.png}
+\end{figure}
+
+
+One of the most important relation in this case is the Fierz identity. It shows the difference between QED and QCD!
+\begin{equation}
+\displaystyle\sum\limits_{a} {T_{ij}}^a {T_{kl}}^a = \frac{1}{2}(\delta_{il}\delta_{kj}-\frac{1}{N}\delta_{ij}\delta_{kl})
+\end{equation}
+Graphically it means:
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{images/Intro/Fritz.png}
+\end{figure}
+The charge transfer in QED takes place along the Fermion line because photons cannot transport charges. On the other hand, the gluons can transfer color charges because they have color charges themselves.  
+
 The main relation we will use later for SU(N):
 \begin{equation}
 tr(T^a T^b)= {T_{ij}}^a {T_{ji}}^b = T_F \delta^{ab}
@@ -191,43 +256,6 @@ f^{acd} f^{bcd} = C_A \delta^{ab}
 \end{equation}
 With $  T_F = \frac{1}{2} $ , $ C_A = N $ and $ C_F = \frac{N^2 -1}{2N} $.
 
-\begin{equation}
-f^{abc} = -2i tr(T^a[T^b, T^c])
-\end{equation}
-\begin{equation}
-d^{abc} = 2 tr(T^a{T^b, T^c})
-\end{equation}
-\begin{equation}
-T^a T^b = \frac{1}{2} (\frac{1}{N} \delta_{ab}+(d^{abc} + if^{abc})T^c)
-\end{equation}
-\begin{equation}
-tr(T^a T^b T^c)= \frac{1}{4} (d^{abc}+if^{abc})
-\end{equation}
-\begin{equation}
-tr(T^a T^b T^a T^c)= \frac{-1}{4N} \delta_{bc}
-\end{equation}
-\begin{equation}
-f^{acd} f^{bcd}= N \delta^{ab}
-\end{equation}
-\begin{equation}
-f^{acd} d^{bcd}= 0
-\end{equation}
-\begin{equation}
-f^{ade} f^{bef} f^{cfd}= \frac{N}{2} f^{abc}
-\end{equation}
-Fierz identity:
-\begin{equation}
-\displaystyle\sum\limits_{a} {T_{ij}}^a {T_{kl}}^a = \frac{1}{2}(\delta_{il}\delta_{kj}-\frac{1}{N}\delta_{ij}\delta_{kl})
-\end{equation}
-
-%Casimir operators:
-%\begin{equation}
-%\begin{split}
-%(T^a T^b)_{ij} = {T_{ik}}^a {T_{kj}}^a = \frac{1}{2}(\delta_{ij}\delta_{kk}-\frac{1}{N}\delta_{ik}\delta_{kj})\\
-%\frac{1}{2}(\delta_{ij}N-\frac{1}{N}\delta_{ij})=\delta_{ij}\frac{N^2-1}{2N}=C_F \:\delta_{ij}\\ 
-%\overset{in \:SU(3)}{=} \quad\begin{pmatrix} 4/3\:|r\bar{r}>& &\\ &4/3\:|g\bar{g}> & \\ & & 4/3\:|b\bar{b}>}\end{pmatrix}
-%\end{split}
-%\end{equation}
 
 
 \newpage
