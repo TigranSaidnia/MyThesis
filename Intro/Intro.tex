@@ -25,6 +25,18 @@ The SLAC experiments showed that the electrons were scattering quasi-free point-
 soon identified with quarks. This was the first time that quarks
 were shown to be dynamical entities, instead of bookkeeping devices to classify the hadrons (Gell-Mann’s eightfold way).
 \section{Standard model}
+%The strong interactions can be described as an SU(3) local gauge theory, where the
+%\charges" are denoted as colour. They are embedded in the Standard Model (SM) of
+%elementary particle physics, with underlying gauge group SU(3)  SU(2)L  U(1)Y .
+%The particle content of the SM as we know it right now is shown in Fig. 2.
+%The underlying structure of gauge theories can be described by Lie groups. QED
+%is an Abelian gauge theory because the underlying group is the Abelian group U(1).
+%For QCD, the underlying group is the non-Abelian group SU(Nc), where Nc is the
+%number of colours (we believe that in Nature Nc = 3, but the concept is more general).
+%The non-Abelian group structure implies that gluons interact with themselves (while
+%photons do not), as we will see shortly. Non-Abelian gauge theories are also called
+%Yang-Mills theories.
+
 
 \section{Quantum chromo dynamics}
 
@@ -104,7 +116,7 @@ The total wave function for each particle can be expressed in terms of:
 &\:\:\:\:\:\:\:O(3) \:\:\:\:\: SU(2)\:\:\:\: SU(3)\:\:\:\:\: SU(6)\\
 \end{split}
 \end{equation}
-Now we can compute all possible States in regard to colour With Young Tableaux.
+Now we can compute all possible States in regard to colour With Young Tableaux. One uses group theory methods, for instance the Young Tableaux technique, to decompose products of irreducible representations into sums.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{images/Intro/Young.png}
@@ -120,7 +132,27 @@ After using The same procedure for SU(2) and SU(6) for spins and flavours of the
 \end{equation}
 
 As we can see, the total wave function is most complicated in the QCD area. That's the reason why the Lagrangian of QCD is always given in the short form. I'll get to the bottom of Lagrangian in QCD later. 
+Before the QCD is formulated as a gauge theory, an experiment should be pointed out which makes clear why there is an additional degree of freedom in the QCD and why there is no
+U(1)-symmetry here. Looking at the electron-positron scattering again, it is important to realize that not only $ \mu^+ \mu^- $, but also $ e^+ e^- $,$ \tau^+ \tau^- $ and also $ q \bar{q} $ can arise, where the quark pairs fragment into hadrons. For the ratio:
+\begin{equation}
+\begin{split}
+R = \frac{\sigma(e^+e^- \rightarrow Hadronnen)}{\sigma(e^+e^- \rightarrow \mu^+ \mu^-)}
+\end{split}
+\end{equation}
 
+one would expect, due to the fact that the coupling takes place over the charge, that only the sum over the square of the quark charges (because $  {e^2}_\mu= 1$) contributes. However, there is an additional factor $N_C$ that can be determined experimentally
+\begin{equation}
+\begin{split}
+R = N_C \sum_q e^2_q
+\end{split}
+\end{equation}
+Without this factor one would expect for $ u, d, s $, $ u, d, s, c $ and $ u, d, s, c, b $ Respectively $ \frac{2}{3}, \frac{10}{9}, \frac{11}{10} $ The experiment showed a third of the respective results though (i.e. $ N_C =3 $):
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{images/Intro/Ratio.png}
+\end{figure}
+%https://web.physik.rwth-aachen.de/~hebbeker/lectures/sem0607/popenda_ausarbeitung.pdf
 \section{QCD Lagrangian}
 
 QCD like QED and the weak interaction theory is described by representations of a symmetry group. From the condition that the Lagrangian must be invariant under arbitrary global and local symmetry transformations (Noether’s theorem) follows the interactions terms.
@@ -145,12 +177,28 @@ To quantize QCD theory is usually used the Faddeev-Popov in the path integral to
 \end{split}
 \end{equation}
 
-Here i,j are color indices in the fundamental representation, a  color index in the adjoint representation of SU(3) respectively. f labels the six flavours of quarks. With The field-strength tensor for QCD by:
+Here i,j are color indices in the fundamental representation, a  color index in the adjoint representation of SU(3) respectively. f labels the six flavours of quarks. $ g_s $ describes the strong coupling constant and $ {A^a}_{\mu} $ is the gluon field and it corresponds to anon-abelian gauge theory with structure constants $ f^{abc} $. With The field-strength tensor for QCD by:
 \begin{equation}
 \begin{split}
 {F^a}_{\mu \nu}= \partial_\mu {A^a}_{\nu}-\partial_\nu {A^a}_{\mu}-g_s f_{abc} {A^b}_{\mu} {A^c}_{\nu}
 \end{split}
 \end{equation}
+
+\begin{figure}[h!]
+\hspace{-1cm}
+\includegraphics[scale=0.5]{images/Intro/Lfree.png}
+\end{figure}
+
+
+It can be shown that the above Lagrangian is invariant under the following $ SU(3) $ gauge transformations:
+\begin{equation}
+\begin{split}
+&{\psi}^{\prime}(x) \rightarrow exp(i \:\eta_a(x) \:T^a) \:\psi(x)\\
+&{D}^{\prime} \rightarrow \partial_\mu+ig_sT_a\: {{A}^{\prime}}^a_{\mu } \\
+&{{A}^{\prime}}^a_{\mu }\rightarrow  {A^a}_{\mu}- \frac{1}{g_s}\partial_\mu \eta^a(x)+ f^{abc} \eta_{b}(x) {A_c}_{\nu}(x)
+\end{split}
+\end{equation}
+
 \newpage
 \section{Colour factor calculation}
 In this section we will calculate the Casimir operators of the respective diagrams for later goals.
