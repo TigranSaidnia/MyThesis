@@ -62,7 +62,16 @@ One can show all possibilities for three partons through a triangle:
 \includegraphics[width=0.85\textwidth]{images/Intro/triangle.png}
 \end{figure}
 
-fortunately, According to KLN-Theorem one can eliminate the real singularities by adding the virtual contributions to them. The sum over real and virtual contributions in the phase space integral must be finite. 
+fortunately, According to KLN-Theorem, IR singularities must cancel when summing the transition
+rate over all degenerate (initial and nal) states
+The sum of the integrals $ int_R $ and $ int_V $ above is finite. However, this is not true for the
+individual contributions. The real part contains divergences due to soft and collinear
+radiation of massless particles. While $ M_real $ itself is a tree level amplitude and thus
+finite, the divergences show up upon integration over the phase space $ \int d \phi_3 $. In
+R
+V , the
+phase space is the same as for the Born amplitude, but the loop integrals contained in
+$ M_virt $ contain IR singularities.
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/Intro/virtual.png}
@@ -71,34 +80,39 @@ We will use deep inelastic scattering (DIS) to show how the infrared singulariti
 
 \section{Subtraction method}
 \begin{equation}
-|A|^2 = |{A^{(0)}}_n|^2 +  |{A^{(0)}}_{n+1}|^2+ 2Re({A^{(0)*}}_{n}{A^{(1)}}_{n})
+|A|^2 = |{A^{(0)}}_m|^2 +  |{A^{(0)}}_{m+1}|^2+ 2Re({A^{(0)*}}_{n}{A^{(1)}}_{m})
 \end{equation}
-Whereby, $ |{A^{(0)}}_n|^2 $ is the tree level contribution from Lo and has no divergences, $ |{A^{(0)}}_{n+1}|^2+ 2Re({A^{(0)*}}_{n}{A^{(1)}}_{n}) $ comes from the NLO and they are separately divergent. The problem in this case is that Integrations cannot be combined due to different phase space dimensions:
+Whereby, $ |{A^{(0)}}_m|^2 $ is the tree level contribution (Born sector) from Lo and has no divergences, $ |{A^{(0)}}_{m+1}|^2+ 2Re({A^{(0)*}}_{m}{A^{(1)}}_{m}) $ comes from the NLO and they are separately divergent. The problem in this case is that Integrations cannot be combined due to different phase space dimensions:
 
 \begin{equation}
-\sigma^{NLO} = \int_{n+1} \partial \sigma^R +\int_{n} \partial \sigma^V
+\sigma^{NLO} = \int_{m+1} \partial \sigma^R +\int_{m} \partial \sigma^V
 \end{equation}
-To tackle this problem one can use the subtraction method in that way one add and subtract the terms $ \partial \sigma^A $ to the integral. $ \partial \sigma^A $ approximates soft and collinear singularities of $ \partial \sigma^R  $.
+The real and virtual contributions are both IR divergent and need to regularize in $ d = 4-2\epsilon $ dim.
+To tackle this problem one can use the subtraction method in that way one add and subtract a local counter term $ \partial \sigma^A $ with same singularity structure as terms $ \partial \sigma^R $ to the integral. $ \partial \sigma^A $ approximates soft and collinear singularities of $ \partial \sigma^R  $.
 \begin{equation}
-\sigma^{NLO} = \int_{n+1} [\partial \sigma^R -\partial \sigma^A]+\int_{n} [\partial \sigma^V+\int_1 \partial \sigma^A]
+\sigma^{NLO} = \int_{m+1} [\partial \sigma^R -\partial \sigma^A]+\int_{m} [\partial \sigma^V+\int_1 \partial \sigma^A]
 \end{equation}
-
+In this case, we can safely set $ \epsilon \rightarrow 0 $ for $ \partial \sigma^R |_{\epsilon \rightarrow 0}  -\partial \sigma^A |_{\epsilon \rightarrow 0} $ and run the integral numerically in 4-dim. On the other side, integrate over one-parton PS analytically
+explicitly cancel poles and then set $ \epsilon \rightarrow 0 $.
+\begin{equation}
+\sigma^{NLO} = \int_{m+1} [\partial \sigma^R |_{\epsilon \rightarrow 0}  -\partial \sigma^A |_{\epsilon \rightarrow 0}]+\int_{m} [\partial \sigma^V+\int_1 \partial \sigma^A]_{\epsilon \rightarrow 0}
+\end{equation}
 The virtual contribution must be UV-finite:
 \begin{equation}
-\int_{n} [\partial \sigma^V= \int_n [\int_{loop} \partial {\sigma^V}_{bare} + {\sigma^V}_{Counter\:term}]
+\int_{m} partial \sigma^V= \int_m [\int_{loop} \partial {\sigma^V}_{bare} + {\sigma^V}_{Counter\:term}]
 \end{equation}
-The addition of $\int_1 \partial \sigma^A$ to the $ \int_{n} [\partial \sigma^V $ ensures that IR poles are cancelled.
+The addition of $\int_1 \partial \sigma^A$ to the $ \int_{m} \partial \sigma^V $ ensures that IR poles are cancelled.
 The bare and counter contribution are separately divergent and have also different integral dimensions. One can use the same idea with the subtraction method to solve this problem:
 \begin{equation}
-\int_{n} \partial \sigma^V +\int_{loop} \partial {\sigma^L}-\int_{loop} \partial {\sigma^L}= \int_n \int_{loop}[ \partial {\sigma^V}_{bare}- \partial {\sigma^L}] + \int_n[{\sigma^V}_{Counter\:term}+ \int_{loop} \partial {\sigma^L}]
+\int_{m} \partial \sigma^V +\int_{loop} \partial {\sigma^L}-\int_{loop} \partial {\sigma^L}= \int_m \int_{loop}[ \partial {\sigma^V}_{bare}- \partial {\sigma^L}] + \int_m[{\sigma^V}_{Counter\:term}+ \int_{loop} \partial {\sigma^L}]
 \end{equation}
 
 
 \begin{equation}
-\sigma^{NLO} = \int_{n+1} [\partial \sigma^R -\partial \sigma^A]+ \int_n \int_{loop}[ \partial {\sigma^V}_{bare}- \partial {\sigma^L}] + \int_n[{\sigma^V}_{Counter\:term}+ \int_{loop} \partial {\sigma^L}+\partial \sigma^A]
+\sigma^{NLO} = \int_{m+1} [\partial \sigma^R -\partial \sigma^A]+ \int_m \int_{loop}[ \partial {\sigma^V}_{bare}- \partial {\sigma^L}] + \int_m[{\sigma^V}_{Counter\:term}+ \int_{loop} \partial {\sigma^L}+\partial \sigma^A]
 \end{equation}
 
-
+\section*{Determination of emission kernels}
 
 \newpage
 \section{Factorisation}
