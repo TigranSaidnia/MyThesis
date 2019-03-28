@@ -176,39 +176,77 @@ Thus, the square of colour-correlated tree-amplitudes for the indices I, J refer
 \vert {{\mathcal{M}}^{I,J}}_{m,a...} \vert^2=\:_{m,a...} < 1,...,m;a,... |T_I \cdot T_J | 1,...,m;a,... >\:_m,a...
 \end{equation}
 
-This feature of the soft and collinear singularities will be used to obtain factorization formulae with the following symbolic structure:
+
+
+\section*{Dipole factorisation }
+Consider (m+1)-partons with the general matrix element:
 \begin{equation}
 \vert {{\mathcal{M}}}_{m+1} (Q; p_1,...,p_i,...,p_j,...,p_{m+1}) \vert^2
 \end{equation}
-
+We need to take collinear and soft limits which allow factorisation.
+In the soft region it is used the kinematic with $ p_j \rightarrow \lambda q, \lambda \rightarrow 0 $, where $ q $ is a arbitrary four vector and $ \lambda $ a scale parameter. 
+The matrix element is characterise with $ \vert {{\mathcal{M}}} \vert^2 \sim \frac{1}{\lambda^2}$. and if $ p_i $ and $ p_j $ become collinear, we parametrise $ p_j = \frac{z}{1-z} p_i $. So the matrix element will be $ \vert {{\mathcal{M}}} \vert^2 \sim \frac{1}{p_i \cdot p_j}$.
+I am going to go into more details in the next chapter. That's here should be a summery of the behaviour of the matrix elements in different regions.
+Based on the Catani-Seymour method for (m + 1) partons matrix element, it's possible to factorise out parton k to give $ \vert {{\mathcal{M}}}_{m}  \vert^2 $:
 \begin{equation}
 \vert {{\mathcal{M}}}_{m+1}  \vert^2 \rightarrow \sum \vert {{\mathcal{M}}}_{m}  \vert^2 \otimes V_{ij,k}
 \end{equation}
 
-\begin{equation}
-\vert {{\mathcal{M}}}_{m+1}  \vert^2 = < 1,...,m+1 || 1,...,m+1 > = \sum_{k \neq i,j} {{\mathcal{D}}}_{ij,k}(p_1,...,p_{m+1}) +\text{finite terms}
-\end{equation}
-
-\begin{equation}
- {{\mathcal{D}}}_{ij,k}(p_1,...,p_{m+1}) = \frac{-1}{2p_i \cdot p_j} \:_m <1,...,\tilde{ij},...,k,...,m+1 |\frac{T_k \cdot T_{ij}}{{T_{ij}}^2} V_{ij,k}| 1,...,\tilde{ij},...,k,...,m+1 >\:_m
-\end{equation}
+$ V_{ij,k} $ singular factor including parton k and it's interaction with partons i and j from the m parton amplitude this situation can be represented by the bottom diagram.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/Intro/factorisationPic.png}
 \end{figure}
 
+Here i and k are the emitters and k plays the role of a spectator. The blobs denote the tree-level matrix elements and their complex conjugate. The dots on the right-hand side stand for non-singular terms both in the soft and collinear limits.
+When the partons i and j become soft and/or collinear, the singularities are factorized into the term $ V_{ij,k} $ (the
+dashed box on the right-hand side) which embodies correlations with a single additional parton k.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/Intro/factorisationPic2.png}
 \end{figure}
 
+In this context the different dipole factorisation for both initial states and final states shall be presented. All these different possibilities can be seen in the diagram below.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/Intro/Dipole.png}
 \end{figure}
+
+The circle in the center of each sub diagram presents the m-partons matrix element and the tilde labels the collinear splitting process for the initial or final states.
+For this work, the first upper diagram with final-state singularities with initial-state partons, is completely sufficient and is discussed here in detail with its formula.
+The matrix element for this is written:
+
+\begin{equation}
+\vert {{\mathcal{M}}}_{m+1}  \vert^2 = < 1,...,m+1 || 1,...,m+1 > = \sum_{k \neq i,j} {{\mathcal{D}}}_{ij,k}(p_1,...,p_{m+1}) +\text{finite terms}
+\end{equation}
+
+The first term with the sum over dipoles is divergent as $ p_i \cdot p_j \rightarrow 0 $. It needs to drop all finite terms.
+These dipole terms are explicitly given by:
+
+\begin{equation}
+ {{\mathcal{D}}}_{ij,k}(p_1,...,p_{m+1}) = \frac{-1}{2p_i \cdot p_j} \:\:_m<1,...,\tilde{ij},...,k,...,m+1 |\frac{T_k \cdot T_{ij}}{{T_{ij}}^2} V_{ij,k}| 1,...,\tilde{ij},...,k,...,m+1 >\:_m
+\end{equation}
+
+Where $ T_k \cdot T_{ij} $ are the color charges of spectator and emitter
+
+$ V_{ij,k} $ splitting kernel in helicity space of emitter
+explicit form depends on parton type become proportional to Altarelli-Parisi splitting functions and Eikonal factors
+in collinear and soft limits.\\
+Using the kinematic:
+\begin{equation}
+\begin{split}
+&{\tilde{p}^{\mu}}_{ij} = {p_i}^{\mu}+{p_j}^{\mu}-\frac{y_{ij,k}}{1-y_{ij,k}}{p_k}^{\mu}\\
+&{\tilde{p}^{\mu}}_{k} = \frac{1}{1-y_{ij,k}}{p_k}^{\mu}\\
+&\text{with}\:\:\:y_{ij,k}=\frac{p_i \cdot p_j}{p_i \cdot p_j+p_j \cdot p_k+p_k \cdot p_i}
+\end{split}
+\end{equation}
+Note, that momenta are on-shell. Due to momenta conservation ${p_i}^{\mu}+{p_j}^{\mu}+{p_k}^{\mu}= {\tilde{p}^{\mu}}_{k} +{\tilde{p}^{\mu}}_{ij} $. 
+
+
+
 
 
 \newpage
