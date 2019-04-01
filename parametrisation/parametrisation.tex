@@ -1,22 +1,37 @@
-\section{Old parametrisation}
+\section{Mapping 3 partons to 2}
+Define emitter and spectator
+Vik;j depends on y and z
+\section{Old mapping}
+
 
 	
 \begin{equation}
 	\left.\begin{aligned}
-	&{q_i}^{\mu} = z{p_i}^{\mu} + y(1-z){p_j}^{\mu} + \sqrt{zy(1-z)}{m}_{\bot} \\
-	&{q}^{\mu}   = (1-z){p_i}^{\mu} + yz {p_j}^{\mu} - \sqrt{zy(1-z)}{m}_{\bot} \\
+	&{q_i}^{\mu} = z{p_i}^{\mu} + y(1-z){p_j}^{\mu} + \sqrt{zy(1-z)}{m^{\mu}}_{\bot} \\
+	&{q}^{\mu}   = (1-z){p_i}^{\mu} + yz {p_j}^{\mu} - \sqrt{zy(1-z)}{m^{\mu}}_{\bot} \\
 	&{q_j}^{\mu} = (1-y) {p_j}^{\mu} \\
-		&y       = \frac{q_i q}{p_i p_j} \\
-&q_i +q      = p_i + yp_j \\
-&q_j +q      = (1-z){p_i}^{\mu} + (1+yz-y) {p_j}^{\mu} - \sqrt{zy(1-z)}{m}_{\bot}\\
-&q_i \cdot q = y(1-2z+2z^2)(p_i \cdot p_j)\\
-&q_i \cdot q_j = z(1-y) (p_i \cdot p_j)\\
-&q_j \cdot q = (1-z)(1-y) (p_i \cdot p_j)
 		\end{aligned}
 	\right\}
 	\quad \text{parametrisation}
 \end{equation}
+Where q is the radiated soft momentum, $ q_i $ the momenta of the emitter and $ q_j $ the momentum of the spectator is.
+the dimensionless variable is given by $ y = \frac{q_i \cdot q}{p_i \cdot p_j}$. Note that both the emitter and the spectator are on-shell.
+momentum conservation is implemented
+exactly:
+\begin{equation}
+{q_i}^{\mu}+q^{\mu}+ {q_k}^{\mu}={p_i}^{\mu}+{p_j}^{\mu}+{m^{\mu}}_{\bot}
+\end{equation}
 
+For this mapping it is useful to calculate some common relation:
+\begin{equation}
+\begin{split}
+&q_i +q      = p_i + yp_j \\
+&q_j +q      = (1-z){p_i}^{\mu} + (1+yz-y) {p_j}^{\mu} - \sqrt{zy(1-z)}{m^{\mu}}_{\bot}\\
+&q_i \cdot q = y(1-2z+2z^2)(p_i \cdot p_j)\\
+&q_i \cdot q_j = z(1-y) (p_i \cdot p_j)\\
+&q_j \cdot q = (1-z)(1-y) (p_i \cdot p_j)
+\end{split}
+\end{equation}
 
 \section{new kinematic}
 For the general m emission case it must be defined a new mapping. The parametrisation of the splitting momenta is formalized as:
@@ -28,7 +43,9 @@ For the general m emission case it must be defined a new mapping. The parametris
     \end{split}
 \end{equation}
 $ k = 1,...,n $ labels the emission momenta and is taken to be massless $ {k_l}^2 = 0 $. Where the label $ l $ denotes the count of emissions. In this work we just want to considerate the one-emission kernels. The other important issue here is that all hard momenta are on-shell, $ {p_k}^2={q_k}^2=0 $.\\
-to absorb the recoil we define $ n^{\mu} $ as:
+$ n^{\mu} $ is an auxiliary light-like vector which is necessary to specify the transverse component of $ {n^{\mu}}_{\bot,l} $.
+To absorb the recoil we define $ n^{\mu} $ as:
+
 
 \begin{equation}
 \begin{split}
@@ -61,7 +78,7 @@ The parameter y is related to the virtuality of the splitting parton:
     \end{split}
 \end{equation}
 With $ \alpha = \sqrt{1-y} $.
-\subsubsection*{Lorenz trafo}
+\subsubsection*{Lorenz transformation of momenta }
 In order to be able to work with the parametrisation, we have to do the Lorenz transformation of the Emitters, Spectator and total momentum first.
 
 \begin{equation}
@@ -74,55 +91,13 @@ In order to be able to work with the parametrisation, we have to do the Lorenz t
 
 In the collinear limit of $ y \rightarrow 0, \alpha \rightarrow 1 $
 this transformation reduces to trivial $ {\eta^{\mu}}_{\nu} $.
-
-
-\begin{equation}
-\begin{split}
-&{\hat{{p_i}}}^{\mu}=\alpha{\Lambda^{\mu}}_{\nu} {p_i}^{\nu}= {p_i}^{\mu} p_{i\nu}{p_i}^{\nu} \frac{-y^2 Q^2}{4(p_i\cdot Q)^2(1+\sqrt{1-y}-\frac{y}{2})}
-	+{p_i}^{\mu} Q_{\nu}{p_i}^{\nu} \frac{y(1+\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}\\
-&+{Q}^{\mu} p_{i\nu}{p_i}^{\nu} \frac{(y^2 -y-y\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt{1-y} {\eta^{\mu}}_{\nu}{p_i}^{\nu}\\
-\end{split}
-\end{equation}
-
-\begin{equation}
-\begin{split}
-&{\hat{{p_i}}}^{\mu}={p_i}^{\mu} (Q\cdot p_i) \frac{y(1+\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt{1-y} {p_i}^{\mu}\\
-&={p_i}^{\mu} [ \frac{y(1+\sqrt{1-y})}{(2+2\sqrt{1-y}-y)}+\sqrt{1-y}]={p_i}^{\mu}
-    \end{split}
-\end{equation}
-
+Finally we are going to compute the Lorenz transformation of the Momenta. The detailed calculation of them can be found in Annex A.
 \begin{equation}
 	\begin{aligned}
 		\fbox{$  {\hat{{p_i}}}^{\mu}=\alpha{\Lambda^{\mu}}_{\nu} {p_i}^{\nu}= {p_i}^{\mu}$}
     \end{aligned}
 \end{equation}
 
-\begin{equation}
-	\begin{aligned}
-	{\hat{{p_k}}}^{\mu}=\alpha{\Lambda^{\mu}}_{\nu} {p_k}^{\nu}= {p_i}^{\mu} p_{i\nu}{p_k}^{\nu} \frac{-y^2 Q^2}{4(p_i\cdot Q)^2(1+\sqrt{1-y}-\frac{y}{2})}
-	+{p_i}^{\mu} Q_{\nu}{p_k}^{\nu} \frac{y(1+\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}\\
-	+{Q}^{\mu} p_{i\nu}{p_k}^{\nu} \frac{(y^2 -y-y\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt{1-y} {\eta^{\mu}}_{\nu}{p_k}^{\nu}\\
-    \end{aligned}
-\end{equation}
-
-\begin{equation}
-	\begin{aligned}
-	{\hat{{p_k}}}^{\mu}=\alpha{\Lambda^{\mu}}_{\nu} {p_k}^{\nu}= {p_i}^{\mu}[  \frac{-y^2 Q^2 (p_{i}\cdot {p_k})}{4(p_i\cdot Q)^2(1+\sqrt{1-y}-\frac{y}{2})}+ \frac{y(1+\sqrt{1-y})(Q \cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]\\
-	+{Q}^{\mu} [ \frac{(y^2 -y-y\sqrt{1-y}) (p_{i}\cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]
-	+\sqrt{1-y} {p_k}^{\mu}\\
-    \end{aligned}
-\end{equation}
-
-
-\begin{equation}
-	\begin{aligned}
-	{\hat{{p_k}}}^{\mu}&=\alpha{\Lambda^{\mu}}_{\nu} {p_k}^{\nu}= {p_i}^{\mu}[  \frac{-y^2 Q^2 (p_{i}\cdot {p_k})}{4(p_i\cdot Q)^2(1+\sqrt{1-y}-\frac{y}{2})}+ \frac{y(1+\sqrt{1-y})(Q \cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]\\
-	&+{Q}^{\mu} [ \frac{(y^2 -y-y\sqrt{1-y}) (p_{i}\cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]+\sqrt{1-y} {p_k}^{\mu}\\	
-\text{with}\\
-	A_1 &\equiv  \frac{-y^2 Q^2 (p_{i}\cdot {p_k})}{4(p_i\cdot Q)^2(1+\sqrt{1-y}-\frac{y}{2})}+ \frac{y(1+\sqrt{1-y})(Q \cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}\\
-		A_2 &\equiv   \frac{(y^2 -y-y\sqrt{1-y}) (p_{i}\cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\\\
-    \end{aligned}    
-\end{equation}
 \begin{equation}
 	\begin{aligned}
 		\fbox{$  {\hat{{p_k}}}^{\mu}= A_1 \:{p_i}^{\mu}+A_2\:{Q}^{\mu}+\sqrt{1-y} {p_k}^{\mu} $}
@@ -132,21 +107,12 @@ this transformation reduces to trivial $ {\eta^{\mu}}_{\nu} $.
 
 \begin{equation}
 	\begin{aligned}
-	{\hat{{Q}}}^{\mu}&=\alpha{\Lambda^{\mu}}_{\nu} {Q}^{\nu}= {p_i}^{\mu}[  \frac{-y^2 Q^2 (p_{i}\cdot {Q})}{4(p_i\cdot Q)^2(1+\sqrt{1-y}-\frac{y}{2})}+ \frac{y(1+\sqrt{1-y})Q^2}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]\\
-	&+{Q}^{\mu} [ \frac{(y^2 -y-y\sqrt{1-y}) (p_{i}\cdot {Q})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]
-	+\sqrt{1-y} {Q}^{\mu}\\
-\text{with}\\
-	S_1 &\equiv  \frac{Q^2}{2p_i \cdot Q}[\frac{-y^2}{2(1+\sqrt{1-y}-\frac{y}{2})}+ \frac{y(1+\sqrt{1-y})}{(1+\sqrt{1-y}-\frac{y}{2})}]=\frac{Q^2}{2p_i \cdot Q}y\\
-		S_2 &\equiv   \frac{(y^2 -y-y\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt{1-y}=1-y\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\\\	
-    \end{aligned}    
-\end{equation}
-\begin{equation}
-	\begin{aligned}
 		\fbox{$  {\hat{{Q}}}^{\mu}= \frac{Q^2}{2p_i \cdot Q}y \:{p_i}^{\mu}+(1-y)\:{Q}^{\mu} $}
     \end{aligned}
 \end{equation}
 
 \section{Single emission part}
+In terms of one emission where $ l=1 $ the mapping will be simplified as:
 \begin{equation}
 	\begin{aligned}
 	{k_1}^{\mu} &= (\alpha_1 -y\beta_1(\frac{Q^2}{2p_i \cdot Q})) {p_i}^{\mu} + y\beta_1{Q}^{\mu} + \sqrt{y\alpha_1\beta_1}{n^{\mu}}_{\bot,1}  \\
@@ -160,27 +126,10 @@ this transformation reduces to trivial $ {\eta^{\mu}}_{\nu} $.
     \end{aligned}
 \end{equation}
 
-\begin{equation}
-	\begin{aligned}
-	\zeta_1\zeta_1=({\alpha_1}^2 -2y\alpha_1 \beta_1(\frac{Q^2}{2p_i \cdot Q})+y^2{\beta_1}^2(\frac{Q^2}{2p_i \cdot Q})^2)\\
-	\zeta_1\lambda_1=(y\alpha_1\beta_1 -{y^2\beta_1}^2(\frac{Q^2}{2p_i \cdot Q}))\\
-	\zeta_1\zeta_q=(\alpha_1\beta_1-y({\alpha_1}^2+{\beta_1}^2) (\frac{Q^2}{2p_i \cdot Q})+y^2{\alpha_1}{\beta_1}(\frac{Q^2}{2p_i \cdot Q})^2)\\
-	\zeta_1\lambda_q=(y{\alpha_1}^2 -y^2\beta_1\alpha_1(\frac{Q^2}{2p_i \cdot Q}))\\
-	\zeta_q\zeta_q=	({\beta_1}^2 -2y\alpha_1\beta_1 (\frac{Q^2}{2p_i \cdot Q})+ y^2{\alpha_1}^2 (\frac{Q^2}{2p_i \cdot Q})^2) \\
-	\zeta_q\lambda_1=(y{\beta_1}^2 -y^2\alpha_1 \beta_1(\frac{Q^2}{2p_i \cdot Q}))\\
-	\zeta_q\zeta_1=(\beta_1\alpha_1-y({\beta_1}^2+{\alpha_1}^2)(\frac{Q^2}{2p_i \cdot Q})+y^2\alpha_1\beta_1 (\frac{Q^2}{2p_i \cdot Q})^2)\\
-	\zeta_q\lambda_q=(y\beta_1\alpha_1 -y^2{\alpha_1}^2(\frac{Q^2}{2p_i \cdot Q}))\\
-	\lambda_1\lambda_1=y^2{\beta_1}^2\\
-	\lambda_1\zeta_q=(y{\beta_1}^2 -y^2\alpha_1 \beta_1(\frac{Q^2}{2p_i \cdot Q}))\\
-	\lambda_1\lambda_q=y^2\beta_1\alpha_1\\
-	\lambda_1\zeta_1=(y\beta_1\alpha_1 -y^2{\beta_1}^2(\frac{Q^2}{2p_i \cdot Q}))\\
-	\lambda_q\lambda_q=y^2{\alpha_1}^2\\
-	\lambda_q\lambda_1=y^2\alpha_1\beta_1\\
-	\lambda_q\zeta_q=(y\alpha_1\beta_1 -y^2{\alpha_1}^2 (\frac{Q^2}{2p_i \cdot Q}))\\
-	\lambda_q\zeta_1=(y{\alpha_1}^2 -y^2\alpha_1\beta_1(\frac{Q^2}{2p_i \cdot Q}))
-    \end{aligned}
-\end{equation}
+
 \section{Common scalar products}
+To investigate the mapping it is useful to determine the dot products between these four vectors. To understand the often occurring pre-factor products one should look them up in the appendix A.
+
 \begin{equation}
 	\begin{aligned}	
 k_1 \cdot q_i &= (\zeta_1 \lambda_q + \lambda_1 \zeta_q)p_i \cdot Q+\lambda_1 \lambda_q Q^2 -y\alpha_1\beta_1 {n^{2}}_{\bot,1}\\

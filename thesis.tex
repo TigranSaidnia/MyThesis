@@ -29,6 +29,7 @@
 \usepackage[compat=1.0.0]{tikz-feynman}
 \usepackage{mathtools}
 \usepackage{ mathrsfs }
+
 % =====================================================
 % Seite einrichten
 % =====================================================
@@ -103,7 +104,7 @@
 \quad
 \newpage
 \pagenumbering{arabic}
-\chapter{Introduction}
+\chapter*{Introduction}
 \input{intro/intro.tex}
 
 
@@ -125,18 +126,22 @@
 \chapter{Quark gluon quark emission kernel}
 \input{qg/qg.tex}  
 \chapter{Gluon quark quark emission kernel}
-\input{gq/gq.tex}       
-\bibliographystyle{plain}
-\bibliography{bibliography2}
+\input{gq/gq.tex}   
+\newpage
+\bibliographystyle{unsrt}
+\bibliography{bib/bib.bib}
+
+%\addcontentsline{toc}{chapter}{Bibliography}
 \newpage
 
 %\listoftables
 %\listoffigures
 %\printindex
 
-\appendix
-
-\chapter{Acknowledgement}
+\chapter*{Appendix A}
+\input{appendix/appendix}
+\newpage
+\chapter*{Acknowledgement}
 \input{Danksagung/Danksagung}
  
 
