@@ -19,6 +19,7 @@
 
 
 \section{new kinematic}
+For the general m emission case it must be defined a new mapping. The parametrisation of the splitting momenta is formalized as:
 \begin{equation}
 	\begin{aligned}
 	&{k_l}^{\mu} = \alpha_l \alpha {\Lambda^{\mu}}_{\nu}{p_i}^{\nu} + y\beta{n}^{\mu} + \sqrt{y\alpha_l\beta_l}{n^{\mu}}_{\bot,l} \:\:\:\:\:\:\:\:\:\:\:\:\:\:\:{l=1,...,m} \\
@@ -26,11 +27,14 @@
 	&{q_k}^{\mu} = \alpha {\Lambda^{\mu}}_{\nu}{p_k}^{\nu} \:\:\:\:\:\:\:\:\:\:\:\:\: {k=1,...,n}\:\:\:\:\:\:\:\:\:\:k\neq i\\
     \end{aligned}
 \end{equation}
+$ k = 1,...,n $ labels the emission momenta and is taken to be massless $ {k_l}^2 = 0 $. Where the label $ l $ denotes the count of emissions. In this work we just want to considerate the one-emission kernels. The other important issue here is that all hard momenta are on-shell, $ {p_k}^2={q_k}^2=0 $.\\
+To fulfil the condition that the emission momenta are massless, we need the following condition:
+\begin{equation}
+
+\end{equation}
 
 \subsection{useful relations}
 \begin{equation}
-	\begin{aligned}
-	{q_i}^{2} &= {p_i}^2={q_k}^{2}= k_l^2=p_j^2=p_k^2=n^2=0 \:\:\:\:\:\text{All hard momenta are on-shell} \\
 	{Q}^{\mu} &= {q_i}^{\mu}+\displaystyle\sum\limits_{l=1}^m k_l^{\mu}+\displaystyle\sum\limits_{k=1}^m q_k^{\mu}={p_i}^{\mu}+\displaystyle\sum\limits_{k=1}^m p_k^{\mu} \:\:\:\text{total momentum }\\
     {n}^{\mu} &= {Q}^{\mu}-\frac{Q^2}{2p_i\cdot Q}p_i^{\mu}\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\text{${n}^{\mu}$ is the recoil}\\
 	{q_i}^{\mu} +\displaystyle\sum\limits_{l=1}^m k_l^{\mu}   &= \alpha{\Lambda^{\mu}}_{\nu}{p_i}^{\nu} +y{n}^{\mu}\\

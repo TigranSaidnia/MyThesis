@@ -92,23 +92,27 @@
     %\maketitle
 
 \input{title/title.tex}
+\newpage
 \input{erklaerung/erklaerung.tex}
 \pagebreak
-
+\input{abstract.tex}
 \tableofcontents
 \thispagestyle{empty}
 \addcontentsline{toc}{chapter}{Table of contents}
 \thispagestyle{empty}
 \quad
 \newpage
-\pagenumbering{arabic} 
+\pagenumbering{arabic}
+\chapter{Introduction}
+\input{intro/intro.tex}
 
 
 
 
-\input{abstract/abtract.tex}
 \newpage
-\input{Intro/Intro.tex}
+\chapter{Theoretical Basics}
+\input{basic/basic.tex}
+\chapter{Catani Seymour}
 \input{singularities/singularities.tex}
 \input{parametrisation/parametrisation.tex}
 \input{Altarelli-Parisi/Altarelli-Parisi.tex}
@@ -124,13 +128,15 @@
 \input{gq/gq.tex}       
 \bibliographystyle{plain}
 \bibliography{bibliography2}
-
+\newpage
 
 %\listoftables
 %\listoffigures
 %\printindex
 
 \appendix
+
+\chapter{Acknowledgement}
 \input{Danksagung/Danksagung}
  
 
