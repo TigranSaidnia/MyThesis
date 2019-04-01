@@ -21,56 +21,74 @@
 \section{new kinematic}
 For the general m emission case it must be defined a new mapping. The parametrisation of the splitting momenta is formalized as:
 \begin{equation}
-	\begin{aligned}
+	\begin{split}
 	&{k_l}^{\mu} = \alpha_l \alpha {\Lambda^{\mu}}_{\nu}{p_i}^{\nu} + y\beta{n}^{\mu} + \sqrt{y\alpha_l\beta_l}{n^{\mu}}_{\bot,l} \:\:\:\:\:\:\:\:\:\:\:\:\:\:\:{l=1,...,m} \\
 	&{q_i}^{\mu}   = (1-\displaystyle\sum\limits_{l=1}^m \alpha_l) \alpha {\Lambda^{\mu}}_{\nu}{p_i}^{\nu} + y(1-\displaystyle\sum\limits_{l=1}^m \beta_l){n}^{\mu} - \sqrt{y\alpha_l\beta_l}{n^{\mu}}_{\bot,l} \\
 	&{q_k}^{\mu} = \alpha {\Lambda^{\mu}}_{\nu}{p_k}^{\nu} \:\:\:\:\:\:\:\:\:\:\:\:\: {k=1,...,n}\:\:\:\:\:\:\:\:\:\:k\neq i\\
-    \end{aligned}
+    \end{split}
 \end{equation}
 $ k = 1,...,n $ labels the emission momenta and is taken to be massless $ {k_l}^2 = 0 $. Where the label $ l $ denotes the count of emissions. In this work we just want to considerate the one-emission kernels. The other important issue here is that all hard momenta are on-shell, $ {p_k}^2={q_k}^2=0 $.\\
-To fulfil the condition that the emission momenta are massless, we need the following condition:
-\begin{equation}
+to absorb the recoil we define $ n^{\mu} $ as:
 
+\begin{equation}
+\begin{split}
+{n^{\mu}} &= Q^{\mu}-\frac{Q^2}{2p_i \cdot Q} {p_i}^{\mu}
+\end{split}	
 \end{equation}
 
-\subsection{useful relations}
+Whereby Q is the total momentum with:
+
 \begin{equation}
-	{Q}^{\mu} &= {q_i}^{\mu}+\displaystyle\sum\limits_{l=1}^m k_l^{\mu}+\displaystyle\sum\limits_{k=1}^m q_k^{\mu}={p_i}^{\mu}+\displaystyle\sum\limits_{k=1}^m p_k^{\mu} \:\:\:\text{total momentum }\\
-    {n}^{\mu} &= {Q}^{\mu}-\frac{Q^2}{2p_i\cdot Q}p_i^{\mu}\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\text{${n}^{\mu}$ is the recoil}\\
-	{q_i}^{\mu} +\displaystyle\sum\limits_{l=1}^m k_l^{\mu}   &= \alpha{\Lambda^{\mu}}_{\nu}{p_i}^{\nu} +y{n}^{\mu}\\
-	\alpha{\Lambda^{\mu}}_{\nu}{Q}^{\nu} &= {Q}^{\mu}-yn^{\mu}\\
+\begin{split}	
+{Q}^{\mu} &= {q_i}^{\mu}+\displaystyle\sum\limits_{l=1}^m k_l^{\mu}+\displaystyle\sum\limits_{k=1}^m q_k^{\mu}={p_i}^{\mu}+\displaystyle\sum\limits_{k=1}^m p_k^{\mu}
+\end{split}	
+\end{equation}
+To fulfil the condition that the emission momenta are massless, we need the following condition:
+
+\begin{equation}
+\begin{split}
 	{n^{\mu}}_{\bot,l}{\Lambda^{\mu}}_{\nu}{p_i}^{\nu} &= {n_{\bot,l}} \cdot n = {n_{\bot,l}} \cdot Q =0\\
 	{n^{\mu}}_{\bot,l}\cdot p_k &\neq0\\
-	{n}^2_{\bot,l} &= -2\alpha{\Lambda^{\mu}}_{\nu}{p_i}^{\nu} n_{\mu}\\
-	{n}^2_{\bot,1} &= -2p_i\cdot Q\\
-	\alpha_1&=1-\beta_1 \\
-	\alpha&=\sqrt{1-y} \\	
-    \end{aligned}
+\end{split}	
 \end{equation}
 
+$ {n}^2_{\bot,l} = -2\alpha{\Lambda^{\mu}}_{\nu}{p_i}^{\nu} n_{\mu} $ is not on-shell and in terms of single emission case we get $ {n}^2_{\bot,1} = -2p_i\cdot Q $.
+The parameter y is related to the virtuality of the splitting parton:
+
+\begin{equation}
+\begin{split}
+{q_i}^{\mu} +\displaystyle\sum\limits_{l=1}^m k_l^{\mu}   &= \alpha{\Lambda^{\mu}}_{\nu}{p_i}^{\nu} +y{n}^{\mu}\\
+    \end{split}
+\end{equation}
+With $ \alpha = \sqrt{1-y} $.
 \subsubsection*{Lorenz trafo}
+In order to be able to work with the parametrisation, we have to do the Lorenz transformation of the Emitters, Spectator and total momentum first.
 
 \begin{equation}
-	\begin{aligned}
-	\alpha{\Lambda^{\mu}}_{\nu} = {p_i}^{\mu} p_{i\nu} \frac{-y^2 Q^2}{4(p_i\cdot Q)^2(1+\sqrt{1-y}-\frac{y}{2})}
-	+{p_i}^{\mu} Q_{\nu} \frac{y(1+\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}\\
-	+{Q}^{\mu} p_{i\nu} \frac{(y^2 -y-y\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt{1-y} {\eta^{\mu}}_{\nu}\\
-    \end{aligned}
+\begin{split}	
+&\alpha{\Lambda^{\mu}}_{\nu} = {p_i}^{\mu} p_{i\nu} \frac{-y^2 Q^2}{4(p_i\cdot Q)^2(1+\sqrt{1-y}-\frac{y}{2})}
++{p_i}^{\mu} Q_{\nu} \frac{y(1+\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}\\
+&+{Q}^{\mu} p_{i\nu} \frac{(y^2 -y-y\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt{1-y} {\eta^{\mu}}_{\nu}\\
+\end{split}
 \end{equation}
 
+In the collinear limit of $ y \rightarrow 0, \alpha \rightarrow 1 $
+this transformation reduces to trivial $ {\eta^{\mu}}_{\nu} $.
+
+
 \begin{equation}
-	\begin{aligned}
-	{\hat{{p_i}}}^{\mu}=\alpha{\Lambda^{\mu}}_{\nu} {p_i}^{\nu}= {p_i}^{\mu} p_{i\nu}{p_i}^{\nu} \frac{-y^2 Q^2}{4(p_i\cdot Q)^2(1+\sqrt{1-y}-\frac{y}{2})}
+\begin{split}
+&{\hat{{p_i}}}^{\mu}=\alpha{\Lambda^{\mu}}_{\nu} {p_i}^{\nu}= {p_i}^{\mu} p_{i\nu}{p_i}^{\nu} \frac{-y^2 Q^2}{4(p_i\cdot Q)^2(1+\sqrt{1-y}-\frac{y}{2})}
 	+{p_i}^{\mu} Q_{\nu}{p_i}^{\nu} \frac{y(1+\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}\\
-	+{Q}^{\mu} p_{i\nu}{p_i}^{\nu} \frac{(y^2 -y-y\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt{1-y} {\eta^{\mu}}_{\nu}{p_i}^{\nu}\\
-    \end{aligned}
+&+{Q}^{\mu} p_{i\nu}{p_i}^{\nu} \frac{(y^2 -y-y\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt{1-y} {\eta^{\mu}}_{\nu}{p_i}^{\nu}\\
+\end{split}
 \end{equation}
 
 \begin{equation}
-	\begin{aligned}
-	{\hat{{p_i}}}^{\mu}={p_i}^{\mu} (Q\cdot p_i) \frac{y(1+\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt{1-y} {p_i}^{\mu}\\
-	={p_i}^{\mu} [ \frac{y(1+\sqrt{1-y})}{(2+2\sqrt{1-y}-y)}+\sqrt{1-y}]={p_i}^{\mu}
-    \end{aligned}
+\begin{split}
+&{\hat{{p_i}}}^{\mu}={p_i}^{\mu} (Q\cdot p_i) \frac{y(1+\sqrt{1-y})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt{1-y} {p_i}^{\mu}\\
+&={p_i}^{\mu} [ \frac{y(1+\sqrt{1-y})}{(2+2\sqrt{1-y}-y)}+\sqrt{1-y}]={p_i}^{\mu}
+    \end{split}
 \end{equation}
 
 \begin{equation}
