@@ -1,9 +1,8 @@
 \section{Mapping 3 partons to 2}
-Define emitter and spectator
-Vik;j depends on y and z
+As we have already seen in the last section, the dipole factorization is obtained from the square matrix element. Now we want to take a closer look at the four possible parton showers from the previous section. For this goal we first calculate the respective matrix elements and the complex-conjugated one of them in the known 3 parton evaluation. This results in the dipole-term, which contains the soft- and collinear singularities. Then this is parametrized with a certain kinematics in order to separate the finite terms from infinities. First of all, the Emmiter and the spectator are defined. After the substitution of the new momenta we get splitting kernel in helicity space and color charges of spectator and emitter. Then we ignore the finite terms because we are looking for the singular terms. It should be noted that at the beginning of this thesis a parametrisation was used, which unfortunately only works for LO. This was recognized later and therefore a new kinematics was used. 
+This theoretical description will become clearer as we begin to implement the mappings. First of all the kinematics have to be introduced.
 \section{Old mapping}
-
-
+First we start with the old mapping, as promised. 
 	
 \begin{equation}
 	\left.\begin{aligned}
@@ -14,15 +13,17 @@ Vik;j depends on y and z
 	\right\}
 	\quad \text{parametrisation}
 \end{equation}
+
 Where q is the radiated soft momentum, $ q_i $ the momenta of the emitter and $ q_j $ the momentum of the spectator is.
 the dimensionless variable is given by $ y = \frac{q_i \cdot q}{p_i \cdot p_j}$. Note that both the emitter and the spectator are on-shell.
-momentum conservation is implemented
-exactly:
+momentum conservation is implemented exactly:
+
 \begin{equation}
 {q_i}^{\mu}+q^{\mu}+ {q_k}^{\mu}={p_i}^{\mu}+{p_j}^{\mu}+{m^{\mu}}_{\bot}
 \end{equation}
 
 For this mapping it is useful to calculate some common relation:
+
 \begin{equation}
 \begin{split}
 &q_i +q      = p_i + yp_j \\
@@ -91,10 +92,17 @@ In order to be able to work with the parametrisation, we have to do the Lorenz t
 
 In the collinear limit of $ y \rightarrow 0, \alpha \rightarrow 1 $
 this transformation reduces to trivial $ {\eta^{\mu}}_{\nu} $.
-Finally we are going to compute the Lorenz transformation of the Momenta. The detailed calculation of them can be found in Annex A.
+Finally we are going to compute the Lorenz transformation of the Momenta. The detailed calculation of them can be found in Appendix A.
+
 \begin{equation}
 	\begin{aligned}
 		\fbox{$  {\hat{{p_i}}}^{\mu}=\alpha{\Lambda^{\mu}}_{\nu} {p_i}^{\nu}= {p_i}^{\mu}$}
+    \end{aligned}
+\end{equation}
+
+\begin{equation}
+	\begin{aligned}
+		\fbox{$  {\hat{{Q}}}^{\mu}= \frac{Q^2}{2p_i \cdot Q}y \:{p_i}^{\mu}+(1-y)\:{Q}^{\mu} $}
     \end{aligned}
 \end{equation}
 
@@ -104,12 +112,15 @@ Finally we are going to compute the Lorenz transformation of the Momenta. The de
     \end{aligned}
 \end{equation}
 
+\begin{equation*}
+\begin{split}
+\text{with}&\\
+	&A_1 \equiv  \frac{-y^2 Q^2 (p_{i}\cdot {p_k})}{4(p_i\cdot Q)^2(1+\sqrt{1-y}-\frac{y}{2})}+ \frac{y(1+\sqrt{1-y})(Q \cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}\\
+		&A_2 \equiv   \frac{(y^2 -y-y\sqrt{1-y}) (p_{i}\cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\\\
+\end{split}
+\end{equation*}
 
-\begin{equation}
-	\begin{aligned}
-		\fbox{$  {\hat{{Q}}}^{\mu}= \frac{Q^2}{2p_i \cdot Q}y \:{p_i}^{\mu}+(1-y)\:{Q}^{\mu} $}
-    \end{aligned}
-\end{equation}
+
 
 \section{Single emission part}
 In terms of one emission where $ l=1 $ the mapping will be simplified as:
@@ -131,56 +142,8 @@ In terms of one emission where $ l=1 $ the mapping will be simplified as:
 To investigate the mapping it is useful to determine the dot products between these four vectors. To understand the often occurring pre-factor products one should look them up in the appendix A.
 
 \begin{equation}
-	\begin{aligned}	
-k_1 \cdot q_i &= (\zeta_1 \lambda_q + \lambda_1 \zeta_q)p_i \cdot Q+\lambda_1 \lambda_q Q^2 -y\alpha_1\beta_1 {n^{2}}_{\bot,1}\\
-	&=[(\alpha_1 -y\beta_1(\frac{Q^2}{2p_i \cdot Q}))y\alpha_1+y\beta_1(\beta_1 -\alpha_1 y(\frac{Q^2}{2p_i \cdot Q}))]\:p_i \cdot Q\\
-	&\:\:\:\:\:\:\:y^2\beta_1\alpha_1\: Q^2+2y\alpha_1\beta_1\:p_iQ\\
-\Rightarrow	k_1 \cdot q_i &=[y{\alpha_1}^2 -y^2\alpha_1\beta_1(\frac{Q^2}{2p_i \cdot Q})+y {\beta_1}^2-y^2\alpha_1\beta_1(\frac{Q^2}{2p_i \cdot Q})]\:p_i\cdot Q\\
-	&y^2\beta_1\alpha_1\: Q^2+2y\alpha_1\beta_1\:p_iQ\\	
-    \end{aligned}
-\end{equation}
-
-\begin{equation}
 	\begin{aligned}
 		\fbox{$  k_1 \cdot q_i=y({\alpha_1}+\beta_1)^2\:p_i\cdot Q = y\:p_i\cdot Q $}
-    \end{aligned}
-\end{equation}
-
-\begin{equation}
-	\begin{aligned}	
-	k_1 \cdot q_k &= (\zeta_1 A_2 + \lambda_1 A_1)p_i \cdot Q+\zeta_1 \sqrt{1-y}\:p_i\cdot p_k + \lambda_1 A_2\:Q^2+ \lambda_1\sqrt{1-y}\:Q\cdot p_k\\
-	&+\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}}\\	
-	&=\lbrace[(\alpha_1 -y\beta_1(\frac{Q^2}{2p_i \cdot Q}))\frac{(y^2 -y-y\sqrt{1-y}) (p_{i}\cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]\\&
-	+y\beta_1[\frac{-y^2 Q^2 (p_{i}\cdot {p_k})}{4(p_i\cdot Q)^2(1+\sqrt{1-y}-\frac{y}{2})}+ \frac{y(1+\sqrt{1-y})(Q \cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]\rbrace\:p_i \cdot Q\\
-	&+(\alpha_1 -y\beta_1(\frac{Q^2}{2p_i \cdot Q}))\sqrt{1-y}\:p_i \cdot p_k+y\beta_1\frac{(y^2 -y-y\sqrt{1-y}) (p_{i}\cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}Q^2\\
-	&+y\beta_1\sqrt{1-y} Q\cdot p_k+\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}} 
-    \end{aligned}
-\end{equation}
-
-\begin{equation}
-	\begin{aligned}
-	k_1 \cdot q_k &= \alpha_1 \frac{(y^2 -y-y\sqrt{1-y}) }{2(1+\sqrt{1-y}-\frac{y}{2})}(p_{i}\cdot {p_k})
-	-y\beta_1(\frac{Q^2}{2p_i \cdot Q})\frac{(y^2 -y-y\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})}(p_{i}\cdot {p_k})\\
-&+y\beta_1\frac{-y^2 Q^2 }{4(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}(p_{i}\cdot {p_k})+ y\beta_1\frac{y(1+\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})}\:Q \cdot p_k\\
-	&+\alpha_1 \sqrt{1-y}\:p_i \cdot p_k-y\beta_1(\frac{Q^2}{2p_i \cdot Q})\sqrt{1-y}\:p_i \cdot p_k\\
-	&+y\beta_1(\frac{Q^2}{2p_i \cdot Q})\frac{(y^2 -y-y\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})}(p_{i}\cdot {p_k})+y\beta_1\sqrt{1-y}(Q\cdot p_k)\\
-	&+\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}} 
-    \end{aligned}
-\end{equation}
-
-\begin{equation}
-	\begin{aligned}
-	k_1 \cdot q_k &= [\alpha_1 \frac{(y^2 -y-y\sqrt{1-y}) }{2(1+\sqrt{1-y}-\frac{y}{2})}+y\beta_1\frac{-y^2 Q^2 }{4(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}+\alpha_1 \sqrt{1-y}\\&-y\beta_1(\frac{Q^2}{2p_i \cdot Q})\sqrt{1-y}]\:p_i \cdot p_k+[y\beta_1\frac{y(1+\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})}+y\beta_1\sqrt{1-y}](Q\cdot p_k)\\
-	&+\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}} 
-    \end{aligned}
-\end{equation}
-
-\begin{equation}
-	\begin{aligned}
-	k_1 \cdot q_k &= \lbrace\alpha_1 [\frac{(y^2 -y-y\sqrt{1-y}) }{2(1+\sqrt{1-y}-\frac{y}{2})}+ \sqrt{1-y}]\\
-	&+y\beta_1(\frac{Q^2}{p_i \cdot Q})[\frac{-y^2 }{4(1+\sqrt{1-y}-\frac{y}{2})}-\sqrt{1-y}]\rbrace\:p_i \cdot p_k\\
-	&+y\beta_1[\frac{y(1+\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt{1-y}](Q\cdot p_k)\\
-	&+\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}} 
     \end{aligned}
 \end{equation}
 
@@ -191,56 +154,25 @@ k_1 \cdot q_i &= (\zeta_1 \lambda_q + \lambda_1 \zeta_q)p_i \cdot Q+\lambda_1 \l
 \end{equation}
 
 \begin{equation}
-	\begin{aligned}	
-	q_i \cdot q_k &= (\zeta_q A_2 + \lambda_q A_1)p_i \cdot Q+\zeta_q \sqrt{1-y}\:p_i\cdot p_k + \lambda_q A_2\:Q^2+ \lambda_q\sqrt{1-y}\:Q\cdot p_k\\
-	&-\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}}\\	
-	&=\lbrace[(\beta_1 -y\alpha_1(\frac{Q^2}{2p_i \cdot Q}))\frac{(y^2 -y-y\sqrt{1-y}) (p_{i}\cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]\\&
-	+y\alpha_1[\frac{-y^2 Q^2 (p_{i}\cdot {p_k})}{4(p_i\cdot Q)^2(1+\sqrt{1-y}-\frac{y}{2})}+ \frac{y(1+\sqrt{1-y})(Q \cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]\rbrace\:p_i \cdot Q\\
-	&+(\beta_1 -y\alpha_1(\frac{Q^2}{2p_i \cdot Q}))\sqrt{1-y}\:p_i \cdot p_k+y\alpha_1\frac{(y^2 -y-y\sqrt{1-y}) (p_{i}\cdot {p_k})}{2(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}Q^2\\
-	&+y\alpha_1\sqrt{1-y} Q\cdot p_k-\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}} 
-    \end{aligned}
-\end{equation}
-
-
-\begin{equation}
-	\begin{aligned}
-	q_i \cdot q_k &= \beta_1 \frac{(y^2 -y-y\sqrt{1-y}) }{2(1+\sqrt{1-y}-\frac{y}{2})}(p_{i}\cdot {p_k})
-	-y\alpha_1(\frac{Q^2}{2p_i \cdot Q})\frac{(y^2 -y-y\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})}(p_{i}\cdot {p_k})\\
-&+y\alpha_1\frac{-y^2 Q^2 }{4(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}(p_{i}\cdot {p_k})+ y\alpha_1\frac{y(1+\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})}\:Q \cdot p_k\\
-	&+\beta_1 \sqrt{1-y}\:p_i \cdot p_k-y\alpha_1(\frac{Q^2}{2p_i \cdot Q})\sqrt{1-y}\:p_i \cdot p_k\\
-	&+y\alpha_1(\frac{Q^2}{2p_i \cdot Q})\frac{(y^2 -y-y\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})}(p_{i}\cdot {p_k})+y\alpha_1\sqrt{1-y}(Q\cdot p_k)\\
-	&-\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}} 
-    \end{aligned}
-\end{equation}
-
-\begin{equation}
-	\begin{aligned}
-	q_i \cdot q_k &= [\beta_1 \frac{(y^2 -y-y\sqrt{1-y}) }{2(1+\sqrt{1-y}-\frac{y}{2})}+y\alpha_1\frac{-y^2 Q^2 }{4(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}+\beta_1 \sqrt{1-y}\\&-y\alpha_1(\frac{Q^2}{2p_i \cdot Q})\sqrt{1-y}]\:p_i \cdot p_k+[y\alpha_1\frac{y(1+\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})}+y\alpha_1\sqrt{1-y}](Q\cdot p_k)\\
-	&-\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}} 
-    \end{aligned}
-\end{equation}
-
-\begin{equation}
-	\begin{aligned}
-	k_1 \cdot q_k &= \lbrace\beta_1 [\frac{(y^2 -y-y\sqrt{1-y}) }{2(1+\sqrt{1-y}-\frac{y}{2})}+ \sqrt{1-y}]\\
-	&+y\alpha_1(\frac{Q^2}{p_i \cdot Q})[\frac{-y^2 }{4(1+\sqrt{1-y}-\frac{y}{2})}-\sqrt{1-y}]\rbrace\:p_i \cdot p_k\\
-	&+y\alpha_1[\frac{y(1+\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt{1-y}](Q\cdot p_k)\\
-	&-\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}} 
-    \end{aligned}
-\end{equation}
-
-\begin{equation}
 	\begin{aligned}
 		\fbox{$  q_i \cdot q_k = [\beta_1 (1-y)+y\alpha_1(\frac{Q^2}{2p_i \cdot Q})]\:p_i \cdot p_k+y\alpha_1\:Q\cdot p_k-\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}} $}
     \end{aligned}
 \end{equation}
+\section{Recipe for the use of the new parametrisation}
+In the previous chapter we have discussed that the singularities come from the propagators in each diagram since the denominators contain according Feynmann rules terms with $\sim \frac{1}{2 q_a \cdot q_b}  $. Whereby a and b here place holder the respective momenta. Since the calculations are sometimes very complicated and confusing, the procedure for eliminating the finite terms is as follows:\\
+In the calculating of the square matrix elements always appear products in the form of $ p_a \cdot p_b $ both in the numerator and denominator.
+The denominator shows which pre-factor causes the singularity. As we know, if , we get zero in the denominator. These terms from the numerator with the same prefix can be omitted from the beginning because they appear in both the denominator and the numerator and are therefore finite. This is explicitly shown below for two common denominators.
+\subsection{Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_k) $} 
 
-\section{Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_k) $}
 \begin{equation}
 	\begin{aligned}
 		\fbox{$  (k_1 \cdot q_i )(k_1 \cdot q_k) {\color[RGB]{255,0,0} \: \approx\:} y(1-\beta_1) (1-y)\:(p_i \cdot p_k)(p_i \cdot Q) $}
     \end{aligned}
 \end{equation}
+
+Here you can quickly see that this term converges for 
+$ y \rightarrow 0 $  and $ {\beta}_1 \rightarrow 1 $ towards zero. That means, you could ignore all terms with $  y(1-\beta_1)$. However, since the equation becomes rather large quickly if we first use all the momenta products and then drop the terms with the pre-factor out of the denominator, this is already done for the scalar products. And this is exactly the biggest simplification in the calculation. 
+The result looks like this:
 
 \begin{equation}
 \begin{split}
@@ -259,12 +191,14 @@ k_1 \cdot q_i &= (\zeta_1 \lambda_q + \lambda_1 \zeta_q)p_i \cdot Q+\lambda_1 \l
 \end{split}
 \end{equation}
 
-\section{Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_i) $}
+\subsection{Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_i) $}
 \begin{equation}
 	\begin{aligned}
 		\fbox{$  (k_1 \cdot q_i )(k_1 \cdot q_i)  = y^2(p_i \cdot Q)(p_i \cdot Q) $}
     \end{aligned}
 \end{equation}
+
+With the same interpretation from above one could say that this term converges just for $ y \rightarrow 0 $ towards zero. That's why we will remove all product terms with $ y^2 $. 
 
 \begin{equation}
 \begin{split}

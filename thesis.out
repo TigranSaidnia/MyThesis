@@ -14,28 +14,29 @@
 \BOOKMARK [1][-]{section.2.6}{new kinematic}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.7}{Single emission part}{chapter.2}% 15
 \BOOKMARK [1][-]{section.2.8}{Common scalar products}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.9}{Parametrization in terms of \040\(k1 qi \)\(k1 qk\) }{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.10}{Parametrization in terms of \040\(k1 qi \)\(k1 qi\) }{chapter.2}% 18
-\BOOKMARK [0][-]{chapter.3}{Quark antiquark gluon emission kernel}{}% 19
-\BOOKMARK [1][-]{section.3.1}{qg-}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.2}{g-q}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.3}{M1 M2}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.4}{|M2|}{chapter.3}% 23
-\BOOKMARK [0][-]{chapter.4}{Gluon gluon gluon emission kernel}{}% 24
-\BOOKMARK [1][-]{section.4.1}{Gluon-Emitter Bubble}{chapter.4}% 25
-\BOOKMARK [2][-]{subsection.4.1.1}{One-loop corrections to the gluon self-energy diagram\(Gluon-Emitter Bubble\)}{section.4.1}% 26
-\BOOKMARK [1][-]{section.4.2}{Gluon-Spectator Bubble}{chapter.4}% 27
-\BOOKMARK [2][-]{subsection.4.2.1}{One-loop corrections to the gluon self-energy diagram \(Gluon-Spectator Bubble\)}{section.4.2}% 28
-\BOOKMARK [1][-]{section.4.3}{Interference term M1 M2}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.4}{Interference term of inverse M1M2}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.5}{Parametrization in terms of \040\(k1 qi \)\(qi qk\) }{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.6}{|M2|}{chapter.4}% 32
-\BOOKMARK [0][-]{chapter.5}{Quark gluon quark emission kernel}{}% 33
-\BOOKMARK [1][-]{section.5.1}{Quark loop}{chapter.5}% 34
-\BOOKMARK [1][-]{section.5.2}{Spectator Quark loop}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.3}{Interference term}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.4}{|M2|}{chapter.5}% 37
-\BOOKMARK [0][-]{chapter.6}{Gluon quark quark emission kernel}{}% 38
-\BOOKMARK [1][-]{section.6.1}{ M1 }{chapter.6}% 39
-\BOOKMARK [1][-]{section.6.2}{ M2 }{chapter.6}% 40
-\BOOKMARK [1][-]{section.6.3}{ M1M2 }{chapter.6}% 41
+\BOOKMARK [1][-]{section.2.9}{Recipe for the use of the new parametrisation}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.9.1}{Parametrization in terms of \040\(k1 qi \)\(k1 qk\) }{section.2.9}% 18
+\BOOKMARK [2][-]{subsection.2.9.2}{Parametrization in terms of \040\(k1 qi \)\(k1 qi\) }{section.2.9}% 19
+\BOOKMARK [0][-]{chapter.3}{Quark antiquark gluon emission kernel}{}% 20
+\BOOKMARK [1][-]{section.3.1}{qg-}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.2}{g-q}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.3}{M1 M2}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.4}{|M2|}{chapter.3}% 24
+\BOOKMARK [0][-]{chapter.4}{Gluon gluon gluon emission kernel}{}% 25
+\BOOKMARK [1][-]{section.4.1}{Gluon-Emitter Bubble}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.1.1}{One-loop corrections to the gluon self-energy diagram\(Gluon-Emitter Bubble\)}{section.4.1}% 27
+\BOOKMARK [1][-]{section.4.2}{Gluon-Spectator Bubble}{chapter.4}% 28
+\BOOKMARK [2][-]{subsection.4.2.1}{One-loop corrections to the gluon self-energy diagram \(Gluon-Spectator Bubble\)}{section.4.2}% 29
+\BOOKMARK [1][-]{section.4.3}{Interference term M1 M2}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.4}{Interference term of inverse M1M2}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.5}{Parametrization in terms of \040\(k1 qi \)\(qi qk\) }{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.6}{|M2|}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Quark gluon quark emission kernel}{}% 34
+\BOOKMARK [1][-]{section.5.1}{Quark loop}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{Spectator Quark loop}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.3}{Interference term}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.4}{|M2|}{chapter.5}% 38
+\BOOKMARK [0][-]{chapter.6}{Gluon quark quark emission kernel}{}% 39
+\BOOKMARK [1][-]{section.6.1}{ M1 }{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.2}{ M2 }{chapter.6}% 41
+\BOOKMARK [1][-]{section.6.3}{ M1M2 }{chapter.6}% 42
