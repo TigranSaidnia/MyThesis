@@ -19,7 +19,7 @@
 \contentsline {subsection}{\numberline {2.9.1}Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_k) $}{26}{subsection.2.9.1}
 \contentsline {subsection}{\numberline {2.9.2}Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_i) $}{27}{subsection.2.9.2}
 \contentsline {chapter}{\numberline {3}Quark antiquark gluon emission kernel}{29}{chapter.3}
-\contentsline {section}{\numberline {3.1}qg-$\mathaccentV {bar}016{q}$}{30}{section.3.1}
+\contentsline {section}{\numberline {3.1}Matrix element of a quark with a gluon radiation}{30}{section.3.1}
 \contentsline {section}{\numberline {3.2}$\mathaccentV {bar}016{q}$g-q}{35}{section.3.2}
 \contentsline {section}{\numberline {3.3}$M_1 {M_2}^{\dagger }$}{38}{section.3.3}
 \contentsline {section}{\numberline {3.4}$|M^{2}|$}{41}{section.3.4}

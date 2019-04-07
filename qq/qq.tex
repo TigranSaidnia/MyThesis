@@ -2,18 +2,28 @@
 \centering
 \includegraphics[width=0.85\textwidth]{images/QQ/qqg-diagrams.png}
 \end{figure}
+First we are going to consider a daughter quark from the splitting of a parent quark into a
+quark and a gluon with an arbitrary spectator like an anti-quark, see the left picture above. where $ q_j+q $ is the momentum of the quark before splitting, $q$ the momentum of the gluon and $q_j$ of daughter quark respectively. The momentum of the spectator is $ q_j $. The distinction between daughter and parent vanishes, when the gluon becomes soft,  and a
+singularity develops. The other possibility to get a singularity is surely if the gluon will be collinear to quark. The splitting functions are flavour independent since the strong interaction is flavour independent. Furthermore,
+leading order splitting cannot change the flavour of a quark, thus we can write for the splitting functions In leading order QCD:
+\begin{equation}
+P_{{\bar{q_i}}{\bar{q_j}}}=P_{{q_i}{q_j}}=P_{{q}{q}} \delta_{ij}
+\end{equation}
+For this aim we have to take any diagram to the account which can have the same splitting. Since there is no distinction between quark and anti-quark, one can imagine exact the same splitting variation for anti-quark with a quark as a spectator, see the right picture above.
+
+
 \pagebreak
-\section{qg-$\bar{q}$}
+\section{Matrix element of a quark with a gluon radiation}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{images/QQ/qgqbarM.png}
 \end{figure}
-
+If one simply calculates the amplitude of this diagram, one gets:
 \begin{equation}
 M_1 = [{\bar{u}}_{\sigma}(q_i) (-ig_s \gamma^{\mu}\times {[T^a]_o}^l)  \frac{i(\not{q_i} + \not{q})}{(q_i + q)^2} {\varepsilon^{\lambda_1}}_{\mu} (q)]\: [{v}_{\tau}(q_j)]
 \end{equation}
-
+For the quadratic matrix element we need the dagger of $ M_1 $ as well.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{images/QQ/qgqbarMDega.png}
@@ -27,14 +37,14 @@ M_1 = [{\bar{u}}_{\sigma}(q_i) (-ig_s \gamma^{\mu}\times {[T^a]_o}^l)  \frac{i(\
 \centering
 \includegraphics[width=0.85\textwidth]{images/QQ/qgqbarMSquer.png}
 \end{figure}
-
+After multiplying $ {M_1}^{\dagger} $ and $ {M_1} $ we get the desired result.
 \begin{equation}
 \begin{split}
 |M_1|^2=M_1\:{\color[RGB]{255,0,0} {M_1}^{\dagger}} = [{\bar{u}}_{\sigma}(q_i)\: (-ig_s \gamma^{\mu}\times {[T^a]_o}^l) \: \frac{i(\not{q_i} + \not{q})}{(q_i + q)^2}\:\: {\varepsilon^{\lambda_1}}_{\mu} (q)] [{v}_{\tau}(q_j)]\: \\
 \quad\quad\quad\quad\quad\quad\quad\quad\:\:{\color[RGB]{255,0,0}[\frac{-i(\not{q_i} + \not{q})}{(q_i + q)^2} \:  (ig_s \gamma^{{\mu}^{\prime}}\times {[T^b]_{o\:^{\prime}}}^k) \: u_{{\sigma}^{\prime}}(q_i) \: {{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}}^* (q)][{\bar{v}}_{{\tau}^{\prime}}(q_j)]}
 \end{split}
 \end{equation}
-
+Now it's time to connect those terms which are related to each other.
 
 \begin{equation}
 \begin{split}
@@ -45,7 +55,7 @@ M_1 = [{\bar{u}}_{\sigma}(q_i) (-ig_s \gamma^{\mu}\times {[T^a]_o}^l)  \frac{i(\
 \end{split}
 \end{equation}
 
-and after sum over the lorenz index $({\sigma},{\sigma}^{\prime})$ and $({\tau},{\tau}^{\prime})$ and unsing the spin addition relation:
+Sum over the lorenz index $({\sigma},{\sigma}^{\prime})$ and $({\tau},{\tau}^{\prime})$ and unsing the spin addition relation leads to:
  
 \begin{equation}
 \begin{split}
@@ -53,13 +63,13 @@ and after sum over the lorenz index $({\sigma},{\sigma}^{\prime})$ and $({\tau},
 \displaystyle\sum\limits_{{\tau},{\tau}^{\prime}} {\bar{v}}_{\tau}(q_j)\:v_{{\tau}^{\prime}}(q_j) = \not{q_j} \delta^{{f}{f}^{\prime}}
 \end{split}
 \end{equation}
-and sum over polarization index $({\lambda_{1}},{\lambda}_{2})$ :
+Sum over polarization index $({\lambda_{1}},{\lambda}_{2})$ :
 \begin{equation}
 \begin{split}
  \displaystyle\sum\limits_{{\mu},{\mu}^{\prime}} {{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}^* (q) {\varepsilon^{\lambda_1}}_{\mu} (q)} = -g_{{\mu}{\mu}^{\prime}} \delta^{{a}{b}}
 \end{split}
 \end{equation}
-
+The matrix element will be simplified with: 
 \begin{equation}
 \begin{split}
 |M_1|^2=\frac{-g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
@@ -70,7 +80,7 @@ and sum over polarization index $({\lambda_{1}},{\lambda}_{2})$ :
 \end{split}
 \end{equation}
 
-from here and after contraction between all indices we can actually make statements about the last result.
+When we contract all related indices we will be actually able to make a statements about the last result.
 \begin{equation}
 \begin{split}
 |M_1|^2=\frac{-g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
@@ -81,12 +91,12 @@ from here and after contraction between all indices we can actually make stateme
 \end{split}
 \end{equation}
 
-In other words we expect the tree level diagram from LO and a number:
+In other words we expect the tree level diagram from LO and a number:\\
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/QQ/expectationqg-qbar.png}
 \end{figure}
-Which means:\\
+Which graphically means:\\
 \begin{equation}
 \begin{split}
 |M_1|^2=\frac{-g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
@@ -103,7 +113,7 @@ N=: \gamma^{{\mu}^{\prime}} \not{q_i} \: \gamma_{{\mu}^{\prime}} = {q_{i\sigma}}
 =(2-d) \not{q_i}
 \end{split}
 \end{equation}
-
+Simplification of the bracket:
 \begin{equation}
 \begin{split}
 |M_1|^2=-(2-d)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
@@ -122,7 +132,7 @@ N=: \gamma^{{\mu}^{\prime}} \not{q_i} \: \gamma_{{\mu}^{\prime}} = {q_{i\sigma}}
 \end{split}
 \end{equation}
 
-For the momenta are on-shell which means:
+Momenta are on-shell, so:
 \begin{equation}
 \begin{split}
 \not{q_i}\not{q_i} = {q_i}^2= {m_i}^2\\
@@ -131,7 +141,7 @@ For the momenta are on-shell which means:
 \end{split}
 \end{equation}
 
-we can first neglect the mass of patrons and ignore each term with $ \not{q_i}\not{q_i} $ and  $ \not{q}\not{q} $ as well.
+we can first neglect the mass of patrons:
 
 \begin{equation}
 \begin{split}
@@ -140,7 +150,7 @@ we can first neglect the mass of patrons and ignore each term with $ \not{q_i}\n
 [\not{q_j}]
 \end{split}
 \end{equation}
-
+Here we need to make the terms in the brackets simpler and:
 \begin{equation}
 \begin{split}
 L=\not{q} \not{q_i} \not{q} =\not{q}[{q_{i\sigma}} q_{\mu} \: (\lbrace{\gamma^{\mu}}, {\gamma^{\sigma}}\rbrace - {\gamma^{\sigma}}{\gamma^{\mu}})]\\ 
