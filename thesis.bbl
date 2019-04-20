@@ -1,3 +1,127 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{Bluemer:2009zf}
+Johannes Blumer, Ralph Engel, and Jorg~R. Horandel.
+\newblock {Cosmic Rays from the Knee to the Highest Energies}.
+\newblock {\em Prog. Part. Nucl. Phys.}, 63:293--338, 2009.
+
+\bibitem{Cunha13}
+Michiel Botje.
+\newblock Lecture notes particle physics ii, quantum chromo dynamics, November
+  2013.
+
+\bibitem{capelle1968vorsokratiker}
+Wilhelm Capelle.
+\newblock {\em Die Vorsokratiker: die Fragmente und Quellenberichte}, volume
+  119.
+\newblock Kr{\"o}ner, 1968.
+
+\bibitem{Catani:1996vz}
+S.~Catani and M.~H. Seymour.
+\newblock {A General algorithm for calculating jet cross-sections in NLO QCD}.
+\newblock {\em Nucl. Phys.}, B485:291--419, 1997.
+
+\bibitem{Catani:2002hc}
+Stefano Catani, Stefan Dittmaier, Michael~H. Seymour, and Zoltan Trocsanyi.
+\newblock {The Dipole formalism for next-to-leading order QCD calculations with
+  massive partons}.
+\newblock {\em Nucl. Phys.}, B627:189--265, 2002.
+
+\bibitem{dalton2010new}
+John Dalton.
+\newblock {\em A new system of chemical philosophy}, volume~1.
+\newblock Cambridge University Press, 2010.
+
+\bibitem{demtroder2005experimentalphysik}
+Wolfgang Demtr{\"o}der.
+\newblock {\em Experimentalphysik}, volume~2.
+\newblock Springer, 2005.
+
+\bibitem{Ellis:1991qj}
+R.~Keith Ellis, W.~James Stirling, and B.~R. Webber.
+\newblock {QCD and collider physics}.
+\newblock {\em Camb. Monogr. Part. Phys. Nucl. Phys. Cosmol.}, 8:1--435, 1996.
+
+\bibitem{Ender}
+M.~Ender.
+\newblock Radiodetektion von luftschauern unter dem einfluss starker
+  elektronischer felder in der atmosphäre, 2009.
+\newblock Diplom Thesis.
+
+\bibitem{Fischer:2014bja}
+Nadine Fischer, Stefan Gieseke, Simon Plätzer, and Peter Skands.
+\newblock {Revisiting radiation patterns in $e^+e^-$ collisions}.
+\newblock {\em Eur. Phys. J.}, C74(4):2831, 2014.
+
+\bibitem{Gieseke:2003rz}
+Stefan Gieseke, P.~Stephens, and Bryan Webber.
+\newblock {New formalism for QCD parton showers}.
+\newblock {\em JHEP}, 12:045, 2003.
+
+\bibitem{goethe1921faust}
+Johann~Wolfgang Goethe.
+\newblock {\em Faust}, volume~1.
+\newblock Ripol Classic, 1921.
+
+\bibitem{Greiner1989}
+Walter Greiner and Berndt M{\"u}ller.
+\newblock {\em Representations of the Permutation Group and Young Tableaux}.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 1989.
+
+\bibitem{griffiths2008introduction}
+David Griffiths.
+\newblock {\em Introduction to elementary particles}.
+\newblock John Wiley \& Sons, 2008.
+
+\bibitem{haken2013atom}
+Hermann Haken and Hans~Christoph Wolf.
+\newblock {\em Atom-und Quantenphysik: Einf{\"u}hrung in die experimentellen
+  und theoretischen Grundlagen}.
+\newblock Springer-Verlag, 2013.
+
+\bibitem{halzen1984quarks}
+Francis Halzen and Alan~D Martin.
+\newblock Quarks \& leptons john wiley \& sons.
+\newblock {\em New York}, 1984.
+
+\bibitem{halzen1984introductory}
+Francis Halzen, Alan~D Martin, and Leptons Quarks.
+\newblock An introductory course in modern particle physics.
+\newblock {\em John and Wiley}, 1984.
+
+\bibitem{peskin2018introduction}
+Michael~E Peskin.
+\newblock {\em An introduction to quantum field theory}.
+\newblock CRC Press, 2018.
+
+\bibitem{Platzer:2009jq}
+Simon Platzer and Stefan Gieseke.
+\newblock {Coherent Parton Showers with Local Recoils}.
+\newblock {\em JHEP}, 01:024, 2011.
+
+\bibitem{Platzer:2011dq}
+Simon Platzer and Malin Sjodahl.
+\newblock {The Sudakov Veto Algorithm Reloaded}.
+\newblock {\em Eur. Phys. J. Plus}, 127:26, 2012.
+
+\bibitem{Platzer:2018pmd}
+Simon Plätzer, Malin Sjodahl, and Johan Thorén.
+\newblock {Color matrix element corrections for parton showers}.
+\newblock {\em JHEP}, 11:009, 2018.
+
+\bibitem{Eva}
+Eva Popenda.
+\newblock Hadron-kollider-experimente bei sehr hohen energien, WS 2016/2017.
+
+\bibitem{Schwartz:2013pla}
+Matthew~D. Schwartz.
+\newblock {\em {Quantum Field Theory and the Standard Model}}.
+\newblock Cambridge University Press, 2014.
+
+\bibitem{Seymour:1994we}
+Michael~H. Seymour.
+\newblock {A Simple prescription for first order corrections to quark
+  scattering and annihilation processes}.
+\newblock {\em Nucl. Phys.}, B436:443--460, 1995.
 
 \end{thebibliography}

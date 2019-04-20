@@ -29,7 +29,7 @@
 \usepackage[compat=1.0.0]{tikz-feynman}
 \usepackage{mathtools}
 \usepackage{ mathrsfs }
-
+\usepackage{natbib}
 % =====================================================
 % Seite einrichten
 % =====================================================
@@ -128,10 +128,8 @@
 \chapter{Gluon quark quark emission kernel}
 \input{gq/gq.tex}   
 \newpage
-\bibliographystyle{unsrt}
-\bibliography{bib/bib.bib}
 
-%\addcontentsline{toc}{chapter}{Bibliography}
+
 \newpage
 
 %\listoftables
@@ -141,6 +139,12 @@
 \chapter*{Appendix A}
 \input{appendix/appendix}
 \newpage
+%\addcontentsline{toc}{chapter}{Bibliography}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{myBib}
+\newpage
+
 \chapter*{Acknowledgement}
 \input{Danksagung/Danksagung}
  
