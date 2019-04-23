@@ -120,7 +120,7 @@ At this point, one should derive improved factorization formulae which called di
 \end{equation}
 Whereby, the sum is over dipoles for all $ m+1 $ configurations with consideration to given m-parton state. $  \partial \sigma_{B}$ describes the color/spin
 projection of Born-level exclusive cross section.
-The symbol $ \otimes $ is for phase space convolutions and sums over colour and spin indices. $ \partial V_{dipoles} $ will compute just once for all and match the singular property of the real part. So to say, it's universal. The good news is that we are now allowed to use a factorizable mapping from
+The symbol $ \otimes $ is for phase space convolutions and sums over colour and spin indices. $ \partial V_{dipoles} $ will compute just once for all and match the singular property of the real part. They are universal in the sense that they do not depend on the hard scattering. The good news is that we are now allowed to use a factorizable mapping from
 the m + 1-parton phase space to an m-parton subspace. That will be more clearer when we will use the parametrisation in the next chapter. 
 If we integrate over all m+1, we can write:
 \begin{equation}
@@ -252,7 +252,7 @@ Note, that momenta are on-shell. Due to momenta conservation ${p_i}^{\mu}+{p_j}^
 
 
 \newpage
-\section{Hard Scattering}
+\section{DIS}
 The hadron hadron scattering can be written as:
 \begin{equation}
 \sigma = \sum_{ij} \int dx_1 dx_2 f_i(x_1, \mu^2)f_j(x_2, \mu^2) \sigma_{ij}(x_1, x_2, Q^2/\mu^2... )
@@ -265,35 +265,37 @@ Here the (arbitrary) factorisation scale $ \mu $ can be thought of
 as the scale which separates the long and short-distance physics.
 Roughly speaking, a parton with a transverse momentum less
 than $ \mu $ is then considered to be part of the hadron structure and
-is absorbed in the parton distribution. Partons with larger transverse
-momenta participate in the hard scattering process with a
-short-distance partonic cross-section.
-The factorisation theorem also applies to deep inelastic scattering. The DIS cross section can be written as ~\cite{Ellis:1991qj}
+is absorbed in the parton distribution. Partons with larger transverse momenta participate in the hard scattering process with a short-distance partonic cross-section.
+The factorisation theorem also applies to deep inelastic scattering. It can be shown how the IR singularities are absorbed in the PDFs. The DIS cross section can be written as ~\cite{Ellis:1991qj}
 \begin{equation}
 \frac{d^2 \sigma}{dx dQ^2}=\frac{4\pi \alpha^2}{x Q^4}[(1-y)F_2 (x, Q^2)+xy^2 F_1(x, Q^2)]
 \end{equation}
 In this case we need to introduce the structure function, is defined as the charge weighted sum of the parton momentum densities, the probability that the parton carries a momentum
-fraction x. The index i denotes the quark. 
-flavour.
+fraction between $ x $ and $ \partial x $ of the proton momentum. The index i denotes the quark flavour. Parton distributions are nonpertubative and have not be obtained from experiment.
+
 \begin{equation}
 {{F}_2}^{exp} (x)= \sum_i {e_i}^2 x f_i(x)
 \end{equation}
 The evolution of a parton
 distribution due to splitting is called the DGLAP
-evolution equation. 
+evolution equation~\cite{Ward:1995xy}. 
 \begin{equation}
 \frac{\partial f(x, \mu^2) }{\partial \: ln \:\mu^2}=
-\frac{\alpha_s}{2\pi}\int_{x}^{1}\frac{dy}{y} f_j(\frac{x}{y}, \mu^2) P_{ij}(y)
+\frac{\alpha_s}{2\pi}\int_{x}^{1}\frac{dy}{y} f_j(y, \mu^2) P_{ij}(\frac{x}{y})+O({\alpha_s}^2)
 \end{equation}
-This is a system of coupled integro/differential equations.
-The above convolution in compact notation in the general case:
+This is a system of coupled integral or differential equations. $ P_{ij}(\frac{x}{y}) $ represents the probability thar a daughter parton $ i $ with momentum fraction $ \frac{x}{y} $ splits from a parent parton $ j $.
+The above convolution in compact notation (Mellin Convolution) in the general case:
 \begin{equation}
-\frac{\partial f(x, \mu^2) }{\partial \: ln \:\mu^2}=
-\sum_j P_{ij} \otimes f_j(\mu^2)
+\frac{\partial f_i(x, \mu^2) }{\partial \: ln \:\mu^2}=
+\sum_{j=-n_f}^{n_f} P_{ij} \otimes f_j(\mu^2)
 \end{equation}
-There three more spiriting possibilities according to below diagrams. A parton distribution changes when a different parton splits or the parton itself splits. we can not compute parton densities, but we
-can predict how they evolve from one scale to another. we can measure pdfs in one process
-and use them as an input for another process
+There four spiriting possibilities according to below diagrams and the transitions lead to ser of $ 2n_f +1 $ coupled evolution equations.
+\begin{equation}
+\frac{\partial }{\partial \: ln \:\mu^2} \left(\begin{array}{c}q_s\\ g\end{array}\right)=
+\frac{\alpha_s}{2\pi}\begin{bmatrix}P_{qq} & 2n_fP_{qg} \\P_{gq} & P_{gg} \end{bmatrix}\otimes\left(\begin{array}{c}q_s\\ g\end{array}\right)
+\end{equation}
+A parton distribution changes when a different parton splits or the parton itself splits. we can not compute parton densities, but we
+can predict how they evolve from one scale to another. we can measure PDFs in one process and use them as an input for another process.
 
 \begin{figure}[h!]
 \centering

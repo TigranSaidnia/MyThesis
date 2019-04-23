@@ -9,7 +9,7 @@
 \contentsline {chapter}{\numberline {2}Catani Seymour}{14}{chapter.2}
 \contentsline {section}{\numberline {2.1}IR and Collinar Divergences}{14}{section.2.1}
 \contentsline {section}{\numberline {2.2}Subtraction method}{17}{section.2.2}
-\contentsline {section}{\numberline {2.3}Factorisation}{23}{section.2.3}
+\contentsline {section}{\numberline {2.3}DIS}{23}{section.2.3}
 \contentsline {section}{\numberline {2.4}Mapping 3 partons to 2}{25}{section.2.4}
 \contentsline {section}{\numberline {2.5}Old mapping}{25}{section.2.5}
 \contentsline {section}{\numberline {2.6}new kinematic}{26}{section.2.6}
