@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  21 APR 2019 13:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  22 APR 2019 20:00
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1510,56 +1510,56 @@ Chapter 1.
 (basic/basic.tex
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 27.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 25.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 \section{Standard model}
+l.25 \section{Standard model}
                               [2
 
 ]
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 27.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 25.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 \section{Standard model}
+l.25 \section{Standard model}
                               [3]
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
 <images/Intro/Neutron.png, id=295, 525.46312pt x 408.02437pt>
 File: images/Intro/Neutron.png Graphic file (type png)
 <use images/Intro/Neutron.png>
-Package pdftex.def Info: images/Intro/Neutron.png  used on input line 58.
+Package pdftex.def Info: images/Intro/Neutron.png  used on input line 56.
 (pdftex.def)             Requested size: 367.82167pt x 285.61511pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 61.
+(Font)              <10.95> on input line 59.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 63.
+(Font)              <10> on input line 61.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 63.
+(Font)              <7> on input line 61.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 63.
+(Font)              <5> on input line 61.
 <images/Intro/quarkGluonPop.png, id=299, 335.75438pt x 72.27pt>
 File: images/Intro/quarkGluonPop.png Graphic file (type png)
 <use images/Intro/quarkGluonPop.png>
-Package pdftex.def Info: images/Intro/quarkGluonPop.png  used on input line 69.
+Package pdftex.def Info: images/Intro/quarkGluonPop.png  used on input line 67.
 
 (pdftex.def)             Requested size: 235.02646pt x 50.58864pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--72
+Underfull \hbox (badness 10000) in paragraph at lines 36--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--72
+Underfull \hbox (badness 10000) in paragraph at lines 36--71
 
  []
 
@@ -1568,68 +1568,72 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 72.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 71.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 
+l.71 
       [4]
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 82.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 81.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [5 <./images/Intro/Neutron.png> <./images/Intro/quarkGluonPop.png>]
-<images/Intro/QCDRunningCoupling.png, id=321, 559.33969pt x 450.9347pt>
+<images/Intro/QCDRunningCoupling.png, id=322, 559.33969pt x 450.9347pt>
 File: images/Intro/QCDRunningCoupling.png Graphic file (type png)
 <use images/Intro/QCDRunningCoupling.png>
 Package pdftex.def Info: images/Intro/QCDRunningCoupling.png  used on input lin
-e 92.
+e 91.
 (pdftex.def)             Requested size: 391.53511pt x 315.65213pt.
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 104.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 103.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 
 [6 <./images/Intro/QCDRunningCoupling.png>]
-<images/Intro/Young.png, id=332, 682.04813pt x 268.75406pt>
+<images/Intro/Young.png, id=333, 682.04813pt x 268.75406pt>
 File: images/Intro/Young.png Graphic file (type png)
 <use images/Intro/Young.png>
-Package pdftex.def Info: images/Intro/Young.png  used on input line 114.
+Package pdftex.def Info: images/Intro/Young.png  used on input line 113.
 (pdftex.def)             Requested size: 477.43044pt x 188.12656pt.
 
-Overfull \hbox (22.18636pt too wide) in paragraph at lines 114--115
+Overfull \hbox (22.18636pt too wide) in paragraph at lines 113--114
  [][] 
  []
 
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 136.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 132.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [7 <./images/Intro/Young.png>]
 <images/Intro/Ratio.png, id=343, 513.41812pt x 247.67531pt>
 File: images/Intro/Ratio.png Graphic file (type png)
 <use images/Intro/Ratio.png>
-Package pdftex.def Info: images/Intro/Ratio.png  used on input line 145.
+Package pdftex.def Info: images/Intro/Ratio.png  used on input line 144.
 (pdftex.def)             Requested size: 308.05324pt x 148.60632pt.
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 173.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 169.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [8 <./images/Intro/Ratio.png>]
-<images/Intro/Lfree.png, id=360, 668.4975pt x 553.31718pt>
+<images/Intro/Lfree.png, id=359, 668.4975pt x 553.31718pt>
 File: images/Intro/Lfree.png Graphic file (type png)
 <use images/Intro/Lfree.png>
-Package pdftex.def Info: images/Intro/Lfree.png  used on input line 181.
+Package pdftex.def Info: images/Intro/Lfree.png  used on input line 180.
 (pdftex.def)             Requested size: 467.94505pt x 387.31938pt.
-<images/Intro/Lint.png, id=361, 692.5875pt x 699.36281pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/Intro/Lint.png, id=360, 692.5875pt x 699.36281pt>
 File: images/Intro/Lint.png Graphic file (type png)
 <use images/Intro/Lint.png>
-Package pdftex.def Info: images/Intro/Lint.png  used on input line 186.
+Package pdftex.def Info: images/Intro/Lint.png  used on input line 185.
 (pdftex.def)             Requested size: 484.80794pt x 489.55063pt.
 
-Overfull \hbox (3.72218pt too wide) in paragraph at lines 185--187
+Overfull \hbox (3.72218pt too wide) in paragraph at lines 184--186
 []  [] 
  []
 
@@ -1638,98 +1642,84 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 197.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 196.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
-[9 <./images/Intro/Lfree.png>]
-File: images/Intro/ppp.jpg Graphic file (type jpg)
-<use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 214.
-(pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
- [10 <./images/Intro/Lint.png>]
-<images/Intro/Casimir.png, id=384, 716.6775pt x 174.6525pt>
+[9]
+<images/Intro/Casimir.png, id=373, 716.6775pt x 174.6525pt>
 File: images/Intro/Casimir.png Graphic file (type png)
 <use images/Intro/Casimir.png>
-Package pdftex.def Info: images/Intro/Casimir.png  used on input line 220.
+Package pdftex.def Info: images/Intro/Casimir.png  used on input line 219.
 (pdftex.def)             Requested size: 430.00983pt x 104.7923pt.
-<images/Intro/CasimirAdj.png, id=385, 679.03688pt x 99.37125pt>
+<images/Intro/CasimirAdj.png, id=374, 679.03688pt x 99.37125pt>
 File: images/Intro/CasimirAdj.png Graphic file (type png)
 <use images/Intro/CasimirAdj.png>
-Package pdftex.def Info: images/Intro/CasimirAdj.png  used on input line 226.
+Package pdftex.def Info: images/Intro/CasimirAdj.png  used on input line 225.
 (pdftex.def)             Requested size: 407.42526pt x 59.6232pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--228
+Underfull \hbox (badness 10000) in paragraph at lines 213--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--228
+Underfull \hbox (badness 10000) in paragraph at lines 213--227
 
  []
 
-<images/Intro/Casimir1.png, id=386, 794.2172pt x 177.66376pt>
+File: images/Intro/ppp.jpg Graphic file (type jpg)
+<use images/Intro/ppp.jpg>
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 227.
+(pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
+[10 <./images/Intro/Lfree.png>]
+File: images/Intro/ppp.jpg Graphic file (type jpg)
+<use images/Intro/ppp.jpg>
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 227.
+(pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
+ [11 <./images/Intro/Lint.png> <./images/Intro/Casimir.png>]
+<images/Intro/Casimir1.png, id=394, 665.48625pt x 146.79843pt>
 File: images/Intro/Casimir1.png Graphic file (type png)
 <use images/Intro/Casimir1.png>
 Package pdftex.def Info: images/Intro/Casimir1.png  used on input line 257.
-(pdftex.def)             Requested size: 476.534pt x 106.59906pt.
-
-Overfull \hbox (21.28992pt too wide) in paragraph at lines 257--258
- [][] 
- []
-
-<images/Intro/Casimir2.png, id=387, 667.74469pt x 204.01219pt>
+(pdftex.def)             Requested size: 399.29483pt x 88.07973pt.
+<images/Intro/Casimir2.png, id=395, 641.39626pt x 170.88844pt>
 File: images/Intro/Casimir2.png Graphic file (type png)
 <use images/Intro/Casimir2.png>
-Package pdftex.def Info: images/Intro/Casimir2.png  used on input line 261.
-(pdftex.def)             Requested size: 400.6499pt x 122.40825pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+Package pdftex.def Info: images/Intro/Casimir2.png  used on input line 262.
+(pdftex.def)             Requested size: 384.84071pt x 102.53384pt.
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 266.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 267.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
-[11 <./images/Intro/Casimir.png> <./images/Intro/CasimirAdj.png>]
-<images/Intro/Casimir3.png, id=402, 591.71063pt x 160.34906pt>
+ [12 <./images/Intro/CasimirAdj.png> <./images/Intro/Casimir1.png> <./images/In
+tro/Casimir2.png>]
+<images/Intro/Casimir3.png, id=411, 591.71063pt x 160.34906pt>
 File: images/Intro/Casimir3.png Graphic file (type png)
 <use images/Intro/Casimir3.png>
-Package pdftex.def Info: images/Intro/Casimir3.png  used on input line 271.
+Package pdftex.def Info: images/Intro/Casimir3.png  used on input line 272.
 (pdftex.def)             Requested size: 355.02911pt x 96.21017pt.
-<images/Intro/Casimir4.png, id=403, 581.17125pt x 130.23656pt>
+<images/Intro/Casimir4.png, id=412, 581.17125pt x 130.23656pt>
 File: images/Intro/Casimir4.png Graphic file (type png)
 <use images/Intro/Casimir4.png>
-Package pdftex.def Info: images/Intro/Casimir4.png  used on input line 275.
+Package pdftex.def Info: images/Intro/Casimir4.png  used on input line 276.
 (pdftex.def)             Requested size: 348.70544pt x 78.14253pt.
-<images/Intro/Fritz.png, id=404, 548.0475pt x 156.585pt>
+<images/Intro/Fritz.png, id=413, 539.01375pt x 155.83218pt>
 File: images/Intro/Fritz.png Graphic file (type png)
 <use images/Intro/Fritz.png>
-Package pdftex.def Info: images/Intro/Fritz.png  used on input line 286.
-(pdftex.def)             Requested size: 328.83104pt x 93.95172pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+Package pdftex.def Info: images/Intro/Fritz.png  used on input line 287.
+(pdftex.def)             Requested size: 323.41074pt x 93.50003pt.
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 293.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 305.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
-[12 <./images/Intro/Casimir1.png> <./images/Intro/Casimir2.png> <./images/Intro
-/Casimir3.png> <./images/Intro/Casimir4.png>]
-File: images/Intro/ppp.jpg Graphic file (type jpg)
-<use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 304.
-(pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
- [13 <./images/Intro/Fritz.png>])
+ [13 <./images/Intro/Casimir3.png> <./images/Intro/Casimir4.png> <./images/Intr
+o/Fritz.png>])
 Chapter 2.
 (singularities/singularities.tex
-<images/Intro/IRCol.png, id=428, 496.85625pt x 292.84406pt>
+<images/Intro/IRCol.png, id=429, 496.85625pt x 292.84406pt>
 File: images/Intro/IRCol.png Graphic file (type png)
 <use images/Intro/IRCol.png>
 Package pdftex.def Info: images/Intro/IRCol.png  used on input line 6.
 (pdftex.def)             Requested size: 386.96024pt x 228.07336pt.
-<images/Intro/IRColMatrix.png, id=429, 820.56563pt x 340.27126pt>
+<images/Intro/IRColMatrix.png, id=430, 820.56563pt x 340.27126pt>
 File: images/Intro/IRColMatrix.png Graphic file (type png)
 <use images/Intro/IRColMatrix.png>
 Package pdftex.def Info: images/Intro/IRColMatrix.png  used on input line 12.
@@ -2640,27 +2630,27 @@ Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 146.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [82]
 (Danksagung/Danksagung.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
+Underfull \hbox (badness 10000) in paragraph at lines 2--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
+Underfull \hbox (badness 10000) in paragraph at lines 2--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
+Underfull \hbox (badness 10000) in paragraph at lines 2--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
+Underfull \hbox (badness 10000) in paragraph at lines 2--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
+Underfull \hbox (badness 10000) in paragraph at lines 2--12
 
  []
 
@@ -2682,10 +2672,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
- 25242 strings out of 493308
- 483157 string characters out of 3138722
- 579593 words of memory out of 3000000
- 27724 multiletter control sequences out of 15000+200000
+ 25246 strings out of 493308
+ 483234 string characters out of 3138722
+ 579609 words of memory out of 3000000
+ 27727 multiletter control sequences out of 15000+200000
  141036 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,21n,78p,1056b,611s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2714,9 +2704,9 @@ Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs
 10.pfb>
-Output written on thesis.pdf (88 pages, 1640108 bytes).
+Output written on thesis.pdf (88 pages, 1645976 bytes).
 PDF statistics:
- 1262 PDF objects out of 1440 (max. 8388607)
- 446 named destinations out of 1000 (max. 500000)
+ 1263 PDF objects out of 1440 (max. 8388607)
+ 447 named destinations out of 1000 (max. 500000)
  622 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -190,9 +190,10 @@ I am going to go into more details in the next chapter. That's here should be a 
 Based on the Catani-Seymour method for (m + 1) partons matrix element, it's possible to factorise out parton k to give $ \vert {{\mathcal{M}}}_{m}  \vert^2 $:
 \begin{equation}
 \vert {{\mathcal{M}}}_{m+1}  \vert^2 \rightarrow \sum \vert {{\mathcal{M}}}_{m}  \vert^2 \otimes V_{ij,k}
+\Rightarrow \vert {{\mathcal{M}}}_{m+1}  \vert^2 \rightarrow \sum \vert {{\mathcal{M}}}_{m}  \vert^2 \otimes V_{ij,k}
 \end{equation}
 
-$ V_{ij,k} $ singular factor including parton k and it's interaction with partons i and j from the m parton amplitude this situation can be represented by the bottom diagram.
+$ V_{ij,k} $ singular factor including parton k and it's interaction with partons i and j from the m parton amplitude. This situation can be represented by the bottom diagram.
 
 \begin{figure}[h!]
 \centering
@@ -251,7 +252,7 @@ Note, that momenta are on-shell. Due to momenta conservation ${p_i}^{\mu}+{p_j}^
 
 
 \newpage
-\section{Factorisation}
+\section{Hard Scattering}
 The hadron hadron scattering can be written as:
 \begin{equation}
 \sigma = \sum_{ij} \int dx_1 dx_2 f_i(x_1, \mu^2)f_j(x_2, \mu^2) \sigma_{ij}(x_1, x_2, Q^2/\mu^2... )
@@ -277,14 +278,22 @@ flavour.
 \begin{equation}
 {{F}_2}^{exp} (x)= \sum_i {e_i}^2 x f_i(x)
 \end{equation}
-The evolution of a quark
-distribution due to gluon radiation and is called the DGLAP
-evolution equation.
+The evolution of a parton
+distribution due to splitting is called the DGLAP
+evolution equation. 
 \begin{equation}
 \frac{\partial f(x, \mu^2) }{\partial \: ln \:\mu^2}=
-\frac{\alpha_s}{2\pi}\int_{x}^{1}\frac{dy}{y} f(y, \mu^2) P_{qq}(\frac{x}{y}+O({\alpha_s}^2)
+\frac{\alpha_s}{2\pi}\int_{x}^{1}\frac{dy}{y} f_j(\frac{x}{y}, \mu^2) P_{ij}(y)
 \end{equation}
-There three more spiriting possibilities according to below diagrams.
+This is a system of coupled integro/differential equations.
+The above convolution in compact notation in the general case:
+\begin{equation}
+\frac{\partial f(x, \mu^2) }{\partial \: ln \:\mu^2}=
+\sum_j P_{ij} \otimes f_j(\mu^2)
+\end{equation}
+There three more spiriting possibilities according to below diagrams. A parton distribution changes when a different parton splits or the parton itself splits. we can not compute parton densities, but we
+can predict how they evolve from one scale to another. we can measure pdfs in one process
+and use them as an input for another process
 
 \begin{figure}[h!]
 \centering
