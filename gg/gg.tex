@@ -3,25 +3,29 @@
 \centering
 \includegraphics[width=0.85\textwidth]{images/GG/GGDiagrams.png}
 \end{figure}
+Now consider a daughter gluon from the splitting of a parent gluon with radiation an another gluon. When the gluon becomes soft, the distinction between daughter and parent vanishes, and a singularity develops. In this chapter we are going to keep the same procedure with a difference that we won't use the old parametrisation since it only works in LO. One of the mainly challenges about this emission kernel is that the calculations are long and complicated. Before we get started, it must be mentioned that we will work here with the recipe from section 3.6, in which the respective mathematical tools were calculated in detail.
 \pagebreak
 \section{Gluon-Emitter Bubble}
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.7]{images/GG/M1gg.png}
 \end{figure}
-\begin{equation}
-\begin{split}
-M_1=[\frac{-i}{(q +q_i)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q -q_i)^{\eta}+g^{{\zeta}{\eta}}(-q-(q +q_i))^{\mu}+g^{{\eta}{\mu}}(q_i +q_i+q)^{\zeta})\\
-{\varepsilon^{\lambda_1}}_{\mu} (q) {\varepsilon^{\lambda_6}}_{\zeta} (q)][{{\varepsilon^{\theta}}_{{\tau}^{\prime}}} (q_j)]
-\end{split}
-\end{equation}
-
+If we start with the first diagram and use the necessary Feynmann rules, we get:
+%\begin{equation}
+%\begin{split}
+%M_1=[\frac{-i}{(q +q_i)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q -q_i)^{\eta}+g^{{\zeta}{\eta}}(-q-(q +q_i))^{\mu}+g^{{\eta}{\mu}}(q_i +q_i+q)^{\zeta})\\
+%{\varepsilon^{\lambda_1}}_{\mu} (q) {\varepsilon^{\lambda_6}}_{\zeta} (q)][{{\varepsilon^{\theta}}_{{\tau}^{\prime}}} (q_j)]
+%\end{split}
+%\end{equation}
 \begin{equation}
 \begin{split}
 M_1=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{{\zeta}{\eta}}(2q +q_i)^{\mu}+g^{{\eta}{\mu}}(2q_i +q)^{\zeta})\\
 {\varepsilon^{\lambda_1}}_{\mu} (q_i) {\varepsilon^{\lambda_6}}_{\zeta} (q)][{{\varepsilon^{\theta}}_{{\tau}^{\prime}}} (q_j)]
 \end{split}
 \end{equation}
+It has to be emphasized that here only the impulse from the parent gluon is incoming and the two further impulses from the vertex are pointing out. This is why the minus signs appear in the equation.
+If the upper equation is daggered, you get the following diagram and the corresponding following amplitude:
+
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.7]{images/GG/M1Daggergg.png}
@@ -32,15 +36,18 @@ M_1=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{
 {{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}}^* (q_i) {{\varepsilon^{\lambda_5}}_{{\zeta}^{\prime}}}^* (q)][{{\varepsilon^{{\theta}^{\prime}}}_{{\tau}^{\prime}}}^* (q_j)]
 \end{split}
 \end{equation}
-\begin{figure}[ht!]
+Let us now calculate the matrix element, in which we place the results from above next to each other, it turns out:
+\begin{figure}[h!]
 \centering
 \includegraphics[width=0.95\textwidth]{images/GG/M1Squer.png}
 \end{figure}
+
 \begin{equation}
 \begin{split}
-|M_1|^2=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{{\zeta}{\eta}}(2q +q_i)^{\mu}+g^{{\eta}{\mu}}(2q_i +q)^{\zeta})\\
-{\varepsilon^{\lambda_1}}_{\mu} (q_i)\:{{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}}^* (q_i) {\varepsilon^{\lambda_6}}_{\zeta} (q)\:{{\varepsilon^{\lambda_5}}_{{\zeta}^{\prime}}}^* (q)\\
-(-g_s f^{\:a^{\prime}\:k\:o^{\prime}}(-g^{{{\mu}^{\prime}}{{\eta}^{\prime}}}(2q_i+q)^{{\zeta}^{\prime}}+g^{{{\eta}^{\prime}}{{\zeta}^{\prime}}}(2q +q_i)^{{\mu}^{\prime}}+g^{{{\zeta}^{\prime}}{{\mu}^{\prime}}}(q_i-q)^{{\eta}^{\prime}})\frac{i}{(q_i +q)^2}][g^{{\gamma}{\delta}}]
+&|M_1|^2=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{{\zeta}{\eta}}(2q +q_i)^{\mu}+g^{{\eta}{\mu}}(2q_i +q)^{\zeta})\\
+&{\varepsilon^{\lambda_1}}_{\mu} (q_i)\:{{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}}^* (q_i) {\varepsilon^{\lambda_6}}_{\zeta} (q)\:{{\varepsilon^{\lambda_5}}_{{\zeta}^{\prime}}}^* (q)
+(-g_s f^{\:a^{\prime}\:k\:o^{\prime}}(-g^{{{\mu}^{\prime}}{{\eta}^{\prime}}}(2q_i+q)^{{\zeta}^{\prime}}+g^{{{\eta}^{\prime}}{{\zeta}^{\prime}}}(2q +q_i)^{{\mu}^{\prime}}\\
+&+g^{{{\zeta}^{\prime}}{{\mu}^{\prime}}}(q_i-q)^{{\eta}^{\prime}})\frac{i}{(q_i +q)^2}][g^{{\gamma}{\delta}}]
 \end{split}
 \end{equation}
 
