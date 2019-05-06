@@ -5,7 +5,7 @@
 \BOOKMARK [1][-]{section.1.3}{Quantum chromo dynamics}{chapter.1}% 5
 \BOOKMARK [1][-]{section.1.4}{QCD Lagrangian}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.5}{Colour factor calculation}{chapter.1}% 7
-\BOOKMARK [0][-]{chapter.2}{Catani Seymour}{}% 8
+\BOOKMARK [0][-]{chapter.2}{Introduction to splitting function}{}% 8
 \BOOKMARK [1][-]{section.2.1}{IR and Collinar Divergences}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.2}{Subtraction method}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.3}{Hard scattering}{chapter.2}% 11
@@ -26,18 +26,19 @@
 \BOOKMARK [0][-]{chapter.4}{Gluon radiation from a parent quark}{}% 26
 \BOOKMARK [1][-]{section.4.1}{Gluon-Emitter Bubble}{chapter.4}% 27
 \BOOKMARK [2][-]{subsection.4.1.1}{One-loop corrections to the gluon self-energy diagram\(Gluon-Emitter Bubble\)}{section.4.1}% 28
-\BOOKMARK [1][-]{section.4.2}{Gluon-Spectator Bubble}{chapter.4}% 29
-\BOOKMARK [2][-]{subsection.4.2.1}{One-loop corrections to the gluon self-energy diagram \(Gluon-Spectator Bubble\)}{section.4.2}% 30
-\BOOKMARK [1][-]{section.4.3}{Interference term M1 M2}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.4}{Interference term of inverse M1M2}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.5}{Parametrization in terms of \040\(k1 qi \)\(qi qk\) }{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.6}{|M2|}{chapter.4}% 34
-\BOOKMARK [0][-]{chapter.5}{Quark gluon quark emission kernel}{}% 35
-\BOOKMARK [1][-]{section.5.1}{Quark loop}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.2}{Spectator Quark loop}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.3}{Interference term}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.4}{|M2|}{chapter.5}% 39
-\BOOKMARK [0][-]{chapter.6}{Gluon quark quark emission kernel}{}% 40
-\BOOKMARK [1][-]{section.6.1}{ M1 }{chapter.6}% 41
-\BOOKMARK [1][-]{section.6.2}{ M2 }{chapter.6}% 42
-\BOOKMARK [1][-]{section.6.3}{ M1M2 }{chapter.6}% 43
+\BOOKMARK [2][-]{subsection.4.1.2}{Another way \(within the concept 2.9.2 \)}{section.4.1}% 29
+\BOOKMARK [1][-]{section.4.2}{Gluon-Spectator Bubble}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.2.1}{One-loop corrections to the gluon self-energy diagram \(Gluon-Spectator Bubble\)}{section.4.2}% 31
+\BOOKMARK [1][-]{section.4.3}{Interference term M1 M2}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.4}{Interference term of inverse M1M2}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.5}{Parametrization in terms of \040\(k1 qi \)\(qi qk\) }{chapter.4}% 34
+\BOOKMARK [1][-]{section.4.6}{|M2|}{chapter.4}% 35
+\BOOKMARK [0][-]{chapter.5}{Quark gluon quark emission kernel}{}% 36
+\BOOKMARK [1][-]{section.5.1}{Quark loop}{chapter.5}% 37
+\BOOKMARK [1][-]{section.5.2}{Spectator Quark loop}{chapter.5}% 38
+\BOOKMARK [1][-]{section.5.3}{Interference term}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.4}{|M2|}{chapter.5}% 40
+\BOOKMARK [0][-]{chapter.6}{Gluon quark quark emission kernel}{}% 41
+\BOOKMARK [1][-]{section.6.1}{ M1 }{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.2}{ M2 }{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.3}{ M1M2 }{chapter.6}% 44
