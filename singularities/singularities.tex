@@ -232,7 +232,7 @@ The first term with the sum over dipoles is divergent as $ p_i \cdot p_j \righta
 Where $ T_k \cdot T_{ij} $ are the color charges of spectator and emitter
 
 $ V_{ij,k} $ splitting kernel in helicity space of emitter
-explicit form depends on parton type become proportional to Altarelli-Parisi splitting functions and eikonal factors
+explicit form depends on parton type become proportional to Altarelli-Parisi splitting functions \ref{Alterali-Parisi} and eikonal factors
 in collinear and soft limits.\\
 Using the kinematics:
 \begin{equation}
@@ -286,17 +286,18 @@ The above convolution in compact notation (Mellin Convolution) in the general ca
 \frac{\partial f_i(x, \mu^2) }{\partial \: ln \:\mu^2}=
 \sum_{j=-n_f}^{n_f} P_{ij} \otimes f_j(\mu^2)
 \end{equation}
-The four splitting probabilities are illustrated in the diagram \ref{spiliting} and the transitions lead to a set of $ 2n_f +1 $ coupled evolution equations.
+
+The four splitting probabilities are illustrated in the diagram \ref{splitting} and the transitions lead to a set of $ 2n_f +1 $ coupled evolution equations.
 \begin{equation}
 \frac{\partial }{\partial \: ln \:\mu^2} \left(\begin{array}{c}q_s\\ g\end{array}\right)=
 \frac{\alpha_s}{2\pi}\begin{bmatrix}P_{qq} & 2n_fP_{qg} \\P_{gq} & P_{gg} \end{bmatrix}\otimes\left(\begin{array}{c}q_s\\ g\end{array}\right)
 \end{equation}
 A parton distribution changes when a different parton splits or the parton itself splits. Parton densities can not be analytically determined, but it is possible to predict how they evolve from one scale to another. PDFs are measured in one process and use them as an input for another process.
-
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/Intro/spiliting.png}
-\label{spiliting}
+\caption{The four splitting probabilities}
+\label{splitting}
 \end{figure}
 
 \begin{equation}
@@ -307,6 +308,8 @@ A parton distribution changes when a different parton splits or the parton itsel
 \langle\:\hat{P_{gg}}\rangle &= 2C_A[\frac{z}{1-z}+\frac{1-z}{z}+z(1-z)]
 \end{aligned}
 	\right\}
-	\quad \text{splitting functions}
+	\quad \text{Alterali-Parisi
+	}
+\label{Alterali-Parisi}
 \end{equation}
 \newpage

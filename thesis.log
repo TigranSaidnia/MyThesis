@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  7 MAY 2019 00:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  10 MAY 2019 10:54
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1815,7 +1815,7 @@ File: images/Intro/ppp.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 251.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [22]
-<images/Intro/Hard.png, id=538, 821.31844pt x 457.71pt>
+<images/Intro/Hard.png, id=540, 821.31844pt x 457.71pt>
 File: images/Intro/Hard.png Graphic file (type png)
 <use images/Intro/Hard.png>
 Package pdftex.def Info: images/Intro/Hard.png  used on input line 259.
@@ -1825,29 +1825,22 @@ File: images/Intro/ppp.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 288.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [23 <./images/Intro/Hard.png>]
-
-Package caption Warning: \label without proper reference on input line 299.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `spiliting' on page 24 undefined on input line 289.
-
-<images/Intro/spiliting.png, id=554, 490.08093pt x 130.23656pt>
+<images/Intro/spiliting.png, id=556, 490.08093pt x 130.23656pt>
 File: images/Intro/spiliting.png Graphic file (type png)
 <use images/Intro/spiliting.png>
 Package pdftex.def Info: images/Intro/spiliting.png  used on input line 298.
 (pdftex.def)             Requested size: 386.96024pt x 102.83606pt.
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 312.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 315.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
-[24 <./images/Intro/spiliting.png>]) (parametrisation/parametrisation.tex
+ [24 <./images/Intro/spiliting.png>])
+(parametrisation/parametrisation.tex
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
 Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 45.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
-
-[25]
+ [25]
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
 Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 91.
@@ -1952,7 +1945,7 @@ Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 121.
  [31]
 Chapter 3.
 (qq/qq.tex
-<images/QQ/qqg-diagrams.png, id=628, 490.83376pt x 247.67531pt>
+<images/QQ/qqg-diagrams.png, id=627, 490.83376pt x 247.67531pt>
 File: images/QQ/qqg-diagrams.png Graphic file (type png)
 <use images/QQ/qqg-diagrams.png>
 Package pdftex.def Info: images/QQ/qqg-diagrams.png  used on input line 3.
@@ -1983,17 +1976,17 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 16.
 
-<images/QQ/qgqbarM.png, id=637, 273.27094pt x 191.21437pt>
+<images/QQ/qgqbarM.png, id=636, 273.27094pt x 191.21437pt>
 File: images/QQ/qgqbarM.png Graphic file (type png)
 <use images/QQ/qgqbarM.png>
 Package pdftex.def Info: images/QQ/qgqbarM.png  used on input line 20.
 (pdftex.def)             Requested size: 191.28833pt x 133.84914pt.
-<images/QQ/qgqbarMDega.png, id=638, 281.55188pt x 194.22563pt>
+<images/QQ/qgqbarMDega.png, id=637, 281.55188pt x 194.22563pt>
 File: images/QQ/qgqbarMDega.png Graphic file (type png)
 <use images/QQ/qgqbarMDega.png>
 Package pdftex.def Info: images/QQ/qgqbarMDega.png  used on input line 29.
 (pdftex.def)             Requested size: 197.08496pt x 135.957pt.
-<images/QQ/qgqbarMSquer.png, id=639, 553.31718pt x 209.28188pt>
+<images/QQ/qgqbarMSquer.png, id=638, 553.31718pt x 209.28188pt>
 File: images/QQ/qgqbarMSquer.png Graphic file (type png)
 <use images/QQ/qgqbarMSquer.png>
 Package pdftex.def Info: images/QQ/qgqbarMSquer.png  used on input line 38.
@@ -2003,7 +1996,7 @@ File: images/Intro/ppp.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 41.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [33 <./images/QQ/qgqbarM.png> <./images/QQ/qgqbarMDega.png>]
-<images/QQ/expectationqg-qbar.png, id=651, 695.59875pt x 216.81pt>
+<images/QQ/expectationqg-qbar.png, id=650, 695.59875pt x 216.81pt>
 File: images/QQ/expectationqg-qbar.png Graphic file (type png)
 <use images/QQ/expectationqg-qbar.png>
 Package pdftex.def Info: images/QQ/expectationqg-qbar.png  used on input line 9
@@ -2048,7 +2041,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 205.
 
-<images/QQ/qbargqMSquer.png, id=684, 541.27219pt x 218.31563pt>
+<images/QQ/qbargqMSquer.png, id=683, 541.27219pt x 218.31563pt>
 File: images/QQ/qbargqMSquer.png Graphic file (type png)
 <use images/QQ/qbargqMSquer.png>
 Package pdftex.def Info: images/QQ/qbargqMSquer.png  used on input line 225.
@@ -2058,12 +2051,12 @@ File: images/Intro/ppp.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 282.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [37 <./images/QQ/qbargqMSquer.png>]
-<images/QQ/M1M2Degaqqg.png, id=696, 639.89063pt x 217.5628pt>
+<images/QQ/M1M2Degaqqg.png, id=695, 639.89063pt x 217.5628pt>
 File: images/QQ/M1M2Degaqqg.png Graphic file (type png)
 <use images/QQ/M1M2Degaqqg.png>
 Package pdftex.def Info: images/QQ/M1M2Degaqqg.png  used on input line 288.
 (pdftex.def)             Requested size: 386.96024pt x 131.5678pt.
-<images/QQ/expectationM1M2dagger.png, id=697, 609.77812pt x 224.33812pt>
+<images/QQ/expectationM1M2dagger.png, id=696, 609.77812pt x 224.33812pt>
 File: images/QQ/expectationM1M2dagger.png Graphic file (type png)
 <use images/QQ/expectationM1M2dagger.png>
 Package pdftex.def Info: images/QQ/expectationM1M2dagger.png  used on input lin
@@ -2079,12 +2072,12 @@ File: images/Intro/ppp.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 395.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [39]
-<images/QQ/qqgMSquer.png, id=716, 810.02625pt x 368.87813pt>
+<images/QQ/qqgMSquer.png, id=715, 810.02625pt x 368.87813pt>
 File: images/QQ/qqgMSquer.png Graphic file (type png)
 <use images/QQ/qqgMSquer.png>
 Package pdftex.def Info: images/QQ/qqgMSquer.png  used on input line 403.
 (pdftex.def)             Requested size: 386.96024pt x 176.22081pt.
-<images/QQ/REqqgMSquer.png, id=717, 730.22812pt x 342.5297pt>
+<images/QQ/REqqgMSquer.png, id=716, 730.22812pt x 342.5297pt>
 File: images/QQ/REqqgMSquer.png Graphic file (type png)
 <use images/QQ/REqqgMSquer.png>
 Package pdftex.def Info: images/QQ/REqqgMSquer.png  used on input line 411.
@@ -2111,7 +2104,7 @@ Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 565.
  [43])
 Chapter 4.
 (gg/gg.tex
-<images/GG/GGDiagrams.png, id=757, 520.19344pt x 283.81032pt>
+<images/GG/GGDiagrams.png, id=756, 520.19344pt x 283.81032pt>
 File: images/GG/GGDiagrams.png Graphic file (type png)
 <use images/GG/GGDiagrams.png>
 Package pdftex.def Info: images/GG/GGDiagrams.png  used on input line 4.
@@ -2123,17 +2116,17 @@ Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 8.
  [44
 
  <./images/GG/GGDiagrams.png>]
-<images/GG/M1gg.png, id=765, 323.70938pt x 210.7875pt>
+<images/GG/M1gg.png, id=764, 323.70938pt x 210.7875pt>
 File: images/GG/M1gg.png Graphic file (type png)
 <use images/GG/M1gg.png>
 Package pdftex.def Info: images/GG/M1gg.png  used on input line 11.
 (pdftex.def)             Requested size: 226.59502pt x 147.55025pt.
-<images/GG/M1Daggergg.png, id=766, 383.93437pt x 192.72pt>
+<images/GG/M1Daggergg.png, id=765, 383.93437pt x 192.72pt>
 File: images/GG/M1Daggergg.png Graphic file (type png)
 <use images/GG/M1Daggergg.png>
 Package pdftex.def Info: images/GG/M1Daggergg.png  used on input line 31.
 (pdftex.def)             Requested size: 268.75221pt x 134.90306pt.
-<images/GG/M1Squer.png, id=767, 711.4078pt x 252.945pt>
+<images/GG/M1Squer.png, id=766, 711.4078pt x 252.945pt>
 File: images/GG/M1Squer.png Graphic file (type png)
 <use images/GG/M1Squer.png>
 Package pdftex.def Info: images/GG/M1Squer.png  used on input line 43.
@@ -2145,234 +2138,234 @@ Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 45.
  [45 <./images/GG/M1gg.png> <./images/GG/M1Daggergg.png>]
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 80.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 81.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [46 <./images/GG/M1Squer.png>]
-<images/GG/Ghost.png, id=788, 706.89093pt x 261.22594pt>
+<images/GG/Ghost.png, id=787, 706.89093pt x 261.22594pt>
 File: images/GG/Ghost.png Graphic file (type png)
 <use images/GG/Ghost.png>
-Package pdftex.def Info: images/GG/Ghost.png  used on input line 83.
+Package pdftex.def Info: images/GG/Ghost.png  used on input line 84.
 (pdftex.def)             Requested size: 432.48048pt x 159.8219pt.
 
-Overfull \hbox (5.51758pt too wide) detected at line 136
+Overfull \hbox (5.51758pt too wide) detected at line 137
 []
  []
 
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 136.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 137.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [47 <./images/GG/Ghost.png>]
-Overfull \hbox (39.17372pt too wide) detected at line 177
+Overfull \hbox (39.17372pt too wide) detected at line 178
 []
  []
 
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 190.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 191.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [48]
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 248.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 249.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [49]
-Overfull \hbox (4.49968pt too wide) detected at line 264
+Overfull \hbox (4.49968pt too wide) detected at line 265
 []
  []
 
 
-Overfull \hbox (4.2365pt too wide) detected at line 276
+Overfull \hbox (4.2365pt too wide) detected at line 277
 []
  []
 
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 288.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 289.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 308--310
+Underfull \hbox (badness 10000) in paragraph at lines 309--311
 
  []
 
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 316.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 317.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [51]
-<images/GG/M2Squer.png, id=827, 732.48656pt x 261.22594pt>
+<images/GG/M2Squer.png, id=826, 732.48656pt x 261.22594pt>
 File: images/GG/M2Squer.png Graphic file (type png)
 <use images/GG/M2Squer.png>
-Package pdftex.def Info: images/GG/M2Squer.png  used on input line 319.
+Package pdftex.def Info: images/GG/M2Squer.png  used on input line 320.
 (pdftex.def)             Requested size: 432.48048pt x 154.23755pt.
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 367.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 368.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [52 <./images/GG/M2Squer.png>]
-<images/GG/GhostM2.png, id=836, 723.45282pt x 267.24844pt>
+<images/GG/GhostM2.png, id=835, 723.45282pt x 267.24844pt>
 File: images/GG/GhostM2.png Graphic file (type png)
 <use images/GG/GhostM2.png>
-Package pdftex.def Info: images/GG/GhostM2.png  used on input line 370.
+Package pdftex.def Info: images/GG/GhostM2.png  used on input line 371.
 (pdftex.def)             Requested size: 432.48048pt x 159.76308pt.
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 403.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 404.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [53 <./images/GG/GhostM2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 404.
+(hyperref)                removing `math shift' on input line 405.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 404.
+(hyperref)                removing `subscript' on input line 405.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 404.
+(hyperref)                removing `subscript' on input line 405.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 404.
+(hyperref)                removing `superscript' on input line 405.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dagger' on input line 404.
+(hyperref)                removing `\dagger' on input line 405.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 404.
+(hyperref)                removing `math shift' on input line 405.
 
-<images/GG/M1M2Dagger.png, id=846, 731.73375pt x 284.56313pt>
+<images/GG/M1M2Dagger.png, id=845, 731.73375pt x 284.56313pt>
 File: images/GG/M1M2Dagger.png Graphic file (type png)
 <use images/GG/M1M2Dagger.png>
-Package pdftex.def Info: images/GG/M1M2Dagger.png  used on input line 407.
+Package pdftex.def Info: images/GG/M1M2Dagger.png  used on input line 408.
 (pdftex.def)             Requested size: 432.48048pt x 168.18604pt.
 
-Overfull \hbox (38.45956pt too wide) detected at line 471
+Overfull \hbox (38.45956pt too wide) detected at line 472
 []
  []
 
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 471.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 472.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [54 <./images/GG/M1M2Dagger.png>]
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 491.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 492.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [55]
-Overfull \hbox (20.88762pt too wide) detected at line 535
+Overfull \hbox (20.88762pt too wide) detected at line 536
 []
  []
 
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 548.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 549.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [56]
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 584.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 585.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [57]
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 620.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 621.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [58]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 621.
+(hyperref)                removing `math shift' on input line 622.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 621.
+(hyperref)                removing `subscript' on input line 622.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 621.
+(hyperref)                removing `subscript' on input line 622.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 621.
+(hyperref)                removing `superscript' on input line 622.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dagger' on input line 621.
+(hyperref)                removing `\dagger' on input line 622.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 621.
+(hyperref)                removing `superscript' on input line 622.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\prime' on input line 621.
+(hyperref)                removing `\prime' on input line 622.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 621.
+(hyperref)                removing `math shift' on input line 622.
 
-<images/GG/M1DaggerggInverse.png, id=885, 720.44156pt x 263.48438pt>
+<images/GG/M1DaggerggInverse.png, id=884, 720.44156pt x 263.48438pt>
 File: images/GG/M1DaggerggInverse.png Graphic file (type png)
 <use images/GG/M1DaggerggInverse.png>
 Package pdftex.def Info: images/GG/M1DaggerggInverse.png  used on input line 62
-4.
+5.
 (pdftex.def)             Requested size: 432.48048pt x 158.16821pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 649.
+(hyperref)                removing `math shift' on input line 650.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 649.
+(hyperref)                removing `subscript' on input line 650.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cdot' on input line 649.
+(hyperref)                removing `\cdot' on input line 650.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 649.
+(hyperref)                removing `subscript' on input line 650.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 649.
+(hyperref)                removing `subscript' on input line 650.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cdot' on input line 649.
+(hyperref)                removing `\cdot' on input line 650.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 649.
+(hyperref)                removing `subscript' on input line 650.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 649.
+(hyperref)                removing `math shift' on input line 650.
 
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 680.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 681.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [59 <./images/GG/M1DaggerggInverse.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 689.
+(hyperref)                removing `math shift' on input line 690.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 689.
+(hyperref)                removing `superscript' on input line 690.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 689.
+(hyperref)                removing `math shift' on input line 690.
 
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 719.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 720.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [60])
 File: images/Intro/ppp.jpg Graphic file (type jpg)
@@ -2382,7 +2375,7 @@ Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 126.
  [61]
 Chapter 5.
 (qg/qg.tex
-<images/QG/QGDiagrams.png, id=912, 502.12593pt x 270.25969pt>
+<images/QG/QGDiagrams.png, id=911, 502.12593pt x 270.25969pt>
 File: images/QG/QGDiagrams.png Graphic file (type png)
 <use images/QG/QGDiagrams.png>
 Package pdftex.def Info: images/QG/QGDiagrams.png  used on input line 4.
@@ -2394,7 +2387,7 @@ Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 7.
  [62
 
  <./images/QG/QGDiagrams.png>]
-<images/QG/M1Squer.png, id=920, 724.20563pt x 294.34969pt>
+<images/QG/M1Squer.png, id=919, 724.20563pt x 294.34969pt>
 File: images/QG/M1Squer.png Graphic file (type png)
 <use images/QG/M1Squer.png>
 Package pdftex.def Info: images/QG/M1Squer.png  used on input line 11.
@@ -2414,7 +2407,7 @@ File: images/Intro/ppp.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 70.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [64]
-<images/QG/M2Squer.png, id=939, 569.12625pt x 212.29312pt>
+<images/QG/M2Squer.png, id=938, 569.12625pt x 212.29312pt>
 File: images/QG/M2Squer.png Graphic file (type png)
 <use images/QG/M2Squer.png>
 Package pdftex.def Info: images/QG/M2Squer.png  used on input line 74.
@@ -2424,7 +2417,7 @@ File: images/Intro/ppp.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 84.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [65 <./images/QG/M2Squer.png>]
-<images/QG/M1M2Dagger.png, id=947, 575.14874pt x 203.25937pt>
+<images/QG/M1M2Dagger.png, id=946, 575.14874pt x 203.25937pt>
 File: images/QG/M1M2Dagger.png Graphic file (type png)
 <use images/QG/M1M2Dagger.png>
 Package pdftex.def Info: images/QG/M1M2Dagger.png  used on input line 88.
@@ -2450,86 +2443,86 @@ Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 128.
  [66 <./images/QG/M1M2Dagger.png>]
 Chapter 6.
 (gq/gq.tex
-<images/GQ/GQDiagrams.png, id=959, 421.575pt x 237.88875pt>
+<images/GQ/GQDiagrams.png, id=958, 421.575pt x 237.88875pt>
 File: images/GQ/GQDiagrams.png Graphic file (type png)
 <use images/GQ/GQDiagrams.png>
 Package pdftex.def Info: images/GQ/GQDiagrams.png  used on input line 4.
 (pdftex.def)             Requested size: 386.96024pt x 218.35936pt.
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 7.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 8.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
  [67
 
  <./images/GQ/GQDiagrams.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8.
+(hyperref)                removing `math shift' on input line 9.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 8.
+(hyperref)                removing `subscript' on input line 9.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 8.
+(hyperref)                removing `math shift' on input line 9.
 
-<images/GQ/M1Squer.png, id=966, 581.92406pt x 207.02344pt>
+<images/GQ/M1Squer.png, id=965, 581.92406pt x 207.02344pt>
 File: images/GQ/M1Squer.png Graphic file (type png)
 <use images/GQ/M1Squer.png>
-Package pdftex.def Info: images/GQ/M1Squer.png  used on input line 11.
+Package pdftex.def Info: images/GQ/M1Squer.png  used on input line 12.
 (pdftex.def)             Requested size: 407.34407pt x 144.9154pt.
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 15.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 40.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [68 <./images/GQ/M1Squer.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 16.
+(hyperref)                removing `math shift' on input line 41.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 16.
+(hyperref)                removing `subscript' on input line 41.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 16.
+(hyperref)                removing `math shift' on input line 41.
 
-<images/GQ/M2Squer.png, id=974, 586.44093pt x 207.02344pt>
+<images/GQ/M2Squer.png, id=977, 586.44093pt x 207.02344pt>
 File: images/GQ/M2Squer.png Graphic file (type png)
 <use images/GQ/M2Squer.png>
-Package pdftex.def Info: images/GQ/M2Squer.png  used on input line 19.
+Package pdftex.def Info: images/GQ/M2Squer.png  used on input line 44.
 (pdftex.def)             Requested size: 410.50584pt x 144.9154pt.
 File: images/Intro/ppp.jpg Graphic file (type jpg)
 <use images/Intro/ppp.jpg>
-Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 23.
+Package pdftex.def Info: images/Intro/ppp.jpg  used on input line 67.
 (pdftex.def)             Requested size: 22.75854pt x 17.07156pt.
 [69 <./images/GQ/M2Squer.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 24.
+(hyperref)                removing `math shift' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 24.
+(hyperref)                removing `subscript' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 24.
+(hyperref)                removing `superscript' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dagger' on input line 24.
+(hyperref)                removing `\dagger' on input line 68.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 24.
+(hyperref)                removing `math shift' on input line 68.
 
-<images/GQ/M1M2Dagger.png, id=981, 566.115pt x 247.67531pt>
+<images/GQ/M1M2Dagger.png, id=987, 566.115pt x 247.67531pt>
 File: images/GQ/M1M2Dagger.png Graphic file (type png)
 <use images/GQ/M1M2Dagger.png>
-Package pdftex.def Info: images/GQ/M1M2Dagger.png  used on input line 27.
+Package pdftex.def Info: images/GQ/M1M2Dagger.png  used on input line 71.
 (pdftex.def)             Requested size: 396.2778pt x 173.37152pt.
 )
 File: images/Intro/ppp.jpg Graphic file (type jpg)
@@ -2645,17 +2638,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: A729BFE195BADFDF54E2E6C20FEB51A8;3301.
-
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
- 25225 strings out of 493308
- 482558 string characters out of 3138722
- 582064 words of memory out of 3000000
- 27714 multiletter control sequences out of 15000+200000
+ 25232 strings out of 493308
+ 482692 string characters out of 3138722
+ 581103 words of memory out of 3000000
+ 27715 multiletter control sequences out of 15000+200000
  140661 words of font info for 84 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,21n,78p,1056b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2684,9 +2673,9 @@ C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/rsfs/rs
 fs10.pfb>
-Output written on thesis.pdf (86 pages, 1651288 bytes).
+Output written on thesis.pdf (86 pages, 1655423 bytes).
 PDF statistics:
- 1266 PDF objects out of 1440 (max. 8388607)
- 443 named destinations out of 1000 (max. 500000)
+ 1275 PDF objects out of 1440 (max. 8388607)
+ 449 named destinations out of 1000 (max. 500000)
  630 words of extra memory for PDF output out of 10000 (max. 10000000)
 
