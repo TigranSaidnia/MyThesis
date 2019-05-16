@@ -8,16 +8,16 @@ Before the procedure is explained, at this point it should be mentioned that the
 All $ M_1 $, $ M_2 $, $ {M_1}^{\dagger} M_2 $ and $ M_1{M_2}^{\dagger}$ diagrams need to be indexed independently of each other.  To determine the matrix elements, the Feynmann Rules will be used which is explained in detail in section \ref{QCD Lagrangian}. Before the kinematics is used, the obtained matrix element should be simplified by matrix algebra, which is completely explained in the appendix Mathematical Tool, otherwise the calculation of the parameterisation becomes clearly more complicated.
 \\
 \item Each diagram consists of an emitter and a spactator part.
-The emitter part itself contains an emitter parent with the momentum $ q_i+q $ , of which a patron is split with $ q $. A daughter-patron with $ q_i $ remains of the parent patron. One should select the spectator skilfully, so that the diagrams are meaningful and calculable in the case of the interference terms, otherwise one must manipulate with the final results because of the unanimity of the indices. Thus a structure is achieved and the diagrams can be replaced from $ M_1, {M_1}^{\dagger}, {M_2}^{\dagger}$ and $ M_2 $ side by side and even use their probability amplitude for the interference terms without having to recalculate them every time. 
+The emitter part itself contains an emitter parent with the momentum $ q_i+q $ in the old kinematic, of which a patron is split with $ q $. A daughter-patron with $ q_i $ remains of the parent patron. One should select the spectator $ q_j $ skilfully, so that the diagrams are meaningful and calculable in the case of the interference terms, otherwise one must manipulate with the final results because of the unanimity of the indices. Thus a structure is achieved and the diagrams can be replaced from $ M_1, {M_1}^{\dagger}, {M_2}^{\dagger}$ and $ M_2 $ side by side and even use their probability amplitude for the interference terms without having to recalculate them every time. 
 \\
 \item Before starting to calculate, it will be firs tried to predict the expected result based on the contracting indices. Usually the non-contracting indices that remain form the final result as one or more tensors. This is relatively helpful when a calculation for a certain limit is performed, because it can be quickly seen from the square matrix element which terms must be calculated fpr the final result.
 \\
 \item When using parameterization, it is recommended to use the concepts from the previous section. This is paractic, because when evaluating matrix elements, the multiplication of two tensors often occurs. To see which case to use for which matrix element, first look at the scalar products in the denominator that come from the propagators. Basically, there are four common scalar products listed here for this thesis:
-1.
-2.
-3.
-4.
-With the concept from the last section it was recognized exactly, which terms are finite, so that they can be omitted with the multiplication of the tensors in the apron. In other words, it is first recognized which prefactors in the denominator cause sigularities and then those terms with the same prefactors are eliminated as finite terms. This considerably reduces the evaluation.  
+1.$ (q \cdot q_i)(q \cdot q_i) $
+2.$ (q \cdot q_j)(k_1 \cdot q_j) $
+3.$ (q \cdot q_i)(q \cdot q_j) $
+4.$ (q \cdot q_i)(q_i \cdot q_i) $
+With the concept from the last section it was recognized exactly, which terms are finite, so that they can be omitted with the multiplication of the tensors in the apron. In other words, it is first recognized which prefactors in the denominator cause sigularities and then those terms with the same prefactors are eliminated as finite terms. This considerably reduces the evaluation.  For the new parameterization q_i is called q_i
 \\
 This will become clearer later if the splitting functions are determined in the collinear limit from the respective diagram.
 \item finally, to find out whether everything was calculated correctly, the collinear limits will be used because it is known that in this case the well known Alterali-Parisi \ref{Alterali-Parisi} splitting function have to be output.
