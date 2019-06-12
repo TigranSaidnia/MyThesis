@@ -30,6 +30,8 @@
 \usepackage{mathtools}
 \usepackage{ mathrsfs }
 \usepackage{natbib}
+%\usepackage[toc,page]{appendix}
+\usepackage[titletoc]{appendix}
 % =====================================================
 % Seite einrichten
 % =====================================================
@@ -146,14 +148,20 @@
 %\listoftables
 %\listoffigures
 %\printindex
-
-\chapter*{Appendix A}
-\input{appendix/appendix}
+\addcontentsline{toc}{chapter}{Appendix A}
+%\chapter*{Appendix A}
+%\input{appendix/appendix}
+\begin{appendices}
+ \chapter*{Appendix A}
+\input{appendixA/appendixA}
+ \chapter*{Appendix B}
+\input{appendixB/appendixB}
+\end{appendices}
 \newpage
 \thispagestyle{empty}
 \quad
 \newpage
-%\addcontentsline{toc}{chapter}{Bibliography}
+\addcontentsline{toc}{chapter}{Bibliography}
 \nocite{*}
 \bibliographystyle{plain}
 \bibliography{myBib}
@@ -161,6 +169,7 @@
 \thispagestyle{empty}
 \quad
 \newpage
+\addcontentsline{toc}{chapter}{Acknowledgement}
 \chapter*{Acknowledgement}
 \input{Danksagung/Danksagung}
  

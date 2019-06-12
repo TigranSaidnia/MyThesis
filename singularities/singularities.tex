@@ -269,14 +269,13 @@ The factorisation theorem also applies to deep inelastic scattering. It can be s
 \frac{d^2 \sigma}{dx dQ^2}=\frac{4\pi \alpha^2}{x Q^4}[(1-y)F_2 (x, Q^2)+xy^2 F_1(x, Q^2)]
 \end{equation}
 In this case we need to introduce the structure function, is defined as the charge weighted sum of the parton momentum densities which describe the probability that the parton carries a momentum
-fraction between $ x $ and $ \partial x $ of the proton momentum. The index $i$ denotes the quark flavour. Parton distributions are nonpertubative and have to be obtained from experiment.
+fraction between $ x $ and $ \partial x $ of the proton momentum. The index $i$ denotes the quark flavour. The parton distribution function or the fragmentation function is a convolution of a perturbative and a non-perturbative part. Parton distributions are non-pertubative. fortunately it is universal and it is obtained from fit to the data for a particular factorization scheme and use them for other processes.
 
 \begin{equation}
 {{F}_2}^{exp} (x)= \sum_i {e_i}^2 x f_i(x)
 \end{equation}
-The evolution of a parton
-distribution due to splitting can be described by the DGLAP
-evolution equation~\cite{Ward:1995xy}. 
+The perturbative evolution kernel of a parton
+distribution due to splitting can be described by the solution of DGLAP evolution equation~\cite{Ward:1995xy}.  It is based on the collinear factorization property of QCD. Fixing the accuracy of the calculation and the factorization scheme the evolution kernel is well defined.  
 \begin{equation}
 \frac{\partial f(x, \mu^2) }{\partial \: ln \:\mu^2}=
 \frac{\alpha_s}{2\pi}\int_{x}^{1}\frac{dy}{y} f_j(y, \mu^2) P_{ij}(\frac{x}{y})+O({\alpha_s}^2)
@@ -293,19 +292,10 @@ The four splitting probabilities are illustrated in the diagram \ref{splitting} 
 \frac{\partial }{\partial \: ln \:\mu^2} \left(\begin{array}{c}q_s\\ g\end{array}\right)=
 \frac{\alpha_s}{2\pi}\begin{bmatrix}P_{qq} & 2n_fP_{qg} \\P_{gq} & P_{gg} \end{bmatrix}\otimes\left(\begin{array}{c}q_s\\ g\end{array}\right)
 \end{equation}
+
+The hadronization model is the non-perturbativepartthat we fit to the data. The perturbative part is based on the factorizationtheorem of the QCD and it is well defined up to the finite pieces
+
 A parton distribution changes when a different parton splits or the parton itself splits. Parton densities can not be analytically determined, but it is possible to predict how they evolve from one scale to another. PDFs are measured in one process and use them as an input for another process.
-
-
-
-
-he parton distribution function or the fragmentation function is acon-volution of a perturbative and a non-perturbative part. The perturbativepart is the evolution kernel which is solution of the DGLAP equation. Itis based on the collinear factorization property of QCD. Fixing the accu-racy of the calculation and the factorization scheme the evolution kernel iswell defined. The conventional factorization scheme is theMS. The non-perturbative part cannot be calculated, fortunately it is universal and wecan obtain it from fit to the data and use them for other processes. Of courseif we change the factorization scheme we have to refit the non-perturbativepart.What is the parton shower and the hadronization? We can think aboutthat is a multi-hadron fragmentation function and the parton shower is itsevolution kernel.  The hadronization model is the non-perturbativepartthat we fit to the data. The perturbative part is based on the factorizationtheorem of the QCD and it is well defined up to the finite pieces. In otherwords, a different shower algorithm represent differentshower schemebutupto the leading (LL) and next-to-leading (NLL) logarithmic accuracy theymust be equivalent. If we have some free parameters other than the trivialscales in the parton shower algorithm then the different values of theseparameters correspond to different shower schemes and the tunning of thehadronization model must be redone.How to define aconventionalshower scheme? These are our criteria: i)It must be Lorentz covariant and Lorentz invariant. ii) It must be correctat LL level. It must be correct at NLL level at least in leading color apprix-imation. iii) The soft gluon effect must be correct at least in leading colorapproximation. iv) In every step of the shower the phase space configu-ration must be the exactm-body phase space with the exact phase spaceweight. The infrared cutoff parameter should be the only cutoff parameterin the algorithm. v) It should “smoothly” work together with the NLOand
-November 7, 2018  13:39  Proceedings Trim Size: 9in x 6inRingberg053matrix element matching schemes
-
-
-
-
-
-
 
 
 \begin{figure}[h!]
@@ -327,4 +317,23 @@ November 7, 2018  13:39  Proceedings Trim Size: 9in x 6inRingberg053matrix eleme
 	}
 \label{Alterali-Parisi}
 \end{equation}
+
+
+QCD suffers from infrared singularities
+when two daughter partons cannot be resolved because they
+become collinear, or because one of them becomes soft. We have also seen that these singularities are associated with ‘long-distance’ physics which takes place a long time after the initial hard scattering.
+So-called infrared-safe observables are still calculable in perturbative QCD, but since this is quite restrictive we have to look for ways to extend the predictive power of the theory. This way-out is provided by the QCD factorisation theorem. For hadron-hadron scattering the factorisation theorem states that the singular long-distance pieces can be removed from the partonic
+cross section and factored into the parton distributions of the incoming hadrons, and that this can be done consistently at all orders in the perturbative expansion.
+The partonic cross section is then calculable in perturbation theory,
+and does not depend on the type of incoming hadron. Factorisation is a fundamental property of QCD. It turns perturbative
+QCD into a reliable calculation tool, unlike the naive parton
+model that does not take the parton dynamics into account.
+
+The factorisation theorem also applies to deep inelastic scattering,
+with one of the parton distributions replaced by an ee0%⇤ vertex as
+is shown in the right-hand side diagram on page 9–4:
+We will use DIS to show how the infrared singularities are absorbed
+in the parton distributions. The QCD evolution equations
+of the parton densities are then derived from the renormalisation
+group equation.
 \newpage

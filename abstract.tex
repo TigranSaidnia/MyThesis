@@ -1,25 +1,14 @@
-\section*{\Large \bfseries Abstract}
+\section*{\Large \bfseries \centering Abstract}
+\vspace{1cm}
+
+By the Catani-Seymour dipole factorization a $m+1$-parton matrix element can be written as product of $m$-parton matrix element and an universal singular splitting function.  
+In this work a mapping for $ 3\rightarrow 2 $ will be outlined and following along those lines one for $ m+1\rightarrow m $ is proposed, which is explicitly evaluated for the evaluation of the matrix elements for the four possible parton splitting in the soft and collinear regions. A general prescription for the simplification of the usage of this algorithm in the next-to-leading order (NLO) level will also be given.  For comparison, the known result from the $ e^{+}e^{-} \rightarrow q \bar{q} g $ process is compared with the result from the gluon radiation from a parten quark. 
+The algorithm is straightforwardly implementable in general purpose \textup{Mathematica} or Monte Carlo programs \textup{Herwig++}.
+
 \vspace{3cm}
-\section*{Emission kernel of parton shower}
-For the results of particle physics experiments in connection with the strong interaction 
-the perturbation theory is used. In order to make useful and more accurate predictions, the calculations must be carried out at least in next-to-leading order, in order to avoid large uncertainties arising from the unphysical scale dependencies.
-In this work, the dipole subtraction method will be used for calculating next-to-leading order corrections in QCD.
-The algorithm is straightforwardly implementable ingeneral purpose Monte Carlo programs.
+\section*{\Large \bfseries \centering Zusammenfassung}
+\vspace{1cm}
 
-n this paper we outline a new parton shower algorithm based on the Catani-Seymour dipole factorization. Our motivation is to have an algorithm which cannaturally cooperate with the NLO calculations.
-
-In this paper we aim to outline some new ideas for a parton showeralgorithm along our criteria. In the next we will discuss a parton showeralgorithm based on the Catani-Seymour dipole factorization formulas [3]and give a general prescription for the matching of parton showerand fixorder computation at leading and next-to-leading order level.  It was aobvious choice to use the dipole factorization because it fulfills our criteriaand it makes the NLO level matching easier because lots of modern NLOfix order computations are based on the dipole subtraction method, forexample NLOJET++[5] and MCFM[6].
-
-The whole parton shower idea is based on the factorization properties ofthe matrix elements in the soft and collinear regions.  In this region anm+1 parton matrix element can be written as product anm-parton matrixelement and an universial singular factor.  Using this approximtion, onecan start from a very simple configuration and generate large multiplicitymultiparton states.
-
-https://arxiv.org/pdf/hep-ph/0601021.pdf
-
-
-The combination of Parton shower simulations with corrections obtained by matrix elements of leading order and the addition of NLO to the production process has been investigated in the past. We present a new general algorithm for calculating arbitrary jet cross sectionsin arbitrary scattering processes to next-to-leading accuracy in perturbativeQCD. The algorithm is based on the subtraction method. The key ingredi-ents are new factorization formulae, called dipole formulae, which implementin a Lorentz covariant way both the usual soft and collinear approximations,smoothly interpolating the two. The corresponding dipole phase space obeysexact factorization, so that the dipole contributions to the cross section can beexactly integrated analytically over the whole of phase space. We obtain explicitanalytic results for any jet observable in any scattering orfragmentation processin lepton, lepton-hadron or hadron-hadron collisions. Allthe analytical formu-lae necessary to construct a numerical program for next-to-leading order QCDcalculations are provided. The algorithm is straightforwardly implementable ingeneral purpose Monte Carlo programs.
-
-
-
-Unfortunately, standard NLO programs have significant flaws. One flawis that the final states consist just of a few partons, while in nature finalstates consist of many hadrons. A worse flaw is that the weights are oftenvery large positive numbers or very large negative numbers.There is another class of calculational tools, the shower Monte Carloevent generators, such as HERWIG[1] and PYTHIA[2]. These have thesignificant advantage that the objects in the final state consist of hadrons
-
-
-We begin in Sect. 2 by giving a brief overview of the general method, describing thesubtraction procedure and how our dipole formulae are used to implement it. In Sect. 3 weestablish the notation used throughout the paper. In Sect. 4we review the factorizationproperties of QCD matrix elements in the soft and collinear limits before presenting, inSect. 5, our dipole factorization formulae, which smoothlyinterpolate these two limitingregions. After briefly recalling, in Sect. 6, the precise definitions of QCD cross sectionsat NLO, we go on to describe in detail our subtraction method for evaluating these crosssections, in Sects. 7–11. In Sect. 12 we summarize and discuss our results. Appendix Agives more details, and some examples, of the necessary colour algebra. In Appendix B weexplicitly perform the only difficult integral we encounter.In Appendix C we collect to-gether the main formulae needed to implement our method in specific calculations. Finallyin Appendix D we work through a few simple examples of applying our method to specificcross sections
+Durch die Catani-Seymour Dipolfaktorisierung kann ein $m+1$-Partonmatrixelement als Produkt aus $m$-Partonmatrixelement und einer universellen singul\"aren Splittingfunktion geschrieben werden.  
+In dieser Arbeit wird eine Mapping für $ 3\rightarrow 2 $ und genauso gut f\"ur $ m+1\rightarrow m $ pr\"asentiert, die dann explizit bei der Auswertung der Matrixelemente der vier möglichen Partonsplittingen in den soft und kollinearen Bereichen eingesetzt wird. Es wird auch ein allgemeine Prozedure für die Vereinfachung dieses Algorithmus in der Next-to-Leading Order (NLO) Ebene gegeben.  Zum Vergleich wird das bekannte Ergebnis des $ e^{+}e^{-} \rightarrow q \bar{q} g $ Prozesses mit dem Ergebnis der Gluonenstrahlung eines Parent-Quarks verglichen. 
+Der Algorithmus kann in \textup{Mathematica} oder der Monte Carlo Simulation \textup{Herwig++} implementiert werden.
