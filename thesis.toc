@@ -1,46 +1,44 @@
 \select@language {american}
-\contentsline {chapter}{Table of contents}{4}{chapter*.2}
-\contentsline {chapter}{\numberline {1}Theoretical Basics}{2}{chapter.1}
-\contentsline {section}{\numberline {1.1}Brief history of particle physics}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}Standard model}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}Quantum chromo dynamics}{4}{section.1.3}
-\contentsline {section}{\numberline {1.4}QCD Lagrangian}{9}{section.1.4}
-\contentsline {section}{\numberline {1.5}Colour factor calculation}{11}{section.1.5}
-\contentsline {chapter}{\numberline {2}Introduction to splitting function}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}IR and Collinar Divergences}{15}{section.2.1}
-\contentsline {section}{\numberline {2.2}Subtraction method}{18}{section.2.2}
-\contentsline {section}{\numberline {2.3}Hard scattering}{23}{section.2.3}
-\contentsline {section}{\numberline {2.4}Mapping 3 partons to 2}{25}{section.2.4}
-\contentsline {section}{\numberline {2.5}Old mapping}{25}{section.2.5}
-\contentsline {section}{\numberline {2.6}new kinematic}{26}{section.2.6}
-\contentsline {section}{\numberline {2.7}Single emission part}{27}{section.2.7}
-\contentsline {section}{\numberline {2.8}Common scalar products}{28}{section.2.8}
-\contentsline {section}{\numberline {2.9}Recipe for the use of the new parametrisation}{28}{section.2.9}
-\contentsline {subsection}{\numberline {2.9.1}Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_k) $}{28}{subsection.2.9.1}
-\contentsline {subsection}{\numberline {2.9.2}Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_i) $}{29}{subsection.2.9.2}
-\contentsline {chapter}{\numberline {3}Quark anti-quark gluon emission kernel}{33}{chapter.3}
-\contentsline {section}{\numberline {3.1}Matrix element of a quark with a gluon radiation $ |M_1|^2 $}{34}{section.3.1}
-\contentsline {section}{\numberline {3.2}Matrix element of an anti-quark with a gluon radiation $ |M_2|^2 $}{38}{section.3.2}
-\contentsline {section}{\numberline {3.3}Interference contribution}{39}{section.3.3}
-\contentsline {section}{\numberline {3.4}Final result}{42}{section.3.4}
-\contentsline {section}{\numberline {3.5}Double-check the results with the new kinematic}{44}{section.3.5}
-\contentsline {chapter}{\numberline {4}Gluon radiation from a parent quark}{46}{chapter.4}
-\contentsline {section}{\numberline {4.1}Gluon-Emitter Bubble}{47}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}One-loop corrections to the gluon self-energy diagram(Gluon-Emitter Bubble)}{49}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Another way (within the concept \ref {Concept} )}{52}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Gluon-Spectator Bubble}{54}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}One-loop corrections to the gluon self-energy diagram (Gluon-Spectator Bubble)}{55}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Interference term $M_1 {M_2}^{\dagger }$}{56}{section.4.3}
-\contentsline {section}{\numberline {4.4}Interference term of inverse ${M_1{M_2}^{\dagger }}^{\prime }$}{61}{section.4.4}
-\contentsline {section}{\numberline {4.5}Parametrization in terms of $ (k_1 \cdot q_i )(q_i \cdot q_k) $}{61}{section.4.5}
-\contentsline {section}{\numberline {4.6}$|M^{2}|$}{62}{section.4.6}
-\contentsline {chapter}{\numberline {5}Quark gluon quark emission kernel}{64}{chapter.5}
-\contentsline {section}{\numberline {5.1}Quark loop}{65}{section.5.1}
-\contentsline {section}{\numberline {5.2}Spectator Quark loop}{67}{section.5.2}
-\contentsline {section}{\numberline {5.3}Interference term}{68}{section.5.3}
-\contentsline {section}{\numberline {5.4}$|M^{2}|$}{68}{section.5.4}
-\contentsline {chapter}{\numberline {6}Gluon quark quark emission kernel}{69}{chapter.6}
-\contentsline {section}{\numberline {6.1}$ M_1 $}{70}{section.6.1}
-\contentsline {section}{\numberline {6.2}$ M_2 $}{71}{section.6.2}
-\contentsline {section}{\numberline {6.3}$ M1{M_2}^{\dagger } $}{72}{section.6.3}
-\contentsline {section}{\numberline {6.4}$ |M|^{2} $}{73}{section.6.4}
+\contentsline {chapter}{Table of contents}{8}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Theoretical Basics}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Brief history of particle physics}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Standard model}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Quantum chromo dynamics}{5}{section.1.3}
+\contentsline {section}{\numberline {1.4}QCD Lagrangian}{10}{section.1.4}
+\contentsline {section}{\numberline {1.5}Colour factor calculation}{12}{section.1.5}
+\contentsline {chapter}{\numberline {2}Introduction to splitting function}{16}{chapter.2}
+\contentsline {section}{\numberline {2.1}IR and Collinar Divergences}{16}{section.2.1}
+\contentsline {section}{\numberline {2.2}Subtraction method}{19}{section.2.2}
+\contentsline {section}{\numberline {2.3}Hard scattering}{24}{section.2.3}
+\contentsline {section}{\numberline {2.4}Mapping 3 partons to 2}{27}{section.2.4}
+\contentsline {section}{\numberline {2.5}Old mapping}{27}{section.2.5}
+\contentsline {section}{\numberline {2.6}new kinematic}{28}{section.2.6}
+\contentsline {section}{\numberline {2.7}Single emission part}{29}{section.2.7}
+\contentsline {section}{\numberline {2.8}Common scalar products}{30}{section.2.8}
+\contentsline {section}{\numberline {2.9}Recipe for the use of the new parametrisation}{30}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_k) $}{30}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.9.2}Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_i) $}{31}{subsection.2.9.2}
+\contentsline {chapter}{\numberline {3}anti-quark-gluon splitting from a parent quark}{35}{chapter.3}
+\contentsline {section}{\numberline {3.1}Matrix element of a quark with a gluon radiation $ |M_1|^2 $}{36}{section.3.1}
+\contentsline {section}{\numberline {3.2}Matrix element of an anti-quark with a gluon radiation $ |M_2|^2 $}{40}{section.3.2}
+\contentsline {section}{\numberline {3.3}Interference contribution}{41}{section.3.3}
+\contentsline {section}{\numberline {3.4}Final result}{43}{section.3.4}
+\contentsline {section}{\numberline {3.5}Double-check the results with the new kinematic}{45}{section.3.5}
+\contentsline {chapter}{\numberline {4}Gluon radiation from a parent quark}{47}{chapter.4}
+\contentsline {section}{\numberline {4.1}Gluon-Emitter Bubble}{48}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}One-loop corrections to the gluon self-energy diagram(Gluon-Emitter Bubble)}{50}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Another way (within the concept \ref {Concept} )}{53}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Gluon-Spectator Bubble}{55}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}One-loop corrections to the gluon self-energy diagram (Gluon-Spectator Bubble)}{56}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Interference term $M_1 {M_2}^{\dagger }$}{57}{section.4.3}
+\contentsline {section}{\numberline {4.4}Interference term of inverse ${M_1{M_2}^{\dagger }}^{\prime }$}{59}{section.4.4}
+\contentsline {section}{\numberline {4.5}$|M^{2}|$}{59}{section.4.5}
+\contentsline {chapter}{\numberline {5}A daughter gluon from a parent quark}{61}{chapter.5}
+\contentsline {section}{\numberline {5.1}$ M_1 $}{62}{section.5.1}
+\contentsline {section}{\numberline {5.2}$ M_2 $}{63}{section.5.2}
+\contentsline {section}{\numberline {5.3}$ M1{M_2}^{\dagger } $}{64}{section.5.3}
+\contentsline {section}{\numberline {5.4}$ |M|^{2} $}{65}{section.5.4}
+\contentsline {chapter}{\numberline {6}quark-anti-quark splitting from a parent gluon}{66}{chapter.6}
+\contentsline {section}{\numberline {6.1}Evaluation of the interference term $M_1 {M_2}^{\dagger }$}{76}{section.6.1}
+\contentsline {section}{\numberline {6.2}Evaluation of the interference term of inverse ${M_1{M_2}^{\dagger }}^{\prime }$}{79}{section.6.2}
+\contentsline {section}{\numberline {6.3}Parametrization in terms of $ (k_1 \cdot q_i )(q_i \cdot q_k) $}{79}{section.6.3}

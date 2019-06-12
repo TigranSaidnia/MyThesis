@@ -299,15 +299,13 @@ M_1\:{\color[RGB]{255,0,0} {M_2}^{\dagger}} = [{\bar{u}}_{\sigma}(q_i)\: (-ig_s 
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ]{\varepsilon^{\lambda_1}}_{\mu} (q) \: {\varepsilon^{\lambda_4}}_{{\nu}^{\prime}} (q) \\
-\:[\not{q_j} \:\gamma^{{\nu}^{\prime}} \: (\not{q_j} + \not{q})]\:
+M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ]{\varepsilon^{\lambda_1}}_{\mu} (q) \: {\varepsilon^{\lambda_4}}_{{\nu}^{\prime}} (q)[\not{q_j} \:\gamma^{{\nu}^{\prime}} \: (\not{q_j} + \not{q})]\:
 \end{split}
 \end{equation}
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ] -g_{{\mu}{{\nu}^{\prime}}} \\
-\:[\not{q_j} \:\gamma^{{\nu}^{\prime}} \: (\not{q_j} + \not{q})]\:
+M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ] (-g_{{\mu}{{\nu}^{\prime}}})[\not{q_j} \:\gamma^{{\nu}^{\prime}} \: (\not{q_j} + \not{q})]\:
 \end{split}
 \end{equation}
 
@@ -328,76 +326,60 @@ Expectation:
 \includegraphics[width=0.85\textwidth]{images/QQ/expectationM1M2dagger.png}
 \end{figure}
 
-%Kommentar
-
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [(\not{q_i} + \not{q})\: \gamma^{\mu} \:  \not{q_i}\:]
-\:[(\not{q_j} + \not{q}) \:\gamma_{\mu} \:\not{q_j} ]\:
+M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [(z\not{p_i} + y(1-z)\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot})\: \gamma^{\mu} \: (\not{p_i} + y\not{p_j)}]\\
+&[(1-y) \not{p_j} \:\gamma_{\mu} \: ((1-z)\not{p_i} + (1+yz-y) \not{p_j} - \sqrt{zy(1-z)}\not{m}_{\bot})]\:
 \end{split}
 \end{equation}
 
-%Kommentra
-
-\begin{align}
-\begin{split}
-&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [-(\not{q_i} + \not{q})\:\not{q_i}\: \gamma^{\mu} \:+2(\not{q_i} + \not{q})\:{q_{i}}^{\mu}]\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\\
-&\:[-(\not{q_j} + \not{q}) \not{q_j} \:\gamma_{\mu} \: + 2(\not{q_j} + \not{q}) {q_{j{\mu}}}]\: \\
-\Rightarrow
-&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} 
-[(\not{q_i} + \not{q})\:\not{q_i}\: \gamma^{\mu}] \:[(\not{q_j} + \not{q}) \not{q_j} \gamma_{\mu}] \\
-&-2[(\not{q_i} + \not{q})\:\not{q_i}\: \gamma^{\mu}]\:[ (\not{q_j} + \not{q}) {q_{j{\mu}}}]
-\:-2[(\not{q_i} + \not{q})\:{q_{i}}^{\mu}][(\not{q_j} + \not{q}) \not{q_j} \:\gamma_{\mu}]\\
-&+4[(\not{q_i} + \not{q})\:{q_{i}}^{\mu}][(\not{q_j} + \not{q}) {q_{j{\mu}}}]
-\end{split}
-\end{align}
-The middle terms disappear due to the influence of the gamma matrices if the sequence of the matrices is reversed, so that the two terms become the same, because $ AB = -BA $:
-
-%Kommentar
-
 \begin{equation}
 \begin{split}
-&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} 
-[(\not{q_i} + \not{q})\:\not{q_i}\: \gamma^{\mu}] \:[(\not{q_j} + \not{q}) \not{q_j} \gamma_{\mu}] \\
-&-2[(\not{q_i} + \not{q})\:\not{q_i}\:\not{q_{j}} ]\:[ \not{q_j} + \not{q} ]
-\:-2[\not{q_i} + \not{q}\:][(\not{q_j} + \not{q}) \not{q_j} \:\not{q_i}]\\
-&+4[(\not{q_i} + \not{q})\:{q_{i}}^{\mu}][(\not{q_j} + \not{q}) {q_{j{\mu}}}]
+M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)(1-y)y(1-2z+2z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
+&[z\not{p_i}\:\gamma^{\mu} \: \not{p_i} +zy\not{p_i}\:\gamma^{\mu}\:\not{p_j}+y(1-z)\not{p_j}\:\gamma^{\mu} \: \not{p_i}+y^2(1-z)\not{p_j}\:\gamma^{\mu} \:\not{p_j}\\
+&+\sqrt{zy(1-z)}\not{m}_{\bot}\:\gamma^{\mu} \: \not{p_i}+y\sqrt{zy(1-z)}\not{m}_{\bot}\:\gamma^{\mu} \: \not{p_j}][(1-y)(1-z) \not{p_j} \:\gamma_{\mu} \:\not{p_i}\\&+(1-y)(1+yz-y) \not{p_j} \:\gamma_{\mu} \: \not{p_j}-(1-y)\sqrt{zy(1-z)} \not{p_j} \:\gamma_{\mu} \:\not{m}_{\bot})]
 \end{split}
 \end{equation}
 
-%Kommentar
-
-\begin{align}
+\begin{equation}
 \begin{split}
-&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} 
-[(\not{q_i} + \not{q})\:\not{q_i}\: \gamma^{\mu}] \:[(\not{q_j} + \not{q}) \not{q_j} \gamma_{\mu}]\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\: \\
-&+4[(\not{q_i} + \not{q})\:{q_{i}}^{\mu}][(\not{q_j} + \not{q}) {q_{j{\mu}}}]
+M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)(1-y)y(1-2z+2z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
+&[z\not{p_i}\:\gamma^{\mu} \: \not{p_i} +zy\not{p_i}\:\gamma^{\mu}\:\not{p_j}][(1-z) \not{p_j} \:\gamma_{\mu} \:\not{p_i}+(1-y) \not{p_j} \:\gamma_{\mu} \: \not{p_j}]
 \end{split}
-\end{align}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)(1-y)y(1-2z+2z^2)(p_i \cdot p_j)(p_i \cdot p_j)} [2z\:{p_i}^{\mu}\not{p_i} +2zy{p_j}^{\mu}\not{p_i}-zy\not{p_i}\not{p_j}\:\gamma^{\mu}]\\
+&[2(1-z){p_i}_{\mu}\not{p_j}-(1-z)\not{p_j}\not{p_i}\:\gamma_{\mu}+2(1-y)\:{p_j}_{\mu}\not{p_j}]
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)(1-y)y(1-2z+2z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
+&[4z(1-z){p_i}^2\not{p_i}\not{p_j}-2z(1-z)\:\not{p_i}\not{p_j}\not{p_i}\not{p_i}+4z(1-y)(p_i \cdot p_j)\not{p_i}\not{p_j}+\\
+&4zy(1-z)(p_j \cdot p_i)\not{p_i}\not{p_j}-2zy(1-z)\:\not{p_i}\not{p_j}\not{p_i}\not{p_j}+4zy(1-y){p_j}^2\not{p_i}\not{p_j}+\\
+&-2zy(1-z)\not{p_i}\not{p_j}\not{p_i}\not{p_j}+zy(1-z)\not{p_i}\not{p_j}\gamma^{\mu}\not{p_j}\not{p_i}\:\gamma_{\mu}-2zy(1-y)\not{p_i}\not{p_j}\not{p_j}\not{p_i}]
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{y(1-2z+2z^2)(p_i \cdot p_j)} [\not{p_i}\not{p_j}]\otimes\frac{z}{1-z}
+\end{split}
+\end{equation}
+
+
+
+
 Now we use the old parametrization to collect the singularities.
-%\begin{equation}
-%\begin{split}
-%&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 \:\:{[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)(1-y)y(1-2z+2z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
-%&[y(1-2z+2z^2)\not{p_i}\:\not{p_j}\: \gamma^{\mu}] \:[(1-z)(1-y)\not{p_i} \not{p_j} \gamma_{\mu}] \\
-%&+4({q_{i}}^{\mu} \cdot {q_{j{\mu}}})[(\not{q_i} + \not{q})][(\not{q_j} + \not{q})]
-%\end{split}
-%\end{equation}
 
-\begin{align}
-\begin{split}
-&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 \:\:{[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)(1-y)y(1-2z+2z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
-&[y(1-2z+2z^2)\not{p_i}\:\not{p_j}\: \gamma^{\mu}] \:[(1-z)(1-y)\not{p_i} \not{p_j} \gamma_{\mu}] \\
-&+4(p_i \cdot p_j)[(\not{p_i} + y\not{p_j})][(1-z)\not{p_i} + (1+yz-y) \not{p_j} - \sqrt{zy(1-z)}\not{m}]
-\end{split}
-\end{align}
+
+
 Here we can use the singular term in the denominator $ y(1-z) $ to drop the term with the same pre-factor and thus obtain:
 
-\begin{align}
-\begin{split}
-&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 \:\:{[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{y(1-2z+2z^2)(p_i \cdot p_j)} 
-[\not{p_i}][\not{p_j}]\otimes\frac{z}{1-z}\:\:\:\:\:\:\:\:\:\:\:\:\:
-\end{split}
-\end{align}
+
 
 \pagebreak
 

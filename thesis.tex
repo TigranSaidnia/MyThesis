@@ -94,22 +94,32 @@
 
 \input{title/title.tex}
 \newpage
+\thispagestyle{empty}
+\quad
+\newpage
 \input{erklaerung/erklaerung.tex}
-\pagebreak
+\newpage
+\thispagestyle{empty}
+\quad
+\newpage
 \input{abstract.tex}
+\newpage
+\thispagestyle{empty}
+\quad
+\newpage
 \tableofcontents
 \thispagestyle{empty}
 \addcontentsline{toc}{chapter}{Table of contents}
+\newpage
 \thispagestyle{empty}
 \quad
 \newpage
 \pagenumbering{arabic}
 \chapter*{Introduction}
 \input{intro/intro.tex}
-
-
-
-
+\newpage
+\thispagestyle{empty}
+\quad
 \newpage
 \chapter{Theoretical Basics}
 \input{basic/basic.tex}
@@ -118,18 +128,19 @@
 \input{parametrisation/parametrisation.tex}
 \newpage
 \input{procedure.tex}
-\chapter{Quark anti-quark gluon emission kernel}
+\chapter{anti-quark-gluon splitting from a parent quark}
 \input{qq/qq.tex}
 \newpage
 \chapter{Gluon radiation from a parent quark}
 \input{gg/gg.tex}
-\chapter{Quark gluon quark emission kernel}
+\chapter{A daughter gluon from a parent quark}
+\input{gq/gq.tex} 
+\chapter{quark-anti-quark splitting from a parent gluon}
 \input{qg/qg.tex}  
-\chapter{Gluon quark quark emission kernel}
-\input{gq/gq.tex}   
+  
 \newpage
-
-
+\thispagestyle{empty}
+\quad
 \newpage
 
 %\listoftables
@@ -139,12 +150,17 @@
 \chapter*{Appendix A}
 \input{appendix/appendix}
 \newpage
+\thispagestyle{empty}
+\quad
+\newpage
 %\addcontentsline{toc}{chapter}{Bibliography}
 \nocite{*}
 \bibliographystyle{plain}
 \bibliography{myBib}
 \newpage
-
+\thispagestyle{empty}
+\quad
+\newpage
 \chapter*{Acknowledgement}
 \input{Danksagung/Danksagung}
  
