@@ -30,8 +30,9 @@
 \usepackage{mathtools}
 \usepackage{ mathrsfs }
 \usepackage{natbib}
-%\usepackage[toc,page]{appendix}
 \usepackage[titletoc]{appendix}
+\usepackage{titlesec}
+
 % =====================================================
 % Seite einrichten
 % =====================================================
@@ -49,7 +50,7 @@
 %\setlength{\parindent}{0pt} \setlength{\abovecaptionskip}{-6pt}
 %\setlength{\belowcaptionskip}{0pt} \setlength{\intextsep}{18pt}
 %\renewcommand{\baselinestretch}{1.2} % Zeilenabstand
-\setcounter{secnumdepth}{4}
+\setcounter{secnumdepth}{7}
 \newcommand{\p}[1]{\texttt{#1}}
 \nonfrenchspacing
 
@@ -84,6 +85,14 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{1.0pt}}
 
+% ====================================================
+% Chapter style
+% ====================================================
+  \titleformat{\chapter}[hang]
+    {\normalfont\huge\bfseries}
+    {\thechapter}{20pt}{\huge}
+
+
 \begin{document}
 
 %\doublespacing
@@ -105,40 +114,55 @@
 \quad
 \newpage
 \input{abstract.tex}
+\pagenumbering{gobble}
+
 \newpage
 \thispagestyle{empty}
 \quad
 \newpage
+
 \tableofcontents
 \thispagestyle{empty}
-\addcontentsline{toc}{chapter}{Table of contents}
+
 \newpage
 \thispagestyle{empty}
 \quad
 \newpage
+
 \pagenumbering{arabic}
-\chapter*{Introduction}
+\chapter{Introduction}
 \input{intro/intro.tex}
 \newpage
 \thispagestyle{empty}
 \quad
 \newpage
-\chapter{Theoretical Basics}
+\chapter{Prerequisites}
 \input{basic/basic.tex}
-\chapter{Introduction to splitting function}
+\chapter{Parton showers based on subtraction method}
+\label{Introduction}
 \input{singularities/singularities.tex}
+\newpage
+
+
 \input{parametrisation/parametrisation.tex}
+\label{parametrisation}
 \newpage
 \input{procedure.tex}
-\chapter{anti-quark-gluon splitting from a parent quark}
+\chapter{The LO splitting functions}
+\label{LO}
 \input{qq/qq.tex}
 \newpage
-\chapter{Gluon radiation from a parent quark}
 \input{gg/gg.tex}
-\chapter{A daughter gluon from a parent quark}
+\newpage
 \input{gq/gq.tex} 
-\chapter{quark-anti-quark splitting from a parent gluon}
+\newpage
 \input{qg/qg.tex}  
+\newpage
+\chapter{Example Applications}
+\input{Comparison/Comparison.tex}
+\chapter{Summary and conclusions}
+\label{Summary}
+\input{summary/summary.tex}  
   
 \newpage
 \thispagestyle{empty}
@@ -153,10 +177,17 @@
 %\input{appendix/appendix}
 \begin{appendices}
  \chapter*{Appendix A}
+  \label{Appendix}
 \input{appendixA/appendixA}
- \chapter*{Appendix B}
-\input{appendixB/appendixB}
 \end{appendices}
+\newpage
+\thispagestyle{empty}
+\quad
+\newpage
+\addcontentsline{toc}{chapter}{MATHEMATICAL TOOLS}
+\chapter*{MATHEMATICAL TOOLS}
+\label{Math}
+\input{Math/Math}
 \newpage
 \thispagestyle{empty}
 \quad

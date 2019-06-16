@@ -1,5 +1,13 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: plain.bst
 Database file #1: myBib.bib
+Too many commas in name 1 of "Bahr, M. S. Gieseke, M. Gigg, D. Grellscheid, K. Hamilton and others" for entry Bahr:2008pv
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Bahr, M. S. Gieseke, M. Gigg, D. Grellscheid, K. Hamilton and others" for entry Bahr:2008pv
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Bahr, M. S. Gieseke, M. Gigg, D. Grellscheid, K. Hamilton and others" for entry Bahr:2008pv
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Bahr, M. S. Gieseke, M. Gigg, D. Grellscheid, K. Hamilton and others" for entry Bahr:2008pv
+while executing---line 1090 of file plain.bst
 Warning--empty chapter and pages in Greiner1989
-(There was 1 warning)
+(There were 4 error messages)

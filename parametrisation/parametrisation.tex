@@ -1,4 +1,4 @@
-\section{Mapping 3 partons to 2}
+\section{Mapping 3 partons to 2 for single emission}
 As we have already seen in the last section, the dipole factorization is obtained from the square matrix element. Now we want to take a closer look at the four possible parton showers from the previous section. For this goal we first calculate the respective matrix elements and the complex-conjugated one of them in the known 3 parton evaluation. This results in the dipole-term, which contains the soft- and collinear singularities. Then this is parametrized with a certain kinematics in order to separate the finite terms from infinities. First of all, the Emmiter and the spectator are defined. After the substitution of the new momenta we get splitting kernel in helicity space and color charges of spectator and emitter. Then we ignore the finite terms because we are looking for the singular terms. It should be noted that at the beginning of this thesis a parametrisation was used, which unfortunately only works for LO. This was recognized later and therefore a new kinematics was used. 
 This theoretical description will become clearer as we begin to implement the mappings. First of all the kinematics have to be introduced ~\cite{Platzer:2011dq, Platzer:2018pmd, Platzer:2009jq, Gieseke:2003rz}.
 \section{Old mapping}
@@ -34,7 +34,7 @@ For this mapping it is useful to calculate some common relation:
 \end{split}
 \end{equation}
 
-\section{new kinematic}
+\section{Mapping $ m+1 $ partons to m for multi-emissions}
 For the general m emission case it must be defined a new mapping. The parametrisation of the splitting momenta is formalized as:
 \begin{equation}
 	\begin{split}

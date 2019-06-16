@@ -42,7 +42,7 @@ x_i = \frac{2E_i}{\sqrt{s}}=\frac{2q\: \cdot\: k_i}{s}
 \end{equation}
 It can be shown that $ \sum x_i =2  $ and thus, that only two of them are independent.
 
-The final result is:
+The partonic differential cross section with respect to the quark and anti-quark momentum fractions is given by:
 \begin{equation}
 \frac{d^2 \sigma}{dx_1 dx_2}= (\frac{4\pi \alpha}{s})\sum {e_i}^2 
 \frac{2\alpha_s}{3\pi} \frac{{x_1}^2+{x_2}^2}{(1-x_1)(1-x_2)}
@@ -167,7 +167,7 @@ Where $ {T^c}_{c_ib_i} $ is the colour-charge matrix in the adjoint representati
 \end{equation}
 Thus, the square of colour-correlated tree-amplitudes for the indices I, J referring either to final-state or initial-state partons will be~\cite{Catani:1996vz, Catani:2002hc}
 \begin{equation}
-\vert {{\mathcal{M}}^{I,J}}_{m,a...} \vert^2=\:_{m,a...} < 1,...,m;a,... |T_I \cdot T_J | 1,...,m;a,... >\:_m,a...
+\vert {{\mathcal{M}}^{I,J}}_{m,a...} \vert^2=\:_{m,a...} < 1,...,m;a,... |T_I \cdot T_J | 1,...,m;a,... >\:_{m,a...}
 \end{equation}
 
 
@@ -224,8 +224,8 @@ The matrix element for this is written:
 \vert {{\mathcal{M}}}_{m+1}  \vert^2 = < 1,...,m+1 || 1,...,m+1 > = \sum_{k \neq i,j} {{\mathcal{D}}}_{ij,k}(p_1,...,p_{m+1}) +\text{finite terms}
 \end{equation}
 
-The first term with the sum over dipoles is divergent as $ p_i \cdot p_j \rightarrow 0 $. These dipole terms are explicitly given by:
-
+The first term with the sum over dipoles is divergent as $ p_i \cdot p_j \rightarrow 0 $. 
+For the case of final-state emitters with a final-state spectator,for instance, the individual dipole contributions read
 \begin{equation}
  {{\mathcal{D}}}_{ij,k}(p_1,...,p_{m+1}) = \frac{-1}{2p_i \cdot p_j} \:\:_m<1,...,\tilde{ij},...,k,...,m+1 |\frac{T_k \cdot T_{ij}}{{T_{ij}}^2} V_{ij,k}| 1,...,\tilde{ij},...,k,...,m+1 >\:_m
 \end{equation}
@@ -235,7 +235,7 @@ Where $ T_k \cdot T_{ij} $ are the color charges of spectator and emitter
 $ V_{ij,k} $ splitting kernel in helicity space of emitter
 explicit form depends on parton type become proportional to Altarelli-Parisi splitting functions \ref{Alterali-Parisi} and eikonal factors
 in collinear and soft limits.\\
-Using the kinematics:
+when all the involved partons are assumed to be massless. The occurring $ m $-parton states are constructed from the original $(m+ 1)$-particle matrix element by replacing the partons $ i $ and $ j $ with the new parton $  \widetilde{ij} $ , and the original parton $ k $ with the $  \widetilde{k} $ spectator. In the massless case, their momenta are given by:
 \begin{equation}
 \begin{split}
 &{\tilde{p}^{\mu}}_{ij} = {p_i}^{\mu}+{p_j}^{\mu}-\frac{y_{ij,k}}{1-y_{ij,k}}{p_k}^{\mu}\\
@@ -263,7 +263,7 @@ Here the (arbitrary) factorisation scale $ \mu $ can be thought of
 as the scale which separates the long and short-distance physics.
 Roughly speaking, a parton with a transverse momentum less
 than $ \mu $ is then considered to be part of the hadron structure and
-is absorbed into the parton distribution. Partons with larger transverse momenta participate in the hard scattering process with a short-distance partonic cross-section.
+is absorbed into the parton distribution. Partons with larger transverse momenta participate in the hard scattering process with a short-distance partonic cross-section~\cite{Nagy:2006kb}.
 The factorisation theorem also applies to deep inelastic scattering. It can be shown how the IR singularities are absorbed into the PDFs. The DIS cross section can be written as ~\cite{Ellis:1991qj}
 \begin{equation}
 \frac{d^2 \sigma}{dx dQ^2}=\frac{4\pi \alpha^2}{x Q^4}[(1-y)F_2 (x, Q^2)+xy^2 F_1(x, Q^2)]
@@ -317,7 +317,28 @@ A parton distribution changes when a different parton splits or the parton itsel
 	}
 \label{Alterali-Parisi}
 \end{equation}
+ the dipole factorisation formula:
+ \begin{equation}
+ |\mathcal{M}_m+1|^2 = \displaystyle\sum\limits_{i,j} \displaystyle\sum\limits_{k\neq i,j} \mathcal{D}_{ij,k} +\displaystyle\sum\limits_{i,j} \displaystyle\sum\limits_{a} {\mathcal{D}^a}_{ij}+\displaystyle\sum\limits_{a,i} \displaystyle\sum\limits_{k\neq i} {\mathcal{D}^{ai}}_{k}+\displaystyle\sum\limits_{a,i} \displaystyle\sum\limits_{b\neq a} \mathcal{D}^{aj,b}+...
+ \end{equation}
+n each term $ i, j $ and $ k $ denote final-state partons and a and b stand for initial-state partons. The first sum always runs over the two particles to be combined, whereas the second sum takes care of the spectators.Accordingly, the four terms correspond to the splitting of a final-state parton accompanied by a final-state or initial-state spectator and emissions off incoming particles in the presence of a final-state or an initial-state spectator, respectively. Finally, the dots in the equation above denote some potential finite terms which do not exhibit any divergence.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{images/Intro/soft.png}
+\caption{Soft factorisation}
+\end{figure}
 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{images/Intro/collinear.png}
+\caption{Collinear factorisation}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{images/Intro/factorization.png}
+\caption{Dipole/Antenna factorisation}
+\end{figure}
 
 QCD suffers from infrared singularities
 when two daughter partons cannot be resolved because they

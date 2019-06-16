@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{Bahr:2008pv}
+M.~Gigg D. Grellscheid K.~Hamilton Bahr, M. S.~Gieseke et~al.
+\newblock {Herwig++ Physics and Manual}.
+\newblock {\em Eur. Phys. J.}, C58:639--707, 2008.
+
 \bibitem{Bluemer:2009zf}
 Johannes Blumer, Ralph Engel, and Jorg~R. Horandel.
 \newblock {Cosmic Rays from the Knee to the Highest Energies}.
@@ -105,6 +110,14 @@ Francis Halzen, Alan~D Martin, and Leptons Quarks.
 Gudrun Heinrich.
 \newblock Introduction to quantum chromodynamics and loop calculations, SS
   2018.
+
+\bibitem{Nagy:2006kb}
+Zoltan Nagy and Davison~E. Soper.
+\newblock {A New parton shower algorithm: Shower evolution, matching at leading
+  and next-to-leading order level}.
+\newblock In {\em {Proceedings, Ringberg Workshop on New Trends in HERA Physics
+  2005: Ringberg Castle, Tegernsee, Germany, October 2-7, 2005}}, pages
+  101--123, 2006.
 
 \bibitem{peskin2018introduction}
 Michael~E Peskin.
