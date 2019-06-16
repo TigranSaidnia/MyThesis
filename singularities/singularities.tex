@@ -72,8 +72,92 @@ individual contributions.
 \caption{Virtual corrections: one-loop corrections to $  e^- e^+ \rightarrow q\bar{q} $}
 \end{figure}
 We will use deep inelastic scattering (DIS) to show how the infra-red singularities are absorbed in the parton distributions~\cite{Cunha13}.
+\newpage
+\section{Hard scattering}
+In the last section it was seen that IR singularities occur in QCD due to the collinearity of two partons or the soften energy of one parton. These divergences occur long time after the intial hard scattering (long distance physics). Fortunately, the infrared-safe observables are calculable in perturbative QCD.  But this is not the best way to solve this problem. An interesting way for this is the factorization theorem. By this theorem the singularities of long-distance physics are removed from the partonic cross section and factorized into the parton distribution of the sleeping hadrons. This is even feasible for all orders. The background idea is that the partonic cross section is then calculable in perturbation theory. This in turn means that you can use the deep inelastic scattering and thereby absorb the infrared singularities in the parton distributions. 
+Consider the hadron hadron scattering:
+\begin{equation}
+\sigma = \sum_{ij} \int dx_1 dx_2 f_i(x_1, \mu^2)f_j(x_2, \mu^2) \sigma_{ij}(x_1, x_2, Q^2/\mu^2... )
+\end{equation}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{images/Intro/Hard.png}
+\end{figure}
+With a factorisation scale $ \mu $ the long and short-distance physics could be separated. Partons with a greater momentum than $ \mu $ participate in the hard-scattering and partons with less momentum are considered as components of the hadron structure and accordingly absorbed in the parton distribution ~\cite{Nagy:2006kb}.
+The DIS cross section can be written as ~\cite{Ellis:1991qj}
+\begin{equation}
+\frac{d^2 \sigma}{dx dQ^2}=\frac{4\pi \alpha^2}{x Q^4}[(1-y)F_2 (x, Q^2)+xy^2 F_1(x, Q^2)]
+\end{equation}
+In this case, the structure function need to be introduced: 
+
+\begin{equation}
+{{F}_2}^{exp} (x)= \sum_i {e_i}^2 x f_i(x)
+\end{equation}
+
+It is defined as the charge weighted sum of the parton momentum densities which describe the probability that the parton carries a momentum
+fraction between $ x $ and $ \partial x $ of the proton momentum. The index $i$ denotes the quark flavour. Parton distributions are non-pertubative. fortunately it is universal and it is obtained from fit to the data for a particular factorization scheme and use them for other processes.\\
+The perturbative evolution kernel of a parton
+distribution due to splitting can be described by the solution of DGLAP evolution equation~\cite{Ward:1995xy}.  It is based on the collinear factorization property of QCD. Fixing the accuracy of the calculation and the factorization scheme the evolution kernel is well defined.  
+\begin{equation}
+\frac{\partial f(x, \mu^2) }{\partial \: ln \:\mu^2}=
+\frac{\alpha_s}{2\pi}\int_{x}^{1}\frac{dy}{y} f_j(y, \mu^2) P_{ij}(\frac{x}{y})+O({\alpha_s}^2)
+\end{equation}
+This is a system of coupled integral or differential equations. $ P_{ij}(\frac{x}{y}) $ represents the probability, a daughter parton $ i $ with momentum fraction $ \frac{x}{y} $ is splits from a parent parton $ j $.
+The above convolution in compact notation (Mellin Convolution) in the general case:
+\begin{equation}
+\frac{\partial f_i(x, \mu^2) }{\partial \: ln \:\mu^2}=
+\sum_{j=-n_f}^{n_f} P_{ij} \otimes f_j(\mu^2)
+\end{equation}
+
+The four splitting probabilities are illustrated in the diagram \ref{splitting} and the transitions lead to a set of $ 2n_f +1 $ coupled evolution equations.
+\begin{equation}
+\frac{\partial }{\partial \: ln \:\mu^2} \left(\begin{array}{c}q_s\\ g\end{array}\right)=
+\frac{\alpha_s}{2\pi}\begin{bmatrix}P_{qq} & 2n_fP_{qg} \\P_{gq} & P_{gg} \end{bmatrix}\otimes\left(\begin{array}{c}q_s\\ g\end{array}\right)
+\end{equation}
+
+A parton distribution changes when a different parton splits or the parton itself splits. Parton densities can not be analytically determined, but it is possible to predict how they evolve from one scale to another. PDFs are measured in one process and use them as an input for another process.
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{images/Intro/spiliting.png}
+\caption{The four splitting probabilities}
+\label{splitting}
+\end{figure}
+
+\begin{equation}
+	\left.\begin{aligned}
+\langle\:\hat{P_{qq}}\rangle &= C_F[\frac{1+z^2}{1-z}-\varepsilon(1-z)]\\
+\langle\:\hat{P_{gq}}\rangle &= T_R[1-\frac{2z(1-z)}{1-\varepsilon}]\\
+\langle\:\hat{P_{qg}}\rangle &= C_F[\frac{1+(1-z)^2}{z}-\varepsilon z]\\
+\langle\:\hat{P_{gg}}\rangle &= 2C_A[\frac{z}{1-z}+\frac{1-z}{z}+z(1-z)]
+\end{aligned}
+	\right\}
+	\quad \text{Alterali-Parisi
+	}
+\label{Alterali-Parisi}
+\end{equation}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{images/Intro/soft.png}
+\caption{Soft factorisation}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{images/Intro/collinear.png}
+\caption{Collinear factorisation}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{images/Intro/factorization.png}
+\caption{Dipole/Antenna factorisation}
+\end{figure}
 
 \section{Subtraction method}
+The subtraction term is constructed as a sum over all possible dipole configurations, i.e. all possible combinations of two partons are formed to build an emitter while every single one of the remaining partons is considered a spectator.  
 \begin{equation}
 |A|^2 = |{A^{(0)}}_m|^2 +  |{A^{(0)}}_{m+1}|^2+ 2Re({A^{(0)*}}_{n}{A^{(1)}}_{m})
 \end{equation}
@@ -197,19 +281,25 @@ $ V_{ij,k} $ a singular factor including parton k and its interaction with parto
 ~\cite{Catani:1996vz}
 \end{figure}
 
-Here i and k are the emitters and k plays the role of a spectator. The blobs denote the tree-level matrix elements and their complex conjugate. The dots on the right-hand side stand for non-singular terms both in the soft and collinear limits.
+Here i and k are the emitters and k plays the role of a spectator. The spectator absorbs a longitudinal recoil that arises when a splitting is performedwith  all  participating  partons  remaining  on  their  mass  shells. The blobs denote the tree-level matrix elements and their complex conjugate. The dots on the right-hand side stand for non-singular terms both in the soft and collinear limits.
 When the partons i and j become soft and/or collinear, the singularities are factorized into the term $ V_{ij,k} $ (the
 dashed box on the right-hand side) which embodies correlations with a single additional parton k.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/Intro/factorisationPic2.png}
-\caption{Effective diagrams for the different emitter–spectator cases. There  are  four  different  configurations  depending  on whether the emitter and the spectator are part of the initial or the final state.These configurations are called final-final (FF, upper left panel), final-initial(FI, upper right panel), initial-final (IF, lower left panel) and initial-initial (II,lower right panel)}
+\caption{Effective diagrams for the different emitter–spectator cases.}
 \label{factorisationPic2}
 ~\cite{Catani:2002hc}
 \end{figure}
 
 In this context the different dipole factorisation for both initial states and final states shall be presented. All these different possibilities can be seen in the diagram \ref{factorisationPic2}.
+$  \mathcal{D}_{ij,k} $ describes the final state emitter and final-state spectator (FF), $  {\mathcal{D}^a}_{ij} $ the final-state emitter and initial-state spectator (FI), $ {\mathcal{D}^{ai}}_{k} $ the initial-state emitter and final-state spectator (IF) and $ \mathcal{D}^{aj,b} $ the initial-state emitter and initial-state spectator (II).
+The dipole factorisation formula for all these possibilities is \cite{Schumann:2007mg}
+ \begin{equation}
+ |\mathcal{M}_m+1|^2 = \displaystyle\sum\limits_{i,j} \displaystyle\sum\limits_{k\neq i,j} \mathcal{D}_{ij,k} +\displaystyle\sum\limits_{i,j} \displaystyle\sum\limits_{a} {\mathcal{D}^a}_{ij}+\displaystyle\sum\limits_{a,i} \displaystyle\sum\limits_{k\neq i} {\mathcal{D}^{ai}}_{k}+\displaystyle\sum\limits_{a,i} \displaystyle\sum\limits_{b\neq a} \mathcal{D}^{aj,b}+...
+ \end{equation}
+In each term $ i, j $ and $ k $ denote final-state partons and a and b stand for initial-state partons. Note that there are many not-divergent contributions or diagrams, which are marked here with the dots. In this Work the first contribution final-state emitter and final-state spectator (FF) is used. Later it becomes clear how to deal with the formula.
 
 \begin{figure}[h!]
 \centering
@@ -246,115 +336,4 @@ when all the involved partons are assumed to be massless. The occurring $ m $-pa
 Note, that momenta are on-shell. Due to momentum conservation ${p_i}^{\mu}+{p_j}^{\mu}+{p_k}^{\mu}= {\tilde{p}^{\mu}}_{k} +{\tilde{p}^{\mu}}_{ij} $. 
 
 
-
-
-
-\newpage
-\section{Hard scattering}
-The hadron hadron scattering can be written as:
-\begin{equation}
-\sigma = \sum_{ij} \int dx_1 dx_2 f_i(x_1, \mu^2)f_j(x_2, \mu^2) \sigma_{ij}(x_1, x_2, Q^2/\mu^2... )
-\end{equation}
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{images/Intro/Hard.png}
-\end{figure}
-Here the (arbitrary) factorisation scale $ \mu $ can be thought of
-as the scale which separates the long and short-distance physics.
-Roughly speaking, a parton with a transverse momentum less
-than $ \mu $ is then considered to be part of the hadron structure and
-is absorbed into the parton distribution. Partons with larger transverse momenta participate in the hard scattering process with a short-distance partonic cross-section~\cite{Nagy:2006kb}.
-The factorisation theorem also applies to deep inelastic scattering. It can be shown how the IR singularities are absorbed into the PDFs. The DIS cross section can be written as ~\cite{Ellis:1991qj}
-\begin{equation}
-\frac{d^2 \sigma}{dx dQ^2}=\frac{4\pi \alpha^2}{x Q^4}[(1-y)F_2 (x, Q^2)+xy^2 F_1(x, Q^2)]
-\end{equation}
-In this case we need to introduce the structure function, is defined as the charge weighted sum of the parton momentum densities which describe the probability that the parton carries a momentum
-fraction between $ x $ and $ \partial x $ of the proton momentum. The index $i$ denotes the quark flavour. The parton distribution function or the fragmentation function is a convolution of a perturbative and a non-perturbative part. Parton distributions are non-pertubative. fortunately it is universal and it is obtained from fit to the data for a particular factorization scheme and use them for other processes.
-
-\begin{equation}
-{{F}_2}^{exp} (x)= \sum_i {e_i}^2 x f_i(x)
-\end{equation}
-The perturbative evolution kernel of a parton
-distribution due to splitting can be described by the solution of DGLAP evolution equation~\cite{Ward:1995xy}.  It is based on the collinear factorization property of QCD. Fixing the accuracy of the calculation and the factorization scheme the evolution kernel is well defined.  
-\begin{equation}
-\frac{\partial f(x, \mu^2) }{\partial \: ln \:\mu^2}=
-\frac{\alpha_s}{2\pi}\int_{x}^{1}\frac{dy}{y} f_j(y, \mu^2) P_{ij}(\frac{x}{y})+O({\alpha_s}^2)
-\end{equation}
-This is a system of coupled integral or differential equations. $ P_{ij}(\frac{x}{y}) $ represents the probability, a daughter parton $ i $ with momentum fraction $ \frac{x}{y} $ is splits from a parent parton $ j $.
-The above convolution in compact notation (Mellin Convolution) in the general case:
-\begin{equation}
-\frac{\partial f_i(x, \mu^2) }{\partial \: ln \:\mu^2}=
-\sum_{j=-n_f}^{n_f} P_{ij} \otimes f_j(\mu^2)
-\end{equation}
-
-The four splitting probabilities are illustrated in the diagram \ref{splitting} and the transitions lead to a set of $ 2n_f +1 $ coupled evolution equations.
-\begin{equation}
-\frac{\partial }{\partial \: ln \:\mu^2} \left(\begin{array}{c}q_s\\ g\end{array}\right)=
-\frac{\alpha_s}{2\pi}\begin{bmatrix}P_{qq} & 2n_fP_{qg} \\P_{gq} & P_{gg} \end{bmatrix}\otimes\left(\begin{array}{c}q_s\\ g\end{array}\right)
-\end{equation}
-
-The hadronization model is the non-perturbativepartthat we fit to the data. The perturbative part is based on the factorizationtheorem of the QCD and it is well defined up to the finite pieces
-
-A parton distribution changes when a different parton splits or the parton itself splits. Parton densities can not be analytically determined, but it is possible to predict how they evolve from one scale to another. PDFs are measured in one process and use them as an input for another process.
-
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{images/Intro/spiliting.png}
-\caption{The four splitting probabilities}
-\label{splitting}
-\end{figure}
-
-\begin{equation}
-	\left.\begin{aligned}
-\langle\:\hat{P_{qq}}\rangle &= C_F[\frac{1+z^2}{1-z}-\varepsilon(1-z)]\\
-\langle\:\hat{P_{gq}}\rangle &= T_R[1-\frac{2z(1-z)}{1-\varepsilon}]\\
-\langle\:\hat{P_{qg}}\rangle &= C_F[\frac{1+(1-z)^2}{z}-\varepsilon z]\\
-\langle\:\hat{P_{gg}}\rangle &= 2C_A[\frac{z}{1-z}+\frac{1-z}{z}+z(1-z)]
-\end{aligned}
-	\right\}
-	\quad \text{Alterali-Parisi
-	}
-\label{Alterali-Parisi}
-\end{equation}
- the dipole factorisation formula:
- \begin{equation}
- |\mathcal{M}_m+1|^2 = \displaystyle\sum\limits_{i,j} \displaystyle\sum\limits_{k\neq i,j} \mathcal{D}_{ij,k} +\displaystyle\sum\limits_{i,j} \displaystyle\sum\limits_{a} {\mathcal{D}^a}_{ij}+\displaystyle\sum\limits_{a,i} \displaystyle\sum\limits_{k\neq i} {\mathcal{D}^{ai}}_{k}+\displaystyle\sum\limits_{a,i} \displaystyle\sum\limits_{b\neq a} \mathcal{D}^{aj,b}+...
- \end{equation}
-n each term $ i, j $ and $ k $ denote final-state partons and a and b stand for initial-state partons. The first sum always runs over the two particles to be combined, whereas the second sum takes care of the spectators.Accordingly, the four terms correspond to the splitting of a final-state parton accompanied by a final-state or initial-state spectator and emissions off incoming particles in the presence of a final-state or an initial-state spectator, respectively. Finally, the dots in the equation above denote some potential finite terms which do not exhibit any divergence.
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{images/Intro/soft.png}
-\caption{Soft factorisation}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{images/Intro/collinear.png}
-\caption{Collinear factorisation}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{images/Intro/factorization.png}
-\caption{Dipole/Antenna factorisation}
-\end{figure}
-
-QCD suffers from infrared singularities
-when two daughter partons cannot be resolved because they
-become collinear, or because one of them becomes soft. We have also seen that these singularities are associated with ‘long-distance’ physics which takes place a long time after the initial hard scattering.
-So-called infrared-safe observables are still calculable in perturbative QCD, but since this is quite restrictive we have to look for ways to extend the predictive power of the theory. This way-out is provided by the QCD factorisation theorem. For hadron-hadron scattering the factorisation theorem states that the singular long-distance pieces can be removed from the partonic
-cross section and factored into the parton distributions of the incoming hadrons, and that this can be done consistently at all orders in the perturbative expansion.
-The partonic cross section is then calculable in perturbation theory,
-and does not depend on the type of incoming hadron. Factorisation is a fundamental property of QCD. It turns perturbative
-QCD into a reliable calculation tool, unlike the naive parton
-model that does not take the parton dynamics into account.
-
-The factorisation theorem also applies to deep inelastic scattering,
-with one of the parton distributions replaced by an ee0%⇤ vertex as
-is shown in the right-hand side diagram on page 9–4:
-We will use DIS to show how the infrared singularities are absorbed
-in the parton distributions. The QCD evolution equations
-of the parton densities are then derived from the renormalisation
-group equation.
 \newpage
