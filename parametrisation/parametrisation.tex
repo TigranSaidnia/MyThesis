@@ -3,7 +3,7 @@
 As we have already seen in the last section, the dipole factorization is obtained from the square matrix element. Now we want to take a closer look at the four possible parton showers from the previous section. For this goal we first calculate the respective matrix elements and the complex-conjugated one of them in the known 3 parton evaluation. This results in the dipole-term, which contains the soft- and collinear singularities. Then this is parametrized with a certain kinematics in order to separate the finite terms from infinities. First of all, the Emmiter and the spectator are defined. After the substitution of the new momenta we get splitting kernel in helicity space and color charges of spectator and emitter. Then we ignore the finite terms because we are looking for the singular terms. It should be noted that at the beginning of this thesis a parametrisation was used, which unfortunately only works for LO. This was recognized later and therefore a new kinematics was used. 
 This theoretical description will become clearer as we begin to implement the mappings. First of all the kinematics have to be introduced ~\cite{Platzer:2011dq, Platzer:2018pmd, Platzer:2009jq, Gieseke:2003rz}.
 \section{Old mapping}
-First we start with the old mapping, as promised. 
+The old parametrisation is defined as follows: 
 	
 \begin{equation}
 	\left.\begin{aligned}
@@ -16,14 +16,13 @@ First we start with the old mapping, as promised.
 \end{equation}
 
 Where q is the radiated soft momentum, $ q_i $ the momenta of the emitter and $ q_j $ the momentum of the spectator is.
-the dimensionless variable is given by $ y = \frac{q_i \cdot q}{p_i \cdot p_j}$. Note that both the emitter and the spectator are on-shell.
-momentum conservation is implemented exactly:
+The variable $ y_{ij,k} = \frac{q_i \cdot q}{p_i \cdot p_j}$ need to be introduced, that is zero in the soft and collinear limit. Note that both the emitter and the spectator are on-shell. momentum conservation is implemented exactly:
 
 \begin{equation}
 {q_i}^{\mu}+q^{\mu}+ {q_k}^{\mu}={p_i}^{\mu}+{p_j}^{\mu}+{m^{\mu}}_{\bot}
 \end{equation}
 
-For this mapping it is useful to calculate some common relation:
+For this mapping it is useful to calculate some common relations which are computed as follow:
 
 \begin{equation}
 \begin{split}
@@ -44,9 +43,9 @@ For the general m emission case it must be defined a new mapping. The parametris
 	&{q_k}^{\mu} = \alpha {\Lambda^{\mu}}_{\nu}{p_k}^{\nu} \:\:\:\:\:\:\:\:\:\:\:\:\: {k=1,...,n}\:\:\:\:\:\:\:\:\:\:k\neq i\\
     \end{split}
 \end{equation}
-$ k = 1,...,n $ labels the emission momenta and is taken to be massless $ {k_l}^2 = 0 $. Where the label $ l $ denotes the count of emissions. In this work we just want to considerate the one-emission kernels. The other important issue here is that all hard momenta are on-shell, $ {p_k}^2={q_k}^2=0 $.\\
+$ k = 1,...,n $ labels the emission momenta and is taken to be massless $ {k_l}^2 = 0 $. Where the label $ l $ denotes the count of emissions. In this work the one-emission kernels is just considered. All hard momenta in this mapping are also on-shell, $ {p_k}^2={q_k}^2=0 $.
 $ n^{\mu} $ is an auxiliary light-like vector which is necessary to specify the transverse component of $ {n^{\mu}}_{\bot,l} $.
-To absorb the recoil we define $ n^{\mu} $ as:
+To absorb the recoil $ n^{\mu} $ is defined as:
 
 
 \begin{equation}
@@ -62,7 +61,7 @@ Whereby Q is the total momentum with:
 {Q}^{\mu} &= {q_i}^{\mu}+\displaystyle\sum\limits_{l=1}^m k_l^{\mu}+\displaystyle\sum\limits_{k=1}^m q_k^{\mu}={p_i}^{\mu}+\displaystyle\sum\limits_{k=1}^m p_k^{\mu}
 \end{split}	
 \end{equation}
-To fulfil the condition that the emission momenta are massless, we need the following condition:
+To fulfil the condition that the emission momenta are massless, the following condition must be taken into account:
 
 \begin{equation}
 \begin{split}
@@ -71,7 +70,7 @@ To fulfil the condition that the emission momenta are massless, we need the foll
 \end{split}	
 \end{equation}
 
-$ {n}^2_{\bot,l} = -2\alpha{\Lambda^{\mu}}_{\nu}{p_i}^{\nu} n_{\mu} $ is not on-shell and in terms of single emission case we get $ {n}^2_{\bot,1} = -2p_i\cdot Q $.
+$ {n}^2_{\bot,l} = -2\alpha{\Lambda^{\mu}}_{\nu}{p_i}^{\nu} n_{\mu} $ is not on-shell and in terms of single emission case it follows $ {n}^2_{\bot,1} = -2p_i\cdot Q $.
 The parameter y is related to the virtuality of the splitting parton:
 
 \begin{equation}
@@ -81,7 +80,7 @@ The parameter y is related to the virtuality of the splitting parton:
 \end{equation}
 With $ \alpha = \sqrt{1-y} $.
 \subsubsection*{Lorenz transformation of momenta }
-In order to be able to work with the parametrisation, we have to do the Lorenz transformation of the Emitters, Spectator and total momentum first.
+From the parametrisation it is immediately to calculate the respective Lorenz transformation for the Emitters, Spectator and total momentum first. The general definition of the transformation is given by:
 
 \begin{equation}
 \begin{split}	
@@ -91,9 +90,9 @@ In order to be able to work with the parametrisation, we have to do the Lorenz t
 \end{split}
 \end{equation}
 
-In the collinear limit of $ y \rightarrow 0, \alpha \rightarrow 1 $
+In the collinear limit with $ y \rightarrow 0, \alpha \rightarrow 1 $
 this transformation reduces to trivial $ {\eta^{\mu}}_{\nu} $.
-Finally we are going to compute the Lorenz transformation of the Momenta. The detailed calculation of them can be found in Appendix A.
+Finally we are going to compute the Lorenz transformation of the Momenta. The detailed calculation of Lorenz transformation for the Emitters, Spectator and total momentum can be found in the appendix section \ref{trafo}.
 
 \begin{equation}
 	\begin{aligned}
@@ -124,14 +123,14 @@ Finally we are going to compute the Lorenz transformation of the Momenta. The de
 
 
 \section{Single emission part}
-In terms of one emission where $ l=1 $ the mapping will be simplified as:
+In terms of one emission where $ l=1 $ the mapping will be simplified to:
 \begin{equation}
 	\begin{aligned}
 	{k_1}^{\mu} &= (\alpha_1 -y\beta_1(\frac{Q^2}{2p_i \cdot Q})) {p_i}^{\mu} + y\beta_1{Q}^{\mu} + \sqrt{y\alpha_1\beta_1}{n^{\mu}}_{\bot,1}  \\
 	{q_i}^{\mu}   &= (\beta_1 -\alpha_1 y(\frac{Q^2}{2p_i \cdot Q})){p_i}^{\mu} + y\alpha_1{Q}^{\mu} - \sqrt{y\alpha_1\beta_1}{n^{\mu}}_{\bot,1} \\
 	{q_k}^{\mu} &= \alpha {\Lambda^{\mu}}_{\nu}{p_k}^{\nu} \:\:\:\:\:\:\:\:\:\:\:\:\: {k=1,...,n}\:\:\:\:\:\:\:\:\:\:k\neq i\\
 	\\
-	\\
+	\text{Short form:}\\
 		{k_1}^{\mu} &= \zeta_1 {p_i}^{\mu} + \lambda_1{Q}^{\mu} + \sqrt{y\alpha_1\beta_1}{n^{\mu}}_{\bot,1}  \\
 	{q_i}^{\mu}   &= \zeta_q{p_i}^{\mu} + \lambda_q{Q}^{\mu} - \sqrt{y\alpha_1\beta_1}{n^{\mu}}_{\bot,l} \\
 	{q_k}^{\mu} &= A_1{p_i}^{\mu} + A_2{Q}^{\mu} + \sqrt{1-y}{p_k^{\mu}}\\
@@ -140,7 +139,7 @@ In terms of one emission where $ l=1 $ the mapping will be simplified as:
 
 
 \section{Common scalar products}
-To investigate the mapping it is useful to determine the dot products between these four vectors. To understand the often occurring pre-factor products one should look them up in the appendix A.
+For the investigating of the mapping it is useful to determine first the dot products between these four vectors. The often occurring pre-factor products are given in \ref{pre}.
 
 \begin{equation}
 	\begin{aligned}
@@ -160,10 +159,10 @@ To investigate the mapping it is useful to determine the dot products between th
 		\fbox{$  q_i \cdot q_k = [\beta_1 (1-y)+y\alpha_1(\frac{Q^2}{2p_i \cdot Q})]\:p_i \cdot p_k+y\alpha_1\:Q\cdot p_k-\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}} $}
     \end{aligned}
 \end{equation}
-\section{Recipe for the use of the new parametrisation}
-In the previous chapter we have discussed that the singularities come from the propagators in each diagram since the denominators contain according Feynmann rules terms with $\sim \frac{1}{2 q_a \cdot q_b}  $. Whereby a and b here place holder the respective momenta. Since the calculations are sometimes very complicated and confusing, the procedure for eliminating the finite terms is as follows:\\
+\section{Recipe for the usage of the new parametrisation}
+As in the last chapter mentioned the singularities come from the propagators in each diagram since the denominators contain according Feynmann rules terms with $\sim \frac{1}{2 q_a \cdot q_b}  $. Whereby a and b label the respective momenta. Since the calculations are sometimes very complicated and confusing, the procedure for eliminating the finite terms is as follows:\\
 In the calculating of the square matrix elements always appear products in the form of $ p_a \cdot p_b $ both in the numerator and denominator.
-The denominator shows which pre-factor causes the singularity. As we know, if , we get zero in the denominator. These terms from the numerator with the same prefix can be omitted from the beginning because they appear in both the denominator and the numerator and are therefore finite. This is explicitly shown below for two common denominators.
+The denominator shows which pre-factor causes the singularity. These terms from the numerator with the same prefix can be omitted from the beginning because they appear in both the denominator and the numerator and are therefore finite. This is explicitly shown below for a common denominators. This operation can be performed for the other types of the denominator.
 \subsection{Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_k) $} 
 
 \begin{equation}
@@ -192,27 +191,27 @@ The result looks like this:
 \end{split}
 \end{equation}
 
-\subsection{Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_i) $}
-\begin{equation}
-	\begin{aligned}
-		\fbox{$  (k_1 \cdot q_i )(k_1 \cdot q_i)  = y^2(p_i \cdot Q)(p_i \cdot Q) $}
-    \end{aligned}
-\end{equation}
+%\subsection{Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_i) $}
+%\begin{equation}
+%	\begin{aligned}
+%		\fbox{$  (k_1 \cdot q_i )(k_1 \cdot q_i)  = y^2(p_i \cdot Q)(p_i \cdot Q) $}
+%    \end{aligned}
+%\end{equation}
 
-With the same interpretation from above one could say that this term converges just for $ y \rightarrow 0 $ towards zero. That's why we will remove all product terms with $ y^2 $. 
-
-\begin{equation}
-\begin{split}
-{k_1}^{{\eta}}{k_1}^{{\eta}^{\prime}}&=[(1-\beta_1)^2-2y {\beta_1} (\frac{Q^2}{2p_i \cdot Q})] {p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y {\beta_1}(1-\beta_1) (\frac{Q^2}{2p_i \cdot Q}){p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
-&+y {\beta_1}(1-\beta_1) (\frac{Q^2}{2p_i \cdot Q}){Q}^{{\eta}}{p_i}^{{\eta}^{\prime}}\\
-{k_1}^{{\eta}}{q_i}^{{\eta}^{\prime}}&=[\beta_1(1-\beta_1)-y (1-{\beta_1})^2 (\frac{Q^2}{2p_i \cdot Q})-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] {p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y (1-\beta_1)^2 {Q}^{{\eta}}{p_i}^{{\eta}^{\prime}}\\
-{q_i}^{{\eta}}{k_1}^{{\eta}^{\prime}}&=[\beta_1(1-\beta_1)-y (1-{\beta_1})^2 (\frac{Q^2}{2p_i \cdot Q})-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] {p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y (1-\beta_1)^2 {p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
-{q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}&=[{\beta_1}^2 -2y \beta_1 (1-{\beta_1}) (\frac{Q^2}{2p_i \cdot Q})]{p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y {\beta_1}(1-\beta_1) (\frac{Q^2}{2p_i \cdot Q}){p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
-&+y {\beta_1}(1-\beta_1) (\frac{Q^2}{2p_i \cdot Q}){Q}^{{\eta}}{p_i}^{{\eta}^{\prime}}\\
-{k_1}^{{\eta}}{q_k}^{{\eta}^{\prime}}&= (1-\beta_1)A_1{p_i}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+(1-\beta_1)A_2{p_i}^{{\eta}}{{Q}^{{\eta}^{\prime}}}+(1-\beta_1)\sqrt{1-y}{p_i}^{{\eta}}{{p_k}^{{\eta}^{\prime}}}\\
-{q_i}^{{\eta}}{q_k}^{{\eta}^{\prime}}&=A_1\beta_1 {p_i}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+A_2\beta_1 {p_i}^{{\eta}}{{Q}^{{\eta}^{\prime}}}+\beta_1 \sqrt{1-y}{p_i}^{{\eta}}{{p_k}^{{\eta}^{\prime}}}\\
-{q_k}^{\eta}{k_1}^{{{\eta}}^{\prime}}&=(1-\beta_1)A_1{p_i}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+(1-\beta_1)A_2{Q}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+(1-\beta_1)\sqrt{1-y}{p_k}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}\\
-{q_k}^{\eta}{q_i}^{{{\eta}}^{\prime}}&=A_1\beta_1 {p_i}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+A_2\beta_1 {Q}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+\beta_1 \sqrt{1-y}{p_k}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}\\
-\end{split}
-\end{equation}
-\newpage
+%With the same interpretation from above one could say that this term converges just for $ y \rightarrow 0 $ towards zero. That's why we will remove all product terms with $ y^2 $. 
+%
+%\begin{equation}
+%\begin{split}
+%{k_1}^{{\eta}}{k_1}^{{\eta}^{\prime}}&=[(1-\beta_1)^2-2y {\beta_1} (\frac{Q^2}{2p_i \cdot Q})] {p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y {\beta_1}(1-\beta_1) (\frac{Q^2}{2p_i \cdot Q}){p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
+%&+y {\beta_1}(1-\beta_1) (\frac{Q^2}{2p_i \cdot Q}){Q}^{{\eta}}{p_i}^{{\eta}^{\prime}}\\
+%{k_1}^{{\eta}}{q_i}^{{\eta}^{\prime}}&=[\beta_1(1-\beta_1)-y (1-{\beta_1})^2 (\frac{Q^2}{2p_i \cdot Q})-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] {p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y (1-\beta_1)^2 {Q}^{{\eta}}{p_i}^{{\eta}^{\prime}}\\
+%{q_i}^{{\eta}}{k_1}^{{\eta}^{\prime}}&=[\beta_1(1-\beta_1)-y (1-{\beta_1})^2 (\frac{Q^2}{2p_i \cdot Q})-y {\beta_1}^2 (\frac{Q^2}{2p_i \cdot Q})] {p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y (1-\beta_1)^2 {p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
+%{q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}&=[{\beta_1}^2 -2y \beta_1 (1-{\beta_1}) (\frac{Q^2}{2p_i \cdot Q})]{p_i}^{{\eta}}{p_i}^{{\eta}^{\prime}}+y {\beta_1}(1-\beta_1) (\frac{Q^2}{2p_i \cdot Q}){p_i}^{{\eta}}{Q}^{{\eta}^{\prime}}\\
+%&+y {\beta_1}(1-\beta_1) (\frac{Q^2}{2p_i \cdot Q}){Q}^{{\eta}}{p_i}^{{\eta}^{\prime}}\\
+%{k_1}^{{\eta}}{q_k}^{{\eta}^{\prime}}&= (1-\beta_1)A_1{p_i}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+(1-\beta_1)A_2{p_i}^{{\eta}}{{Q}^{{\eta}^{\prime}}}+(1-\beta_1)\sqrt{1-y}{p_i}^{{\eta}}{{p_k}^{{\eta}^{\prime}}}\\
+%{q_i}^{{\eta}}{q_k}^{{\eta}^{\prime}}&=A_1\beta_1 {p_i}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+A_2\beta_1 {p_i}^{{\eta}}{{Q}^{{\eta}^{\prime}}}+\beta_1 \sqrt{1-y}{p_i}^{{\eta}}{{p_k}^{{\eta}^{\prime}}}\\
+%{q_k}^{\eta}{k_1}^{{{\eta}}^{\prime}}&=(1-\beta_1)A_1{p_i}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+(1-\beta_1)A_2{Q}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+(1-\beta_1)\sqrt{1-y}{p_k}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}\\
+%{q_k}^{\eta}{q_i}^{{{\eta}}^{\prime}}&=A_1\beta_1 {p_i}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+A_2\beta_1 {Q}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}+\beta_1 \sqrt{1-y}{p_k}^{{\eta}}{{p_i}^{{\eta}^{\prime}}}\\
+%\end{split}
+%\end{equation}
+%\newpage
