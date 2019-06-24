@@ -1,35 +1,37 @@
 \section{IR and Collinar Divergences}
-Beyond the LO (Leading order) diagrams singularities can occur. Consider first the process $ e^- e^+ \rightarrow q\bar{q}g $
+Beyond the LO (Leading order) diagrams can occur singularities. Consider first the process $ e^- e^+ \rightarrow q\bar{q}g $
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=0.85\textwidth]{images/Intro/IRCol.png}
+\includegraphics[width=0.6\textwidth]{images/Intro/IRCol.png}
 \end{figure}
 
-In order to calculate the cross section of this diagram, contemplate the gluon emission from the (anti)-quark. Since the calculation is quite long, concentrate on the final result:
-\begin{figure}[ht!]
+In order to calculate the cross section of electron-positron annihilation, contemplate the gluon emission from a parent (anti)quark. The amplitude of this process fig. \ref{IRCo} is:
+\begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/Intro/IRColMatrix.png}
 \caption{Left diagram $  e^- e^+ \rightarrow qg\bar{q} $ and right $ e^- e^+ \rightarrow q\bar{q}g $}
+\label{IRCo}
 \end{figure}
 
 \begin{equation}
 \begin{split}
-&A= \frac{\bar{u}(k_1)(-ig_s\gamma^{\nu}\times T^a)[-i(\not{k_1}+\not{k_3})](-iee_q \gamma^{\mu})v(k_2){\epsilon_{\mu}}^{\lambda_1}{\epsilon_{\nu}}^{\lambda_2*}}{(k_1 + k_3)^2}\\ 
+A = & \frac{\bar{u}(k_1)(-ig_s\gamma^{\nu}\times T^a)[-i(\not{k_1}+\not{k_3})](-iee_q \gamma^{\mu})v(k_2){\epsilon_{\mu}}^{\lambda_1}{\epsilon_{\nu}}^{\lambda_2*}}{(k_1 + k_3)^2}\\ 
 &- \frac{\bar{u}(k_1)(-iee_q \gamma^{\mu})[i(\not{k_2}+\not{k_3})](-ig_s\gamma^{\nu}\times T^a)v(k_2){\epsilon_{\mu}}^{\lambda_1}{\epsilon_{\nu}}^{\lambda_2*}}{(k_1 + k_3)^2}\\
-\Rightarrow &A=-g_s T^a[ \frac{\bar{u}\:\not{\epsilon}\:(\not{k_1}+\not{k_3})\:\Gamma \:v}{(k_1 + k_3)^2} - \frac{\bar{u}\:\Gamma\:(\not{k_2}+\not{k_3})\:\not{\epsilon} \:v}{(k_2 + k_3)^2}] \:\:\:\:\text{with} \:\:\Gamma=(-iee_q \gamma^{\mu}){\epsilon_{\mu}}^{\lambda_1}
+\Rightarrow &A=-g_s T^a[ \frac{\bar{u}\:\not{\epsilon}\:(\not{k_1}+\not{k_3})\:\Gamma \:v}{(k_1 + k_3)^2} - \frac{\bar{u}\:\Gamma\:(\not{k_2}+\not{k_3})\:\not{\epsilon} \:v}{(k_2 + k_3)^2}]
 \end{split}
 \end{equation}
-Under considering that the partons are on-shell, we get:
+With $\Gamma=(-iee_q \gamma^{\mu}){\epsilon_{\mu}}^{\lambda_1}$.\\
+Under considering that the partons are on-shell, the amplitude can be written:
 \begin{equation}
  A=-g_s T^a[ \frac{\bar{u}\:\not{\epsilon}\:(\not{k_1}+\not{k_3})\:\Gamma \:v}{2k_1 \cdot k_3} - \frac{\bar{u}\:\Gamma\:(\not{k_2}+\not{k_3})\:\not{\epsilon} \:v}{2k_2 \cdot k_3}]
 \end{equation}
-In the soft limit with $k_0 \rightarrow 0$ we can factorize $ A_{soft} $ the amplitude in two parts:
+In the soft limit with $k_0 \rightarrow 0$, the amplitude can be factorized in two parts:
 \begin{equation}
  A=-g_s T^a[ \frac{k_1\:{\epsilon}}{k_1 \cdot k_3} - \frac{k_2\:{\epsilon}}{k_2 \cdot k_3}] A_{born} \:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\text{with}\:\: A_{born}= \bar{u}\: \Gamma \:v
 \end{equation}
- Where one part contains all information about colour and momenta and the other, $ A_{born} $ involves all spin information.
-If one calculates the cross section for it, one gets:
+Where the left side contains all information about colour and momenta and the other one involves all spin information.
+The calculation of the cross section results in:
 \begin{equation}
 \begin{split}
 A=&-C_F g_s^2 \sigma^{born} \int \frac{d^3 k}{2k_0 (2{\pi})^3} 2(\frac{k_1 \cdot k_2}{(k_1 \cdot k_3)(k_2 \cdot k_3)})\\ 
@@ -40,7 +42,7 @@ The energy fraction is defined as:
 \begin{equation}
 x_i = \frac{2E_i}{\sqrt{s}}=\frac{2q\: \cdot\: k_i}{s}
 \end{equation}
-It can be shown that $ \sum x_i =2  $ and thus, that only two of them are independent.
+It can be shown that $ \sum x_i =2  $ and thus, that only two of momenta are independent.
 
 The partonic differential cross section with respect to the quark and anti-quark momentum fractions is given by:
 \begin{equation}
@@ -49,11 +51,12 @@ The partonic differential cross section with respect to the quark and anti-quark
 \end{equation}
 
 There are three singularities within the final result. 
-If the emitted photon is collinear to the outgoing quark or anti-quark $ (x_1 \rightarrow 1 \:\text{or}\: x_2 \rightarrow 1) $ and when the emitted gluon is soft $ (x_1 \rightarrow 1\: \text{and}\: x_2 \rightarrow 1 )$.
-The singularities come from the quark propagator in each diagram. The denominators contain terms proportional to $ \frac{1}{(k_i + k_j)^2}  $. We can eliminate the quark mass under on-shell condition so that:
+If the emitted photon is collinear to the outgoing quark or anti-quark $ (x_1 \rightarrow 1 \:\text{or}\: x_2 \rightarrow 1) $ and when the emitted gluon is soft $ (x_1 \rightarrow 1\: \text{and}\: x_2 \rightarrow 1 )$ \ref{conf}.
+The singularities come from the quark propagator in each diagram. The denominators contain terms proportional to $ \frac{1}{(k_i + k_j)^2}  $. With the eliminating the quark mass follows:
 \begin{equation}
 \frac{1}{(k_i + k_j)^2}=\frac{1}{2k_i \cdot k_j}=\frac{1}{2E_iE_j(1-cos\theta_{ij})}=\frac{1}{s(1- x_k)}
 \end{equation} 
+\pagebreak
 can show all possibilities for three partons through a triangle:
 
 \begin{figure}[h!]
@@ -61,20 +64,22 @@ can show all possibilities for three partons through a triangle:
 \includegraphics[width=0.85\textwidth]{images/Intro/triangle.png}
 \caption{three-parton configurations at the boundaries
 of phase space}
+\label{conf}
 \end{figure}
 
-According to KLN-Theorem, IR singularities must cancel when summing the transition rate over all degenerate (initial and final) states.
+The Kinoshita-Lee-Nauenberg (KLN) Theorem assures that a summation over degenerate initial and final states removes all infra red (IR) divergences.
 The sum of the integrals $ \int_R $ and $ \int_V $ over the phase space is finite. However, this is not true for the
 individual contributions.
-\begin{figure}[ht!]
+\begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/Intro/virtual.png}
 \caption{Virtual corrections: one-loop corrections to $  e^- e^+ \rightarrow q\bar{q} $}
 \end{figure}
-We will use deep inelastic scattering (DIS) to show how the infra-red singularities are absorbed in the parton distributions~\cite{Cunha13}.
+In the next section it is seen how the infra red singularities are absorbed in the parton distributions in connection with the deep inelastic scattering (DIS)~\cite{Cunha13}.
 \newpage
 \section{Hard scattering}
-In the last section it was seen that IR singularities occur in QCD due to the collinearity of two partons or the soften energy of one parton. These divergences occur long time after the intial hard scattering (long distance physics). Fortunately, the infrared-safe observables are calculable in perturbative QCD.  But this is not the best way to solve this problem. An interesting way for this is the factorization theorem. By this theorem the singularities of long-distance physics are removed from the partonic cross section and factorized into the parton distribution of the sleeping hadrons. This is even feasible for all orders. The background idea is that the partonic cross section is then calculable in perturbation theory. This in turn means that you can use the deep inelastic scattering and thereby absorb the infrared singularities in the parton distributions. 
+\label{Hard scattering}
+In the last section it was seen that IR singularities occur in QCD due to the collinearity of two partons or the soft energy of a parton. These divergences happen long time after the initial hard scattering (long distance physics). Fortunately, the infrared-safe observables are calculable in perturbative QCD.  But this is not the best way to solve this problem. An interesting way for this aim is the factorization theorem. By this theorem the singularities of long-distance physics are removed from the partonic cross section and absorbed into the parton distribution of the hadrons. This is even feasible for all orders of calculation. The background idea is that the partonic cross section is calculable in perturbation theory. 
 Consider the hadron hadron scattering:
 \begin{equation}
 \sigma = \sum_{ij} \int dx_1 dx_2 f_i(x_1, \mu^2)f_j(x_2, \mu^2) \sigma_{ij}(x_1, x_2, Q^2/\mu^2... )
@@ -83,8 +88,9 @@ Consider the hadron hadron scattering:
 \centering
 \includegraphics[width=0.85\textwidth]{images/Intro/Hard.png}
 \end{figure}
-With a factorisation scale $ \mu $ the long and short-distance physics could be separated. Partons with a greater momentum than $ \mu $ participate in the hard-scattering and partons with less momentum are considered as components of the hadron structure and accordingly absorbed in the parton distribution ~\cite{Nagy:2006kb}.
-The DIS cross section can be written as ~\cite{Ellis:1991qj}
+With a factorisation scale $ \mu $ the long and short-distance physics could be separated. Partons with a greater momentum than $ \mu $ participate in the hard-scattering and those with less momentum are considered as components of the hadron structure and accordingly absorbed in the parton distribution ~\cite{Nagy:2006kb}.\\
+The factorisation theorem also applies to deep inelastic scattering,
+with one of the parton distributions replaced by an $ e^+ e^- \gamma $ vertex. The DIS cross section can be written as ~\cite{Ellis:1991qj}
 \begin{equation}
 \frac{d^2 \sigma}{dx dQ^2}=\frac{4\pi \alpha^2}{x Q^4}[(1-y)F_2 (x, Q^2)+xy^2 F_1(x, Q^2)]
 \end{equation}
@@ -93,11 +99,10 @@ In this case, the structure function need to be introduced:
 \begin{equation}
 {{F}_2}^{exp} (x)= \sum_i {e_i}^2 x f_i(x)
 \end{equation}
-
+\pagebreak
 It is defined as the charge weighted sum of the parton momentum densities which describe the probability that the parton carries a momentum
-fraction between $ x $ and $ \partial x $ of the proton momentum. The index $i$ denotes the quark flavour. Parton distributions are non-pertubative. fortunately it is universal and it is obtained from fit to the data for a particular factorization scheme and use them for other processes.\\
-The perturbative evolution kernel of a parton
-distribution due to splitting can be described by the solution of DGLAP evolution equation~\cite{Ward:1995xy}.  It is based on the collinear factorization property of QCD. Fixing the accuracy of the calculation and the factorization scheme the evolution kernel is well defined.  
+fraction between $ x $ and $ \partial x $ of the proton momentum. The index $i$ denotes the quark flavour. Parton distributions are non-pertubative. fortunately, they are universal and it is obtained from fit to the data for a particular factorization scheme and use them for other processes.\\
+The perturbative evolution kernel of a parton distribution due to splitting can be described by the solution of DGLAP evolution equation~\cite{Ward:1995xy}.  It is based on the collinear factorization property of QCD. Fixing the accuracy of the calculation and the factorization scheme the evolution kernel is well defined.  
 \begin{equation}
 \frac{\partial f(x, \mu^2) }{\partial \: ln \:\mu^2}=
 \frac{\alpha_s}{2\pi}\int_{x}^{1}\frac{dy}{y} f_j(y, \mu^2) P_{ij}(\frac{x}{y})+O({\alpha_s}^2)
@@ -109,7 +114,7 @@ The above convolution in compact notation (Mellin Convolution) in the general ca
 \sum_{j=-n_f}^{n_f} P_{ij} \otimes f_j(\mu^2)
 \end{equation}
 
-The four splitting probabilities are illustrated in the diagram \ref{splitting} and the transitions lead to a set of $ 2n_f +1 $ coupled evolution equations.
+The four splitting probabilities are illustrated in the diagram \ref{splitting} and the qq, qg, gg and gq transitions lead to a set of $ 2n_f +1 $ coupled evolution equations.
 \begin{equation}
 \frac{\partial }{\partial \: ln \:\mu^2} \left(\begin{array}{c}q_s\\ g\end{array}\right)=
 \frac{\alpha_s}{2\pi}\begin{bmatrix}P_{qq} & 2n_fP_{qg} \\P_{gq} & P_{gg} \end{bmatrix}\otimes\left(\begin{array}{c}q_s\\ g\end{array}\right)
@@ -124,7 +129,7 @@ A parton distribution changes when a different parton splits or the parton itsel
 \caption{The four splitting probabilities}
 \label{splitting}
 \end{figure}
-
+Here are the leading order splitting functions which is going to be verified with the both old and new kinematic in the \ref{mapping} section.
 \begin{equation}
 	\left.\begin{aligned}
 \langle\:\hat{P_{qq}}\rangle &= C_F[\frac{1+z^2}{1-z}-\varepsilon(1-z)]\\
@@ -138,40 +143,23 @@ A parton distribution changes when a different parton splits or the parton itsel
 \label{Alterali-Parisi}
 \end{equation}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{images/Intro/soft.png}
-\caption{Soft factorisation}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{images/Intro/collinear.png}
-\caption{Collinear factorisation}
-\end{figure}
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.85\textwidth]{images/Intro/factorization.png}
-\caption{Dipole/Antenna factorisation}
-\end{figure}
 
 \section{Subtraction method}
-The subtraction term is constructed as a sum over all possible dipole configurations, i.e. all possible combinations of two partons are formed to build an emitter while every single one of the remaining partons is considered a spectator.  
+The subtraction term is constructed as a sum over all possible dipole configurations, i.e. all possible combinations of two partons are formed to build an emitter while every single one of the remaining partons is considered a spectator. The general quadratic matrix element is defined:
 \begin{equation}
 |A|^2 = |{A^{(0)}}_m|^2 +  |{A^{(0)}}_{m+1}|^2+ 2Re({A^{(0)*}}_{n}{A^{(1)}}_{m})
 \end{equation}
-Where $ |{A^{(0)}}_m|^2 $ is the tree level contribution (Born sector) from LO and has no divergences, $ |{A^{(0)}}_{m+1}|^2+ 2Re({A^{(0)*}}_{m}{A^{(1)}}_{m}) $ comes from NLO and they are each divergent. The problem in this case is the Integrals cannot be combined due to different phase space dimensions:
+Where $ |{A^{(0)}}_m|^2 $ is the tree level contribution (Born sector) from LO and has no divergences, $ |{A^{(0)}}_{m+1}|^2+ 2Re({A^{(0)*}}_{m}{A^{(1)}}_{m}) $ comes from NLO and each of them is divergent. The problem in this case is the Integrals which can not be combined due to different phase space dimensions:
 
 \begin{equation}
 \sigma^{NLO} = \int_{m+1} \partial \sigma^R +\int_{m} \partial \sigma^V
 \end{equation}
 The real and virtual contributions are both IR divergent and need to be regularised in $ d = 4-2\epsilon $ dim.
-To tackle this problem one can use the subtraction method in that way one add and subtract a local counter term $ \partial \sigma^A $ with same singularity structure as terms $ \partial \sigma^R $ to the integral. $ \partial \sigma^A $ approximates the soft and collinear singularities of $ \partial \sigma^R  $.
+To tackle this problem one can use the subtraction method with adding and subtracting a local counter term $ \partial \sigma^A $ with the same singularity structure as term $ \partial \sigma^R $ to the integral. $ \partial \sigma^A $ approximates the soft and collinear singularities of $ \partial \sigma^R  $.
 \begin{equation}
 \sigma^{NLO} = \int_{m+1} [\partial \sigma^R -\partial \sigma^A]+\int_{m} [\partial \sigma^V+\int_1 \partial \sigma^A]
 \end{equation}
-In this case, we can safely set $ \epsilon \rightarrow 0 $ for $ \partial \sigma^R |_{\epsilon \rightarrow 0}  -\partial \sigma^A |_{\epsilon \rightarrow 0} $ and calculate the integral numerically in 4-dimensions. On the other side, integrate over the one-parton phase space is integrated over analytically to explicitly cancel poles and then $ \epsilon $ is set to $ 0 $.
+In this case, one can safely set $ \epsilon \rightarrow 0 $ for $ \partial \sigma^R |_{\epsilon \rightarrow 0}  -\partial \sigma^A |_{\epsilon \rightarrow 0} $ under the integral sign in the first term and calculate the integral numerically in 4-dimensions. All the singularities are now associated to the last two terms on the right-hand side. If one is able to carry out analytically the integration of $ \partial \sigma^A $ over the one parton subspace leading to the $ \epsilon $ poles, one can combine these poles with those in $ \partial \sigma^V $, thus cancelling all the divergences, performing the limit $ {\epsilon \rightarrow 0} $ and carrying out numerically the remaining integration over the $ m $-parton phase space \cite{Catani:2002hc}. 
 \begin{equation}
 \sigma^{NLO} = \int_{m+1} [\partial \sigma^R |_{\epsilon \rightarrow 0}  -\partial \sigma^A |_{\epsilon \rightarrow 0}]+\int_{m} [\partial \sigma^V+\int_1 \partial \sigma^A]_{\epsilon \rightarrow 0}
 \end{equation}
@@ -180,41 +168,40 @@ The virtual contribution must be UV-finite:
 \int_{m} \partial \sigma^V= \int_m [\int_{loop} \partial {\sigma^V}_{bare} + {\sigma^V}_{Counter\:term}]
 \end{equation}
 The addition of $\int_1 \partial \sigma^A$ to the $ \int_{m} \partial \sigma^V $ ensures that IR poles are cancelled.
-The bare and counter contribution are separately divergent and have also different integral dimensions. One can use the same idea with the subtraction method to solve this problem~\cite{Catani:2002hc, Catani:1996vz}
+The bare and counter contribution are separately divergent and have also different integral dimensions. One can use the same idea with the subtraction method to solve this problem~\cite{Catani:1996vz}
 \begin{equation}
 \int_{m} \partial \sigma^V +\int_{loop} \partial {\sigma^L}-\int_{loop} \partial {\sigma^L}= \int_m \int_{loop}[ \partial {\sigma^V}_{bare}- \partial {\sigma^L}] + \int_m[{\sigma^V}_{Counter\:term}+ \int_{loop} \partial {\sigma^L}]
 \end{equation}
 
+together one receives:
 
 \begin{equation}
 \sigma^{NLO} = \int_{m+1} [\partial \sigma^R -\partial \sigma^A]+ \int_m \int_{loop}[ \partial {\sigma^V}_{bare}- \partial {\sigma^L}] + \int_m[{\sigma^V}_{Counter\:term}+ \int_{loop} \partial {\sigma^L}+\partial \sigma^A]
 \end{equation}
-\pagebreak
+
 \section*{Determination of emission kernels}
-Now we want to introduce the properties of the counter term $ \partial \sigma_A $. This term needs to have the same behaviour as $ \partial \sigma_R $ in d dimensions. This process and specific observable independent term has to be obtained in a way that is independent of the particular jet observable considered. It must be exactly integrable analytically over one-parton phase space in d and $ \partial \sigma_R -  \partial \sigma_A  $ has to be integrable via Monte Carlo methods. $ \partial \sigma_A $ acts as a local counter-term for $ \partial \sigma_B $
-At this point, one should derive improved factorization formulae which are called dipole formulae. Note that the notation below is symbolic:
+Now we want to introduce the properties of the counter term $ \partial \sigma_A $. This term needs to have the same behaviour as $ \partial \sigma_R $ in d dimensions. This process and specific observable has to be obtained in a way that is independent of the particular jet observable considered. It must be exactly integrable analytically over one-parton phase space in d and $ \partial \sigma_R -  \partial \sigma_A  $ has to be integrable via Monte Carlo methods. $ \partial \sigma_A $ acts as a local counter-term for $ \partial \sigma_B $ at this point. One derives improved factorization formulae which are called dipole or antenna formulae which is symbolic:
 \begin{equation}
 \partial \sigma_A = \sum_{dipoles} \partial \sigma_{B} \otimes \partial V_{dipoles}
 \end{equation}
-Where the sum is over dipoles for all $ m+1 $ configurations with consideration to a given m-parton state. $  \partial \sigma_{B}$ describes the color/spin
-projection of the Born-level exclusive cross section.
+Where the sum is over dipoles for all $ m+1 $ configurations with consideration to a given m-parton state. $  \partial \sigma_{B}$ describes the color/spin projection of the Born-level exclusive cross section.
 The symbol $ \otimes $ describes phase space convolutions and sums over colour and spin indices. $ \partial V_{dipoles} $ will be computed and its singular properties matched to the real part. The Dipoles are universal in the sense that they do not depend on the hard scattering. This allows the use of a factorisable mapping from
 the m + 1-parton phase space to an m-parton subspace. That will be clearer when the parametrisation is used in the next chapter. 
-If we integrate over all $ m+1 $, we can write:
+The integral over all $ m+1 $ configuration can be written:
 \begin{equation}
 \int_{m+1}\partial \sigma_A =  \int_{m} \partial \sigma_{B} \otimes \sum_{dipoles} \int_{1}\partial V_{dipoles}
 \end{equation}
-This is the important result because this can now be written in terms of the known $ m $-sector from LO and the other term is a universal factor which contains all $ \epsilon $-poles.
+This is the important result because this can now be written in terms of the known $ m $-sector from LO and the other universal factor which contains all $ \epsilon $-poles \cite{Catani:2002hc}.
 \section*{Singularity Structure}
 
-Before we begin with the collinear limit or soft limit respectively we are going to pull up the matrix element from LO which has this below general form:
+Before beginning with the collinear limit or soft limit respectively the structure of matrix element from LO has to be introduced:
 
 \begin{equation}
 {\mathcal{M}_m}^{c_1,...,c_m;s_1,...,s_m}(p_1,..., p_m)
 \end{equation}
 
-$ c_i $, $ s_i $ and $ p_i $ denote respectively the colour, spin indices and the momenta for each m-parton in the tree level matrix element in the final state.
-A common method used in this case is to define a basis in colour+helicity space.
+$ c_i $, $ s_i $ and $ p_i $ denote respectively the colour, spin indices and the momenta for each\\ $m$-parton in the tree level matrix element in the initial/final-state.
+A common used method here is to define a basis in colour+helicity space.
 \begin{equation}
 {\mathcal{M}_m}^{c_1,...,c_m;s_1,...,s_m}(p_1,..., p_m)\equiv(<c_i,..,c_m|\otimes <s_1,...,s_m|)|1,..,m>_m
 \end{equation}
@@ -241,7 +228,7 @@ Its action onto the colour space is defined by:
 ...\delta_{c_mb_m}
 \end{equation}
 
-Where $ {T^c}_{c_ib_i} $ is the colour-charge matrix in the adjoint representation in the case of gluon emission or colour-charge matrix in the fundamental representation for the quark/anti-quark emission case. The following properties must be taken into account:
+Where $ {T^c}_{c_ib_i} $ is the colour-charge matrix in the adjoint representation for the gluon emission or colour-charge matrix in the fundamental representation for the quark/anti-quark emission case. The following properties must be taken into account:
 \begin{equation}
 \begin{split}
 &T_i \cdot T_j = T_j \cdot T_i \:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\text{if}\:i\neq j,\: \text{commutative property}\\
@@ -249,29 +236,50 @@ Where $ {T^c}_{c_ib_i} $ is the colour-charge matrix in the adjoint representati
 &\sum_{i=1}^m T_i |1,...,m>_m =0 \:\:\:\:\:\text{for single state}
 \end{split}
 \end{equation}
-Thus, the square of colour-correlated tree-amplitudes for the indices I, J referring either to final-state or initial-state partons will be~\cite{Catani:1996vz, Catani:2002hc}
+Thus, the square of colour-correlated tree-amplitudes for the indices $I,  J$ referring either to final-state or initial-state partons will be~\cite{Catani:1996vz, Catani:2002hc}
 \begin{equation}
 \vert {{\mathcal{M}}^{I,J}}_{m,a...} \vert^2=\:_{m,a...} < 1,...,m;a,... |T_I \cdot T_J | 1,...,m;a,... >\:_{m,a...}
 \end{equation}
 
 
-
+\pagebreak
 \section*{Dipole factorisation}
-Consider $(m+1)$-partons with the general matrix element~\cite{Seymour:1994we, Catani:2002hc}
+depending on the investigated region, there is a total of 4 factorisation possibilities, see figures \ref{soft}, \ref{Collinear} and \ref{Dipole}.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{images/Intro/soft.png}
+\caption{Soft factorisation}
+\label{soft}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{images/Intro/collinear.png}
+\caption{Collinear factorisation}
+\label{Collinear}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.85\textwidth]{images/Intro/factorization.png}
+\caption{Dipole/Antenna factorisation}
+\label{Dipole}
+\end{figure}
+To explain the meaning of the factorisation consider $(m+1)$-partons with the general matrix element~\cite{Seymour:1994we, Catani:2002hc}
 \begin{equation}
 \vert {{\mathcal{M}}}_{m+1} (Q; p_1,...,p_i,...,p_j,...,p_{m+1}) \vert^2
 \end{equation}
-We need to take collinear and soft limits which allow factorisation.
-In the soft region the momentum $ p_j $ can be parametrised with $ p_j \rightarrow \lambda q, \lambda \rightarrow 0 $, where $ q $ is a arbitrary four vector and $ \lambda $ a scale parameter. 
-The matrix element squared is characterised by $ \vert {{\mathcal{M}}} \vert^2 \sim \frac{1}{\lambda^2}$. and if $ p_i $ and $ p_j $ become collinear, we parametrise $ p_j = \frac{z}{1-z} p_i $. So the matrix element will be $ \vert {{\mathcal{M}}} \vert^2 \sim \frac{1}{p_i \cdot p_j}$.
-This will be covered in more detail in the next chapter. Here is given a summery of the behaviour of the matrix elements in different regions.
-Based on the Catani-Seymour method for (m + 1) parton matrix element, it's possible to factorise out parton $k$ to give $ \vert {{\mathcal{M}}}_{m}  \vert^2 $:
+
+In the soft region the momentum $ p_j $ can be parametrised with $ p_j \rightarrow \lambda q, \lambda \rightarrow 0 $, where $ q $ is an arbitrary four vector and $ \lambda $ a scale parameter. 
+The squared matrix element is characterised by $ \vert {{\mathcal{M}}} \vert^2 \sim \frac{1}{\lambda^2}$. and if $ p_i $ and $ p_j $ become collinear, $ p_j = \frac{z}{1-z} p_i $ is parametrise. So the matrix element will be $ \vert {{\mathcal{M}}} \vert^2 \sim \frac{1}{p_i \cdot p_j}$.
+This get covered in more detail in the next chapter. Here is given a summery of the behaviour of the matrix elements in different regions.
+Based on the Catani-Seymour method for $(m+1)$-partons. 
 \begin{equation}
 \vert {{\mathcal{M}}}_{m+1}  \vert^2 \rightarrow \sum \vert {{\mathcal{M}}}_{m}  \vert^2 \otimes V_{ij,k}
 \Rightarrow \vert {{\mathcal{M}}}_{m+1}  \vert^2 \rightarrow \sum \vert {{\mathcal{M}}}_{m}  \vert^2 \otimes V_{ij,k}
 \end{equation}
 
-$ V_{ij,k} $ a singular factor including parton k and its interaction with partons i and j from the m parton amplitude. This situation can be represented by the diagram \ref{factorisationPic}.
+$ V_{ij,k} $ a singular factor including parton $k$ and its interaction with partons $i$ and $j$ from the $m$-parton amplitude. This situation can be represented by the diagram \ref{factorisationPic}.
 
 \begin{figure}[h!]
 \centering
@@ -281,7 +289,7 @@ $ V_{ij,k} $ a singular factor including parton k and its interaction with parto
 ~\cite{Catani:1996vz}
 \end{figure}
 
-Here i and k are the emitters and k plays the role of a spectator. The spectator absorbs a longitudinal recoil that arises when a splitting is performedwith  all  participating  partons  remaining  on  their  mass  shells. The blobs denote the tree-level matrix elements and their complex conjugate. The dots on the right-hand side stand for non-singular terms both in the soft and collinear limits.
+Here $i$ and $j$ are the emitters and k plays the role of a spectator. The spectator absorbs a longitudinal recoil that arises when a splitting is performed with  all  participating  partons  remaining  on  their  mass  shells. The blobs denote the tree-level matrix elements and their complex conjugate. The dots on the right-hand side stand for non-singular terms both in the soft and collinear limits.
 When the partons i and j become soft and/or collinear, the singularities are factorized into the term $ V_{ij,k} $ (the
 dashed box on the right-hand side) which embodies correlations with a single additional parton k.
 
@@ -306,7 +314,7 @@ In each term $ i, j $ and $ k $ denote final-state partons and a and b stand for
 \includegraphics[width=0.85\textwidth]{images/Intro/Dipole.png}
 \end{figure}
 
-The circle in the center of each sub diagram presents the m-partons matrix element and the tilde labels the collinear splitting process for the initial or final states.
+The circle in the center of each sub diagram presents the $m$-partons matrix element and the tilde labels the collinear splitting process for the initial or final states.
 For this work, the first upper diagram with final-state singularities without initial-state partons, is completely sufficient and is discussed here in detail with its formula.
 The matrix element for this is written:
 
@@ -315,17 +323,16 @@ The matrix element for this is written:
 \end{equation}
 
 The first term with the sum over dipoles is divergent as $ p_i \cdot p_j \rightarrow 0 $. 
-For the case of final-state emitters with a final-state spectator,for instance, the individual dipole contributions read
+For the case of final-state emitters with a final-state spectator, for instance, the individual dipole contributions:
 \begin{equation}
  {{\mathcal{D}}}_{ij,k}(p_1,...,p_{m+1}) = \frac{-1}{2p_i \cdot p_j} \:\:_m<1,...,\tilde{ij},...,k,...,m+1 |\frac{T_k \cdot T_{ij}}{{T_{ij}}^2} V_{ij,k}| 1,...,\tilde{ij},...,k,...,m+1 >\:_m
 \end{equation}
 
-Where $ T_k \cdot T_{ij} $ are the color charges of spectator and emitter
-
-$ V_{ij,k} $ splitting kernel in helicity space of emitter
+Where $ T_k \cdot T_{ij} $ are the color charges of spectator and emitter, $ V_{ij,k} $ splitting kernel in helicity space of emitter
 explicit form depends on parton type become proportional to Altarelli-Parisi splitting functions \ref{Alterali-Parisi} and eikonal factors
 in collinear and soft limits.\\
-when all the involved partons are assumed to be massless. The occurring $ m $-parton states are constructed from the original $(m+ 1)$-particle matrix element by replacing the partons $ i $ and $ j $ with the new parton $  \widetilde{ij} $ , and the original parton $ k $ with the $  \widetilde{k} $ spectator. In the massless case, their momenta are given by:
+The occurring $ m $-parton states are constructed from the original $(m+ 1)$-particle matrix element by replacing the partons $ i $ and $ j $ with the new parton $  \widetilde{ij} $ , and the original parton $ k $ with the $  \widetilde{k} $ spectator. In the massless case, their momenta are given by:
+
 \begin{equation}
 \begin{split}
 &{\tilde{p}^{\mu}}_{ij} = {p_i}^{\mu}+{p_j}^{\mu}-\frac{y_{ij,k}}{1-y_{ij,k}}{p_k}^{\mu}\\
@@ -333,7 +340,5 @@ when all the involved partons are assumed to be massless. The occurring $ m $-pa
 &\text{with}\:\:\:y_{ij,k}=\frac{p_i \cdot p_j}{p_i \cdot p_j+p_j \cdot p_k+p_k \cdot p_i}
 \end{split}
 \end{equation}
+
 Note, that momenta are on-shell. Due to momentum conservation ${p_i}^{\mu}+{p_j}^{\mu}+{p_k}^{\mu}= {\tilde{p}^{\mu}}_{k} +{\tilde{p}^{\mu}}_{ij} $. 
-
-
-\newpage

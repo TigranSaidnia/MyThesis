@@ -32,6 +32,7 @@
 \usepackage{natbib}
 \usepackage[titletoc]{appendix}
 \usepackage{titlesec}
+\usepackage[export]{adjustbox}
 
 % =====================================================
 % Seite einrichten
@@ -137,12 +138,11 @@
 \quad
 \newpage
 \chapter{Prerequisites}
+\label{Prerequisites}
 \input{basic/basic.tex}
-\chapter{Parton showers based on subtraction method}
-\label{Introduction}
+\chapter{Parton showers based on\\ subtraction method}
+\label{Parton showers}
 \input{singularities/singularities.tex}
-\newpage
-
 
 \input{parametrisation/parametrisation.tex}
 \label{parametrisation}
@@ -159,6 +159,7 @@
 \input{qg/qg.tex}  
 \newpage
 \chapter{Example Applications}
+\label{Example Applications}
 \input{Comparison/Comparison.tex}
 \chapter{Summary and conclusions}
 \label{Summary}

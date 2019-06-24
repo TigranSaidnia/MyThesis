@@ -167,7 +167,7 @@ L=& \not{q} \not{q_i} \not{q} =\not{q}[{q_{i\sigma}} q_{\mu} \: (\lbrace{\gamma^
 After inserting the last result of $ L $ and simplify the term $ (2q_i q) $ from the denominator and nominator, we get:
 \begin{equation}
 \begin{split}
-|M_1|^2=-(2-d)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(1-2z+2z^2)(p_i \cdot p_j)}
+|M_1|^2=-(2-d)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(p_i \cdot p_j)}
 [\not{q}]
 [\not{q_j}]
 \end{split}
@@ -175,7 +175,7 @@ After inserting the last result of $ L $ and simplify the term $ (2q_i q) $ from
 Now we are going to use the parametrisation from equation (1) to reduce the 3-member matrix element to 2-member and take out the singularity term from the amplitude.
 \begin{equation}
 \begin{split}
-|M_1|^2=(d-2)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(1-2z+2z^2)(p_i \cdot p_j)}
+|M_1|^2=(d-2)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(p_i \cdot p_j)}
 [(1-z) \not{p_i}+zy \not{p_j} - \sqrt{zy(1-z)} \not{{m}_{\bot}}]
 [(1-y) \not{p_j}]
 \end{split}
@@ -183,9 +183,9 @@ Now we are going to use the parametrisation from equation (1) to reduce the 3-me
 Multiplying the both sides 
 \begin{equation}
 \begin{split}
-|M_1|^2=(d-2)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(1-2z+2z^2)(p_i \cdot p_j)}
+|M_1|^2=(d-2)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(p_i \cdot p_j)}
 [(1-z)(1-y) \not{p_i}\not{p_j} \\
-+zy(1-y) \not{p_j}\not{p_j} + (1-y)\sqrt{zy(1-z)} \not{{m}_{\bot}}\not{p_j}]
++zy(1-y) \not{p_j}\not{p_j} - (1-y)\sqrt{zy(1-z)} \not{{m}_{\bot}}\not{p_j}]
 \end{split}
 \end{equation}
 Under consideration of the fact that $ p_i $ and $ p_j $ are the on-shell momenta of the emitter and spectator partons, we can ignore the terms with $ \not{p_i} \not{p_i} $ and $ \not{p_j} \not{p_j} $.
@@ -194,8 +194,8 @@ The $ {p_i} \cdot  {m}_{\bot} $ and $ {p_j} \cdot  {m}_{\bot} $ are always $ 0 $
 
 \begin{equation}
 \begin{split}
-|M_1|^2=\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{(p_i \cdot p_j)}
-[\not{p_i}][\not{p_j}]\otimes\frac{(d-2)(1-z)(1-y)}{2y(1-2z+2z^2)}
+|M_1|^2=\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(p_i \cdot p_j)}
+[\not{p_i}][\not{p_j}]\otimes(d-2)(1-z)(1-y)
 \end{split}
 \end{equation}
 
@@ -272,13 +272,44 @@ Analogous to the last calculation from the previous section:
 [\not{q_i} ]
 \end{split}
 \end{equation}
-finally, we achieve:
+
+
 \begin{equation}
 \begin{split}
-|M_2|^2=\frac{g_s^2 \: {[T^c]_f}^m \: {[T^c]_{f}}^n }{(p_i \cdot p_j)}
-[\not{p_i}][\not{p_j}]\otimes \frac{(d-2)yz^2}{2(1-z)(1-y)}
+|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^c]_{f}}^n }{(2qq_j)} [(1-z)\not{p_i} + yz \not{p_j} - \sqrt{zy(1-z)}\not{m}_{\bot}]\:\\
+[z\not{p_i} + y(1-z)\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot} ]
 \end{split}
 \end{equation}
+
+
+\begin{equation}
+\begin{split}
+&|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^c]_{f}}^n }{(2qq_j)} [
+y(1-z)^2\not{p_i}\not{p_j}+(1-z)\sqrt{zy(1-z)}\not{p_i}\not{m}_{\bot}\\
+&+yz^2 \not{p_j}\not{p_i}+yz\sqrt{zy(1-z)}\not{p_j}\not{m}_{\bot}-z\sqrt{zy(1-z)}\not{m}_{\bot}\not{p_i}\\
+&-y(1-z)\sqrt{zy(1-z)}\not{m}_{\bot}\not{p_j} -zy(1-z)\not{m}_{\bot}\not{m}_{\bot}]
+\end{split}
+\end{equation}
+
+
+\begin{equation}
+\begin{split}
+&|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^c]_{f}}^n }{(2qq_j)} [
+y(1-z)^2\not{p_i}\not{p_j}+(1-z)\sqrt{zy(1-z)}\not{p_i}\not{m}_{\bot}\\
+&+2yz^2 (p_i \cdot p_j)-yz^2 \not{p_i}\not{p_j}+yz\sqrt{zy(1-z)}\not{p_j}\not{m}_{\bot}+z\sqrt{zy(1-z)}\not{p_i}\not{m}_{\bot}\\
+&+y(1-z)\sqrt{zy(1-z)}\not{p_j}\not{m}_{\bot} +2zy(1-z)(p_i \cdot p_j)]
+\end{split}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+&|M_2|^2 =(d-2) \frac{g_s^2 \: C_F }{2(1-z)(1-y) (p_i \cdot p_j)} [
+y(1-2z)\not{p_i}\not{p_j}+\sqrt{zy(1-z)}\not{p_i}\not{m}_{\bot}\\
+&+y\sqrt{zy(1-z)}\not{p_j}\not{m}_{\bot} +2zy(p_i \cdot p_j)]
+\end{split}
+\end{equation}
+
+
 Interestingly, here is a term with $y$ concerning the gluon radiation from an anti-quark. This means that this result cannot contribute to the collinear limit for soft gluon $ y \rightarrow 0 $.
 \newpage
 
@@ -334,61 +365,39 @@ M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q
 \end{split}
 \end{equation}
 
-\begin{equation}
-\begin{split}
-M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(1-2z+2z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
-&[z\not{p_i}\:\gamma^{\mu} \: \not{p_i} +zy\not{p_i}\:\gamma^{\mu}\:\not{p_j}+y(1-z)\not{p_j}\:\gamma^{\mu} \: \not{p_i}+y^2(1-z)\not{p_j}\:\gamma^{\mu} \:\not{p_j}]\\
-&[(1-z) \not{p_j} \:\gamma_{\mu} \:\not{p_i}+(1+yz-y) \not{p_j} \:\gamma_{\mu} \: \not{p_j}]
-\end{split}
-\end{equation}
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(1-2z+2z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
-&[2z{p_i}^{\mu} \not{p_i}+2zy{p_j}^{\mu}\not{p_i}-zy\not{p_i}\not{p_j}+2y(1-z){p_i}^{\mu}\not{p_j}-y(1-z)\not{p_j} \not{p_i}\\
-&+2y^2(1-z){p_j}^{\mu}\not{p_j}][2(1-z) {p_i}_{\mu} \not{p_j}-(1-z) \not{p_j}\not{p_i}+2(1+yz-y) {p_j}_{\mu}\not{p_j}]
-\end{split}
-\end{equation}
-
-\begin{equation}
-\begin{split}
-&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(1-2z+2z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
-&4z(1-z){p_i}^{\mu} \not{p_i} {p_i}_{\mu} \not{p_j}-2z(1-z){p_i}^{\mu} \not{p_i} \not{p_j}\not{p_i}+4z(1+yz-y){p_i}^{\mu} \not{p_i} {p_j}_{\mu}\not{p_j}\\
-&4zy(1-z){p_j}^{\mu}\not{p_i} {p_i}_{\mu} \not{p_j}-2zy(1-z){p_j}^{\mu}\not{p_i} \not{p_j}\not{p_i}+4zy(1+yz-y){p_j}^{\mu}\not{p_i} {p_j}_{\mu}\not{p_j}\\
-&-2zy(1-z)\not{p_i}\not{p_j} {p_i}_{\mu} \not{p_j}+zy(1-z)\not{p_i}\not{p_j} \not{p_j}\not{p_i}-2zy(1+yz-y)\not{p_i}\not{p_j} {p_j}_{\mu}\not{p_j}\\
-&4y(1-z)(1-z){p_i}^{\mu}\not{p_j} {p_i}_{\mu} \not{p_j}-2y(1-z)(1-z){p_i}^{\mu}\not{p_j} \not{p_j}\not{p_i}+4y(1-z)(1+yz-y){p_i}^{\mu}\not{p_j} {p_j}_{\mu}\not{p_j}\\
-&-2y(1-z)(1-z)\not{p_j} \not{p_i} {p_i}_{\mu} \not{p_j}+y(1-z)(1-z)\not{p_j} \not{p_i} \not{p_j}\not{p_i}-2y(1-z)(1+yz-y)\not{p_j} \not{p_i} {p_j}_{\mu}\not{p_j}\\
-&4y^2(1-z)(1-z){p_j}^{\mu}\not{p_j} {p_i}_{\mu} \not{p_j}-2y^2(1-z)(1-z){p_j}^{\mu}\not{p_j} \not{p_j}\not{p_i}+4y^2(1-z)(1+yz-y){p_j}^{\mu}\not{p_j} {p_j}_{\mu}\not{p_j}\\
-\end{split}
-\end{equation}
-
-\begin{equation}
-\begin{split}
-&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(1-2z+2z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
-&-2z(1-z){p_i}^{\mu} \not{p_i} \not{p_j}\not{p_i}+4z(1+yz-y)({p_i} \cdot p_j) \not{p_i} \not{p_j}+4zy(1-z)({p_j}\cdot p_i)\not{p_i} \not{p_j}\\
-&-2zy(1-z){p_j}^{\mu}\not{p_i} \not{p_j}\not{p_i}-2y(1-z)(1-z){p_i}_{\mu}\not{p_j} \not{p_i}  \not{p_j}+y(1-z)(1-z)\not{p_j} \not{p_i} \not{p_j}\not{p_i}\\
-&-2y(1-z)(1+yz-y){p_j}_{\mu}\not{p_j} \not{p_i} \not{p_j}\\
-\end{split}
-\end{equation}
-
-\begin{equation}
-\begin{split}
-&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(1-2z+2z^2)(p_i \cdot p_j)(p_i \cdot p_j)} \\
-&[+4z(1+yz-y)({p_i} \cdot p_j) \not{p_i} \not{p_j}+4zy(1-z)({p_j}\cdot p_i)\not{p_i} \not{p_j}+y(1-z)(1-z)\not{p_j} \not{p_i} \not{p_j}\not{p_i}]\\
-\end{split}
-\end{equation}
-
-\begin{equation}
-\begin{split}
-&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(1-2z+2z^2)(p_i \cdot p_j)} \\
-&[+4z(1+yz-y)\not{p_i} \not{p_j}+4zy(1-z)\not{p_i} \not{p_j}+2y(1-z)(1-z) \not{p_j}\not{p_i}\\
+&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(p_i \cdot p_j)(p_i \cdot p_j)} [z\not{p_i}\:\gamma^{\mu} \: \not{p_i} +zy\not{p_i}\:\gamma^{\mu}\:\not{p_j}\\
+&+y(1-z)\not{p_j}\:\gamma^{\mu} \: \not{p_i}+y^2(1-z)\not{p_j}\:\gamma^{\mu} \:\not{p_j}+\sqrt{zy(1-z)}\not{m}_{\bot}\gamma^{\mu} \: \not{p_i}\\
+&+y\sqrt{zy(1-z)}\not{m}_{\bot}\gamma^{\mu} \: \not{p_j}][(1-z) \not{p_j} \:\gamma_{\mu} \:\not{p_i}+(1+yz-y) \not{p_j} \:\gamma_{\mu} \: \not{p_j}\\
+&-(1-z)\sqrt{zy(1-z)} \not{p_j} \:\gamma_{\mu}\not{m}_{\bot}]
 \end{split}
 \end{equation}
 
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{y(1-2z+2z^2)(p_i \cdot p_j)} [\not{p_i}\not{p_j}]\otimes\frac{z}{1-z}
+&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(p_i \cdot p_j)(p_i \cdot p_j)} [2z{p_i}^{\mu} \not{p_i} +2zy{p_i}^{\mu}\not{p_j}-zy\not{p_i}\:\not{p_j}\\
+&+2y(1-z){p_j}^{\mu} \not{p_i}-y(1-z)\not{p_j} \not{p_i}+2y^2(1-z){p_j}^{\mu}\not{p_j}+2\sqrt{zy(1-z)}{m^{\mu}}_{\bot} \not{p_i}\\
+&-\sqrt{zy(1-z)}\not{m}_{\bot} \not{p_i}+2y\sqrt{zy(1-z)}{m^{\mu}}_{\bot} \: \not{p_j}-y\sqrt{zy(1-z)}\not{m}_{\bot} \not{p_j}]\\
+&[2(1-z) {p_j}_{\mu} \not{p_i}-(1-z) \not{p_j} \not{p_i}+2(1+yz-y) {p_j}_{\mu} \not{p_j}\\
+&-2(1-z)\sqrt{zy(1-z)} {p_j}_{\mu}\not{m}_{\bot}+(1-z)\sqrt{zy(1-z)} \not{p_j} \not{m}_{\bot}]
+\end{split}
+\end{equation}
+
+
+\begin{equation}
+\begin{split}
+&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(p_i \cdot p_j)(p_i \cdot p_j)} [4z(1+yz-y)(p_i \cdot p_j) \not{p_i} \not{p_j} \\
+&+4zy(1-z)(p_i \cdot p_j)\not{p_j}\not{p_i}+4y(1-z)^2 (p_i \cdot p_j)\not{p_j}\not{p_i}]
+\end{split}
+\end{equation}
+
+
+\begin{equation}
+\begin{split}
+M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{y(p_i \cdot p_j)} [\not{p_i}\not{p_j}]\otimes\frac{z}{1-z}
 \end{split}
 \end{equation}
 
@@ -425,11 +434,11 @@ It should be noted that it is completely sufficient to calculate $M_1\: {M_2}^{\
 Let's just add up the results from the previous sections and get:
 \begin{equation}
 \begin{split}
-&\lvert\:M\lvert^2\: = (d-2)(1-z)(1-y)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(1-2z+2z^2)(p_i \cdot p_j)}
+&\lvert\:M\lvert^2\: = (d-2)(1-z)(1-y)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(p_i \cdot p_j)}
 [\not{p_i}][\not{p_j}]\\
 &-(d-2)yz^2\:\frac{g_s^2 \: {[T^c]_f}^m \: {[T^c]_{f}}^n }{2(1-z)(1-y)(p_i \cdot p_j)}
 [\not{p_i}][\not{p_j}]\\
-&+2RE((\frac{-2z}{z-1}) \frac{g_s^2 \:\:{[T^a]_o}^l \:{[T^a]_{f}}^n }{2y(1-2z+2z^2)(p_i \cdot p_j)} 
+&+2RE((\frac{-2z}{z-1}) \frac{g_s^2 \:\:{[T^a]_o}^l \:{[T^a]_{f}}^n }{2y(p_i \cdot p_j)} 
 [\not{p_i}][\not{p_j}])
 \end{split}
 \end{equation}
@@ -477,7 +486,7 @@ for $ d=4-2\epsilon $
 
 \begin{equation}
 \begin{split}
-\lvert\:M\lvert^2\: &=\frac{g_s^2}{y(1-2z+2z^2)(p_i \cdot p_j)}[\not{p_i}][\not{p_j}]\otimes C_F(\frac{(1+z^2)}{1-z}-\epsilon(1-z))\\
+\lvert\:M\lvert^2\: &=\frac{g_s^2}{y(p_i \cdot p_j)}[\not{p_i}][\not{p_j}]\otimes C_F(\frac{(1+z^2)}{1-z}-\epsilon(1-z))\\
 &=\frac{g_s^2}{q_i \cdot q}[\not{p_i}][\not{p_j}]\otimes \langle\:\hat{P_{qq}}\rangle\:\\
 \end{split}
 \end{equation}
