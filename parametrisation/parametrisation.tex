@@ -1,6 +1,6 @@
 \section{Mapping 3 partons to 2 for single emission}
 \label{mapping}
-At the beginning of this thesis a parametrisation was used, which unfortunately only works for LO. This was recognized later and therefore the old parametrisation needed to replaced by a new kinematics. In this section, the two parametrisations are introduced. The important relations just as well the scalar products, Lorenz transformation regarding the new kinematics and a concept for the more efficient calculation of singular terms are presented.
+At the beginning of this thesis a parametrisation was used, which unfortunately only works for LO. This was recognized later and therefore the old parametrisation needed to be replaced by a new kinematics. In this section, the two parametrisations must be introduced. The important relations just as well the scalar products, Lorenz transformation regarding the new kinematics and a concept for the more efficient calculation of singular terms are presented.
 This theoretical description will gradually become clearer as the implementation of the mappings begins ~\cite{Platzer:2011dq, Platzer:2018pmd, Platzer:2009jq, Gieseke:2003rz}.
 \section{Old mapping}
 The old parametrisation is defined as follows: 
@@ -16,13 +16,14 @@ The old parametrisation is defined as follows:
 	\label{par}
 \end{equation}
 
-Where q is the radiated soft momentum, $ q_i $ the momenta of the emitter and $ q_j $ the momentum of the spectator is.
-The variable $ y_{ij,k} = \frac{q_i \cdot q}{p_i \cdot p_j}$ need to be introduced, that is zero in the soft and collinear limit. Note that both the emitter and the spectator are on-shell. momentum conservation is implemented exactly:
+Where $ q $ is the radiated soft momentum, $ q_i $ the momenta of the emitter and $ q_j $ the momentum of the spectator is.
+The variable $ y_{ij,k} = \frac{q_i \cdot q}{p_i \cdot p_j}$ need to be introduced, that is zero in the soft and collinear limit. Note that both the emitter and the spectator are on-shell. From the conservation of impulses derives:
 
 \begin{equation}
 {q_i}^{\mu}+q^{\mu}+ {q_k}^{\mu}={p_i}^{\mu}+{p_j}^{\mu}+{m^{\mu}}_{\bot}
+\label{tot}
 \end{equation}
-
+\pagebreak
 For this mapping it is useful to calculate some common relations which are computed as follow:
 
 \begin{equation}
@@ -39,15 +40,15 @@ For the simplification of the third equation $ q_i \cdot q  $, the on-shell cond
 
 \begin{equation}
 \begin{split}
-&q_i \cdot q_i = 0 = 2yz(1-z)p_i \cdot p_j +yz(1-z){{m^{\mu}}^2}_{\bot}\\
-\Rightarrow {{m^{\mu}}^2}_{\bot} = -2p_i \cdot p_j
+q_i \cdot q_i &= 0 = 2yz(1-z)p_i \cdot p_j +yz(1-z){{m^{\mu}}^2}_{\bot}\\
+\Rightarrow {{m}^2}_{\bot} &= -2p_i \cdot p_j\\
 \end{split}
 \end{equation}
 
-If one uses this result in the equation $ q_i \cdot q $, get the desired result as $ q_i \cdot q = y(p_i \cdot p_j) $.
+If one uses this result in the equation $ q_i \cdot q $, one gets the desired result as $ q_i \cdot q = y(p_i \cdot p_j) $.
 
 \section{Mapping $ m+1 $ partons to m for multi-emissions}
-For the general m emission case it must be defined a new mapping. The parametrisation of the splitting momenta is formalized as:
+For the general m emission case a new mapping must be defined. The parametrisation of the splitting momenta is formalised as:
 \begin{equation}
 	\begin{split}
 	&{k_l}^{\mu} = \alpha_l \alpha {\Lambda^{\mu}}_{\nu}{p_i}^{\nu} + y\beta{n}^{\mu} + \sqrt{y\alpha_l\beta_l}{n^{\mu}}_{\bot,l} \:\:\:\:\:\:\:\:\:\:\:\:\:\:\:{l=1,...,m} \\
@@ -55,7 +56,7 @@ For the general m emission case it must be defined a new mapping. The parametris
 	&{q_k}^{\mu} = \alpha {\Lambda^{\mu}}_{\nu}{p_k}^{\nu} \:\:\:\:\:\:\:\:\:\:\:\:\: {k=1,...,n}\:\:\:\:\:\:\:\:\:\:k\neq i\\
     \end{split}
 \end{equation}
-$ k = 1,...,n $ labels the emission momenta and is taken to be massless $ {k_l}^2 = 0 $. Where the label $ l $ denotes the count of emissions. In this work the one-emission kernels is just considered. All hard momenta in this mapping are also on-shell, $ {p_k}^2={q_k}^2=0 $.
+$ k = 1,...,n $ labels the emission momenta and is taken to be massless $ {k_l}^2 = 0 $. Where the label $ l $ denotes the count of emissions. In this work just the one-emission kernels is considered. All hard momenta in this mapping are also on-shell, $ {p_k}^2={q_k}^2=0 $.
 $ n^{\mu} $ is an auxiliary light-like vector which is necessary to specify the transverse component of $ {n^{\mu}}_{\bot,l} $.
 To absorb the recoil $ n^{\mu} $ is defined as:
 
