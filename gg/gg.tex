@@ -3,14 +3,14 @@
 \centering
 \includegraphics[width=0.85\textwidth]{images/GG/GGDiagrams.png}
 \end{figure}
-Now consider a daughter gluon from the splitting of a parent gluon with radiation an another gluon. When the gluon becomes soft, the distinction between daughter and parent vanishes, and a singularity develops. In this chapter we are going to keep the same procedure with a difference that we won't use the old parametrisation since it only works in LO. One of the mainly challenges about this emission kernel is that the calculations are long and complicated. Before we get started, it must be mentioned that we will work here with the recipe from section 3.6, in which the respective mathematical tools were calculated in detail.
-\pagebreak
+Now consider a daughter gluon from the splitting of a parent gluon with radiation an another gluon. When the gluon becomes soft, the distinction between daughter and parent vanishes, and a singularity develops. In this chapter we are going to keep the same procedure with a difference that we will not use the old parametrisation since it only works in LO. One of the mainly challenges about this emission kernel is that the calculations are long and complicated.
+
 \subsection{Gluon-Emitter Bubble}
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.7]{images/GG/M1gg.png}
 \end{figure}
-If we start with the first diagram and use the necessary Feynmann rules, we get:
+Beginning with Feynman rules for this diagram as usual:
 %\begin{equation}
 %\begin{split}
 %M_1=[\frac{-i}{(q +q_i)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q -q_i)^{\eta}+g^{{\zeta}{\eta}}(-q-(q +q_i))^{\mu}+g^{{\eta}{\mu}}(q_i +q_i+q)^{\zeta})\\
@@ -19,32 +19,35 @@ If we start with the first diagram and use the necessary Feynmann rules, we get:
 %\end{equation}
 \begin{equation}
 \begin{split}
-M_1=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{{\zeta}{\eta}}(2q +q_i)^{\mu}+g^{{\eta}{\mu}}(2q_i +q)^{\zeta})\\
-{\varepsilon^{\lambda_1}}_{\mu} (q_i) {\varepsilon^{\lambda_6}}_{\zeta} (q)][{{\varepsilon^{\theta}}_{{\tau}^{\prime}}} (q_j)]
+M_1=&[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{{\zeta}{\eta}}(2q +q_i)^{\mu}+g^{{\eta}{\mu}}(2q_i +q)^{\zeta})\\
+&{\varepsilon^{\lambda_1}}_{\mu} (q_i) {\varepsilon^{\lambda_6}}_{\zeta} (q)][{{\varepsilon^{\theta}}_{{\tau}^{\prime}}} (q_j)]
 \end{split}
 \end{equation}
-It has to be emphasized that here only the impulse from the parent gluon is incoming and the two further impulses from the vertex are pointing out. This is why the minus signs appear in the equation.
-If the upper equation is daggered, you get the following diagram and the corresponding following amplitude:
+It has to be emphasized that here only the momentum from the parent gluon is incoming and the two further momenta from the vertex are outgoing. This is why the minus signs appear in the equation.
+If the upper equation is daggered the following diagram will be catch and the corresponding following amplitude:
 
 \begin{figure}[ht!]
 \centering
 \includegraphics[scale=0.7]{images/GG/M1Daggergg.png}
 \end{figure}
+
 \begin{equation}
 \begin{split}
-{M_1}^{\dagger}=[\frac{i}{(q_i +q)^2}(-g_s f^{\:a^{\prime}\:k\: o^{\prime}}(-g^{{{\mu}^{\prime}}{{\eta}^{\prime}}}(2q_i+q)^{{\zeta}^{\prime}}+g^{{{\eta}^{\prime}}{{\zeta}^{\prime}}}(2q +q_i)^{{\mu}^{\prime}}+g^{{{\zeta}^{\prime}}{{\mu}^{\prime}}}(q_i-q)^{{\eta}^{\prime}})\\
-{{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}}^* (q_i) {{\varepsilon^{\lambda_5}}_{{\zeta}^{\prime}}}^* (q)][{{\varepsilon^{{\theta}^{\prime}}}_{{\tau}^{\prime}}}^* (q_j)]
+{M_1}^{\dagger}=&[\frac{i}{(q_i +q)^2}(-g_s f^{\:a^{\prime}\:k\: o^{\prime}}(-g^{{{\mu}^{\prime}}{{\eta}^{\prime}}}(2q_i+q)^{{\zeta}^{\prime}}+g^{{{\eta}^{\prime}}{{\zeta}^{\prime}}}(2q +q_i)^{{\mu}^{\prime}}+g^{{{\zeta}^{\prime}}{{\mu}^{\prime}}}(q_i-q)^{{\eta}^{\prime}})\\
+&{{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}}^* (q_i) {{\varepsilon^{\lambda_5}}_{{\zeta}^{\prime}}}^* (q)][{{\varepsilon^{{\theta}^{\prime}}}_{{\tau}^{\prime}}}^* (q_j)]
 \end{split}
 \end{equation}
-\pagebreak
-Let us now calculate the matrix element, in which we place the results from above next to each other, it turns out:
+
+
+Calculating of the matrix element:
+
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.95\textwidth]{images/GG/M1Squer.png}
 \end{figure}
 \begin{equation}
 \begin{split}
-&|M_1|^2=[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{{\zeta}{\eta}}(2q +q_i)^{\mu}+g^{{\eta}{\mu}}(2q_i +q)^{\zeta})\\
+|M_1|^2=&[\frac{-i}{(q_i +q)^2}(-g_s f^{\:a\:o\:l}(g^{{\mu}{\zeta}}(q-q_i)^{\eta}-g^{{\zeta}{\eta}}(2q +q_i)^{\mu}+g^{{\eta}{\mu}}(2q_i +q)^{\zeta})\\
 &{\varepsilon^{\lambda_1}}_{\mu} (q_i)\:{{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}}^* (q_i) {\varepsilon^{\lambda_6}}_{\zeta} (q)\:{{\varepsilon^{\lambda_5}}_{{\zeta}^{\prime}}}^* (q)
 (-g_s f^{\:a^{\prime}\:k\:o^{\prime}}(-g^{{{\mu}^{\prime}}{{\eta}^{\prime}}}(2q_i+q)^{{\zeta}^{\prime}}+g^{{{\eta}^{\prime}}{{\zeta}^{\prime}}}(2q +q_i)^{{\mu}^{\prime}}\\
 &+g^{{{\zeta}^{\prime}}{{\mu}^{\prime}}}(q_i-q)^{{\eta}^{\prime}})\frac{i}{(q_i +q)^2}][g^{{\gamma}{\delta}}]
@@ -58,24 +61,24 @@ After the summation over the spin- just as well polarization indices can be obta
 \end{split}
 \end{equation}
 
-The tensor $N^{{\eta}{{\eta}^{\prime}}}$ appears exactly when you contract across all possible indices.\\
-The goal of the next step is to evaluate this tensor, which is avoided here and instead of that, it only presents the final result. The more detailed calculation can be found in Appendix A.
+The tensor $N^{{\eta}{{\eta}^{\prime}}}$ appears exactly when all possible indices contract.\\
+The goal of the next step is to evaluate this tensor, which is avoided here and instead of that, it only presents the final result. The more detailed calculation can be found in Appendix section \label{tensor}.
 
 \begin{equation}
 \begin{split}
-N^{{\eta}{{\eta}^{\prime}}}\equiv [(6-d){q}^{{\eta}}{q}^{{\eta}^{\prime}}+(d+3){q}^{{\eta}}{q_i}^{{\eta}^{\prime}}+(d+3){q_i}^{{\eta}}{q}^{{\eta}^{\prime}}+(6-d){q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}\\
--g^{{\eta}{{\eta}^{\prime}}}(5{q}^2+5{q_i}^2+8qq_i)][g^{{\gamma}{\delta}}]
+N^{{\eta}{{\eta}^{\prime}}}\equiv &[(6-d){q}^{{\eta}}{q}^{{\eta}^{\prime}}+(d+3){q}^{{\eta}}{q_i}^{{\eta}^{\prime}}+(d+3){q_i}^{{\eta}}{q}^{{\eta}^{\prime}}+(6-d){q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}\\
+&-g^{{\eta}{{\eta}^{\prime}}}(5{q}^2+5{q_i}^2+8qq_i)][g^{{\gamma}{\delta}}]
 \end{split}
 \end{equation}
-Replace this result in the equation
+Replacing this result in the equation:
 \begin{equation}
 \begin{split}
-|M_1|^2=\frac{g_s^2 \:f^{\:a\:o\:l}\: f^{\:a\:k\:o}}{(q_i +q)^2 (q_i +q)^2} [(6-d){q}^{{\eta}}{q}^{{\eta}^{\prime}}+(d+3){q}^{{\eta}}{q_i}^{{\eta}^{\prime}}+(d+3){q_i}^{{\eta}}{q}^{{\eta}^{\prime}}+(6-d){q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}\\
--g^{{\eta}{{\eta}^{\prime}}}(5{q}^2+5{q_i}^2+8qq_i)][g^{{\gamma}{\delta}}]
+|M_1|^2=&\frac{g_s^2 \:f^{\:a\:o\:l}\: f^{\:a\:k\:o}}{(q_i +q)^2 (q_i +q)^2} [(6-d){q}^{{\eta}}{q}^{{\eta}^{\prime}}+(d+3){q}^{{\eta}}{q_i}^{{\eta}^{\prime}}+(d+3){q_i}^{{\eta}}{q}^{{\eta}^{\prime}}+(6-d){q_i}^{{\eta}}{q_i}^{{\eta}^{\prime}}\\
+&-g^{{\eta}{{\eta}^{\prime}}}(5{q}^2+5{q_i}^2+8qq_i)][g^{{\gamma}{\delta}}]
 \end{split}
 \end{equation}
 
-This Gluon self-energy diagram has to be corrected by Ghost Loop to get the complete result. That is exactly what we are going to do in the next section.
+This Gluon self-energy diagram has to be corrected by ghost Loop to get the complete result. 
 
 \pagebreak
 \subsubsection{One-loop corrections to the gluon self-energy diagram(Gluon-Emitter Bubble)}
@@ -83,7 +86,7 @@ This Gluon self-energy diagram has to be corrected by Ghost Loop to get the comp
 \centering
 \includegraphics[width=0.95\textwidth]{images/GG/Ghost.png}
 \end{figure}
-In order to get a meaningful result and correct the gluon loop, the same indices must be used. For this the same diagram with a fine difference is used, in which you replace the cut off gluon propagators with ghost propagators and the rest remain as in the previous diagram.
+In order to get a meaningful result and correct the gluon loop, the same indices must be used. For this the same diagram with a fine difference is used, in which the cut off gluon propagators is replaced with ghost propagators and the rest remain as in the previous diagram.
 \begin{equation}
 \begin{split}
 {{|M_1|}^2_{Ghost \:loop}}=\frac{g_s^2 \:f^{\:a\:o\:l}\: f^{\:a\:k\:o}}{(q_i +q)^2 (q_i +q)^2} [-{q_i}^{{\eta}}{q}^{{\eta}^{\prime}}-{q}^{{\eta}}{q_i}^{{\eta}^{\prime}}][g^{{\gamma}{\delta}}]
@@ -117,7 +120,7 @@ Implementation the new parametrisation:
 \end{split}
 \end{equation}
 
-Note that here the short version of the kinematics was used to increase the overview. Now you have to multiply the terms in brackets and simplify the matrix element.
+Note that here the short version of the kinematics was used to increase the overview. Now the terms in brackets have to be multiplied and simplified.
 
 \begin{equation}
 \begin{split}
@@ -137,7 +140,7 @@ Note that here the short version of the kinematics was used to increase the over
 \end{equation}
 
 
-One replaces now the relations for the often occurring pre-factor products from appendix A and get:
+One replaces now the relations for the often occurring pre-factor products from appendix \ref{pre}:
 %\begin{equation}
 %\begin{split}
 %{|{M}^{\prime}_1|}^2 =\frac{g_s^2 \:f^{\:a\:o\:l}\: f^{\:a\:k\:o}}{4y^2\:(p_i\cdot Q) \:(p_i\cdot Q)} \\
@@ -157,25 +160,25 @@ One replaces now the relations for the often occurring pre-factor products from 
 %\end{equation}
 
 
-\begin{equation}
-\begin{split}
-&{|{M}^{\prime}_1|}^2 =\frac{g_s^2 \:f^{\:a\:o\:l}\: f^{\:a\:k\:o}}{4y^2\:(p_i\cdot Q) \:(p_i\cdot Q)}[(6-d)\lbrace({\alpha_1}^2 -2y\alpha_1 \beta_1(\frac{Q^2}{2p_i \cdot Q})) {p_i}^{\eta}{p_i}^{{\eta}^{\prime}}+y\alpha_1\beta_1 {p_i}^{\eta}{Q}^{{\eta}^{\prime}}\\
-&+\zeta_1\sqrt{y\alpha_1\beta_1}{p_i}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}+y\beta_1\alpha_1  {Q}^{\eta}{p_i}^{{\eta}^{\prime}}+\lambda_1\sqrt{y\alpha_1\beta_1}{Q}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}
-+\zeta_1\sqrt{y\alpha_1\beta_1} {n^{{\eta}}}_{\bot,1}{p_i}^{{\eta}^{\prime}}\\
-&+\lambda_1\sqrt{y\alpha_1\beta_1}{n^{{\eta}}}_{\bot,1}{Q}^{{\eta}^{\prime}}+y\alpha_1\beta_1{n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}\rbrace
-+(d+2)\lbrace(\alpha_1\beta_1-y({\alpha_1}^2+{\beta_1}^2) (\frac{Q^2}{2p_i \cdot Q})) {p_i}^{\eta}{p_i}^{{\eta}^{\prime}}\\
-&+y{\alpha_1}^2{p_i}^{\eta}{Q}^{{\eta}^{\prime}}-\zeta_1\sqrt{y\alpha_1\beta_1}{p_i}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}+y{\beta_1}^2 {Q}^{\eta}{p_i}^{{\eta}^{\prime}}-\lambda_1\sqrt{y\alpha_1\beta_1}{Q}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}
-+\zeta_q\sqrt{y\alpha_1\beta_1} {n^{{\eta}}}_{\bot,1}{p_i}^{{\eta}^{\prime}}\\
-&+\lambda_q\sqrt{y\alpha_1\beta_1}{n^{{\eta}}}_{\bot,1}{Q}^{{\eta}^{\prime}}-y\alpha_1\beta_1{n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}\rbrace\\
-&+(d+2)\lbrace(\beta_1\alpha_1-y({\beta_1}^2+{\alpha_1}^2)(\frac{Q^2}{2p_i \cdot Q})) {p_i}^{\eta}{p_i}^{{\eta}^{\prime}}+y{\beta_1}^2{p_i}^{\eta}{Q}^{{\eta}^{\prime}}+\zeta_q\sqrt{y\alpha_1\beta_1}{p_i}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}\\
-&+y{\alpha_1}^2 {Q}^{\eta}{p_i}^{{\eta}^{\prime}}+\lambda_q\sqrt{y\alpha_1\beta_1}{Q}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}-\zeta_1\sqrt{y\alpha_1\beta_1} {n^{{\eta}}}_{\bot,1}{p_i}^{{\eta}^{\prime}}-\lambda_1\sqrt{y\alpha_1\beta_1}{n^{{\eta}}}_{\bot,1}{Q}^{{\eta}^{\prime}}\\
-&-y\alpha_1\beta_1{n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}\rbrace
-+(6-d)\lbrace({\beta_1}^2 -2y\alpha_1\beta_1 (\frac{Q^2}{2p_i \cdot Q})) {p_i}^{\eta}{p_i}^{{\eta}^{\prime}}+y\beta_1\alpha_1 {p_i}^{\eta}{Q}^{{\eta}^{\prime}}\\
-&-\zeta_q\sqrt{y\alpha_1\beta_1}{p_i}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}
-+y\alpha_1\beta_1 {Q}^{\eta}{p_i}^{{\eta}^{\prime}}-\lambda_q\sqrt{y\alpha_1\beta_1}{Q}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}-\zeta_q\sqrt{y\alpha_1\beta_1} {n^{{\eta}}}_{\bot,1}{p_i}^{{\eta}^{\prime}}\\
-&-\lambda_q\sqrt{y\alpha_1\beta_1}{n^{{\eta}}}_{\bot,1}{Q}^{{\eta}^{\prime}}+y\alpha_1\beta_1{n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}\rbrace-8g^{{\eta}{{\eta}^{\prime}}}[({\alpha_1}^2+{\beta_1}^2) p_i \cdot Q - ({\beta_1}(1-\beta_1)){n}_{\bot,1}\cdot{n}_{\bot,1}]][g^{{\gamma}{{\delta}}}]
-\end{split}
-\end{equation}
+%\begin{equation}
+%\begin{split}
+%&{|{M}^{\prime}_1|}^2 =\frac{g_s^2 \:f^{\:a\:o\:l}\: f^{\:a\:k\:o}}{4y^2\:(p_i\cdot Q) \:(p_i\cdot Q)}[(6-d)\lbrace({\alpha_1}^2 -2y\alpha_1 \beta_1(\frac{Q^2}{2p_i \cdot Q})) {p_i}^{\eta}{p_i}^{{\eta}^{\prime}}+y\alpha_1\beta_1 {p_i}^{\eta}{Q}^{{\eta}^{\prime}}\\
+%&+\zeta_1\sqrt{y\alpha_1\beta_1}{p_i}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}+y\beta_1\alpha_1  {Q}^{\eta}{p_i}^{{\eta}^{\prime}}+\lambda_1\sqrt{y\alpha_1\beta_1}{Q}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}
+%+\zeta_1\sqrt{y\alpha_1\beta_1} {n^{{\eta}}}_{\bot,1}{p_i}^{{\eta}^{\prime}}\\
+%&+\lambda_1\sqrt{y\alpha_1\beta_1}{n^{{\eta}}}_{\bot,1}{Q}^{{\eta}^{\prime}}+y\alpha_1\beta_1{n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}\rbrace
+%+(d+2)\lbrace(\alpha_1\beta_1-y({\alpha_1}^2+{\beta_1}^2) (\frac{Q^2}{2p_i \cdot Q})) {p_i}^{\eta}{p_i}^{{\eta}^{\prime}}\\
+%&+y{\alpha_1}^2{p_i}^{\eta}{Q}^{{\eta}^{\prime}}-\zeta_1\sqrt{y\alpha_1\beta_1}{p_i}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}+y{\beta_1}^2 {Q}^{\eta}{p_i}^{{\eta}^{\prime}}-\lambda_1\sqrt{y\alpha_1\beta_1}{Q}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}
+%+\zeta_q\sqrt{y\alpha_1\beta_1} {n^{{\eta}}}_{\bot,1}{p_i}^{{\eta}^{\prime}}\\
+%&+\lambda_q\sqrt{y\alpha_1\beta_1}{n^{{\eta}}}_{\bot,1}{Q}^{{\eta}^{\prime}}-y\alpha_1\beta_1{n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}\rbrace+(d+2)\lbrace(\beta_1\alpha_1-y({\beta_1}^2+{\alpha_1}^2)(\frac{Q^2}{2p_i \cdot Q})) {p_i}^{\eta}{p_i}^{{\eta}^{\prime}}\\
+%&+y{\beta_1}^2{p_i}^{\eta}{Q}^{{\eta}^{\prime}}+\zeta_q\sqrt{y\alpha_1\beta_1}{p_i}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}+y{\alpha_1}^2 {Q}^{\eta}{p_i}^{{\eta}^{\prime}}+\lambda_q\sqrt{y\alpha_1\beta_1}{Q}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}-\zeta_1\sqrt{y\alpha_1\beta_1} {n^{{\eta}}}_{\bot,1}{p_i}^{{\eta}^{\prime}}-\lambda_1\sqrt{y\alpha_1\beta_1}{n^{{\eta}}}_{\bot,1}{Q}^{{\eta}^{\prime}}\\
+%&-y\alpha_1\beta_1{n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}\rbrace
+%+(6-d)\lbrace({\beta_1}^2 -2y\alpha_1\beta_1 (\frac{Q^2}{2p_i \cdot Q})) {p_i}^{\eta}{p_i}^{{\eta}^{\prime}}+y\beta_1\alpha_1 {p_i}^{\eta}{Q}^{{\eta}^{\prime}}\\
+%&-\zeta_q\sqrt{y\alpha_1\beta_1}{p_i}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}
+%+y\alpha_1\beta_1 {Q}^{\eta}{p_i}^{{\eta}^{\prime}}-\lambda_q\sqrt{y\alpha_1\beta_1}{Q}^{\eta}{n^{{\eta}^{\prime}}}_{\bot,1}-\zeta_q\sqrt{y\alpha_1\beta_1} {n^{{\eta}}}_{\bot,1}{p_i}^{{\eta}^{\prime}}\\
+%&-\lambda_q\sqrt{y\alpha_1\beta_1}{n^{{\eta}}}_{\bot,1}{Q}^{{\eta}^{\prime}}+y\alpha_1\beta_1{n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}\rbrace-8g^{{\eta}{{\eta}^{\prime}}}[({\alpha_1}^2+{\beta_1}^2) p_i \cdot Q - ({\beta_1}(1-\beta_1)){n}_{\bot,1}\cdot{n}_{\bot,1}]\\
+%&[g^{{\gamma}{{\delta}}}]
+%\end{split}
+%\end{equation}
 
 
 \begin{equation}
@@ -186,7 +189,7 @@ One replaces now the relations for the often occurring pre-factor products from 
 &-y\alpha_1\beta_1{n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}\rbrace+(d+2)\lbrace(\beta_1\alpha_1-y({\beta_1}^2+{\alpha_1}^2)(\frac{Q^2}{2p_i \cdot Q})) {p_i}^{\eta}{p_i}^{{\eta}^{\prime}}\\
 &+y{\beta_1}^2{p_i}^{\eta}{Q}^{{\eta}^{\prime}}+y{\alpha_1}^2 {Q}^{\eta}{p_i}^{{\eta}^{\prime}}-y\alpha_1\beta_1{n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}\rbrace\\
 &+(6-d)\lbrace({\beta_1}^2 -2y\alpha_1\beta_1 (\frac{Q^2}{2p_i \cdot Q})) {p_i}^{\eta}{p_i}^{{\eta}^{\prime}}+y\beta_1\alpha_1 {p_i}^{\eta}{Q}^{{\eta}^{\prime}}+y\alpha_1\beta_1 {Q}^{\eta}{p_i}^{{\eta}^{\prime}}\\
-&+y\alpha_1\beta_1{n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}\rbrace-8g^{{\eta}{{\eta}^{\prime}}}[({\alpha_1}^2+{\beta_1}^2) p_i \cdot Q - ({\beta_1}(1-\beta_1)){n}_{\bot,1}\cdot{n}_{\bot,1}]][g^{{\gamma}{{\delta}}}]
+&+y\alpha_1\beta_1{n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}\rbrace-8g^{{\eta}{{\eta}^{\prime}}}[({\alpha_1}^2+{\beta_1}^2) p_i \cdot Q - ({\beta_1}(1-\beta_1)){n}_{\bot,1}\cdot{n}_{\bot,1}][g^{{\gamma}{{\delta}}}]
 \end{split}
 \end{equation}
 
@@ -211,7 +214,7 @@ One replaces now the relations for the often occurring pre-factor products from 
 
 \begin{equation}
 \begin{split}
-&{|{M}^{\prime}_1|}^2 =\frac{g_s^2 \:f^{\:a\:o\:l}\: f^{\:a\:k\:o}}{4y\:(p_i\cdot Q) \:(p_i\cdot Q)}[[8-4d]{\beta_1}(1-\beta_1){n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}-8g^{{\eta}{{\eta}^{\prime}}}[({\alpha_1}^2+{\beta_1}^2) p_i \cdot Q\\
+{|{M}^{\prime}_1|}^2 =&\frac{g_s^2 \:f^{\:a\:o\:l}\: f^{\:a\:k\:o}}{4y\:(p_i\cdot Q) \:(p_i\cdot Q)}[[8-4d]{\beta_1}(1-\beta_1){n^{{\eta}}}_{\bot,1}{n^{{\eta}^{\prime}}}_{\bot,1}-8g^{{\eta}{{\eta}^{\prime}}}[({\alpha_1}^2+{\beta_1}^2) p_i \cdot Q\\
 &- ({\beta_1}(1-\beta_1)){n}_{\bot,1}\cdot{n}_{\bot,1}][g^{{\gamma}{{\delta}}}]]
 \end{split}
 \end{equation}
@@ -249,11 +252,10 @@ In this step the equation for $ d = 4-2 \epsilon $ was calculated and the value 
 
 \subsection{A simplified way within the concept \ref{Concept} }
 During the analysis of the evaluation it turned out that the particularly complicated and extensive calculation can be handled with the substitutions conceived below:\\
-The first consideration is to look in the denominators for the pre-factors that cause a singularity. \\
-In the second step, care must be taken to ensure that the numerator consists of the addition of several terms, which mostly consist of scalar products with two four-vectors. This is the reason why these scalar products have to be considered separately, provided that the terms with the same pre-factor are eliminated from the nominator beforehand, since they are finite anyway.
+The numerator generally consists of the addition of several terms, which mostly consist of scalar products with two four-vectors. This is the reason why these scalar products have to be considered separately. The terms with the same pre-factor are eliminated from the nominator beforehand, since they are finite anyway.
 In the last chapter, this has already been deduced with regard to the factors in the denominator. 
 For illustration this is calculated once for ${|{M}^{\prime}_1|}^2$ with the denominator $ 4y^2\:(p_i\cdot Q) \:(p_i\cdot Q) $. \\
-If one looks at this corrected matrix element, with the pre-factor $ y^2 $ in the denominator, it can be seen that in the counter the respective terms with $ y^2 $ by the multiplication of two four-vectors can be neglected instead of calculating these, since exactly these form the finite terms. This simplifies the results of the scalar products. Under this assumption, the result looks as follows:
+If one looks at this corrected matrix element, with the pre-factor $ y^2 $ in the denominator, it can be seen that in the nominator there are terms with $ y^2 $ by the multiplication of two four-vectors. Those can be neglected instead of calculating these, since exactly these are the finite terms. This simplifies the results of the scalar products. Under this assumption, the result looks as follows:
 
 \begin{equation}
 \begin{split}
@@ -264,7 +266,7 @@ If one looks at this corrected matrix element, with the pre-factor $ y^2 $ in th
 \end{split}
 \end{equation}
 
-Now we insert these results into $ N $ which was an element of the square matrix element.
+Inserting these results into $ N $ follows:
 
 \begin{equation}
 \begin{split}
@@ -287,7 +289,8 @@ Summary of the equation provides:
 &-8g^{{\eta}{{\eta}^{\prime}}}[({\alpha_1}^2+{\beta_1}^2) p_i \cdot Q - ({\beta_1}(1-\beta_1)){n}_{\bot,1}\cdot{n}_{\bot,1}]\\
 \end{split}
 \end{equation}
-If you now insert the result into the matrix element and simplify it:
+
+and for the matrix element:
 
 %\begin{equation}
 %\begin{split}
@@ -311,8 +314,7 @@ If you now insert the result into the matrix element and simplify it:
 
 \textbf{conclusion}
 \\
-This concept allows to achieve the same result in just a few steps. This can also be done for further calculations.  
-In the following it is imperative to orient oneself to the denominator of the matrix element.
+This concept allows to achieve the same result in just a few steps. This can also be done for further calculations.
 \pagebreak
 \subsection{Gluon-Spectator Bubble}
 \begin{figure}[ht!]
@@ -452,7 +454,7 @@ Multiply the available tensors and summarize all results:
 \end{split}
 \end{equation}
 
-As can be seen here from the term in the denominator, this is the parametrisation in the case of \eqref{k1qik1qk}
+from the term in the denominator can be seen this is the parametrisation in the case of \eqref{k1qik1qk}
 
 \begin{equation}
 \begin{split}
@@ -472,8 +474,8 @@ As can be seen here from the term in the denominator, this is the parametrisatio
 \label{Para}
 \end{equation}
 
-It should be noted that we have not opted for the standard way with the replacement of parametrisation and elimination of limited terms, because otherwise the calculation becomes rather confusing and long. It should be mentioned here that the standard way was still used as a comparison to determine whether the two approaches would lead to the same goal. Let's start with the evaluation of the respective terms.
-a summarized calculation can be found in the appendix \ref{EvaIntGG}. If you are interested in the complete solution which contains both cases, i.e. the collinear and soft region, you simply have to add the terms. Since the calculation becomes quite long and confusing, we focus on the second term, which is important for the collinear case and presents the full result, which is used for the calculation of the splitting function.\\
+
+A summarized calculation can be found in the appendix \ref{EvaIntGG}. If one is interested in the complete solution which contains both cases, i.e. the collinear and soft region, one has to add the terms. Since the calculation becomes quite long and confusing, we focus on the second term, which is important for the collinear case which is used for the calculation of the splitting function.\\
 The starting point is the second term of the quadratic matrix element:
 
 \begin{equation}
@@ -482,7 +484,7 @@ The starting point is the second term of the quadratic matrix element:
 \end{split}
 \end{equation}
 
-After the replacement of the corresponding Skalar products from \ref{Para} it results in:
+After the replacement of the corresponding Scalar products from \ref{Para} it results in:
 
 %\begin{equation}
 %\begin{split}
@@ -507,7 +509,7 @@ After the replacement of the corresponding Skalar products from \ref{Para} it re
 
 \subsubsection{Swapping for indistinguishable partons}
 
-If now the results from the previous sections are added together, it is noticeable that a part of the final solution falls, which is not demonstrated here. The problem is that the gluons are indistinguishable with respect to the interference term. In fact, it could not be determined which gluon has which momentum. Here exactly the sixth point from the procedure \ref{Concept} appears. This problem is solved by exchanging the impulses for the same diagram once and repeating the steps. Here only the final result is presented and the detailed steps can be looked up in the appendix \ref{EvaIntInvGG}.
+If now the results from the previous sections are added together, it is noticeable that a part of the final solution falls, which is not demonstrated here. The problem is that the gluons are indistinguishable with respect to the interference term. In fact, it could not be determined which gluon has which momentum. Here exactly the sixth point from the procedure \ref{Concept} is happened. This problem is solved by exchanging the momenta for the same diagram once and repeating the steps. Here only the final result is presented and the detailed steps can be looked up in the appendix \ref{EvaIntInvGG}.
 
 
 %\begin{figure}[h!]

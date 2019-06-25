@@ -2,15 +2,18 @@
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/QQ/qqg-diagrams.png}
+\label{qg}
 \end{figure}
-First we are going to consider a daughter quark from the splitting of a parent quark into a
-quark and a gluon with an arbitrary spectator like an anti-quark, see the left picture above. where $ q_j+q $ is the momentum of the quark before splitting, $q$ the momentum of the gluon and $q_j$ of daughter quark respectively. The momentum of the spectator is $ q_j $. The distinction between daughter and parent vanishes, when the gluon becomes soft,  and a
-singularity develops. The other possibility to get a singularity is surely if the gluon will be collinear to quark. The splitting functions are flavour independent since the strong interaction is flavour independent. Furthermore,
-leading order splitting cannot change the flavour of a quark, thus we can write for the splitting functions In leading order QCD:
+First of all contemplate a quark gluon splitting with an arbitrary spectator like an anti-quark with the momentum $ q_j $. Where $ q_j+q $ is the momentum of the parent quark before splitting, $q$ the momentum of the gluon and $q_i$ of daughter quark respectively. The distinction between daughter and parent vanishes, when the gluon becomes soft,  and a
+singularity develops. The other possibility to get a singularity is when the gluon will be collinear to (anti)-quark. The splitting functions are flavour independent since the strong interaction is flavour independent. Furthermore, leading order splitting cannot change the flavour of a quark, thus \cite{halzen1984quarks}:
 \begin{equation}
-P_{{\bar{q_i}}{\bar{q_j}}}=P_{{q_i}{q_j}}=P_{{q}{q}} \delta_{ij}
+\begin{split}
+P_{{\bar{q_i}}{\bar{q_j}}}=P_{{q_i}{q_j}}\equiv P_{{q}{q}} \delta_{ij}\\
+P_{{\bar{q_i}}{{g}}}=P_{{q_i}{g}}\equiv P_{{q}{g}} \\
+P_{{\bar{g}}{\bar{q_i}}}=P_{{g}{q_i}}\equiv P_{{g}{q}} \delta_{ij}\\
+\end{split}
 \end{equation}
-For this aim we have to take any diagram to the account which can have the same splitting. Since there is no distinction between quark and anti-quark, one can imagine exact the same splitting variation for anti-quark with a quark as a spectator, see the right picture above.
+Since there is no distinction between quark and anti-quark, one can imagine exact the same splitting variation for anti-quark, see the right picture \ref{qg} above.
 
 
 \pagebreak
@@ -20,11 +23,11 @@ For this aim we have to take any diagram to the account which can have the same 
 \centering
 \includegraphics[scale=0.7]{images/QQ/qgqbarM.png}
 \end{figure}
-If one simply calculates the amplitude of this diagram, one gets:
+The first step of the procedure was to index the diagrams independently and use the Feynman rules:
 \begin{equation}
 M_1 = [{\bar{u}}_{\sigma}(q_i) (-ig_s \gamma^{\mu}\times {[T^a]_o}^l)  \frac{i(\not{q_i} + \not{q})}{(q_i + q)^2} {\varepsilon^{\lambda_1}}_{\mu} (q)]\: [{v}_{\tau}(q_j)]
 \end{equation}
-For the quadratic matrix element we need the dagger of $ M_1 $ as well.
+For the quadratic matrix element the dagger of $ M_1 $ need to be calculated.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{images/QQ/qgqbarMDega.png}
@@ -38,14 +41,14 @@ For the quadratic matrix element we need the dagger of $ M_1 $ as well.
 \centering
 \includegraphics[width=0.85\textwidth]{images/QQ/qgqbarMSquer.png}
 \end{figure}
-After multiplying $ {M_1}^{\dagger} $ and $ {M_1} $ we get the desired result.
+Multiplying $ {M_1}^{\dagger} $ and $ {M_1} $ and putting the diagrams next to each other:
 \begin{equation}
 \begin{split}
 |M_1|^2=M_1\:{\color[RGB]{255,0,0} {M_1}^{\dagger}} = [{\bar{u}}_{\sigma}(q_i)\: (-ig_s \gamma^{\mu}\times {[T^a]_o}^l) \: \frac{i(\not{q_i} + \not{q})}{(q_i + q)^2}\:\: {\varepsilon^{\lambda_1}}_{\mu} (q)] [{v}_{\tau}(q_j)]\: \\
 \quad\quad\quad\quad\quad\quad\quad\quad\:\:{\color[RGB]{255,0,0}[\frac{-i(\not{q_i} + \not{q})}{(q_i + q)^2} \:  (ig_s \gamma^{{\mu}^{\prime}}\times {[T^b]_{o\:^{\prime}}}^k) \: u_{{\sigma}^{\prime}}(q_i) \: {{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}}^* (q)][{\bar{v}}_{{\tau}^{\prime}}(q_j)]}
 \end{split}
 \end{equation}
-Now it's time to connect those terms which are related to each other.
+Connecting those terms which are related to each other:
 
 \begin{equation}
 \begin{split}
@@ -81,7 +84,7 @@ The matrix element will be simplified with:
 \end{split}
 \end{equation}
 
-When we contract all related indices we will be actually able to make a statements about the last result.
+As it was discussed in the procedure the contracted indices lead us to the predict the relevant singular terms:
 \begin{equation}
 \begin{split}
 |M_1|^2=\frac{-g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
@@ -89,10 +92,11 @@ When we contract all related indices we will be actually able to make a statemen
  \:  \gamma^{{\mu}^{\prime}} \: \not{q_i} \: 
 \gamma_{{\mu}^{\prime}} \: (\not{q_i} + q)]
 [\not{q_j}]
+\label{first}
 \end{split}
 \end{equation}
 
-In other words we expect the tree level diagram from LO and a number:\\
+From the result the tree level diagram from LO and a number are expected:\\
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/QQ/expectationqg-qbar.png}
@@ -105,7 +109,7 @@ Which graphically means:\\
 [\not{P_j}]\:\otimes \: {\color[RGB]{255,0,0} (a\: complex\: number)}
 \end{split}
 \end{equation}  
-Let's calculate the contribution and compare the final result with this expectation:
+Let's calculate the contribution and compare the final result with this expectation. Calculating the expression in the parentheses from the equation \ref{first} separately results in:
 \begin{equation}
 \begin{split}
 N=&: \gamma^{{\mu}^{\prime}} \not{q_i} \: \gamma_{{\mu}^{\prime}} = {q_{i\sigma}} \: \gamma^{{\mu}^{\prime}} \gamma^{\sigma} \:\: \gamma_{{\mu}^{\prime}}\\
@@ -133,7 +137,7 @@ Simplification of the bracket:
 \end{split}
 \end{equation}
 
-Momenta are on-shell, so:
+With on-shell condition:
 \begin{equation}
 \begin{split}
 \not{q_i}\: \not{q_i} &= {q_i}^2= {m_i}^2\\
@@ -142,7 +146,7 @@ Momenta are on-shell, so:
 \end{split}
 \end{equation}
 
-we can first neglect the mass of patrons:
+In terms of massless partons:
 
 \begin{equation}
 \begin{split}
@@ -151,7 +155,7 @@ we can first neglect the mass of patrons:
 [\not{q_j}]
 \end{split}
 \end{equation}
-Here we need to make the terms in the brackets simpler and:
+The terms in the brackets can be simplified:
 \begin{equation}
 \begin{split}
 L=& \not{q} \not{q_i} \not{q} =\not{q}[{q_{i\sigma}} q_{\mu} \: (\lbrace{\gamma^{\mu}}, {\gamma^{\sigma}}\rbrace - {\gamma^{\sigma}}{\gamma^{\mu}})]\\ 
@@ -164,7 +168,7 @@ L=& \not{q} \not{q_i} \not{q} =\not{q}[{q_{i\sigma}} q_{\mu} \: (\lbrace{\gamma^
 =& \not{q} (2q_i q)
 \end{split}
 \end{equation}
-After inserting the last result of $ L $ and simplify the term $ (2q_i q) $ from the denominator and nominator, we get:
+After inserting the last result of $ L $ and simplify the term $ (2q_i q) $ from the denominator and nominator, the result becomes:
 \begin{equation}
 \begin{split}
 |M_1|^2=-(2-d)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(p_i \cdot p_j)}
@@ -172,7 +176,7 @@ After inserting the last result of $ L $ and simplify the term $ (2q_i q) $ from
 [\not{q_j}]
 \end{split}
 \end{equation}
-Now we are going to use the parametrisation from equation (1) to reduce the 3-member matrix element to 2-member and take out the singularity term from the amplitude.
+Now the old parametrisation will be used from equation \ref{par} to reduce the $ 3 $-partons matrix element to $ 2 $-partons:
 \begin{equation}
 \begin{split}
 |M_1|^2=(d-2)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(p_i \cdot p_j)}
@@ -188,8 +192,8 @@ Multiplying the both sides
 +zy(1-y) \not{p_j}\not{p_j} - (1-y)\sqrt{zy(1-z)} \not{{m}_{\bot}}\not{p_j}]
 \end{split}
 \end{equation}
-Under consideration of the fact that $ p_i $ and $ p_j $ are the on-shell momenta of the emitter and spectator partons, we can ignore the terms with $ \not{p_i} \not{p_i} $ and $ \not{p_j} \not{p_j} $.
-The $ {p_i} \cdot  {m}_{\bot} $ and $ {p_j} \cdot  {m}_{\bot} $ are always $ 0 $ because the $ p_i $ and $ p_j $ are lightlike, i.e. zero transverse component. So those terms can be neglected.
+Under consideration of the fact that $ p_i $ and $ p_j $ are the on-shell momenta of the emitter and spectator partons, the terms with $ \not{p_i} \not{p_i} $ and $ \not{p_j} \not{p_j} $ can be eliminated.
+The $ {p_i} \cdot  {m}_{\bot} $ and $ {p_j} \cdot  {m}_{\bot} $ are always $ 0 $ because the $ p_i $ and $ p_j $ are light like, i.e. zero transverse component. So those terms can be neglected.
 
 
 \begin{equation}
@@ -199,7 +203,7 @@ The $ {p_i} \cdot  {m}_{\bot} $ and $ {p_j} \cdot  {m}_{\bot} $ are always $ 0 $
 \end{split}
 \end{equation}
 
-As discussed, we get a contribution from the LO a complex number. As you can see, the number is just for $ y \rightarrow 0 $ singular and not for $ z \rightarrow 1 $.
+Expected was a contribution result from the LO and a complex number. The number is just for $ y \rightarrow 0 $ singular and not for $ z \rightarrow 1 $.
 
 \newpage
 
@@ -220,7 +224,7 @@ As discussed, we get a contribution from the LO a complex number. As you can see
 %\begin{equation}
 %M_2^{\dagger} = [\bar{v}_{{\tau}^{\prime}}(q_j) \: (ig_s \gamma^{{\nu}^{\prime}}\times {[T^d]_{f^{\prime}}}^n) \: \frac{-i(\not{q_j} + \not{q})}{(q_j + q)^2} \: {\varepsilon^{\lambda_4}}_{{\nu}^{\prime}} (q)]\: [\bar{u}_{{\sigma}^{\prime}}(q_i)]
 %\end{equation}
-the same procedure is used to obtain the matrix element for an anti-quark with a single gluon emission.
+The same procedure is used to obtain the matrix element for an anti-quark with a single gluon emission.
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/QQ/qbargqMSquer.png}
@@ -236,7 +240,7 @@ the same procedure is used to obtain the matrix element for an anti-quark with a
 
 \begin{equation}
 \begin{split}
-|M_2|^2 =\frac{g_s^2 \: {[T^c]_f}^m \: {[T^d]_{f^{\prime}}}^n }{(q_j + q)^2 (q_j + q)^2} [(\not{q_j} + \not{q}) \gamma^{\nu}  \:{v}_{\tau}(q_j)\bar{v}_{{\tau}^{\prime}}(q_j)\: {\varepsilon^{\lambda_3}}_{\nu} (q){\varepsilon^{\lambda_4}}_{{\nu}^{\prime}}  (q) \gamma^{{\nu}^{\prime}}(\not{q_j} + \not{q})]\: \\
+|M_2|^2 =\frac{g_s^2 \: {[T^c]_f}^m \: {[T^d]_{f^{\prime}}}^n }{4(q_j \cdot q) (q_j \cdot q)} [(\not{q_j} + \not{q}) \gamma^{\nu}  {v}_{\tau}\bar{v}_{{\tau}^{\prime}}{\varepsilon^{\lambda_3}}_{\nu} {\varepsilon^{\lambda_4}}_{{\nu}^{\prime}}  \gamma^{{\nu}^{\prime}}(\not{q_j} + \not{q})]
 [{u}_{\sigma}(q_i) ]
 \: [\bar{u}_{{\sigma}^{\prime}}(q_i)]
 \end{split}
@@ -264,7 +268,8 @@ and after sum over the lorenz and polarization indexes like $({\sigma},{\sigma}^
 \end{split}
 \end{equation}
 
-Analogous to the last calculation from the previous section:
+
+Analogous to the last calculation:
 
 \begin{equation}
 \begin{split}
@@ -272,24 +277,24 @@ Analogous to the last calculation from the previous section:
 [\not{q_i} ]
 \end{split}
 \end{equation}
+\pagebreak
 
+%\begin{equation}
+%\begin{split}
+%|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^c]_{f}}^n }{(2qq_j)} [(1-z)\not{p_i} + yz \not{p_j} - \sqrt{zy(1-z)}\not{m}_{\bot}]\:\\
+%[z\not{p_i} + y(1-z)\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot} ]
+%\end{split}
+%\end{equation}
 
-\begin{equation}
-\begin{split}
-|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^c]_{f}}^n }{(2qq_j)} [(1-z)\not{p_i} + yz \not{p_j} - \sqrt{zy(1-z)}\not{m}_{\bot}]\:\\
-[z\not{p_i} + y(1-z)\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot} ]
-\end{split}
-\end{equation}
-
-
-\begin{equation}
-\begin{split}
-&|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^c]_{f}}^n }{(2qq_j)} [
-y(1-z)^2\not{p_i}\not{p_j}+(1-z)\sqrt{zy(1-z)}\not{p_i}\not{m}_{\bot}\\
-&+yz^2 \not{p_j}\not{p_i}+yz\sqrt{zy(1-z)}\not{p_j}\not{m}_{\bot}-z\sqrt{zy(1-z)}\not{m}_{\bot}\not{p_i}\\
-&-y(1-z)\sqrt{zy(1-z)}\not{m}_{\bot}\not{p_j} -zy(1-z)\not{m}_{\bot}\not{m}_{\bot}]
-\end{split}
-\end{equation}
+%
+%\begin{equation}
+%\begin{split}
+%&|M_2|^2 =(d-2) \frac{g_s^2 \: {[T^c]_f}^m \: {[T^c]_{f}}^n }{(2qq_j)} [
+%y(1-z)^2\not{p_i}\not{p_j}+(1-z)\sqrt{zy(1-z)}\not{p_i}\not{m}_{\bot}\\
+%&+yz^2 \not{p_j}\not{p_i}+yz\sqrt{zy(1-z)}\not{p_j}\not{m}_{\bot}-z\sqrt{zy(1-z)}\not{m}_{\bot}\not{p_i}\\
+%&-y(1-z)\sqrt{zy(1-z)}\not{m}_{\bot}\not{p_j} -zy(1-z)\not{m}_{\bot}\not{m}_{\bot}]
+%\end{split}
+%\end{equation}
 
 
 \begin{equation}
@@ -310,16 +315,18 @@ y(1-2z)\not{p_i}\not{p_j}+\sqrt{zy(1-z)}\not{p_i}\not{m}_{\bot}\\
 \end{equation}
 
 
-Interestingly, here is a term with $y$ concerning the gluon radiation from an anti-quark. This means that this result cannot contribute to the collinear limit for soft gluon $ y \rightarrow 0 $.
-\newpage
+Interestingly, here is a term with $y$ concerning the gluon radiation from an anti-quark. This means that this result cannot contribute to the collinear limit if $ y \rightarrow 0 $.
+
 
 \subsection{Interference contribution}
-So far most of the work is done and we just have to put the results of $M_1$ and ${M_2}^{\dagger}$ next to each other, as we can see in the diagram. So we still get the interference contribution. 
+According to step (ii) in the concept to get the interference contribution, the results of $M_1$ and ${M_2}^{\dagger}$ need to be put next to each other. And this is exactly the point that was described in the first step of the concept. If a gluon had been chosen as the spectator, the results could not simply be placed next to each other. 
+
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.85\textwidth]{images/QQ/M1M2Degaqqg.png}
 \end{figure}
-Using the results from the previous section and we received:
+
+
 \begin{equation}
 \begin{split}
 M_1\:{\color[RGB]{255,0,0} {M_2}^{\dagger}} = [{\bar{u}}_{\sigma}(q_i)\: (-ig_s \gamma^{\mu}\times {[T^a]_o}^l) \: \frac{i(\not{q_i} + \not{q})}{(q_i + q)^2}\:\: {\varepsilon^{\lambda_1}}_{\mu} (q)] [{v}_{\tau}(q_j)]\: \\
@@ -329,17 +336,17 @@ M_1\:{\color[RGB]{255,0,0} {M_2}^{\dagger}} = [{\bar{u}}_{\sigma}(q_i)\: (-ig_s 
 
 %Kommentar
 
-\begin{equation}
-\begin{split}
-M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ]{\varepsilon^{\lambda_1}}_{\mu} (q) \: {\varepsilon^{\lambda_4}}_{{\nu}^{\prime}} (q)[\not{q_j} \:\gamma^{{\nu}^{\prime}} \: (\not{q_j} + \not{q})]\:
-\end{split}
-\end{equation}
-
-\begin{equation}
-\begin{split}
-M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ] (-g_{{\mu}{{\nu}^{\prime}}})[\not{q_j} \:\gamma^{{\nu}^{\prime}} \: (\not{q_j} + \not{q})]\:
-\end{split}
-\end{equation}
+%\begin{equation}
+%\begin{split}
+%M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^d]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ]{\varepsilon^{\lambda_1}}_{\mu} (q) \: {\varepsilon^{\lambda_4}}_{{\nu}^{\prime}} (q)[\not{q_j} \:\gamma^{{\nu}^{\prime}} \: (\not{q_j} + \not{q})]\:
+%\end{split}
+%\end{equation}
+%
+%\begin{equation}
+%\begin{split}
+%M_1\: {M_2}^{\dagger} = \frac{g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [\not{q_i}\: \gamma^{\mu} \: (\not{q_i} + \not{q})\: ] (-g_{{\mu}{{\nu}^{\prime}}})[\not{q_j} \:\gamma^{{\nu}^{\prime}} \: (\not{q_j} + \not{q})]\:
+%\end{split}
+%\end{equation}
 
 
 
@@ -351,7 +358,7 @@ M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_
 \end{equation}
 
 %Kommentar 
-
+\pagebreak
 Expectation:
 \begin{figure}[h!]
 \centering
@@ -360,40 +367,40 @@ Expectation:
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(2q_i q)(2q_j q)} [(z\not{p_i} + y(1-z)\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot})\: \gamma^{\mu} \: (\not{p_i} + y\not{p_j)}]\\
+M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{(4(1-z)y(p_i \cdot p_j)(p_i \cdot p_j)} [(z\not{p_i} + y(1-z)\not{p_j} + \sqrt{zy(1-z)}\not{m}_{\bot})\: \gamma^{\mu} \: (\not{p_i} + y\not{p_j)}]\\
 &[(1-y) \not{p_j} \:\gamma_{\mu} \: ((1-z)\not{p_i} + (1+yz-y) \not{p_j} - \sqrt{zy(1-z)}\not{m}_{\bot})]\:
 \end{split}
 \end{equation}
 
-
-\begin{equation}
-\begin{split}
-&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(p_i \cdot p_j)(p_i \cdot p_j)} [z\not{p_i}\:\gamma^{\mu} \: \not{p_i} +zy\not{p_i}\:\gamma^{\mu}\:\not{p_j}\\
-&+y(1-z)\not{p_j}\:\gamma^{\mu} \: \not{p_i}+y^2(1-z)\not{p_j}\:\gamma^{\mu} \:\not{p_j}+\sqrt{zy(1-z)}\not{m}_{\bot}\gamma^{\mu} \: \not{p_i}\\
-&+y\sqrt{zy(1-z)}\not{m}_{\bot}\gamma^{\mu} \: \not{p_j}][(1-z) \not{p_j} \:\gamma_{\mu} \:\not{p_i}+(1+yz-y) \not{p_j} \:\gamma_{\mu} \: \not{p_j}\\
-&-(1-z)\sqrt{zy(1-z)} \not{p_j} \:\gamma_{\mu}\not{m}_{\bot}]
-\end{split}
-\end{equation}
-
-
-\begin{equation}
-\begin{split}
-&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(p_i \cdot p_j)(p_i \cdot p_j)} [2z{p_i}^{\mu} \not{p_i} +2zy{p_i}^{\mu}\not{p_j}-zy\not{p_i}\:\not{p_j}\\
-&+2y(1-z){p_j}^{\mu} \not{p_i}-y(1-z)\not{p_j} \not{p_i}+2y^2(1-z){p_j}^{\mu}\not{p_j}+2\sqrt{zy(1-z)}{m^{\mu}}_{\bot} \not{p_i}\\
-&-\sqrt{zy(1-z)}\not{m}_{\bot} \not{p_i}+2y\sqrt{zy(1-z)}{m^{\mu}}_{\bot} \: \not{p_j}-y\sqrt{zy(1-z)}\not{m}_{\bot} \not{p_j}]\\
-&[2(1-z) {p_j}_{\mu} \not{p_i}-(1-z) \not{p_j} \not{p_i}+2(1+yz-y) {p_j}_{\mu} \not{p_j}\\
-&-2(1-z)\sqrt{zy(1-z)} {p_j}_{\mu}\not{m}_{\bot}+(1-z)\sqrt{zy(1-z)} \not{p_j} \not{m}_{\bot}]
-\end{split}
-\end{equation}
-
-
-\begin{equation}
-\begin{split}
-&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(p_i \cdot p_j)(p_i \cdot p_j)} [4z(1+yz-y)(p_i \cdot p_j) \not{p_i} \not{p_j} \\
-&+4zy(1-z)(p_i \cdot p_j)\not{p_j}\not{p_i}+4y(1-z)^2 (p_i \cdot p_j)\not{p_j}\not{p_i}]
-\end{split}
-\end{equation}
-
+%
+%\begin{equation}
+%\begin{split}
+%&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(p_i \cdot p_j)(p_i \cdot p_j)} [z\not{p_i}\:\gamma^{\mu} \: \not{p_i} +zy\not{p_i}\:\gamma^{\mu}\:\not{p_j}\\
+%&+y(1-z)\not{p_j}\:\gamma^{\mu} \: \not{p_i}+y^2(1-z)\not{p_j}\:\gamma^{\mu} \:\not{p_j}+\sqrt{zy(1-z)}\not{m}_{\bot}\gamma^{\mu} \: \not{p_i}\\
+%&+y\sqrt{zy(1-z)}\not{m}_{\bot}\gamma^{\mu} \: \not{p_j}][(1-z) \not{p_j} \:\gamma_{\mu} \:\not{p_i}+(1+yz-y) \not{p_j} \:\gamma_{\mu} \: \not{p_j}\\
+%&-(1-z)\sqrt{zy(1-z)} \not{p_j} \:\gamma_{\mu}\not{m}_{\bot}]
+%\end{split}
+%\end{equation}
+%
+%
+%\begin{equation}
+%\begin{split}
+%&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(p_i \cdot p_j)(p_i \cdot p_j)} [2z{p_i}^{\mu} \not{p_i} +2zy{p_i}^{\mu}\not{p_j}-zy\not{p_i}\:\not{p_j}\\
+%&+2y(1-z){p_j}^{\mu} \not{p_i}-y(1-z)\not{p_j} \not{p_i}+2y^2(1-z){p_j}^{\mu}\not{p_j}+2\sqrt{zy(1-z)}{m^{\mu}}_{\bot} \not{p_i}\\
+%&-\sqrt{zy(1-z)}\not{m}_{\bot} \not{p_i}+2y\sqrt{zy(1-z)}{m^{\mu}}_{\bot} \: \not{p_j}-y\sqrt{zy(1-z)}\not{m}_{\bot} \not{p_j}]\\
+%&[2(1-z) {p_j}_{\mu} \not{p_i}-(1-z) \not{p_j} \not{p_i}+2(1+yz-y) {p_j}_{\mu} \not{p_j}\\
+%&-2(1-z)\sqrt{zy(1-z)} {p_j}_{\mu}\not{m}_{\bot}+(1-z)\sqrt{zy(1-z)} \not{p_j} \not{m}_{\bot}]
+%\end{split}
+%\end{equation}
+%
+%
+%\begin{equation}
+%\begin{split}
+%&M_1\: {M_2}^{\dagger} = \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{4(1-z)y(p_i \cdot p_j)(p_i \cdot p_j)} [4z(1+yz-y)(p_i \cdot p_j) \not{p_i} \not{p_j} \\
+%&+4zy(1-z)(p_i \cdot p_j)\not{p_j}\not{p_i}+4y(1-z)^2 (p_i \cdot p_j)\not{p_j}\not{p_i}]
+%\end{split}
+%\end{equation}
+The singular term in the denominator $ y(1-z) $ is used to drop the term with the same pre-factor and after simplification it follows:
 
 \begin{equation}
 \begin{split}
@@ -404,18 +411,15 @@ M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{y(p
 
 
 
-Now we use the old parametrization to collect the singularities.
 
 
-
-Here we can use the singular term in the denominator $ y(1-z) $ to drop the term with the same pre-factor and thus obtain:
 
 
 
 \pagebreak
 
 \subsection{Final result}
-One could assume that for a complete result the contribution $ {M_1}^{\dagger} M_2 $ is still missing.
+Because the matrix element is a complex number, there is no need to know the $ {M_1}^{\dagger} M_2 $ contribution.
 \begin{equation}
 \lvert\:M\lvert^2\: = \lvert\:M_1\lvert^2\:+\lvert\:M_2\lvert^2\:+ M_1\: {M_2}^{\dagger} +{M_1}^{\dagger} M_2
 \end{equation}
@@ -423,7 +427,7 @@ One could assume that for a complete result the contribution $ {M_1}^{\dagger} M
 \centering
 \includegraphics[width=0.85\textwidth]{images/QQ/qqgMSquer.png}
 \end{figure}
-It should be noted that it is completely sufficient to calculate $M_1\: {M_2}^{\dagger}$, because we know it from the quadratic amount of the complex numbers, we can calculate double of real part of $2RE(M_1\: {M_2}^{\dagger})$ instead of $ M_1\: {M_2}^{\dagger} +{M_1}^{\dagger} M_2 $ and that is exactly what is preferred here.
+Instead of $ M_1\: {M_2}^{\dagger} +{M_1}^{\dagger} M_2 $ the double of real part of $M_1\: {M_2}^{\dagger}$ will be computed.
 \begin{equation}
 \lvert\:M\lvert^2\: = \lvert\:M_1\lvert^2\:+\lvert\:M_2\lvert^2\:+ {\color[RGB]{255,0,0} 2RE(M_1\: {M_2}^{\dagger})}
 \end{equation}
@@ -431,7 +435,7 @@ It should be noted that it is completely sufficient to calculate $M_1\: {M_2}^{\
 \centering
 \includegraphics[width=0.85\textwidth]{images/QQ/REqqgMSquer.png}
 \end{figure}
-Let's just add up the results from the previous sections and get:
+finally:
 \begin{equation}
 \begin{split}
 &\lvert\:M\lvert^2\: = (d-2)(1-z)(1-y)\:\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(p_i \cdot p_j)}
@@ -442,17 +446,17 @@ Let's just add up the results from the previous sections and get:
 [\not{p_i}][\not{p_j}])
 \end{split}
 \end{equation}
-Now we use the knowledge from the introduction about the calculation of the Colour factor. With Fritz equation:
+The colour factors can be read from the section about the colour algebra \ref{col}. As an example, the color factor for the interference term is calculated here using the Friez identity \ref{Fierz}:
 \begin{equation}
 {T^a}_{o\:k} \: {T^a}_{l\:o} = \frac{1}{2}(\delta_{oo}\delta_{lk}-\frac{1}{N}\delta_{ok}\delta_{lo})= \frac{1}{2}(N\delta_{lk}-\frac{1}{N}\delta_{lk})=C_F \delta_{lk}
 \end{equation}
-After summation over the final colour states and averaging over initial colour states we get:
+After summation over the final colour states and averaging over initial colour states:
 
 \begin{equation}
 {T^a}_{o\:k} \: {T^a}_{l\:o}=C_F \delta_{lk}=\frac{1}{N} \displaystyle\sum\limits_{l=1}^ N \delta_{lk}C_F=C_F
 \end{equation}
-The same calculation for $ {T^c}_{m\:f} \: {T^c}_{f\:n} $ and $ {T^a}_{o\:l} \: {T^a}_{f\:n} $ turns $ C_F $ out as the colour factor.
-Now we are going to compute the splitting function in the case of the colinearity, wich means, if:
+
+The splitting function is evaluated in the case of the collinear limes:
 \begin{equation}
 y \longrightarrow 0
 \end{equation}
@@ -472,8 +476,10 @@ y \longrightarrow 0
 \lvert\:M\lvert^2\: = \frac{g_s^2 C_F}{2y(1-2z+2z^2)(p_i \cdot p_j)}[\not{p_i}][\not{p_j}] \otimes((d-2)(1-z)-\frac{4z}{z-1})\:
 \end{equation}
 \\
-for $ d=4-2\epsilon $
-
+for
+\begin{equation}
+d=4-2\epsilon
+\end{equation}
 %\begin{equation}
 %\begin{split}
 %\lvert\:M\lvert^2\: = C_F((4-2\epsilon-2)(1-z)+\frac{4z}{1-z})\:\frac{g_s^2}{2y(1-2z+2z^2)(p_i \cdot p_j)}[\not{p_i}][\not{p_j}]\\
@@ -491,11 +497,19 @@ for $ d=4-2\epsilon $
 \end{split}
 \end{equation}
 
-With Alterali-Parisi splitting function $ \langle\:\hat{P_{qq}}\rangle\: $ in the collinear limes, which was mentioned in the previous chapter. This is exactly the confirmation of our calculation that our calculation was actually performed correctly, otherwise we would not have received the same splitting function for soft gluons.
+With $ \langle\:\hat{P_{qq}}\rangle\: $ Alterali-Parisi splitting function \ref{Alterali-Parisi}  in the collinear limes, which was mentioned in the fifth step from the concept. This is exactly the confirmation of our calculation that our calculation was actually performed correctly, otherwise we would not have received the same splitting function for soft gluons.
 \newpage
 
 \subsection{Double-check the results with the new kinematic}
-One could do exactly the same calculation for the new kinematics to see if you get the same result in the collinear limit. From the next chapter we will explicitly work with the new parametrisation, because we found that the old kinematics only work in NLO and one-single emission. 
+With the new kinematics has to test if one gets the same result in the collinear limit. For the new parametrisation, the following substitution is used:
+\begin{equation}
+\begin{split}
+&q_i \rightarrow q_i\\
+&q \: \rightarrow k_1\\
+&q_j \rightarrow q_k
+\end{split}
+\end{equation}
+The summarized results are given here: 
 \subsection*{$ |M_1|^2 $}
 
 \begin{equation}
@@ -583,4 +597,6 @@ Which means:
 &M_1\: {M_2}^{\dagger} = \frac{\beta_1}{(1-\beta_1)}\: \frac{-g_s^2\: C_F }{y \:(p_i \cdot Q)} [\not{p_i} \not{p_k}]
 \end{split}
 \end{equation}
+
+The same result can be reached in each step.
 \newpage

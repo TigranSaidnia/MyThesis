@@ -1,7 +1,7 @@
 \section{Mapping 3 partons to 2 for single emission}
 \label{mapping}
-As we have already seen in the last section, the dipole factorization is obtained from the square matrix element. Now we want to take a closer look at the four possible parton showers from the previous section. For this goal we first calculate the respective matrix elements and the complex-conjugated one of them in the known 3 parton evaluation. This results in the dipole-term, which contains the soft- and collinear singularities. Then this is parametrized with a certain kinematics in order to separate the finite terms from infinities. First of all, the Emmiter and the spectator are defined. After the substitution of the new momenta we get splitting kernel in helicity space and color charges of spectator and emitter. Then we ignore the finite terms because we are looking for the singular terms. It should be noted that at the beginning of this thesis a parametrisation was used, which unfortunately only works for LO. This was recognized later and therefore a new kinematics was used. 
-This theoretical description will become clearer as we begin to implement the mappings. First of all the kinematics have to be introduced ~\cite{Platzer:2011dq, Platzer:2018pmd, Platzer:2009jq, Gieseke:2003rz}.
+At the beginning of this thesis a parametrisation was used, which unfortunately only works for LO. This was recognized later and therefore the old parametrisation needed to replaced by a new kinematics. In this section, the two parametrisations are introduced. The important relations just as well the scalar products, Lorenz transformation regarding the new kinematics and a concept for the more efficient calculation of singular terms are presented.
+This theoretical description will gradually become clearer as the implementation of the mappings begins ~\cite{Platzer:2011dq, Platzer:2018pmd, Platzer:2009jq, Gieseke:2003rz}.
 \section{Old mapping}
 The old parametrisation is defined as follows: 
 	
@@ -13,6 +13,7 @@ The old parametrisation is defined as follows:
 		\end{aligned}
 	\right\}
 	\quad \text{parametrisation}
+	\label{par}
 \end{equation}
 
 Where q is the radiated soft momentum, $ q_i $ the momenta of the emitter and $ q_j $ the momentum of the spectator is.
@@ -160,6 +161,7 @@ For the investigating of the mapping it is useful to determine first the dot pro
     \end{aligned}
 \end{equation}
 \section{Recipe for the usage of the new parametrisation}
+\label{recepie}
 As in the last chapter mentioned the singularities come from the propagators in each diagram since the denominators contain according Feynmann rules terms with $\sim \frac{1}{2 q_a \cdot q_b}  $. Whereby a and b label the respective momenta. Since the calculations are sometimes very complicated and confusing, the procedure for eliminating the finite terms is as follows:\\
 In the calculating of the square matrix elements always appear products in the form of $ p_a \cdot p_b $ both in the numerator and denominator.
 The denominator shows which pre-factor causes the singularity. These terms from the numerator with the same prefix can be omitted from the beginning because they appear in both the denominator and the numerator and are therefore finite. This is explicitly shown below for a common denominators. This operation can be performed for the other types of the denominator.

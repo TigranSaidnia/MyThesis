@@ -1,20 +1,19 @@
-
 \section*{Concept}
 \label{Concept}
 
-Before the procedure is explained, at this point it should be mentioned that the steps are gradually explained in more detail in the next steps. This only provides a rough overview and can be used as a reference for the other sections.
+Before the procedure is explained it should be mentioned the steps are gradually explained in more detail in the next chapter. This only provides a rough overview and can be used as a reference for the computing.
 \\
 \renewcommand{\labelenumi}{\roman{enumi})}
 \begin{enumerate}
-\item First of all, look at a possible spliting. For this one has to make sure that all possible meaningful diagrams have been considered.
-All $ M_1 $, $ M_2 $, $ {M_1}^{\dagger} M_2 $ and $ M_1{M_2}^{\dagger}$ diagrams need to be indexed independently of each other.  To determine the matrix elements, the Feynmann rules will be used which is explained in detail in section \ref{QCD Lagrangian}. Before the kinematics is used, the obtained matrix element should be simplified by matrix algebra, which is completely explained in the appendix Mathematical Tool, otherwise the calculation of the parametrisation becomes clearly more complicated.
+\item Considering a possible splitting. For this one has to ensure that each possible meaningful diagrams have been considered.
+All $ M_1 $, $ M_2 $, $ {M_1}^{\dagger} M_2 $ and $ M_1{M_2}^{\dagger}$ diagrams need to be indexed independently.  To determine the matrix elements, Feynmann rules will be used which is derived in detail in the appendix section \ref{Feynman}. Before the kinematics is used, the obtained matrix element should be simplified by matrix algebra, otherwise the calculation becomes clearly more complicated.
 \\
-\item Each diagram consists of an emitter and a spactator part.
-The emitter part itself contains an emitter parent with the momentum $ q_i+q $ in the old kinematic, of which a patron is split with $ q $. A daughter-patron with $ q_i $ remains of the parent patron. One should select the spectator $ q_j $ skilfully, so that the diagrams are meaningful and calculable in the case of the interference terms, otherwise one must manipulate with the final results because of the unanimity of the indices. Thus a structure is achieved and the diagrams can be replaced from $ M_1, {M_1}^{\dagger}, {M_2}^{\dagger}$ and $ M_2 $ side by side and even use their probability amplitude for the interference terms without having to recalculate them every time. 
+\item Each diagram consists of two emitters and a spectator.
+The emitter parent with the momentum $ q_i+q $ in the old kinematic splits into a daughter-patron with $ q_i $ and an another emitter $ q $. One should select the spectator $ q_j $ skilfully so that the diagrams are meaningful and calculable in the case of the interference terms, otherwise the final results hast to be changed cause of the unanimity  indices. Thus a structure is achieved and the diagrams can be replaced from $ M_1, {M_1}^{\dagger}$,  $ M_2 $ and ${M_2}^{\dagger}$ step by step and even their amplitudes can be used for the interference terms. 
 \\
-\item Before starting to calculate, it will be firs tried to predict the expected result based on the contracting indices. Usually the non-contracting indices that remain form the final result as one or more tensors. This is relatively helpful when a calculation for a certain limit is performed, because it can be quickly seen from the square matrix element which terms must be calculated for the final result.
+\item Before starting to calculate, based on the contracted indices the expected result should be predicted. This is relatively helpful since it can be quickly seen from the square matrix element which terms are relevant for the splitting functions.
 \\
-\item When using parametrisation, it is recommended to use the concepts from the previous section. This is paractic, because when evaluating matrix elements, the multiplication of two tensors often occurs. To see which case to use for which matrix element, first look at the scalar products in the denominator that come from the propagators. Basically, there are four common scalar products listed here for this thesis:
+\item It is recommended to use the concepts from the previous section \ref{recepie}. Basically, there are four common scalar products from the denominators listed here:
 
 \begin{itemize}
 \item $ (q \cdot q_i)(q \cdot q_i) $
@@ -23,8 +22,7 @@ The emitter part itself contains an emitter parent with the momentum $ q_i+q $ i
 \item $ (q \cdot q_i)(q_i \cdot q_i) $
 \end{itemize}
 
-With the concept from the last section it was recognized exactly, which terms are finite, so that they can be omitted with the multiplication of the tensors in the apron. In other words, it is first recognized which pre-factors in the denominator cause singularities and then those terms with the same pre-factors are eliminated as finite terms. This considerably reduces the evaluation. 
-This will become clearer later if the splitting functions are determined in the collinear limit from the respective diagram. For the new parametrisation, the following substitution is used:
+For the new parametrisation, the following substitution is used:
 \begin{equation}
 \begin{split}
 &q_i \rightarrow q_i\\
@@ -33,7 +31,7 @@ This will become clearer later if the splitting functions are determined in the 
 \end{split}
 \end{equation}
 \\
-\item finally, to find out whether everything was calculated correctly, the collinear limits will be used because it is known that in this case the well known Alterali-Parisi \ref{Alterali-Parisi} splitting function have to be output.
+\item finally, to find out whether everything was calculated correctly, the collinear limits checks if the Alterali-Parisi splitting functions  \ref{Alterali-Parisi} are output.
 \\
-\item In the case of indistinguishable particles in relation to the calculation of the interferometer, the momentum of the particles for the same diagram must be exchanged once in order to obtain the full result.
+\item In the case of indistinguishable particles in relation to the interference term, the momentum of the particles for the same diagram must be exchanged once.
 \end{enumerate}
