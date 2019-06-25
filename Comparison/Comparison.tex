@@ -1,9 +1,16 @@
-Our method hast to be illustrated with a simplest examples, namely Two-jet production at lepton-colliders $ e^+ e^- \rightarrow q + \bar{q} + g $. As in section shown, At first perturbative order, two Feynman diagrams contribute to the matrix element corresponding to the emission of a gluon from either the final-state quark or the anti-quark. The partonic differential cross section with respect to the quark and anti-quark momentum fractions was given by: 
-
+Our method hast to be illustrated with a simplest examples, namely three-jet production at lepton-collider $ e^+ e^- \rightarrow q + \bar{q} + g $. As in section \ref{Parton showers} shown, at first perturbative order, two Feynman diagrams contribute to the matrix element corresponding to the emission of a gluon from either the final-state quark or the anti-quark. The partonic differential cross section with respect to the quark and anti-quark momentum fractions was given by \ref{fully}:
 \begin{equation}
 \frac{d^2 \sigma}{dx_1 dx_2}= \hat{\sigma_0}
 \frac{\alpha_s}{2\pi} C_F \frac{{x_1}^2+{x_2}^2}{(1-x_1)(1-x_2)}
+\label{confi}
 \end{equation}
+
+Our results from the matrix of gluon radiation from an (anti)quark must actually give the same result. 
+
+
+Unfortunately, the full calculation can not be obtained because some information from the parametrisation for the evaluation of the $ \not{p_i} \not{m^{\mu}}_{\bot}, \not{p_j} \not{m^{\mu}}_{\bot} $  are missing. 
+
+
 In the parton shower approach, two contributions occur as well. For the final result, those two contributions have to be summed. 
 
 \begin{figure}[h!]
@@ -11,11 +18,15 @@ In the parton shower approach, two contributions occur as well. For the final re
 \includegraphics[width=0.85\textwidth]{images/Intro/factorization.png}
 \caption{Dipole/Antenna factorisation}
 \end{figure}
-The calculation of the subtracted cross section involves the evaluation of two dipole contributions:$ D_{13,2} $ and $ D_{23,1} $.
+
+
+The dipole factorisation formula is defined by:
 
  \begin{equation}
  |\mathcal{M}_m+1|^2 = \displaystyle\sum\limits_{i,j} \displaystyle\sum\limits_{k\neq i,j} \mathcal{D}_{ij,k} +\displaystyle\sum\limits_{i,j} \displaystyle\sum\limits_{a} {\mathcal{D}^a}_{ij}+\displaystyle\sum\limits_{a,i} \displaystyle\sum\limits_{k\neq i} {\mathcal{D}^{ai}}_{k}+\displaystyle\sum\limits_{a,i} \displaystyle\sum\limits_{b\neq a} \mathcal{D}^{aj,b}+...
  \end{equation}
+ 
+The calculation of the subtracted cross section involves just the evaluation of two dipole contributions from the final state emitter and final-state spectator (FF), i. e. $ D_{13,2} $ and $ D_{23,1} $. 
 
 \begin{equation}
 \begin{split}
@@ -28,8 +39,8 @@ The calculation of the subtracted cross section involves the evaluation of two d
 
 \begin{equation}
 \begin{split}
-\mathcal{D}_{13,2} (q_i,q_j,q) &= \frac{-1}{2p_i \cdot p_j}[\frac{-(d-2)(1-z)(1-y) }{y(1-2z+2z^2)}+\frac{(d-2)yz^2}{(1-z)(1-y)}\\
-&-(\frac{-2z}{z-1}) \frac{1}{y(1-2z+2z^2)}]|\mathcal{M}_{2}|^2
+\mathcal{D}_{13,2} (q_i,q_j,q) &= \frac{-1}{2p_i \cdot p_j}[\frac{-(d-2)(1-z)(1-y) }{y}+\frac{(d-2)yz^2}{(1-z)(1-y)}\\
+&-(\frac{-2z}{z-1}) \frac{1}{y}]|\mathcal{M}_{2}|^2
 \end{split}
 \end{equation}
 

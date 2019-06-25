@@ -31,12 +31,13 @@
 \contentsline {subsection}{\numberline {4.2.4}Joining the emitter and spectator diagrams together}{53}{subsection.4.2.4}
 \contentsline {subsubsection}{\numberline {4.2.4.1}Swapping for indistinguishable partons}{55}{subsubsection.4.2.4.1}
 \contentsline {subsection}{\numberline {4.2.5}Summary of the results}{55}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}A daughter gluon from a parent quark}{57}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Interpretation of the result}{58}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}A daughter quark from a parent gluon}{59}{section.4.4}
-\contentsline {chapter}{\numberline {5}Example Applications}{60}{chapter.5}
-\contentsline {chapter}{\numberline {6}Summary and conclusions}{62}{chapter.6}
-\contentsline {chapter}{Appendix A}{64}{chapter.6}
-\contentsline {chapter}{MATHEMATICAL TOOLS}{73}{equation.1..0.36}
-\contentsline {chapter}{Bibliography}{80}{equation.6.0.52}
-\contentsline {chapter}{Acknowledgement}{84}{chapter*.55}
+\contentsline {section}{\numberline {4.3}A daughter gluon from a parent quark}{56}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Interpretation of the result}{57}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}A daughter quark from a parent gluon}{58}{section.4.4}
+\contentsline {chapter}{\numberline {5}Example Applications}{59}{chapter.5}
+\contentsline {chapter}{\numberline {6}Summary and Future outlook}{61}{chapter.6}
+\contentsline {chapter}{Appendix A}{63}{chapter.6}
+\contentsline {subsection}{\numberline {.0.1}Summary of the results}{68}{subsection.1..0.1}
+\contentsline {chapter}{MATHEMATICAL TOOLS}{70}{equation.1..0.21}
+\contentsline {chapter}{Bibliography}{77}{equation.6.0.37}
+\contentsline {chapter}{Acknowledgement}{81}{chapter*.55}
