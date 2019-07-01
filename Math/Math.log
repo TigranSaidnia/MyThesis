@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  24 JUN 2019 21:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.12.28)  1 JUL 2019 02:00
 entering extended mode
 **./Math.tex
 (Math.tex
@@ -109,14 +109,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 \end{figure}
+l.7 \end{figure}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--7
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--8
 []
  []
 
@@ -127,7 +127,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 \begin{figure}
+l.9 \begin{figure}
                   [h!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -140,7 +140,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 \begin{figure}[
+l.9 \begin{figure}[
                    h!]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -150,7 +150,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.10 \includegraphics
+l.11 \includegraphics
                      [scale=0.7]{images/Intro/Lint.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -197,14 +197,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \end{figure}
+l.12 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 8--12
+Overfull \hbox (20.0pt too wide) in paragraph at lines 9--13
 []
  []
 
@@ -220,7 +220,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 
+l.15 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -230,7 +230,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <write> \newlabel{Feynman}{{}{\thepage 
                                        }}
-l.14 
+l.15 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -239,6 +239,18 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 \newlabel{Feynman}{{}{}}
+! Undefined control sequence.
+<write> \newlabel{gauge}{{}{\thepage 
+                                     }}
+l.15 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{gauge}{{}{}}
 ]
 
 ! LaTeX Error: The font size command \normalsize is not defined:
@@ -248,7 +260,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 \null\newpage
+l.16 \null\newpage
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -256,7 +268,7 @@ or  <return>  to continue without it.
 
 [2]
 ! Undefined control sequence.
-l.18 \section
+l.19 \section
              *{Lorenz transformation of momenta $ {\hat{{p_i}}}^{\mu}, {\hat...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -271,7 +283,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 \section*
+l.19 \section*
               {Lorenz transformation of momenta $ {\hat{{p_i}}}^{\mu}, {\hat...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -308,9 +320,9 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <7> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
+(Font)              <5> on input line 19.
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -321,7 +333,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \begin{equation*}
+l.21 \begin{equation*}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -334,14 +346,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 \begin{split}
+l.22 \begin{split}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.22 &
+l.23 &
       {\hat{{p_i}}}^{\mu}=\alpha{\Lambda^{\mu}}_{\nu} {p_i}^{\nu}= {p_i}^{\m...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -353,13 +365,13 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.22 &{\hat
+l.23 &{\hat
            {{p_i}}}^{\mu}=\alpha{\Lambda^{\mu}}_{\nu} {p_i}^{\nu}= {p_i}^{\m...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.22 &{\hat{{p_i}}}
+l.23 &{\hat{{p_i}}}
                    ^{\mu}=\alpha{\Lambda^{\mu}}_{\nu} {p_i}^{\nu}= {p_i}^{\m...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -370,7 +382,7 @@ deleted material, e.g., by typing `I$}'.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.24 &
+l.25 &
       +{Q}^{\mu} p_{i\nu}{p_i}^{\nu} \frac{(y^2 -y-y\sqrt{1-y})}{2(p_i\cdot ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -386,7 +398,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 \end{split}
+l.26 \end{split}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -395,7 +407,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.25 \end{split}
+l.26 \end{split}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -406,7 +418,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.25 \end{split}
+l.26 \end{split}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -421,59 +433,59 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 \end{equation*}
+l.27 \end{equation*}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 18--27
+Overfull \hbox (20.0pt too wide) in paragraph at lines 19--28
 []
  []
 
 
-Overfull \hbox (33.481pt too wide) in paragraph at lines 18--27
+Overfull \hbox (33.481pt too wide) in paragraph at lines 19--28
 [][]\OML/cmm/m/it/10 ; [][]$
  []
 
 
-Overfull \hbox (13.26787pt too wide) in paragraph at lines 18--27
+Overfull \hbox (13.26787pt too wide) in paragraph at lines 19--28
 []$
  []
 
 
-Overfull \hbox (24.27837pt too wide) in paragraph at lines 18--27
+Overfull \hbox (24.27837pt too wide) in paragraph at lines 19--28
 [][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (47.60829pt too wide) in paragraph at lines 18--27
+Overfull \hbox (47.60829pt too wide) in paragraph at lines 19--28
 \OML/cmm/m/it/10 [][][][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (130.14478pt too wide) in paragraph at lines 18--27
+Overfull \hbox (130.14478pt too wide) in paragraph at lines 19--28
 [][]\OML/cmm/m/it/10 p[][][][] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (118.50916pt too wide) in paragraph at lines 18--27
+Overfull \hbox (118.50916pt too wide) in paragraph at lines 19--28
 [][]\OML/cmm/m/it/10 Q[][][][][] 
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 18--27
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 19--28
 \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (125.78696pt too wide) in paragraph at lines 18--27
+Overfull \hbox (125.78696pt too wide) in paragraph at lines 19--28
 \OML/cmm/m/it/10 Q[]p[][][][] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (59.81549pt too wide) in paragraph at lines 18--27
+Overfull \hbox (59.81549pt too wide) in paragraph at lines 19--28
 [][][][][][] 
  []
 
@@ -484,7 +496,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \begin{equation*}
+l.29 \begin{equation*}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -497,14 +509,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 \begin{split}
+l.30 \begin{split}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.30 &
+l.31 &
       {\hat{{p_i}}}^{\mu}={p_i}^{\mu} (Q\cdot p_i) \frac{y(1+\sqrt{1-y})}{2(...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -516,7 +528,7 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.30 &{\hat
+l.31 &{\hat
            {{p_i}}}^{\mu}={p_i}^{\mu} (Q\cdot p_i) \frac{y(1+\sqrt{1-y})}{2(...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -528,14 +540,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 &{\hat
+l.31 &{\hat
            {{p_i}}}^{\mu}={p_i}^{\mu} (Q\cdot p_i) \frac{y(1+\sqrt{1-y})}{2(...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Extra }, or forgotten $.
-l.30 &{\hat{{p_i}}}
+l.31 &{\hat{{p_i}}}
                    ^{\mu}={p_i}^{\mu} (Q\cdot p_i) \frac{y(1+\sqrt{1-y})}{2(...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -546,7 +558,7 @@ deleted material, e.g., by typing `I$}'.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.31 &
+l.32 &
       ={p_i}^{\mu} [ \frac{y(1+\sqrt{1-y})}{(2+2\sqrt{1-y}-y)}+\sqrt{1-y}]={...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -562,7 +574,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32     \end{split}
+l.33     \end{split}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -571,7 +583,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.32     \end{split}
+l.33     \end{split}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -582,7 +594,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.32     \end{split}
+l.33     \end{split}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -597,49 +609,49 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 \end{equation*}
+l.34 \end{equation*}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (44.27837pt too wide) in paragraph at lines 30--34
+Overfull \hbox (44.27837pt too wide) in paragraph at lines 31--35
 []$[][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (28.29509pt too wide) in paragraph at lines 30--34
+Overfull \hbox (28.29509pt too wide) in paragraph at lines 31--35
 [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Q \OMS/cmsy/m/n/10 
  []
 
 
-Overfull \hbox (98.59601pt too wide) in paragraph at lines 30--34
+Overfull \hbox (98.59601pt too wide) in paragraph at lines 31--35
 \OML/cmm/m/it/10 p[]\OT1/cmr/m/n/10 )[] +
  []
 
 
-Overfull \hbox (44.53996pt too wide) in paragraph at lines 30--34
+Overfull \hbox (44.53996pt too wide) in paragraph at lines 31--35
 [][][][] 
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 30--34
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 31--35
 \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (78.70877pt too wide) in paragraph at lines 30--34
+Overfull \hbox (78.70877pt too wide) in paragraph at lines 31--35
 [][]\OT1/cmr/m/n/10 [[] +
  []
 
 
-Overfull \hbox (44.1504pt too wide) in paragraph at lines 30--34
+Overfull \hbox (44.1504pt too wide) in paragraph at lines 31--35
 []\OT1/cmr/m/n/10 ] =
  []
 
 
-Overfull \hbox (13.72285pt too wide) in paragraph at lines 30--34
+Overfull \hbox (13.72285pt too wide) in paragraph at lines 31--35
 [][]$
  []
 
@@ -650,13 +662,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \begin{equation}
+l.36 \begin{equation}
                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 35--35
+Overfull \hbox (20.0pt too wide) in paragraph at lines 36--36
 [] 
  []
 
@@ -667,27 +679,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 	\begin{aligned}
+l.37 	\begin{aligned}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 35 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 36 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38     \end{aligned}
+l.39     \end{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (97.96492pt too wide) detected at line 39
+Overfull \hbox (97.96492pt too wide) detected at line 40
 []
  []
 
@@ -698,7 +710,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \begin{equation*}
+l.43 \begin{equation*}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -711,7 +723,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 	\begin{aligned}
+l.44 	\begin{aligned}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -720,7 +732,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.44 	{\hat
+l.45 	{\hat
            {{p_k}}}^{\mu}=\alpha{\Lambda^{\mu}}_{\nu} {p_k}^{\nu}= {p_i}^{\m...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -732,14 +744,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 	{\hat
+l.45 	{\hat
            {{p_k}}}^{\mu}=\alpha{\Lambda^{\mu}}_{\nu} {p_k}^{\nu}= {p_i}^{\m...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Extra }, or forgotten $.
-l.44 	{\hat{{p_k}}}
+l.45 	{\hat{{p_k}}}
                    ^{\mu}=\alpha{\Lambda^{\mu}}_{\nu} {p_k}^{\nu}= {p_i}^{\m...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -754,7 +766,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47     \end{aligned}
+l.48     \end{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -763,7 +775,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.47     \end{aligned}
+l.48     \end{aligned}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -774,7 +786,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.47     \end{aligned}
+l.48     \end{aligned}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -789,44 +801,44 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \end{equation*}
+l.49 \end{equation*}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (45.86925pt too wide) in paragraph at lines 44--49
+Overfull \hbox (45.86925pt too wide) in paragraph at lines 45--50
 []$[][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (49.19917pt too wide) in paragraph at lines 44--49
+Overfull \hbox (49.19917pt too wide) in paragraph at lines 45--50
 \OML/cmm/m/it/10 [][][][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (106.75005pt too wide) in paragraph at lines 44--49
+Overfull \hbox (106.75005pt too wide) in paragraph at lines 45--50
 [][]\OT1/cmr/m/n/10 [[] +
  []
 
 
-Overfull \hbox (81.34656pt too wide) in paragraph at lines 44--49
+Overfull \hbox (81.34656pt too wide) in paragraph at lines 45--50
 []\OT1/cmr/m/n/10 ][] 
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 44--49
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 45--50
 \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (110.09587pt too wide) in paragraph at lines 44--49
+Overfull \hbox (110.09587pt too wide) in paragraph at lines 45--50
 \OML/cmm/m/it/10 Q[]\OT1/cmr/m/n/10 [[]] +
  []
 
 
-Overfull \hbox (46.13084pt too wide) in paragraph at lines 44--49
+Overfull \hbox (46.13084pt too wide) in paragraph at lines 45--50
 [][][][] 
  []
 
@@ -837,7 +849,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 \begin{equation*}
+l.52 \begin{equation*}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -850,7 +862,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 	\begin{aligned}
+l.53 	\begin{aligned}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -859,7 +871,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.53 	{\hat
+l.54 	{\hat
            {{p_k}}}^{\mu}&=\alpha{\Lambda^{\mu}}_{\nu} {p_k}^{\nu}= {p_i}^{\...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -871,14 +883,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 	{\hat
+l.54 	{\hat
            {{p_k}}}^{\mu}&=\alpha{\Lambda^{\mu}}_{\nu} {p_k}^{\nu}= {p_i}^{\...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Extra }, or forgotten $.
-l.53 	{\hat{{p_k}}}
+l.54 	{\hat{{p_k}}}
                    ^{\mu}&=\alpha{\Lambda^{\mu}}_{\nu} {p_k}^{\nu}= {p_i}^{\...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -887,7 +899,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Misplaced alignment tab character &.
-l.53 	{\hat{{p_k}}}^{\mu}&
+l.54 	{\hat{{p_k}}}^{\mu}&
                           =\alpha{\Lambda^{\mu}}_{\nu} {p_k}^{\nu}= {p_i}^{\...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -899,7 +911,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.54 	&
+l.55 	&
        +{Q}^{\mu} [ \frac{(y^2 -y-y\sqrt{1-y}) (p_{i}\cdot {p_k})}{2(p_i\cdo...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -911,7 +923,7 @@ might try typing `S' now just to see what is salvageable.
 ! Undefined control sequence.
 <recently read> \text 
                       
-l.55 \text
+l.56 \text
           {with}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -920,7 +932,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.56 	A_1 &
+l.57 	A_1 &
            \equiv  \frac{-y^2 Q^2 (p_{i}\cdot {p_k})}{4(p_i\cdot Q)^2(1+\sqr...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -930,7 +942,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.57 		A_2 &
+l.58 		A_2 &
             \equiv   \frac{(y^2 -y-y\sqrt{1-y}) (p_{i}\cdot {p_k})}{2(p_i\cd...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -946,7 +958,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58     \end{aligned}
+l.59     \end{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -955,7 +967,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.58     \end{aligned}
+l.59     \end{aligned}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -966,7 +978,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.58     \end{aligned}
+l.59     \end{aligned}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -981,74 +993,74 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \end{equation*}
+l.60 \end{equation*}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (45.86925pt too wide) in paragraph at lines 53--60
+Overfull \hbox (45.86925pt too wide) in paragraph at lines 54--61
 []$[][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (49.19917pt too wide) in paragraph at lines 53--60
+Overfull \hbox (49.19917pt too wide) in paragraph at lines 54--61
 \OML/cmm/m/it/10 [][][][] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (106.75005pt too wide) in paragraph at lines 53--60
+Overfull \hbox (106.75005pt too wide) in paragraph at lines 54--61
 [][]\OT1/cmr/m/n/10 [[] +
  []
 
 
-Overfull \hbox (81.34656pt too wide) in paragraph at lines 53--60
+Overfull \hbox (81.34656pt too wide) in paragraph at lines 54--61
 []\OT1/cmr/m/n/10 ][] 
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 53--60
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 54--61
 \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (110.09587pt too wide) in paragraph at lines 53--60
+Overfull \hbox (110.09587pt too wide) in paragraph at lines 54--61
 \OML/cmm/m/it/10 Q[]\OT1/cmr/m/n/10 [[]] +
  []
 
 
-Overfull \hbox (46.13084pt too wide) in paragraph at lines 53--60
+Overfull \hbox (46.13084pt too wide) in paragraph at lines 54--61
 [][][][] 
  []
 
 
-Overfull \hbox (20.24608pt too wide) in paragraph at lines 53--60
+Overfull \hbox (20.24608pt too wide) in paragraph at lines 54--61
 [][] 
  []
 
 
-Overfull \hbox (22.54166pt too wide) in paragraph at lines 53--60
+Overfull \hbox (22.54166pt too wide) in paragraph at lines 54--61
 \OML/cmm/m/it/10 A[] \OMS/cmsy/m/n/10 
  []
 
 
-Overfull \hbox (90.2494pt too wide) in paragraph at lines 53--60
+Overfull \hbox (90.2494pt too wide) in paragraph at lines 54--61
 [] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (78.56877pt too wide) in paragraph at lines 53--60
+Overfull \hbox (78.56877pt too wide) in paragraph at lines 54--61
 [][] 
  []
 
 
-Overfull \hbox (22.54166pt too wide) in paragraph at lines 53--60
+Overfull \hbox (22.54166pt too wide) in paragraph at lines 54--61
 \OML/cmm/m/it/10 A[] \OMS/cmsy/m/n/10 
  []
 
 
-Overfull \hbox (83.49463pt too wide) in paragraph at lines 53--60
+Overfull \hbox (83.49463pt too wide) in paragraph at lines 54--61
 []                                                     [] 
  []
 
@@ -1059,13 +1071,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 \begin{equation}
+l.62 \begin{equation}
                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 61--61
+Overfull \hbox (20.0pt too wide) in paragraph at lines 62--62
 [] 
  []
 
@@ -1076,27 +1088,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62 	\begin{aligned}
+l.63 	\begin{aligned}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 61 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 62 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64     \end{aligned}
+l.65     \end{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (161.42941pt too wide) detected at line 65
+Overfull \hbox (161.42941pt too wide) detected at line 66
 []
  []
 
@@ -1107,7 +1119,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 \begin{equation*}
+l.68 \begin{equation*}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1120,7 +1132,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 	\begin{aligned}
+l.69 	\begin{aligned}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1129,7 +1141,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.69 	{\hat
+l.70 	{\hat
            {{Q}}}^{\mu}&=\alpha{\Lambda^{\mu}}_{\nu} {Q}^{\nu}= {p_i}^{\mu}[...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1141,14 +1153,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 	{\hat
+l.70 	{\hat
            {{Q}}}^{\mu}&=\alpha{\Lambda^{\mu}}_{\nu} {Q}^{\nu}= {p_i}^{\mu}[...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Extra }, or forgotten $.
-l.69 	{\hat{{Q}}}
+l.70 	{\hat{{Q}}}
                  ^{\mu}&=\alpha{\Lambda^{\mu}}_{\nu} {Q}^{\nu}= {p_i}^{\mu}[...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1157,7 +1169,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Misplaced alignment tab character &.
-l.69 	{\hat{{Q}}}^{\mu}&
+l.70 	{\hat{{Q}}}^{\mu}&
                         =\alpha{\Lambda^{\mu}}_{\nu} {Q}^{\nu}= {p_i}^{\mu}[...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1169,7 +1181,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.70 	&
+l.71 	&
        +{Q}^{\mu} [ \frac{(y^2 -y-y\sqrt{1-y}) (p_{i}\cdot {Q})}{2(p_i\cdot ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1181,7 +1193,7 @@ might try typing `S' now just to see what is salvageable.
 ! Undefined control sequence.
 <recently read> \text 
                       
-l.72 \text
+l.73 \text
           {with}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1190,7 +1202,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.73 	S_1 &
+l.74 	S_1 &
            \equiv  \frac{Q^2}{2p_i \cdot Q}[\frac{-y^2}{2(1+\sqrt{1-y}-\frac...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1200,7 +1212,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.74 		S_2 &
+l.75 		S_2 &
             \equiv   \frac{(y^2 -y-y\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1216,7 +1228,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75     \end{aligned}
+l.76     \end{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1225,7 +1237,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.75     \end{aligned}
+l.76     \end{aligned}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1236,7 +1248,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.75     \end{aligned}
+l.76     \end{aligned}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1251,94 +1263,94 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 \end{equation*}
+l.77 \end{equation*}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (43.82338pt too wide) in paragraph at lines 69--77
+Overfull \hbox (43.82338pt too wide) in paragraph at lines 70--78
 []$[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (47.1533pt too wide) in paragraph at lines 69--77
+Overfull \hbox (47.1533pt too wide) in paragraph at lines 70--78
 \OML/cmm/m/it/10 [][]Q[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (106.75005pt too wide) in paragraph at lines 69--77
+Overfull \hbox (106.75005pt too wide) in paragraph at lines 70--78
 [][]\OT1/cmr/m/n/10 [[] +
  []
 
 
-Overfull \hbox (81.34656pt too wide) in paragraph at lines 69--77
+Overfull \hbox (81.34656pt too wide) in paragraph at lines 70--78
 []\OT1/cmr/m/n/10 ][] 
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 69--77
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 70--78
 \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (107.89973pt too wide) in paragraph at lines 69--77
+Overfull \hbox (107.89973pt too wide) in paragraph at lines 70--78
 \OML/cmm/m/it/10 Q[]\OT1/cmr/m/n/10 [[]] +
  []
 
 
-Overfull \hbox (44.08498pt too wide) in paragraph at lines 69--77
+Overfull \hbox (44.08498pt too wide) in paragraph at lines 70--78
 []\OML/cmm/m/it/10 Q[][] 
  []
 
 
-Overfull \hbox (20.24608pt too wide) in paragraph at lines 69--77
+Overfull \hbox (20.24608pt too wide) in paragraph at lines 70--78
 [][] 
  []
 
 
-Overfull \hbox (21.17358pt too wide) in paragraph at lines 69--77
+Overfull \hbox (21.17358pt too wide) in paragraph at lines 70--78
 \OML/cmm/m/it/10 S[] \OMS/cmsy/m/n/10 
  []
 
 
-Overfull \hbox (89.26045pt too wide) in paragraph at lines 69--77
+Overfull \hbox (89.26045pt too wide) in paragraph at lines 70--78
 []\OT1/cmr/m/n/10 [[] +
  []
 
 
-Overfull \hbox (65.70294pt too wide) in paragraph at lines 69--77
+Overfull \hbox (65.70294pt too wide) in paragraph at lines 70--78
 []\OT1/cmr/m/n/10 ] =
  []
 
 
-Overfull \hbox (27.61069pt too wide) in paragraph at lines 69--77
+Overfull \hbox (27.61069pt too wide) in paragraph at lines 70--78
 []\OML/cmm/m/it/10 y[] 
  []
 
 
-Overfull \hbox (21.17358pt too wide) in paragraph at lines 69--77
+Overfull \hbox (21.17358pt too wide) in paragraph at lines 70--78
 \OML/cmm/m/it/10 S[] \OMS/cmsy/m/n/10 
  []
 
 
-Overfull \hbox (66.8633pt too wide) in paragraph at lines 69--77
+Overfull \hbox (66.8633pt too wide) in paragraph at lines 70--78
 [] \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (41.37262pt too wide) in paragraph at lines 69--77
+Overfull \hbox (41.37262pt too wide) in paragraph at lines 70--78
 [] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 69--77
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 70--78
 \OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10  
  []
 
 
-Overfull \hbox (5.2616pt too wide) in paragraph at lines 69--77
+Overfull \hbox (5.2616pt too wide) in paragraph at lines 70--78
 \OML/cmm/m/it/10 y                                                     [] 
  []
 
@@ -1349,13 +1361,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 \begin{equation}
+l.79 \begin{equation}
                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 78--78
+Overfull \hbox (20.0pt too wide) in paragraph at lines 79--79
 [] 
  []
 
@@ -1366,32 +1378,32 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 	\begin{aligned}
+l.80 	\begin{aligned}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 78 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 79 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81     \end{aligned}
+l.82     \end{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (134.93051pt too wide) detected at line 82
+Overfull \hbox (134.93051pt too wide) detected at line 83
 []
  []
 
 ! Undefined control sequence.
-l.84 \section
+l.85 \section
              *{The often occurring pre-factor products}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1406,7 +1418,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 \section*
+l.85 \section*
               {The often occurring pre-factor products}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1448,7 +1460,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 84--86
+Overfull \hbox (20.0pt too wide) in paragraph at lines 85--87
 []
  []
 
@@ -1459,14 +1471,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 	\begin{split}
+l.88 	\begin{split}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.88 	&
+l.89 	&
        \zeta_1\zeta_1=({\alpha_1}^2 -2y\alpha_1 \beta_1(\frac{Q^2}{2p_i \cdo...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1478,7 +1490,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.89 	&
+l.90 	&
        \zeta_1\lambda_1=(y\alpha_1\beta_1 -{y^2\beta_1}^2(\frac{Q^2}{2p_i \c...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1490,7 +1502,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.90 	&
+l.91 	&
        \zeta_1\zeta_q=(\alpha_1\beta_1-y({\alpha_1}^2+{\beta_1}^2) (\frac{Q^...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1502,7 +1514,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.91 	&
+l.92 	&
        \zeta_1\lambda_q=(y{\alpha_1}^2 -y^2\beta_1\alpha_1(\frac{Q^2}{2p_i \...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1514,7 +1526,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.92 	&
+l.93 	&
        \zeta_q\zeta_q=	({\beta_1}^2 -2y\alpha_1\beta_1 (\frac{Q^2}{2p_i \cdo...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1526,7 +1538,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.93 	&
+l.94 	&
        \zeta_q\lambda_1=(y{\beta_1}^2 -y^2\alpha_1 \beta_1(\frac{Q^2}{2p_i \...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1538,7 +1550,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.94 	&
+l.95 	&
        \zeta_q\lambda_q=(y\beta_1\alpha_1 -y^2{\alpha_1}^2(\frac{Q^2}{2p_i \...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1550,7 +1562,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.95 	&
+l.96 	&
        \lambda_1\lambda_1=y^2{\beta_1}^2 \:\:\:\:\:\:\:
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1560,20 +1572,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 86 ended by \end{split}.
+! LaTeX Error: \begin{equation} on input line 87 ended by \end{split}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98     \end{split}
+l.99     \end{split}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1385.86234pt too wide) detected at line 99
+Overfull \hbox (1385.86234pt too wide) detected at line 100
 \OML/cmm/m/it/10 [][] \OT1/cmr/m/n/10 = ([][] \OMS/cmsy/m/n/10   \OT1/cmr/m/n
 /10 2\OML/cmm/m/it/10 y[][]\OT1/cmr/m/n/10 ([]) + \OML/cmm/m/it/10 y[][][]\OT
 1/cmr/m/n/10 ([])[])[] \OML/cmm/m/it/10 [][] \OT1/cmr/m/n/10 = (\OML/cmm/m/it
@@ -1593,7 +1605,7 @@ L/cmm/m/it/10 y[][][]\OT1/cmr/m/n/10 ([]))[] \OML/cmm/m/it/10 [][] \OT1/cmr/m
  []
 
 ! Undefined control sequence.
-l.101 \section
+l.102 \section
               *{Common scalar products}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1608,7 +1620,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 \section*
+l.102 \section*
                {Common scalar products}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1635,7 +1647,7 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 101--102
+Overfull \hbox (20.0pt too wide) in paragraph at lines 102--103
 []
  []
 
@@ -1646,13 +1658,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 \begin{equation}
+l.104 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 103--103
+Overfull \hbox (20.0pt too wide) in paragraph at lines 104--104
 [] 
  []
 
@@ -1663,14 +1675,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 	\begin{aligned}
+l.105 	\begin{aligned}
                       	
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.105 k_1 \cdot q_i &
+l.106 k_1 \cdot q_i &
                      = (\zeta_1 \lambda_q + \lambda_1 \zeta_q)p_i \cdot Q+\l...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1682,7 +1694,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.106 	&
+l.107 	&
         =[(\alpha_1 -y\beta_1(\frac{Q^2}{2p_i \cdot Q}))y\alpha_1+y\beta_1(\...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1694,7 +1706,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.107 	&
+l.108 	&
         \:\:\:\:\:\:\:y^2\beta_1\alpha_1\: Q^2+2y\alpha_1\beta_1\:p_iQ\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1704,7 +1716,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.108 \Rightarrow	k_1 \cdot q_i &
+l.109 \Rightarrow	k_1 \cdot q_i &
                                  =[y{\alpha_1}^2 -y^2\alpha_1\beta_1(\frac{Q...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1716,7 +1728,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.109 	&
+l.110 	&
         y^2\beta_1\alpha_1\: Q^2+2y\alpha_1\beta_1\:p_iQ\\	
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1726,20 +1738,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 103 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 104 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110     \end{aligned}
+l.111     \end{aligned}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (916.57393pt too wide) detected at line 111
+Overfull \hbox (916.57393pt too wide) detected at line 112
 \OML/cmm/m/it/10 k[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 = 
 (\OML/cmm/m/it/10 [][] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 [][]\OT1/cmr/m/n/
 10 )\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 Q \OT1/cmr/m/n/10 
@@ -1764,13 +1776,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 \begin{equation}
+l.114 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 113--113
+Overfull \hbox (20.0pt too wide) in paragraph at lines 114--114
 [] 
  []
 
@@ -1781,27 +1793,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 	\begin{aligned}
+l.115 	\begin{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 113 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 114 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116     \end{aligned}
+l.117     \end{aligned}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (165.62967pt too wide) detected at line 117
+Overfull \hbox (165.62967pt too wide) detected at line 118
 []
  []
 
@@ -1812,13 +1824,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 \begin{equation}
+l.120 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 119--119
+Overfull \hbox (20.0pt too wide) in paragraph at lines 120--120
 [] 
  []
 
@@ -1829,14 +1841,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 	\begin{aligned}
+l.121 	\begin{aligned}
                       	
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.121 	k_1 \cdot q_k &
+l.122 	k_1 \cdot q_k &
                       = (\zeta_1 A_2 + \lambda_1 A_1)p_i \cdot Q+\zeta_1 \sq...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1848,7 +1860,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.122 	&
+l.123 	&
         +\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}}\\	
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1860,7 +1872,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.123 	&
+l.124 	&
         =\lbrace[(\alpha_1 -y\beta_1(\frac{Q^2}{2p_i \cdot Q}))\frac{(y^2 -y...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1872,20 +1884,8 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.123 ..._i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]\\&
+l.124 ..._i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]\\&
                                                   
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.125 	&
-        +(\alpha_1 -y\beta_1(\frac{Q^2}{2p_i \cdot Q}))\sqrt{1-y}\:p_i \cdot...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1897,6 +1897,18 @@ might try typing `S' now just to see what is salvageable.
 <recently read> &
                  
 l.126 	&
+        +(\alpha_1 -y\beta_1(\frac{Q^2}{2p_i \cdot Q}))\sqrt{1-y}\:p_i \cdot...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.127 	&
         +y\beta_1\sqrt{1-y} Q\cdot p_k+\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdo...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1906,20 +1918,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 119 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 120 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127     \end{aligned}
+l.128     \end{aligned}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1397.22598pt too wide) detected at line 128
+Overfull \hbox (1397.22598pt too wide) detected at line 129
 \OML/cmm/m/it/10 k[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 = 
 (\OML/cmm/m/it/10 []A[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 []A[]\OT1/cmr/m/n/
 10 )\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 Q \OT1/cmr/m/n/10 
@@ -1944,13 +1956,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 \begin{equation}
+l.131 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 130--130
+Overfull \hbox (20.0pt too wide) in paragraph at lines 131--131
 [] 
  []
 
@@ -1961,14 +1973,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131 	\begin{aligned}
+l.132 	\begin{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.132 	k_1 \cdot q_k &
+l.133 	k_1 \cdot q_k &
                       = \alpha_1 \frac{(y^2 -y-y\sqrt{1-y}) }{2(1+\sqrt{1-y}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1980,7 +1992,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.134 &
+l.135 &
        +y\beta_1\frac{-y^2 Q^2 }{4(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}(p_...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1992,7 +2004,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.135 	&
+l.136 	&
         +\alpha_1 \sqrt{1-y}\:p_i \cdot p_k-y\beta_1(\frac{Q^2}{2p_i \cdot Q...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2004,7 +2016,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.136 	&
+l.137 	&
         +y\beta_1(\frac{Q^2}{2p_i \cdot Q})\frac{(y^2 -y-y\sqrt{1-y})}{2(1+\...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2016,7 +2028,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.137 	&
+l.138 	&
         +\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2026,20 +2038,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 130 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 131 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.138     \end{aligned}
+l.139     \end{aligned}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1182.8259pt too wide) detected at line 139
+Overfull \hbox (1182.8259pt too wide) detected at line 140
 \OML/cmm/m/it/10 k[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 = 
 \OML/cmm/m/it/10 [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10  
 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([]
@@ -2062,13 +2074,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.141 \begin{equation}
+l.142 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 141--141
+Overfull \hbox (20.0pt too wide) in paragraph at lines 142--142
 [] 
  []
 
@@ -2079,14 +2091,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.142 	\begin{aligned}
+l.143 	\begin{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.143 	k_1 \cdot q_k &
+l.144 	k_1 \cdot q_k &
                       = [\alpha_1 \frac{(y^2 -y-y\sqrt{1-y}) }{2(1+\sqrt{1-y...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2098,7 +2110,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.143 ...1-y}-\frac{y}{2})}+\alpha_1 \sqrt{1-y}\\&
+l.144 ...1-y}-\frac{y}{2})}+\alpha_1 \sqrt{1-y}\\&
                                                   -y\beta_1(\frac{Q^2}{2p_i ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2110,7 +2122,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.144 	&
+l.145 	&
         +\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2120,20 +2132,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 141 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 142 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.145     \end{aligned}
+l.146     \end{aligned}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (741.62662pt too wide) detected at line 146
+Overfull \hbox (741.62662pt too wide) detected at line 147
 \OML/cmm/m/it/10 k[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 = 
 [\OML/cmm/m/it/10 [][] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y[][] \OT1/cmr/m/n/
 10 + \OML/cmm/m/it/10 [][][]  \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 y[]\OT1/cmr
@@ -2150,13 +2162,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \begin{equation}
+l.149 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 148--148
+Overfull \hbox (20.0pt too wide) in paragraph at lines 149--149
 [] 
  []
 
@@ -2167,14 +2179,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.149 	\begin{aligned}
+l.150 	\begin{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.150 	k_1 \cdot q_k &
+l.151 	k_1 \cdot q_k &
                       = \lbrace\alpha_1 [\frac{(y^2 -y-y\sqrt{1-y}) }{2(1+\s...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2186,7 +2198,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.151 	&
+l.152 	&
         +y\beta_1(\frac{Q^2}{p_i \cdot Q})[\frac{-y^2 }{4(1+\sqrt{1-y}-\frac...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2198,7 +2210,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.152 	&
+l.153 	&
         +y\beta_1[\frac{y(1+\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt{...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2210,7 +2222,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.153 	&
+l.154 	&
         +\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2220,20 +2232,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 148 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 149 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.154     \end{aligned}
+l.155     \end{aligned}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (679.2251pt too wide) detected at line 155
+Overfull \hbox (679.2251pt too wide) detected at line 156
 \OML/cmm/m/it/10 k[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 = 
 \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 [[] + []][]  + \OML/cmm/m
 /it/10 y[]\OT1/cmr/m/n/10 ([])[[] \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 ]\OMS/c
@@ -2250,13 +2262,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.157 \begin{equation}
+l.158 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 157--157
+Overfull \hbox (20.0pt too wide) in paragraph at lines 158--158
 [] 
  []
 
@@ -2267,27 +2279,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 	\begin{aligned}
+l.159 	\begin{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 157 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 158 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160     \end{aligned}
+l.161     \end{aligned}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (348.62654pt too wide) detected at line 161
+Overfull \hbox (348.62654pt too wide) detected at line 162
 []
  []
 
@@ -2298,13 +2310,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.163 \begin{equation}
+l.164 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 163--163
+Overfull \hbox (20.0pt too wide) in paragraph at lines 164--164
 [] 
  []
 
@@ -2315,14 +2327,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.164 	\begin{aligned}
+l.165 	\begin{aligned}
                       	
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.165 	q_i \cdot q_k &
+l.166 	q_i \cdot q_k &
                       = (\zeta_q A_2 + \lambda_q A_1)p_i \cdot Q+\zeta_q \sq...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2334,7 +2346,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.166 	&
+l.167 	&
         -\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}}\\	
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2346,7 +2358,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.167 	&
+l.168 	&
         =\lbrace[(\beta_1 -y\alpha_1(\frac{Q^2}{2p_i \cdot Q}))\frac{(y^2 -y...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2358,20 +2370,8 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.167 ..._i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]\\&
+l.168 ..._i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}]\\&
                                                   
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.169 	&
-        +(\beta_1 -y\alpha_1(\frac{Q^2}{2p_i \cdot Q}))\sqrt{1-y}\:p_i \cdot...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -2383,6 +2383,18 @@ might try typing `S' now just to see what is salvageable.
 <recently read> &
                  
 l.170 	&
+        +(\beta_1 -y\alpha_1(\frac{Q^2}{2p_i \cdot Q}))\sqrt{1-y}\:p_i \cdot...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.171 	&
         +y\alpha_1\sqrt{1-y} Q\cdot p_k-\sqrt{\alpha_1\beta_1y(1-y)} p_k \cd...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2392,20 +2404,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 163 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 164 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.171     \end{aligned}
+l.172     \end{aligned}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1397.20056pt too wide) detected at line 172
+Overfull \hbox (1397.20056pt too wide) detected at line 173
 \OML/cmm/m/it/10 q[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 = 
 (\OML/cmm/m/it/10 []A[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 []A[]\OT1/cmr/m/n/
 10 )\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 Q \OT1/cmr/m/n/10 
@@ -2430,13 +2442,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 \begin{equation}
+l.176 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 175--175
+Overfull \hbox (20.0pt too wide) in paragraph at lines 176--176
 [] 
  []
 
@@ -2447,14 +2459,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 	\begin{aligned}
+l.177 	\begin{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.177 	q_i \cdot q_k &
+l.178 	q_i \cdot q_k &
                       = \beta_1 \frac{(y^2 -y-y\sqrt{1-y}) }{2(1+\sqrt{1-y}-...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2466,7 +2478,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.179 &
+l.180 &
        +y\alpha_1\frac{-y^2 Q^2 }{4(p_i\cdot Q)(1+\sqrt{1-y}-\frac{y}{2})}(p...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2478,7 +2490,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.180 	&
+l.181 	&
         +\beta_1 \sqrt{1-y}\:p_i \cdot p_k-y\alpha_1(\frac{Q^2}{2p_i \cdot Q...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2490,7 +2502,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.181 	&
+l.182 	&
         +y\alpha_1(\frac{Q^2}{2p_i \cdot Q})\frac{(y^2 -y-y\sqrt{1-y})}{2(1+...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2502,7 +2514,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.182 	&
+l.183 	&
         -\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2512,20 +2524,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 175 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 176 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.183     \end{aligned}
+l.184     \end{aligned}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (1183.89021pt too wide) detected at line 184
+Overfull \hbox (1183.89021pt too wide) detected at line 185
 \OML/cmm/m/it/10 q[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 = 
 \OML/cmm/m/it/10 [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 p[] \OMS/cmsy/m/n/10  
 []\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 ([]
@@ -2548,13 +2560,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.186 \begin{equation}
+l.187 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 186--186
+Overfull \hbox (20.0pt too wide) in paragraph at lines 187--187
 [] 
  []
 
@@ -2565,14 +2577,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.187 	\begin{aligned}
+l.188 	\begin{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.188 	q_i \cdot q_k &
+l.189 	q_i \cdot q_k &
                       = [\beta_1 \frac{(y^2 -y-y\sqrt{1-y}) }{2(1+\sqrt{1-y}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2584,7 +2596,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.188 ...{1-y}-\frac{y}{2})}+\beta_1 \sqrt{1-y}\\&
+l.189 ...{1-y}-\frac{y}{2})}+\beta_1 \sqrt{1-y}\\&
                                                   -y\alpha_1(\frac{Q^2}{2p_i...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2596,7 +2608,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.189 	&
+l.190 	&
         -\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2606,20 +2618,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 186 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 187 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.190     \end{aligned}
+l.191     \end{aligned}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (741.2094pt too wide) detected at line 191
+Overfull \hbox (741.2094pt too wide) detected at line 192
 \OML/cmm/m/it/10 q[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 = 
 [\OML/cmm/m/it/10 [][] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 y[][] \OT1/cmr/m/n/
 10 + \OML/cmm/m/it/10 [][][]  \OMS/cmsy/m/n/10   \OML/cmm/m/it/10 y[]\OT1/cmr
@@ -2637,13 +2649,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.193 \begin{equation}
+l.194 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 193--193
+Overfull \hbox (20.0pt too wide) in paragraph at lines 194--194
 [] 
  []
 
@@ -2654,14 +2666,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.194 	\begin{aligned}
+l.195 	\begin{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.195 	k_1 \cdot q_k &
+l.196 	k_1 \cdot q_k &
                       = \lbrace\beta_1 [\frac{(y^2 -y-y\sqrt{1-y}) }{2(1+\sq...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2673,7 +2685,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.196 	&
+l.197 	&
         +y\alpha_1(\frac{Q^2}{p_i \cdot Q})[\frac{-y^2 }{4(1+\sqrt{1-y}-\fra...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2685,7 +2697,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.197 	&
+l.198 	&
         +y\alpha_1[\frac{y(1+\sqrt{1-y})}{2(1+\sqrt{1-y}-\frac{y}{2})}+\sqrt...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2697,7 +2709,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.198 	&
+l.199 	&
         -\sqrt{\alpha_1\beta_1y(1-y)} p_k \cdot {n_{\bot,1}}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2707,20 +2719,20 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-! LaTeX Error: \begin{equation} on input line 193 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 194 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.199     \end{aligned}
+l.200     \end{aligned}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (679.96587pt too wide) detected at line 200
+Overfull \hbox (679.96587pt too wide) detected at line 201
 \OML/cmm/m/it/10 k[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[] \OT1/cmr/m/n/10 = 
 \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 []\OT1/cmr/m/n/10 [[] + []][]  + \OML/cmm/m
 /it/10 y[]\OT1/cmr/m/n/10 ([])[[] \OMS/cmsy/m/n/10   []\OT1/cmr/m/n/10 ]\OMS/c
@@ -2737,13 +2749,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.202 \begin{equation}
+l.203 \begin{equation}
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 202--202
+Overfull \hbox (20.0pt too wide) in paragraph at lines 203--203
 [] 
  []
 
@@ -2754,27 +2766,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.203 	\begin{aligned}
+l.204 	\begin{aligned}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{equation} on input line 202 ended by \end{aligned}.
+! LaTeX Error: \begin{equation} on input line 203 ended by \end{aligned}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.205     \end{aligned}
+l.206     \end{aligned}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (347.46855pt too wide) detected at line 206
+Overfull \hbox (347.46855pt too wide) detected at line 207
 []
  []
 

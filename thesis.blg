@@ -1,6 +1,10 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: plain.bst
 Database file #1: myBib.bib
+Repeated entry---line 463 of file myBib.bib
+ : @article{Platzer:2009jq
+ :                        ,
+I'm skipping whatever remains of this entry
 Too many commas in name 1 of "Bahr, M. S. Gieseke, M. Gigg, D. Grellscheid, K. Hamilton and others" for entry Bahr:2008pv
 while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Bahr, M. S. Gieseke, M. Gigg, D. Grellscheid, K. Hamilton and others" for entry Bahr:2008pv
@@ -9,5 +13,7 @@ Too many commas in name 1 of "Bahr, M. S. Gieseke, M. Gigg, D. Grellscheid, K. H
 while executing---line 1090 of file plain.bst
 Too many commas in name 1 of "Bahr, M. S. Gieseke, M. Gigg, D. Grellscheid, K. Hamilton and others" for entry Bahr:2008pv
 while executing---line 1090 of file plain.bst
+Warning--empty journal in Grandou:1994rz
 Warning--empty chapter and pages in Greiner1989
-(There were 4 error messages)
+Warning--empty journal in Soper:1996fy
+(There were 5 error messages)

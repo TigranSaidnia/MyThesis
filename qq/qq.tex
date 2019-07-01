@@ -5,8 +5,8 @@
 \includegraphics[width=0.85\textwidth]{images/QQ/qqg-diagrams.png}
 \label{qg}
 \end{figure}
-First of all contemplate a quark gluon splitting with an arbitrary spectator like an anti-quark with the momentum $ q_j $. Where $ q_j+q $ is the momentum of the parent quark before splitting, $q$ the momentum of the gluon and $q_i$ of daughter quark respectively. The distinction between daughter and parent vanishes, when the gluon becomes soft,  and a
-singularity develops. The other possibility to get a singularity is when the gluon will be collinear to (anti)-quark. The splitting functions are flavour independent since the strong interaction is flavour independent. Furthermore, leading order splitting cannot change the flavour of a quark, thus \cite{halzen1984quarks}:
+First of all contemplate a quark gluon splitting with an arbitrary spectator like an anti-quark with the momentum $ q_j $. Where $ q_j+q $ is the momentum of the parent quark before splitting, $q$ the momentum of the gluon and $q_i$ of the daughter quark respectively. The distinction between daughter and parent vanishes, when the gluon becomes soft,  and a
+singularity develops. The other possibility to get a singularity is when the gluon is collinear to the (anti)-quark. The splitting functions are flavour independent since the strong interaction is flavour independent. Furthermore, leading order splitting cannot change the flavour of a quark, thus \cite{halzen1984quarks}:
 \begin{equation}
 \begin{split}
 P_{{\bar{q_i}}{\bar{q_j}}}=P_{{q_i}{q_j}}\equiv P_{{q}{q}} \delta_{ij}\\
@@ -14,7 +14,7 @@ P_{{\bar{q_i}}{{g}}}=P_{{q_i}{g}}\equiv P_{{q}{g}} \\
 P_{{\bar{g}}{\bar{q_i}}}=P_{{g}{q_i}}\equiv P_{{g}{q}} \delta_{ij}\\
 \end{split}
 \end{equation}
-Since there is no distinction between quark and anti-quark, one can imagine exact the same splitting variation for anti-quark, see the right picture \ref{qg} above.
+%Since there is no distinction between quark and anti-quark, one can imagine exact the same splitting variation for anti-quark.
 
 
 \pagebreak
@@ -24,11 +24,11 @@ Since there is no distinction between quark and anti-quark, one can imagine exac
 \centering
 \includegraphics[scale=0.7]{images/QQ/qgqbarM.png}
 \end{figure}
-The first step of the procedure was to index the diagrams independently and use the Feynman rules:
+The first step of the procedure is to label the diagrams independently and use the Feynman rules:
 \begin{equation}
 M_1 = [{\bar{u}}_{\sigma}(q_i) (-ig_s \gamma^{\mu}\times {[T^a]_o}^l)  \frac{i(\not{q_i} + \not{q})}{(q_i + q)^2} {\varepsilon^{\lambda_1}}_{\mu} (q)]\: [{v}_{\tau}(q_j)]
 \end{equation}
-For the quadratic matrix element the dagger of $ M_1 $ need to be calculated.
+For the quadratic matrix element the hermitian conjugate of $ M_1 $ needs to be calculated.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{images/QQ/qgqbarMDega.png}
@@ -60,18 +60,18 @@ Connecting those terms which are related to each other:
 \end{split}
 \end{equation}
 
-Sum over the lorenz index $({\sigma},{\sigma}^{\prime})$ and $({\tau},{\tau}^{\prime})$ and spin addition relation leads to:
+Sum over the lorenz index $({\sigma},{\sigma}^{\prime})$ and $({\tau},{\tau}^{\prime})$ and spin addition relation for massless quarks leads to:
  
 \begin{equation}
 \begin{split}
-\displaystyle\sum\limits_{{\sigma},{\sigma}^{\prime}} {\bar{u}}_{\sigma}(q_i)\:u_{{\sigma}^{\prime}}(q_i) = \not{q_i} \delta^{{o}{o}^{\prime}},\\
-\displaystyle\sum\limits_{{\tau},{\tau}^{\prime}} {\bar{v}}_{\tau}(q_j)\:v_{{\tau}^{\prime}}(q_j) = \not{q_j} \delta^{{f}{f}^{\prime}}
+\displaystyle\sum\limits_{{\sigma},{\sigma}^{\prime}} {\bar{u}}_{\sigma}(q_i)\:u_{{\sigma}^{\prime}}(q_i) = \not{q_i},\\
+\displaystyle\sum\limits_{{\tau},{\tau}^{\prime}} {\bar{v}}_{\tau}(q_j)\:v_{{\tau}^{\prime}}(q_j) = \not{q_j} 
 \end{split}
 \end{equation}
-Sum over polarization index $({\lambda_{1}},{\lambda}_{2})$ :
+According to the equation \ref{Feynman} in Feynman gauge ($ \zeta \rightarrow 1 $), the sum over polarization index $({\lambda_{1}},{\lambda}_{2})$ for massless Gluons will be:
 \begin{equation}
 \begin{split}
- \displaystyle\sum\limits_{{\mu},{\mu}^{\prime}} {{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}^* (q) {\varepsilon^{\lambda_1}}_{\mu} (q)} = -g_{{\mu}{\mu}^{\prime}} \delta^{{a}{b}}
+ \displaystyle\sum\limits_{{\mu},{\mu}^{\prime}} {{\varepsilon^{\lambda_2}}_{{\mu}^{\prime}}^* (q) {\varepsilon^{\lambda_1}}_{\mu} (q)} = -g_{{\mu}{\mu}^{\prime}} 
 \end{split}
 \end{equation}
 The matrix element will be simplified with: 
@@ -107,7 +107,7 @@ Which graphically means:\\
 \begin{split}
 |M_1|^2=\frac{-g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{(q_i + q)^2 (q_i + q)^2}
 [\not{P_i}]
-[\not{P_j}]\:\otimes \: {\color[RGB]{255,0,0} (a\: complex\: number)}
+[\not{P_j}]\:\times \: {\color[RGB]{255,0,0} (a\: complex\: number)}
 \end{split}
 \end{equation}  
 Let's calculate the contribution and compare the final result with this expectation. Calculating the expression in the parentheses from the equation \ref{first} separately results in:
@@ -200,7 +200,7 @@ The $ {p_i} \cdot  {m}_{\bot} $ and $ {p_j} \cdot  {m}_{\bot} $ are always $ 0 $
 \begin{equation}
 \begin{split}
 |M_1|^2=\frac{g_s^2  {[T^a]_{o}}^k \: {[T^a]_o}^l }{2y(p_i \cdot p_j)}
-[\not{p_i}][\not{p_j}]\otimes(d-2)(1-z)(1-y)
+[\not{p_i}][\not{p_j}]\times(d-2)(1-z)(1-y)
 \end{split}
 \end{equation}
 
@@ -405,7 +405,7 @@ The singular term in the denominator $ y(1-z) $ is used to drop the term with th
 
 \begin{equation}
 \begin{split}
-M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{y(p_i \cdot p_j)} [\not{p_i}\not{p_j}]\otimes\frac{z}{1-z}
+M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{y(p_i \cdot p_j)} [\not{p_i}\not{p_j}]\times\frac{z}{1-z}
 \end{split}
 \end{equation}
 
@@ -421,7 +421,7 @@ M_1\: {M_2}^{\dagger} =& \frac{-g_s^2 {[T^a]_o}^l \:{[T^a]_{f^{\prime}}}^n }{y(p
 
 \subsection{Final result}
 \label{fin}
-Because the matrix element is a complex number, there is no need to know the $ {M_1}^{\dagger} M_2 $ contribution.
+Because the matrix element is a complex number, there is no need to know the full interference contribution.
 \begin{equation}
 \lvert\:M\lvert^2\: = \lvert\:M_1\lvert^2\:+\lvert\:M_2\lvert^2\:+ M_1\: {M_2}^{\dagger} +{M_1}^{\dagger} M_2
 \end{equation}
@@ -448,7 +448,7 @@ finally:
 [\not{p_i}][\not{p_j}])
 \end{split}
 \end{equation}
-The colour factors can be read from the section about the colour algebra \ref{col}. As an example, the color factor for the interference term is calculated here using the Friez identity \ref{Fierz}:
+The colour factors can be read from the section about the colour algebra \ref{col}. As an example, the color factor for the interference term is calculated here using the Fierz identity \ref{Fierz}:
 \begin{equation}
 {T^a}_{o\:k} \: {T^a}_{l\:o} = \frac{1}{2}(\delta_{oo}\delta_{lk}-\frac{1}{N}\delta_{ok}\delta_{lo})= \frac{1}{2}(N\delta_{lk}-\frac{1}{N}\delta_{lk})=C_F \delta_{lk}
 \end{equation}
@@ -458,7 +458,7 @@ After summation over the final colour states and averaging over initial colour s
 {T^a}_{o\:k} \: {T^a}_{l\:o}=C_F \delta_{lk}=\frac{1}{N} \displaystyle\sum\limits_{l=1}^ N \delta_{lk}C_F=C_F
 \end{equation}
 
-The splitting function is evaluated in the case of the collinear limes:
+The splitting function is evaluated in the case of the collinear limit:
 \begin{equation}
 y \longrightarrow 0
 \end{equation}
@@ -494,15 +494,16 @@ d=4-2\epsilon
 
 \begin{equation}
 \begin{split}
-\lvert\:M\lvert^2\: &=\frac{g_s^2}{y(p_i \cdot p_j)}[\not{p_i}][\not{p_j}]\otimes C_F(\frac{(1+z^2)}{1-z}-\epsilon(1-z))\\
-&=\frac{g_s^2}{q_i \cdot q}[\not{p_i}][\not{p_j}]\otimes \langle\:\hat{P_{qq}}\rangle\:\\
+\lvert\:M\lvert^2\: &=\frac{g_s^2}{y(p_i \cdot p_j)}[\not{p_i}][\not{p_j}]\times C_F(\frac{(1+z^2)}{1-z}-\epsilon(1-z))\\
+&=\frac{g_s^2}{q_i \cdot q}[\not{p_i}][\not{p_j}]\times \langle\:\hat{P_{qq}}\rangle\:\\
+\label{coll}
 \end{split}
 \end{equation}
 
 With $ \langle\:\hat{P_{qq}}\rangle\: $ Alterali-Parisi splitting function \ref{Alterali-Parisi}  in the collinear limes, which was mentioned in the fifth step from the concept. This is exactly the confirmation of our calculation that our calculation was actually performed correctly, otherwise we would not have received the same splitting function for soft gluons.
 \newpage
 
-\subsection{Double-check the results with the new kinematic}
+\subsection{Double-check the results with the new kinematics}
 With the new kinematics has to test if one gets the same result in the collinear limit. For the new parametrisation, the following substitution is used:
 \begin{equation}
 \begin{split}
@@ -596,9 +597,9 @@ Which means:
 
 \begin{equation}
 \begin{split}
-&M_1\: {M_2}^{\dagger} = \frac{\beta_1}{(1-\beta_1)}\: \frac{-g_s^2\: C_F }{y \:(p_i \cdot Q)} [\not{p_i} \not{p_k}]
+&M_1\: {M_2}^{\dagger} = \frac{\beta_1}{(1-\beta_1)} \times \: \frac{-g_s^2\: C_F }{y \:(p_i \cdot Q)} [\not{p_i} \not{p_k}]
 \end{split}
 \end{equation}
 
-The same result can be reached in each step.
+With the transformation $ \beta_1 \rightarrow z $, the same results are obtained in each step and hence, it was demonstrated that with the new kinematics the same splitting function can be obtained as in the old parametrisation.
 \newpage

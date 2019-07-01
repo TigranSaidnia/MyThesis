@@ -1,3 +1,5 @@
+In this chapter the kinematics are presented, which will follow us later for the calculation of the splitting functions constantly. In addition, the most relevant formula will be derived and a strategy for simplifying the calculations is going to be defined.  
+
 \section{Mapping 3 partons to 2 for single emission}
 \label{mapping}
 At the beginning of this thesis a parametrisation was used, which unfortunately only works for LO. This was recognized later and therefore the old parametrisation needed to be replaced by a new kinematics. In this section, the two parametrisations must be introduced. The important relations just as well the scalar products, Lorenz transformation regarding the new kinematics and a concept for the more efficient calculation of singular terms are presented.
@@ -17,7 +19,7 @@ The old parametrisation is defined as follows:
 \end{equation}
 
 Where $ q $ is the radiated soft momentum, $ q_i $ the momenta of the emitter and $ q_j $ the momentum of the spectator is.
-The variable $ y_{ij,k} = \frac{q_i \cdot q}{p_i \cdot p_j}$ need to be introduced, that is zero in the soft and collinear limit. Note that both the emitter and the spectator are on-shell. From the conservation of impulses derives:
+The variable $ y_{ij,k} = \frac{q_i \cdot q}{p_i \cdot p_j}$ need to be introduced, that is zero in the soft and collinear limit. Note that both the emitter and the spectator are on-shell. From the conservation of momentum derives:
 
 \begin{equation}
 {q_i}^{\mu}+q^{\mu}+ {q_k}^{\mu}={p_i}^{\mu}+{p_j}^{\mu}+{m^{\mu}}_{\bot}
@@ -56,7 +58,7 @@ For the general m emission case a new mapping must be defined. The parametrisati
 	&{q_k}^{\mu} = \alpha {\Lambda^{\mu}}_{\nu}{p_k}^{\nu} \:\:\:\:\:\:\:\:\:\:\:\:\: {k=1,...,n}\:\:\:\:\:\:\:\:\:\:k\neq i\\
     \end{split}
 \end{equation}
-$ k = 1,...,n $ labels the emission momenta and is taken to be massless $ {k_l}^2 = 0 $. Where the label $ l $ denotes the count of emissions. In this work just the one-emission kernels is considered. All hard momenta in this mapping are also on-shell, $ {p_k}^2={q_k}^2=0 $.
+$ k = 1,...,n $ labels the emission momenta and is taken to be massless $ {k_l}^2 = 0 $. Where the label $ l $ denotes the count of emissions. In this work just the one-emission kernels are considered. All hard momenta in this mapping are also on-shell, $ {p_k}^2={q_k}^2=0 $.
 $ n^{\mu} $ is an auxiliary light-like vector which is necessary to specify the transverse component of $ {n^{\mu}}_{\bot,l} $.
 To absorb the recoil $ n^{\mu} $ is defined as:
 
@@ -74,16 +76,16 @@ Whereby Q is the total momentum with:
 {Q}^{\mu} &= {q_i}^{\mu}+\displaystyle\sum\limits_{l=1}^m k_l^{\mu}+\displaystyle\sum\limits_{k=1}^m q_k^{\mu}={p_i}^{\mu}+\displaystyle\sum\limits_{k=1}^m p_k^{\mu}
 \end{split}	
 \end{equation}
-To fulfil the condition that the emission momenta are massless, the following condition must be taken into account:
+According to the light-cone coordinates of the momenta, the following condition must be taken into account:
 
 \begin{equation}
 \begin{split}
-	{n^{\mu}}_{\bot,l}{\Lambda^{\mu}}_{\nu}{p_i}^{\nu} &= {n_{\bot,l}} \cdot n = {n_{\bot,l}} \cdot Q =0\\
+	{n^{\mu}}_{\bot,l}{\Lambda_{\mu}}^{\nu}{p_i}_{\nu} &= {n_{\bot,l}} \cdot n = {n_{\bot,l}} \cdot Q =0\\
 	{n^{\mu}}_{\bot,l}\cdot p_k &\neq0\\
 \end{split}	
 \end{equation}
 
-$ {n}^2_{\bot,l} = -2\alpha{\Lambda^{\mu}}_{\nu}{p_i}^{\nu} n_{\mu} $ is not on-shell and in terms of single emission case it follows $ {n}^2_{\bot,1} = -2p_i\cdot Q $.
+$ {n}^2_{\bot,l} = -2\alpha{\Lambda^{\mu}}_{\nu}{p_i}^{\nu} n_{\mu} $ is not on-shell and in terms of the single emission case it follows $ {n}^2_{\bot,1} = -2p_i\cdot Q $.
 The parameter y is related to the virtuality of the splitting parton:
 
 \begin{equation}
@@ -93,7 +95,7 @@ The parameter y is related to the virtuality of the splitting parton:
 \end{equation}
 With $ \alpha = \sqrt{1-y} $.
 \subsubsection*{Lorenz transformation of momenta }
-From the parametrisation it is immediately to calculate the respective Lorenz transformation for the Emitters, Spectator and total momentum first. The general definition of the transformation is given by:
+From the parametrisation it is necessary to calculate the respective Lorenz transformation for the Emitters, Spectator and total momentum first. The general definition of the transformation is given by:
 
 \begin{equation}
 \begin{split}	
@@ -136,7 +138,7 @@ Finally we are going to compute the Lorenz transformation of the Momenta. The de
 
 
 \section{Single emission part}
-In terms of one emission where $ l=1 $ the mapping will be simplified to:
+In terms of one emission where $ l=1 $ the mapping can be simplified to:
 \begin{equation}
 	\begin{aligned}
 	{k_1}^{\mu} &= (\alpha_1 -y\beta_1(\frac{Q^2}{2p_i \cdot Q})) {p_i}^{\mu} + y\beta_1{Q}^{\mu} + \sqrt{y\alpha_1\beta_1}{n^{\mu}}_{\bot,1}  \\
@@ -152,7 +154,7 @@ In terms of one emission where $ l=1 $ the mapping will be simplified to:
 
 
 \section{Common scalar products}
-For the investigating of the mapping it is useful to determine first the dot products between these four vectors. The often occurring pre-factor products are given in \ref{pre}.
+To investigate the mapping it is useful to determine first the dot products between these four vectors. The often occurring pre-factor products are given in \ref{pre}.
 
 \begin{equation}
 	\begin{aligned}
@@ -174,9 +176,9 @@ For the investigating of the mapping it is useful to determine first the dot pro
 \end{equation}
 \section{Recipe for the usage of the new parametrisation}
 \label{recepie}
-As in the last chapter mentioned the singularities come from the propagators in each diagram since the denominators contain according Feynmann rules terms with $\sim \frac{1}{2 q_a \cdot q_b}  $. Whereby a and b label the respective momenta. Since the calculations are sometimes very complicated and confusing, the procedure for eliminating the finite terms is as follows:\\
-In the calculating of the square matrix elements always appear products in the form of $ p_a \cdot p_b $ both in the numerator and denominator.
-The denominator shows which pre-factor causes the singularity. These terms from the numerator with the same prefix can be omitted from the beginning because they appear in both the denominator and the numerator and are therefore finite. This is explicitly shown below for a common denominators. This operation can be performed for the other types of the denominator.
+As mentioned in the last chapter the singularities come from the propagators in each diagram since the denominators according to Feynmann rules contain terms with $\sim \frac{1}{2 q_a \cdot q_b}  $. Whereby a and b label the respective momenta. Since the calculations are sometimes very complicated and confusing, the procedure for eliminating the finite terms is as follows:\\
+When calculating the square matrix elements, products in the form of $ p_a \cdot p_b $ always appear both in the numerator and denominator.
+The denominator shows which pre-factor causes the singularity. These terms from the numerator with the same prefix can be omitted from the beginning and are therefore finite. This is explicitly shown below for the common denominators. This operation can also be performed for the other types of the denominator.
 \subsection{Parametrization in terms of $ (k_1 \cdot q_i )(k_1 \cdot q_k) $} 
 
 \begin{equation}
@@ -186,8 +188,8 @@ The denominator shows which pre-factor causes the singularity. These terms from 
 \label{k1qik1qk}
 \end{equation}
 
-Here you can quickly see that this term converges for 
-$ y \rightarrow 0 $  and $ {\beta}_1 \rightarrow 1 $ towards zero. That means, you could ignore all terms with $  y(1-\beta_1)$. However, since the equation becomes rather large quickly if we first use all the momenta products and then drop the terms with the pre-factor out of the denominator, this is already done for the scalar products. And this is exactly the biggest simplification in the calculation. 
+Here you can quickly see that this term converges towards zero for 
+$ y \rightarrow 0 $  and $ {\beta}_1 \rightarrow 1 $. That means, you could ignore all terms with $  y(1-\beta_1)$. However, since the equation becomes rather large quickly if we first use all the momenta products and then drop the terms with the pre-factor out of the denominator, this is already done for the scalar products. And this is exactly the biggest simplification in the calculation. 
 The result looks like this:
 
 \begin{equation}

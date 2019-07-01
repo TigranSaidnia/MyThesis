@@ -5,6 +5,11 @@ M.~Gigg D. Grellscheid K.~Hamilton Bahr, M. S.~Gieseke et~al.
 \newblock {Herwig++ Physics and Manual}.
 \newblock {\em Eur. Phys. J.}, C58:639--707, 2008.
 
+\bibitem{Bellm:2015jjp}
+Johannes Bellm et~al.
+\newblock {Herwig 7.0/Herwig++ 3.0 release note}.
+\newblock {\em Eur. Phys. J.}, C76(4):196, 2016.
+
 \bibitem{Bluemer:2009zf}
 Johannes Blumer, Ralph Engel, and Jorg~R. Horandel.
 \newblock {Cosmic Rays from the Knee to the Highest Energies}.
@@ -14,6 +19,11 @@ Johannes Blumer, Ralph Engel, and Jorg~R. Horandel.
 Michiel Botje.
 \newblock Lecture notes particle physics ii, quantum chromo dynamics, November
   2013.
+
+\bibitem{Buckley:2011ms}
+Andy Buckley et~al.
+\newblock {General-purpose event generators for LHC physics}.
+\newblock {\em Phys. Rept.}, 504:145--233, 2011.
 
 \bibitem{capelle1968vorsokratiker}
 Wilhelm Capelle.
@@ -36,6 +46,12 @@ Stefano Catani, Stefan Dittmaier, Michael~H. Seymour, and Zoltan Trocsanyi.
 John Dalton.
 \newblock {\em A new system of chemical philosophy}, volume~1.
 \newblock Cambridge University Press, 2010.
+
+\bibitem{Dasgupta:2018nvj}
+Mrinal Dasgupta, Frédéric~A. Dreyer, Keith Hamilton, Pier~Francesco Monni,
+  and Gavin~P. Salam.
+\newblock {Logarithmic accuracy of parton showers: a fixed-order study}.
+\newblock {\em JHEP}, 09:033, 2018.
 
 \bibitem{demtroder2005experimentalphysik}
 Wolfgang Demtr{\"o}der.
@@ -75,10 +91,21 @@ Stefan Gieseke, P.~Stephens, and Bryan Webber.
 \newblock {New formalism for QCD parton showers}.
 \newblock {\em JHEP}, 12:045, 2003.
 
+\bibitem{Gleisberg:2008ta}
+T.~Gleisberg, Stefan. Hoeche, F.~Krauss, M.~Schonherr, S.~Schumann, F.~Siegert,
+  and J.~Winter.
+\newblock {Event generation with SHERPA 1.1}.
+\newblock {\em JHEP}, 02:007, 2009.
+
 \bibitem{goethe1921faust}
 Johann~Wolfgang Goethe.
 \newblock {\em Faust}, volume~1.
 \newblock Ripol Classic, 1921.
+
+\bibitem{Grandou:1994rz}
+T.~Grandou.
+\newblock {The Kinoshita-Lee-Nauenberg (KLN) theorem}.
+\newblock pages 25--30, 1994.
 
 \bibitem{Greiner1989}
 Walter Greiner and Berndt M{\"u}ller.
@@ -159,6 +186,23 @@ Michael~H. Seymour.
 \newblock {A Simple prescription for first order corrections to quark
   scattering and annihilation processes}.
 \newblock {\em Nucl. Phys.}, B436:443--460, 1995.
+
+\bibitem{Sjostrand:2006za}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {PYTHIA 6.4 Physics and Manual}.
+\newblock {\em JHEP}, 05:026, 2006.
+
+\bibitem{Sjostrand:2014zea}
+Torbjörn Sjöstrand, Stefan Ask, Jesper~R. Christiansen, Richard Corke,
+  Nishita Desai, Philip Ilten, Stephen Mrenna, Stefan Prestel, Christine~O.
+  Rasmussen, and Peter~Z. Skands.
+\newblock {An Introduction to PYTHIA 8.2}.
+\newblock {\em Comput. Phys. Commun.}, 191:159--177, 2015.
+
+\bibitem{Soper:1996fy}
+Davison~E. Soper.
+\newblock {Basics of QCD perturbation theory}.
+\newblock pages 15--42, 1996.
 
 \bibitem{Ward:1995xy}
 B.~F.~L. Ward and S.~Jadach.
