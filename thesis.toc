@@ -35,8 +35,8 @@
 \contentsline {section}{\numberline {5.3}A daughter gluon from a parent quark}{57}{section.5.3}
 \contentsline {section}{\numberline {5.4}A daughter quark from a parent gluon}{57}{section.5.4}
 \contentsline {chapter}{\numberline {6}Example Applications}{58}{chapter.6}
-\contentsline {chapter}{\numberline {7}Summary and Future outlook}{63}{chapter.7}
-\contentsline {chapter}{Appendix A}{65}{chapter.7}
-\contentsline {chapter}{MATHEMATICAL TOOLS}{72}{equation.1..0.21}
-\contentsline {chapter}{Bibliography}{79}{equation.7.0.37}
-\contentsline {chapter}{Acknowledgement}{83}{chapter*.53}
+\contentsline {chapter}{\numberline {7}Summary and Future outlook}{62}{chapter.7}
+\contentsline {chapter}{Appendix A}{64}{chapter.7}
+\contentsline {chapter}{MATHEMATICAL TOOLS}{71}{equation.1..0.21}
+\contentsline {chapter}{Bibliography}{78}{equation.7.0.37}
+\contentsline {chapter}{Acknowledgement}{82}{chapter*.53}
