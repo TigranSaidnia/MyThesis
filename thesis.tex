@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper,oneside]{report}
+\documentclass[12pt,a4paper,twoside, openright]{report}
 \usepackage{graphicx}
 %\usepackage{german,a4}
 \usepackage{lmodern}
@@ -15,6 +15,7 @@
 \usepackage{listings}
 \usepackage{color}
 \usepackage{colortbl}
+\usepackage{emptypage}
 \definecolor{lightgray}{rgb}{0.8,0.8,0.8}
 \definecolor{darkgreen}{rgb}{0,0.6,0}
 \usepackage{pdfpages}
@@ -38,7 +39,7 @@
 % Seite einrichten
 % =====================================================
 \setlength{\textwidth}{160mm} \setlength{\textheight}{235mm}
-\setlength{\evensidemargin}{5mm} \setlength{\oddsidemargin}{5mm}
+\setlength{\evensidemargin}{-5mm} \setlength{\oddsidemargin}{5mm}
 \setlength{\topmargin}{0mm} \setlength{\voffset}{-15mm}
 \setlength{\headsep}{12mm} \setlength{\footskip}{15mm}
 \setlength{\headheight}{15.1pt}
@@ -59,12 +60,15 @@
 % Kopf- und Fusszeile formatieren
 % =====================================================
 \pagestyle{fancy}
-\lhead[LE,RO]{\sf{\leftmark}}
-\rhead[RE,LO]{\sf{\thepage}}
+\fancyhead[LE]{\thepage}
+\fancyhead[RE]{\rightmark}
+\fancyhead[LO]{\leftmark}
+\fancyhead[RO]{\thepage}
+\pagestyle{fancy}
 \lfoot{\setlength{\unitlength}{1mm}
 \begin{picture}(0,0)
-\put(0,-2){\includegraphics[height=0.6cm,width=0.8cm]{images/Intro/ppp.jpg}}
-\end{picture}\put(10,2){\scriptsize\sf{Institute for theoretical physics}}\put(10,-2){\scriptsize\sf{Karlsruhere institut of Technology (KIT)}}}
+\put(0,-3){\includegraphics[height=0.7cm,width=1.2cm]{images/Intro/kitlogo_de_rgb}}
+\end{picture}\put(14,2){\scriptsize\sf{Institute for Theoretical Physics}}\put(14,-2){\scriptsize\sf{Karlsruhe Institute of Technology (KIT)}}}
 \cfoot{}
 \rfoot{\footnotesize\sf{Master thesis by Tigran Saidnia}}
 \renewcommand{\headrulewidth}{0.4pt}
@@ -79,8 +83,8 @@
 \fancyhf{}
 \fancyfoot[L,C,R]{\setlength{\unitlength}{1mm}
 \begin{picture}(0,0)
-\put(0,-2){\includegraphics[height=0.6cm,width=0.8cm]{images/Intro/ppp.jpg}}
-\end{picture}\put(10,2){\scriptsize\sf{Institute for theoretical physics}}\put(10,-2){\scriptsize\sf{Karlsruhe Institute of Technology (KIT)}}}
+\put(0,-3){\includegraphics[height=0.7cm,width=1.2cm]{images/Intro/kitlogo_de_rgb}}
+\end{picture}\put(14,2){\scriptsize\sf{Institute for Theoretical Physics}}\put(14,-2){\scriptsize\sf{Karlsruhe Institute of Technology (KIT)}}}
 \cfoot{}
 \rfoot{\footnotesize\sf{Master thesis by Tigran Saidnia}}
 \renewcommand{\headrulewidth}{0pt}
@@ -134,31 +138,33 @@
 \pagenumbering{arabic}
 \chapter{Introduction}
 \input{intro/intro.tex}
-\newpage
-\thispagestyle{empty}
-\quad
-\newpage
+%\newpage
+%\thispagestyle{empty}
+%\quad
+%\newpage
 \chapter{Prerequisites}
 \label{Prerequisites}
 \input{basic/basic.tex}
 \chapter{Parton showers based on\\ subtraction method}
 \label{Parton showers}
 \input{singularities/singularities.tex}
-\newpage
+%\newpage
 \chapter{Kinematics}
 \input{parametrisation/parametrisation.tex}
 \label{parametrisation}
-\newpage
+%\newpage
 \input{procedure.tex}
 \chapter{The LO splitting functions}
 \label{LO}
 \input{qq/qq.tex}
-\newpage
+%\newpage
 \input{gg/gg.tex}
-\newpage
+%\newpage
 \input{gq/gq.tex} 
 \input{qg/qg.tex}  
-\newpage
+%\newpage
+%\thispagestyle{empty}
+%\quad
 \chapter{Example Applications}
 \label{Example Applications}
 \input{Comparison/Comparison.tex}
@@ -166,10 +172,10 @@
 \label{Summary}
 \input{summary/summary.tex}  
   
-\newpage
-\thispagestyle{empty}
-\quad
-\newpage
+%\newpage
+%\thispagestyle{empty}
+%\quad
+%\newpage
 
 %\listoftables
 %\listoffigures
@@ -182,26 +188,26 @@
   \label{Appendix}
 \input{appendixA/appendixA}
 \end{appendices}
-\newpage
-\thispagestyle{empty}
-\quad
-\newpage
-\addcontentsline{toc}{chapter}{MATHEMATICAL TOOLS}
-\chapter*{Mathematical tools}
+%\newpage
+%\thispagestyle{empty}
+%\quad
+%\newpage
+\addcontentsline{toc}{chapter}{Mathematical Tools}
+\chapter*{Mathematical Tools}
 \label{Math}
 \input{Math/Math}
-\newpage
-\thispagestyle{empty}
-\quad
-\newpage
+%\newpage
+%\thispagestyle{empty}
+%\quad
+%\newpage
 \addcontentsline{toc}{chapter}{Bibliography}
 \nocite{*}
 \bibliographystyle{plain}
 \bibliography{myBib}
-\newpage
-\thispagestyle{empty}
-\quad
-\newpage
+%\newpage
+%\thispagestyle{empty}
+%\quad
+%\newpage
 \addcontentsline{toc}{chapter}{Acknowledgement}
 \chapter*{Acknowledgement}
 \input{Danksagung/Danksagung}
